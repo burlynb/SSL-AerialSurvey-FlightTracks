@@ -1,34 +1,33 @@
 """
 generate_site_photos.py
 -----------------------
-Automatically generates a satellite-imagery PNG for each survey site and saves
-it to the current folder.  Run this once (or after adding new data files), then
-run make_track_map.py to rebuild the interactive HTML with the photos embedded.
+Generates satellite-imagery PNG thumbnails for each survey site.
 
-Naming: photos are saved as <site_id>.png  (e.g. 121.png, 203.png)
-        Forrester (no numeric ID) is saved as Forrester.png
-The main map script matches these filenames automatically.
+  2021 sites (xlsx)  -> photos/2021/<site label>.png
+  2024 sites (csv)   -> photos/2024/<site label>.png
+
+Run from the directory containing the data files (same dir as make_track_map.py).
+Safe to rerun — skips files that already exist.
 
 Tile source: Esri World Imagery (no API key required).
-Dependencies: openpyxl, requests, Pillow  (all already installed)
+Dependencies: openpyxl, requests, Pillow
 """
 
+import csv
 import math
 import time
 import re
 import glob
 import openpyxl
 import requests
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw
 from io import BytesIO
 from pathlib import Path
 from collections import defaultdict
 
-# ── same site-name logic as make_track_map.py ─────────────────────────────────
+# ── 2021 site-name logic ───────────────────────────────────────────────────────
 
-NAME_OVERRIDES = {
-    '203': 'Ushagat/SW',
-}
+NAME_OVERRIDES_2021 = {'203': 'Ushagat/SW'}
 
 SKIP_PREFIXES = (
     'TAKE OFF', 'TAKEOFF', 'TEST FIRE', 'LAND', 'KL ', 'ALTITUDE',
@@ -41,13 +40,13 @@ SKIP_PREFIXES = (
     '1529', 'HIT OUR', '10 JUMPER', '2 JUMPER',
 )
 
-_site_labels = {}
+_labels_2021 = {}
 
-def get_site_label(comment):
+def get_site_label_2021(comment):
     c = re.sub(r'^[^A-Za-z0-9]+', '', comment.strip()).strip()
     if re.match(r'^FORRESTER\s+PASS', c, re.IGNORECASE):
-        _site_labels.setdefault('FORRESTER', 'Forrester')
-        return _site_labels['FORRESTER']
+        _labels_2021.setdefault('FORRESTER', 'Forrester')
+        return _labels_2021['FORRESTER']
     m = re.match(
         r'^(?:SSL?)?(\d+)[A-Z]?\s+(.+?)'
         r'(?:\s+(?:PASS|ABORTED|ONE\s+PASS|NO\s+ANIMALS|OBSV|VISUAL|PHOTO|PASS\s+ONE)'
@@ -61,24 +60,43 @@ def get_site_label(comment):
     name = re.sub(r'\s+[A-Z]\s+(?:TO|AND)\s+[A-Z]\s*$', '', name, flags=re.IGNORECASE).strip()
     name = re.sub(r'\s+[A-Z]\s*$', '', name).strip()
     name = re.sub(r'\s+\d+\s*$', '', name).strip()
-    if sid in NAME_OVERRIDES:
-        name = NAME_OVERRIDES[sid]
+    if sid in NAME_OVERRIDES_2021:
+        name = NAME_OVERRIDES_2021[sid]
     name = name.title()
     if not name:
         return None
-    _site_labels.setdefault(sid, f"{name} ({sid})")
-    return _site_labels[sid]
+    _labels_2021.setdefault(sid, f"{name} ({sid})")
+    return _labels_2021[sid]
 
-def site_filename(label):
-    """Return the PNG filename for a site label."""
-    m = re.search(r'\((\d+)\)', label)
-    return f"{m.group(1)}.png" if m else f"{label}.png"
+# ── 2024 site-name logic ───────────────────────────────────────────────────────
 
-# ── load passes ───────────────────────────────────────────────────────────────
+def nmea_to_dd(val, hemisphere):
+    v = float(val)
+    deg = int(v / 100)
+    dd = deg + (v - deg * 100) / 60.0
+    if hemisphere.upper() in ('S', 'W'):
+        dd = -dd
+    return dd
 
-passes_by_site = defaultdict(list)
+_labels_2024 = {}
 
-for filepath in sorted(glob.glob('*.xlsx')):
+def get_site_label_2024(site_id_raw, site_name_raw):
+    m = re.match(r'(\d+)', str(site_id_raw).strip())
+    parent_id = m.group(1) if m else str(site_id_raw).strip()
+    if parent_id in _labels_2024:
+        return _labels_2024[parent_id]
+    name = str(site_name_raw).strip()
+    name = re.sub(r'\s+[A-Za-z]\s+to\s+[A-Za-z]\s*$', '', name, flags=re.IGNORECASE).strip()
+    name = re.sub(r'/[A-Za-z]\s*$', '', name).strip().strip('/')
+    name = name.title()
+    _labels_2024[parent_id] = f"{name} ({parent_id})"
+    return _labels_2024[parent_id]
+
+# ── load passes ────────────────────────────────────────────────────────────────
+
+passes_by_site_2021 = defaultdict(list)   # label -> [[(lat, lon), ...], ...]
+
+for filepath in sorted(glob.glob('flightlogs/2021/*.xlsx')):
     wb = openpyxl.load_workbook(filepath, data_only=True)
     ws = wb.active
     current_x = []
@@ -90,12 +108,40 @@ for filepath in sorted(glob.glob('*.xlsx')):
             comment = str(comment).strip()
             cu = comment.upper()
             if current_x and not cu.startswith(SKIP_PREFIXES):
-                label = get_site_label(comment)
+                label = get_site_label_2021(comment)
                 if label:
-                    passes_by_site[label].append(list(current_x))
+                    passes_by_site_2021[label].append(list(current_x))
             current_x = []
 
-print(f"Loaded {len(passes_by_site)} sites.")
+passes_by_site_2024 = defaultdict(list)
+
+for filepath in sorted(glob.glob('flightlogs/2024/*.csv')):
+    file_passes = defaultdict(list)
+    file_names  = {}
+    with open(filepath, newline='', encoding='utf-8') as f:
+        reader = csv.reader(f)
+        next(reader)
+        for row in reader:
+            if len(row) < 31 or row[0] != '$X':
+                continue
+            site_name = row[29].strip()
+            site_id   = row[27].strip()
+            pass_num  = row[30].strip()
+            if not (site_name and site_id):
+                continue
+            try:
+                lat = nmea_to_dd(row[6], row[7])
+                lon = nmea_to_dd(row[8], row[9])
+            except (ValueError, ZeroDivisionError):
+                continue
+            file_passes[(site_id, pass_num)].append((lat, lon))
+            file_names.setdefault(site_id, site_name)
+    for (site_id, pass_num), coords in file_passes.items():
+        if coords:
+            label = get_site_label_2024(site_id, file_names.get(site_id, site_id))
+            passes_by_site_2024[label].append(coords)
+
+print(f"Loaded {len(passes_by_site_2021)} 2021 sites, {len(passes_by_site_2024)} 2024 sites.")
 
 # ── tile utilities ─────────────────────────────────────────────────────────────
 
@@ -111,11 +157,11 @@ def deg_to_tile_float(lat, lon, zoom):
     ty = (1.0 - math.asinh(math.tan(lat_r)) / math.pi) / 2.0 * n
     return tx, ty
 
-def fetch_tile(z, x, y, retries=3):
+def fetch_tile(z, x, y, retries=3, timeout=(5, 10)):
     url = ESRI_URL.format(z=z, y=y, x=x)
     for attempt in range(retries):
         try:
-            r = SESSION.get(url, timeout=10)
+            r = SESSION.get(url, timeout=timeout)
             r.raise_for_status()
             return Image.open(BytesIO(r.content)).convert('RGB')
         except Exception as e:
@@ -125,17 +171,16 @@ def fetch_tile(z, x, y, retries=3):
             time.sleep(1)
 
 def best_zoom(min_lat, max_lat, min_lon, max_lon, max_tiles=20):
-    """Pick highest zoom that keeps tile count <= max_tiles."""
     for zoom in range(15, 7, -1):
-        tx0, ty1 = deg_to_tile_float(max_lat, min_lon, zoom)
-        tx1, ty0 = deg_to_tile_float(min_lat, max_lon, zoom)
-        nx = int(tx1) - int(tx0) + 1
-        ny = int(ty1) - int(ty0) + 1
+        tx0f, ty1f = deg_to_tile_float(max_lat, min_lon, zoom)
+        tx1f, ty0f = deg_to_tile_float(min_lat, max_lon, zoom)
+        nx = int(tx1f) - int(tx0f) + 1
+        ny = int(ty1f) - int(ty0f) + 1
         if nx * ny <= max_tiles:
             return zoom
     return 8
 
-# ── track colours (matches make_track_map.py palette) ────────────────────────
+# ── track colour palette ───────────────────────────────────────────────────────
 
 COLORS_HEX = [
     '#e6194b','#3cb44b','#ffe119','#4363d8','#f58231',
@@ -149,9 +194,9 @@ def hex_to_rgb(h):
 
 COLORS_RGB = [hex_to_rgb(c) for c in COLORS_HEX]
 
-# ── image generation ──────────────────────────────────────────────────────────
+# ── image generation ───────────────────────────────────────────────────────────
 
-PAD = 0.25   # fractional padding around track extent
+PAD = 0.25
 
 def generate_photo(label, all_passes, output_path):
     all_coords = [c for p in all_passes for c in p]
@@ -168,7 +213,6 @@ def generate_photo(label, all_passes, output_path):
 
     zoom = best_zoom(min_lat, max_lat, min_lon, max_lon)
 
-    # Tile index range
     tx0f, ty0f = deg_to_tile_float(max_lat, min_lon, zoom)
     tx1f, ty1f = deg_to_tile_float(min_lat, max_lon, zoom)
     tx0, ty0 = int(tx0f), int(ty0f)
@@ -176,81 +220,70 @@ def generate_photo(label, all_passes, output_path):
     nx = tx1 - tx0 + 1
     ny = ty1 - ty0 + 1
 
-    # Fetch and stitch tiles
     canvas = Image.new('RGB', (nx * TILE_SIZE, ny * TILE_SIZE))
     for ty in range(ty0, ty1 + 1):
         for tx in range(tx0, tx1 + 1):
             tile = fetch_tile(zoom, tx, ty)
             canvas.paste(tile, ((tx - tx0) * TILE_SIZE, (ty - ty0) * TILE_SIZE))
-            time.sleep(0.05)   # be polite to the tile server
+            time.sleep(0.05)
 
-    # Helper: geographic coord → pixel in canvas
     def to_px(lat, lon):
         txf, tyf = deg_to_tile_float(lat, lon, zoom)
-        px = int((txf - tx0) * TILE_SIZE)
-        py = int((tyf - ty0) * TILE_SIZE)
-        return px, py
+        return int((txf - tx0) * TILE_SIZE), int((tyf - ty0) * TILE_SIZE)
 
     draw = ImageDraw.Draw(canvas)
-
-    # Draw each pass
     for pi, pass_coords in enumerate(all_passes):
         color = COLORS_RGB[pi % len(COLORS_RGB)]
         pixels = [to_px(lat, lon) for lat, lon in pass_coords]
-
         if len(pixels) < 2:
             continue
-
-        # Line
         draw.line(pixels, fill=color, width=3)
-
-        # Start dot (filled circle)
         sx, sy = pixels[0]
         r = 5
         draw.ellipse([sx-r, sy-r, sx+r, sy+r], fill=color, outline='white', width=1)
-
-        # End dot (hollow circle)
         ex, ey = pixels[-1]
         draw.ellipse([ex-r, ey-r, ex+r, ey+r], fill='white', outline=color, width=2)
-
-        # Pass number near start
         draw.text((sx + r + 2, sy - 7), f"P{pi+1}", fill=color)
 
-    # Crop to exact geographic bounds
     px_min, py_min = to_px(max_lat, min_lon)
     px_max, py_max = to_px(min_lat, max_lon)
-    px_min = max(0, px_min)
-    py_min = max(0, py_min)
-    px_max = min(canvas.width,  px_max)
-    py_max = min(canvas.height, py_max)
+    px_min = max(0, px_min); py_min = max(0, py_min)
+    px_max = min(canvas.width, px_max); py_max = min(canvas.height, py_max)
     canvas = canvas.crop((px_min, py_min, px_max, py_max))
 
-    # Site label banner at top
     banner_h = 24
     banner = Image.new('RGB', (canvas.width, banner_h), (30, 30, 30))
-    bdraw  = ImageDraw.Draw(banner)
-    bdraw.text((6, 4), label, fill='white')
-    final  = Image.new('RGB', (canvas.width, canvas.height + banner_h))
+    ImageDraw.Draw(banner).text((6, 4), label, fill='white')
+    final = Image.new('RGB', (canvas.width, canvas.height + banner_h))
     final.paste(banner, (0, 0))
     final.paste(canvas, (0, banner_h))
-
     final.save(output_path)
 
-# ── main loop ─────────────────────────────────────────────────────────────────
+def safe_filename(label):
+    return re.sub(r'[\\/:*?"<>|]', '_', label) + '.png'
 
-sites = sorted(passes_by_site.keys())
-print(f"Generating photos for {len(sites)} sites...\n")
+# ── main loop ──────────────────────────────────────────────────────────────────
 
-for label in sites:
-    fname = site_filename(label)
-    if Path(fname).exists():
-        print(f"  Skipping {fname} (already exists — delete to regenerate)")
-        continue
-    print(f"  {label} -> {fname} ...", end=' ', flush=True)
-    try:
-        generate_photo(label, passes_by_site[label], fname)
-        print("done")
-    except Exception as e:
-        print(f"ERROR: {e}")
+Path('photos/2021').mkdir(parents=True, exist_ok=True)
+Path('photos/2024').mkdir(parents=True, exist_ok=True)
 
-print("\nDone. Run make_track_map.py to rebuild the HTML with photos embedded.")
+for year, passes_by_site, photo_dir in [
+    ('2021', passes_by_site_2021, Path('photos/2021')),
+    ('2024', passes_by_site_2024, Path('photos/2024')),
+]:
+    sites = sorted(passes_by_site.keys())
+    print(f"\nGenerating {year} photos for {len(sites)} sites...")
+    for label in sites:
+        fname = safe_filename(label)
+        outpath = photo_dir / fname
+        if outpath.exists():
+            print(f"  Skipping {outpath} (already exists)")
+            continue
+        print(f"  {label} -> {outpath} ...", end=' ', flush=True)
+        try:
+            generate_photo(label, passes_by_site[label], outpath)
+            print("done")
+        except Exception as e:
+            print(f"ERROR: {e}")
+
+print("\nDone. Run make_track_map.py to rebuild the HTML.")

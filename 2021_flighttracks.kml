@@ -187,7 +187,7 @@
       <name>Aghiyuk (246)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Aghiyuk (246)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210708&lt;br/&gt;246 AGHIYUK PASS 1</description>
+        <description>&lt;b&gt;Aghiyuk (246)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210708&lt;br/&gt;246 AGHIYUK PASS 1</description>
         <styleUrl>#color_0</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -248,7 +248,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Aghiyuk (246)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210708&lt;br/&gt;246 AGHIYUK PASS 2 LEFT OF PASS 1. OFFSHORE ROCKS</description>
+        <description>&lt;b&gt;Aghiyuk (246)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210708&lt;br/&gt;246 AGHIYUK PASS 2 LEFT OF PASS 1. OFFSHORE ROCKS</description>
         <styleUrl>#color_0</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -287,7 +287,7 @@
       <name>Benjamin (156)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Benjamin (156)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;156 BENJAMIN PASS 1 HICCUP CHECKING ALL ANIMALS DISTURBED JUMPED IN WATER</description>
+        <description>&lt;b&gt;Benjamin (156)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;156 BENJAMIN PASS 1 HICCUP CHECKING ALL ANIMALS DISTURBED JUMPED IN WATER</description>
         <styleUrl>#color_1</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -360,7 +360,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Benjamin (156)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210627&lt;br/&gt;156 BENJAMIN PASS 2 JUST TO THE LEFT OF PASS 1 LOTS OF DISTURBANCE</description>
+        <description>&lt;b&gt;Benjamin (156)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210627&lt;br/&gt;156 BENJAMIN PASS 2 JUST TO THE LEFT OF PASS 1 LOTS OF DISTURBANCE</description>
         <styleUrl>#color_1</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -411,7 +411,7 @@
       <name>Biali Rock (120)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Biali Rock (120)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210623&lt;br/&gt;120 BIALI ROCK PASS 1 - MISSED SEVERAL GROUPS WILL TRY ANOTHER APPROACH</description>
+        <description>&lt;b&gt;Biali Rock (120)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210623&lt;br/&gt;120 BIALI ROCK PASS 1 - MISSED SEVERAL GROUPS WILL TRY ANOTHER APPROACH</description>
         <styleUrl>#color_2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -449,7 +449,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Biali Rock (120)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210623&lt;br/&gt;120 BIALI ROCK PASS 2 - PERP TO PASS 1</description>
+        <description>&lt;b&gt;Biali Rock (120)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210623&lt;br/&gt;120 BIALI ROCK PASS 2 - PERP TO PASS 1</description>
         <styleUrl>#color_2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -488,7 +488,7 @@
       </Placemark>
       <Placemark>
         <name>P3</name>
-        <description>&lt;b&gt;Biali Rock (120)&lt;/b&gt; — Pass 3&lt;br/&gt;Date: 20210623&lt;br/&gt;120 BIALI ROCK PASS 3 - OPPOSITE DIRECTION P2</description>
+        <description>&lt;b&gt;Biali Rock (120)&lt;/b&gt; - Pass 3&lt;br/&gt;Date: 20210623&lt;br/&gt;120 BIALI ROCK PASS 3 - OPPOSITE DIRECTION P2</description>
         <styleUrl>#color_2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -593,7 +593,7 @@
       </Placemark>
       <Placemark>
         <name>P4</name>
-        <description>&lt;b&gt;Biali Rock (120)&lt;/b&gt; — Pass 4&lt;br/&gt;Date: 20210623&lt;br/&gt;120 BIALI ROCK PASS 4 - RIGHT OF PASS 3</description>
+        <description>&lt;b&gt;Biali Rock (120)&lt;/b&gt; - Pass 4&lt;br/&gt;Date: 20210623&lt;br/&gt;120 BIALI ROCK PASS 4 - RIGHT OF PASS 3</description>
         <styleUrl>#color_2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -672,7 +672,7 @@
       <name>Cape Addington (110)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Cape Addington (110)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210623&lt;br/&gt;110 CAPE ADDINGTON PASS 1 - GOT THEM ALL</description>
+        <description>&lt;b&gt;Cape Addington (110)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210623&lt;br/&gt;110 CAPE ADDINGTON PASS 1 - GOT THEM ALL</description>
         <styleUrl>#color_3</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -727,7 +727,7 @@
       <name>Cape Bingham (144)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Cape Bingham (144)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;144B CAPE BINGHAM PASS 1. WE PASSED OVER 144A BEFORE TAKING PHOTOS THERE WERE NO ANIMALS</description>
+        <description>&lt;b&gt;Cape Bingham (144)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;144B CAPE BINGHAM PASS 1. WE PASSED OVER 144A BEFORE TAKING PHOTOS THERE WERE NO ANIMALS</description>
         <styleUrl>#color_4</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -757,7 +757,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Cape Bingham (144)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210628&lt;br/&gt;144B CAPE BINGHAM PASS 1 FIRST</description>
+        <description>&lt;b&gt;Cape Bingham (144)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210628&lt;br/&gt;144B CAPE BINGHAM PASS 1 FIRST</description>
         <styleUrl>#color_4</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -857,7 +857,7 @@
       <name>Cape Hinchinbrook (165)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Cape Hinchinbrook (165)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;165 CAPE HINCHINBROOK  1 PASS. CHECK 4 ON RIGHT</description>
+        <description>&lt;b&gt;Cape Hinchinbrook (165)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;165 CAPE HINCHINBROOK  1 PASS. CHECK 4 ON RIGHT</description>
         <styleUrl>#color_5</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -930,7 +930,7 @@
       <name>Cape Kuliak (239)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Cape Kuliak (239)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210706&lt;br/&gt;239 CAPE KULIAK - PASS 1</description>
+        <description>&lt;b&gt;Cape Kuliak (239)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210706&lt;br/&gt;239 CAPE KULIAK - PASS 1</description>
         <styleUrl>#color_6</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -972,7 +972,7 @@
       <name>Cape Ommaney (117)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Cape Ommaney (117)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210626&lt;br/&gt;SSL117 CAPE OMMANEY</description>
+        <description>&lt;b&gt;Cape Ommaney (117)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210626&lt;br/&gt;SSL117 CAPE OMMANEY</description>
         <styleUrl>#color_7</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -1014,7 +1014,7 @@
       <name>Cape Resurrection (182)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Cape Resurrection (182)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;182 CAPE RESURRECTION C TO B PASS 1</description>
+        <description>&lt;b&gt;Cape Resurrection (182)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;182 CAPE RESURRECTION C TO B PASS 1</description>
         <styleUrl>#color_8</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -1090,7 +1090,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Cape Resurrection (182)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210703&lt;br/&gt;182 CAPE RESURRECTION PASS 2 TO THE RIGHT OF PASS 1</description>
+        <description>&lt;b&gt;Cape Resurrection (182)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210703&lt;br/&gt;182 CAPE RESURRECTION PASS 2 TO THE RIGHT OF PASS 1</description>
         <styleUrl>#color_8</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -1169,7 +1169,7 @@
       <name>Cape St. Elias/B (163)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Cape St. Elias/B (163)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;163B CAPE ST. ELIAS/B PASS 1</description>
+        <description>&lt;b&gt;Cape St. Elias/B (163)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;163B CAPE ST. ELIAS/B PASS 1</description>
         <styleUrl>#color_9</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -1205,7 +1205,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Cape St. Elias/B (163)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210703&lt;br/&gt;163 CAPE ST. ELIAS 163A PASS 2. FIRST FOR A SITE</description>
+        <description>&lt;b&gt;Cape St. Elias/B (163)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210703&lt;br/&gt;163 CAPE ST. ELIAS 163A PASS 2. FIRST FOR A SITE</description>
         <styleUrl>#color_9</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -1252,7 +1252,7 @@
       </Placemark>
       <Placemark>
         <name>P3</name>
-        <description>&lt;b&gt;Cape St. Elias/B (163)&lt;/b&gt; — Pass 3&lt;br/&gt;Date: 20210703&lt;br/&gt;163 CAPE ST. ELIAS PASS 3 TO THE RIGHT OF PASS 2. 163A</description>
+        <description>&lt;b&gt;Cape St. Elias/B (163)&lt;/b&gt; - Pass 3&lt;br/&gt;Date: 20210703&lt;br/&gt;163 CAPE ST. ELIAS PASS 3 TO THE RIGHT OF PASS 2. 163A</description>
         <styleUrl>#color_9</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -1295,7 +1295,7 @@
       <name>Chirikof (248)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Chirikof (248)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210708&lt;br/&gt;248 CHIRIKOF PASS 1</description>
+        <description>&lt;b&gt;Chirikof (248)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210708&lt;br/&gt;248 CHIRIKOF PASS 1</description>
         <styleUrl>#color_10</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -1383,7 +1383,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Chirikof (248)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210708&lt;br/&gt;248 CHIRIKOF PASS 2 PERPENDICULAR TO PASS 1</description>
+        <description>&lt;b&gt;Chirikof (248)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210708&lt;br/&gt;248 CHIRIKOF PASS 2 PERPENDICULAR TO PASS 1</description>
         <styleUrl>#color_10</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -1444,7 +1444,7 @@
       <name>Chowiet (247)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210708&lt;br/&gt;247 CHOWIET PASS ONE</description>
+        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210708&lt;br/&gt;247 CHOWIET PASS ONE</description>
         <styleUrl>#color_11</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -1541,7 +1541,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210708&lt;br/&gt;247 CHOWIET PASS 2</description>
+        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210708&lt;br/&gt;247 CHOWIET PASS 2</description>
         <styleUrl>#color_11</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -1593,7 +1593,7 @@
       </Placemark>
       <Placemark>
         <name>P3</name>
-        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt; — Pass 3&lt;br/&gt;Date: 20210708&lt;br/&gt;247 CHOWIET PASS 3 LEFT OF PASS 2</description>
+        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt; - Pass 3&lt;br/&gt;Date: 20210708&lt;br/&gt;247 CHOWIET PASS 3 LEFT OF PASS 2</description>
         <styleUrl>#color_11</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -1628,7 +1628,7 @@
       </Placemark>
       <Placemark>
         <name>P4</name>
-        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt; — Pass 4&lt;br/&gt;Date: 20210708&lt;br/&gt;247 CHOWIET PASS 5</description>
+        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt; - Pass 4&lt;br/&gt;Date: 20210708&lt;br/&gt;247 CHOWIET PASS 5</description>
         <styleUrl>#color_11</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -1664,7 +1664,7 @@
       </Placemark>
       <Placemark>
         <name>P5</name>
-        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt; — Pass 5&lt;br/&gt;Date: 20210708&lt;br/&gt;247 CHOWIET PASS 6 A TO B SITE</description>
+        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt; - Pass 5&lt;br/&gt;Date: 20210708&lt;br/&gt;247 CHOWIET PASS 6 A TO B SITE</description>
         <styleUrl>#color_11</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -1748,7 +1748,7 @@
       </Placemark>
       <Placemark>
         <name>P6</name>
-        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt; — Pass 6&lt;br/&gt;Date: 20210708&lt;br/&gt;247 CHOWIET PASS 7 LEFT OF PASS 6</description>
+        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt; - Pass 6&lt;br/&gt;Date: 20210708&lt;br/&gt;247 CHOWIET PASS 7 LEFT OF PASS 6</description>
         <styleUrl>#color_11</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -1795,7 +1795,7 @@
       </Placemark>
       <Placemark>
         <name>P7</name>
-        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt; — Pass 7&lt;br/&gt;Date: 20210708&lt;br/&gt;247 CHOWIET PASS 8 OFFSHORE ROCKS</description>
+        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt; - Pass 7&lt;br/&gt;Date: 20210708&lt;br/&gt;247 CHOWIET PASS 8 OFFSHORE ROCKS</description>
         <styleUrl>#color_11</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -1834,7 +1834,7 @@
       </Placemark>
       <Placemark>
         <name>P8</name>
-        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt; — Pass 8&lt;br/&gt;Date: 20210708&lt;br/&gt;247 CHOWIET PASS 9 RIGHT OF PASS 6</description>
+        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt; - Pass 8&lt;br/&gt;Date: 20210708&lt;br/&gt;247 CHOWIET PASS 9 RIGHT OF PASS 6</description>
         <styleUrl>#color_11</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -1888,7 +1888,7 @@
       <name>Chowiet (267)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Chowiet (267)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210708&lt;br/&gt;267 CHOWIET PASS 4</description>
+        <description>&lt;b&gt;Chowiet (267)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210708&lt;br/&gt;267 CHOWIET PASS 4</description>
         <styleUrl>#color_12</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -1935,7 +1935,7 @@
       <name>Coronation (112)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Coronation (112)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210623&lt;br/&gt;112 CORONATION PASS 1 - 1 MALE SWIMMING POSSIBLE HICCUP</description>
+        <description>&lt;b&gt;Coronation (112)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210623&lt;br/&gt;112 CORONATION PASS 1 - 1 MALE SWIMMING POSSIBLE HICCUP</description>
         <styleUrl>#color_13</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -1983,7 +1983,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Coronation (112)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210623&lt;br/&gt;112 CORONATION PASS 2 - MAY NOT BE ANIMALS HERE</description>
+        <description>&lt;b&gt;Coronation (112)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210623&lt;br/&gt;112 CORONATION PASS 2 - MAY NOT BE ANIMALS HERE</description>
         <styleUrl>#color_13</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -2015,7 +2015,7 @@
       <name>Danger (176)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Danger (176)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;176 DANGER PASS 1</description>
+        <description>&lt;b&gt;Danger (176)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;176 DANGER PASS 1</description>
         <styleUrl>#color_14</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -2058,7 +2058,7 @@
       <name>Dutch Group (587)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Dutch Group (587)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;587 DUTCH GROUP 1 PASS</description>
+        <description>&lt;b&gt;Dutch Group (587)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;587 DUTCH GROUP 1 PASS</description>
         <styleUrl>#color_15</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -2105,7 +2105,7 @@
       <name>Emmons Test (141)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Emmons Test (141)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;141 EMMONS TEST PHOTOS NO ANIMALS</description>
+        <description>&lt;b&gt;Emmons Test (141)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;141 EMMONS TEST PHOTOS NO ANIMALS</description>
         <styleUrl>#color_16</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -2173,7 +2173,7 @@
       <name>Forrester</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 1</description>
+        <description>&lt;b&gt;Forrester&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 1</description>
         <styleUrl>#color_17</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -2215,7 +2215,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 2 - 103 TO 102</description>
+        <description>&lt;b&gt;Forrester&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 2 - 103 TO 102</description>
         <styleUrl>#color_17</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -2294,7 +2294,7 @@
       </Placemark>
       <Placemark>
         <name>P3</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt; — Pass 3&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 3 -  L OF P2</description>
+        <description>&lt;b&gt;Forrester&lt;/b&gt; - Pass 3&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 3 -  L OF P2</description>
         <styleUrl>#color_17</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -2365,7 +2365,7 @@
       </Placemark>
       <Placemark>
         <name>P4</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt; — Pass 4&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 4 - 103 TO 102 - R OF LAST 2 PASSES</description>
+        <description>&lt;b&gt;Forrester&lt;/b&gt; - Pass 4&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 4 - 103 TO 102 - R OF LAST 2 PASSES</description>
         <styleUrl>#color_17</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -2451,7 +2451,7 @@
       </Placemark>
       <Placemark>
         <name>P5</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt; — Pass 5&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 5 - 106 TO 104A TO 104B</description>
+        <description>&lt;b&gt;Forrester&lt;/b&gt; - Pass 5&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 5 - 106 TO 104A TO 104B</description>
         <styleUrl>#color_17</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -2551,7 +2551,7 @@
       </Placemark>
       <Placemark>
         <name>P6</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt; — Pass 6&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 6 - 105</description>
+        <description>&lt;b&gt;Forrester&lt;/b&gt; - Pass 6&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 6 - 105</description>
         <styleUrl>#color_17</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -2589,7 +2589,7 @@
       </Placemark>
       <Placemark>
         <name>P7</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt; — Pass 7&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 7 - 106 TO 104A TO 104B - LEFT OF PREVIOUS PASS</description>
+        <description>&lt;b&gt;Forrester&lt;/b&gt; - Pass 7&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 7 - 106 TO 104A TO 104B - LEFT OF PREVIOUS PASS</description>
         <styleUrl>#color_17</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -2684,7 +2684,7 @@
       </Placemark>
       <Placemark>
         <name>P8</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt; — Pass 8&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 8 - 104A LEFT OF PREVIOUS PAS</description>
+        <description>&lt;b&gt;Forrester&lt;/b&gt; - Pass 8&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 8 - 104A LEFT OF PREVIOUS PAS</description>
         <styleUrl>#color_17</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -2754,7 +2754,7 @@
       </Placemark>
       <Placemark>
         <name>P9</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt; — Pass 9&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 9 - LOWRIE SOUTH TO NORTH THEN TRIED TO GET OFFSHORE ROCK</description>
+        <description>&lt;b&gt;Forrester&lt;/b&gt; - Pass 9&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 9 - LOWRIE SOUTH TO NORTH THEN TRIED TO GET OFFSHORE ROCK</description>
         <styleUrl>#color_17</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -2897,7 +2897,7 @@
       </Placemark>
       <Placemark>
         <name>P10</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt; — Pass 10&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 10 - L OF 104C? UNSURE</description>
+        <description>&lt;b&gt;Forrester&lt;/b&gt; - Pass 10&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 10 - L OF 104C? UNSURE</description>
         <styleUrl>#color_17</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -2949,7 +2949,7 @@
       </Placemark>
       <Placemark>
         <name>P11</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt; — Pass 11&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 11 - WEST SIDE OF LOWRIE SOUTH TO NORTH</description>
+        <description>&lt;b&gt;Forrester&lt;/b&gt; - Pass 11&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 11 - WEST SIDE OF LOWRIE SOUTH TO NORTH</description>
         <styleUrl>#color_17</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -3019,7 +3019,7 @@
       </Placemark>
       <Placemark>
         <name>P12</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt; — Pass 12&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 12 - EAST SIDE OF LOWRIE NORTH TO SOUTH</description>
+        <description>&lt;b&gt;Forrester&lt;/b&gt; - Pass 12&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 12 - EAST SIDE OF LOWRIE NORTH TO SOUTH</description>
         <styleUrl>#color_17</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -3074,7 +3074,7 @@
       </Placemark>
       <Placemark>
         <name>P13</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt; — Pass 13&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 13 - SAME AS PREVIOUS PASS</description>
+        <description>&lt;b&gt;Forrester&lt;/b&gt; - Pass 13&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 13 - SAME AS PREVIOUS PASS</description>
         <styleUrl>#color_17</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -3109,7 +3109,7 @@
       </Placemark>
       <Placemark>
         <name>P14</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt; — Pass 14&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 14 - SAME AS PASS 13</description>
+        <description>&lt;b&gt;Forrester&lt;/b&gt; - Pass 14&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 14 - SAME AS PASS 13</description>
         <styleUrl>#color_17</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -3180,7 +3180,7 @@
       </Placemark>
       <Placemark>
         <name>P15</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt; — Pass 15&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 15 - 105 GOT THEM ALL IN THIS PASS</description>
+        <description>&lt;b&gt;Forrester&lt;/b&gt; - Pass 15&lt;br/&gt;Date: 20210623&lt;br/&gt;FORRESTER PASS 15 - 105 GOT THEM ALL IN THIS PASS</description>
         <styleUrl>#color_17</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -3222,7 +3222,7 @@
       <name>Glacier (169)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Glacier (169)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;169 GLACIER PASS 1</description>
+        <description>&lt;b&gt;Glacier (169)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;169 GLACIER PASS 1</description>
         <styleUrl>#color_18</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -3250,7 +3250,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Glacier (169)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210703&lt;br/&gt;169 GLACIER PASS 2 PERPENDICULAR TO PASS 1 EAST SIDE OF SHORELINE</description>
+        <description>&lt;b&gt;Glacier (169)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210703&lt;br/&gt;169 GLACIER PASS 2 PERPENDICULAR TO PASS 1 EAST SIDE OF SHORELINE</description>
         <styleUrl>#color_18</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -3315,7 +3315,7 @@
       </Placemark>
       <Placemark>
         <name>P3</name>
-        <description>&lt;b&gt;Glacier (169)&lt;/b&gt; — Pass 3&lt;br/&gt;Date: 20210703&lt;br/&gt;169 GLACIER PASS 3 SAME AS PASS 2. HICCUP</description>
+        <description>&lt;b&gt;Glacier (169)&lt;/b&gt; - Pass 3&lt;br/&gt;Date: 20210703&lt;br/&gt;169 GLACIER PASS 3 SAME AS PASS 2. HICCUP</description>
         <styleUrl>#color_18</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -3360,7 +3360,7 @@
       </Placemark>
       <Placemark>
         <name>P4</name>
-        <description>&lt;b&gt;Glacier (169)&lt;/b&gt; — Pass 4&lt;br/&gt;Date: 20210703&lt;br/&gt;169 GLACIER PASS 4 SAME AS PASS 2 AND 3 TRYING TO BANK TO GET ANIMALS</description>
+        <description>&lt;b&gt;Glacier (169)&lt;/b&gt; - Pass 4&lt;br/&gt;Date: 20210703&lt;br/&gt;169 GLACIER PASS 4 SAME AS PASS 2 AND 3 TRYING TO BANK TO GET ANIMALS</description>
         <styleUrl>#color_18</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -3416,7 +3416,7 @@
       </Placemark>
       <Placemark>
         <name>P5</name>
-        <description>&lt;b&gt;Glacier (169)&lt;/b&gt; — Pass 5&lt;br/&gt;Date: 20210703&lt;br/&gt;169 GLACIER PASS 5 SAME AS PASS 4</description>
+        <description>&lt;b&gt;Glacier (169)&lt;/b&gt; - Pass 5&lt;br/&gt;Date: 20210703&lt;br/&gt;169 GLACIER PASS 5 SAME AS PASS 4</description>
         <styleUrl>#color_18</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -3491,7 +3491,7 @@
       </Placemark>
       <Placemark>
         <name>P6</name>
-        <description>&lt;b&gt;Glacier (169)&lt;/b&gt; — Pass 6&lt;br/&gt;Date: 20210703&lt;br/&gt;169 GLACIER PASS 6</description>
+        <description>&lt;b&gt;Glacier (169)&lt;/b&gt; - Pass 6&lt;br/&gt;Date: 20210703&lt;br/&gt;169 GLACIER PASS 6</description>
         <styleUrl>#color_18</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -3545,7 +3545,7 @@
       <name>Gran (Ledge) Point (159)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Gran (Ledge) Point (159)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;159 GRAN (LEDGE) POINT PASS 1 A FEW HICCUPS. DISTURBANCE 3</description>
+        <description>&lt;b&gt;Gran (Ledge) Point (159)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;159 GRAN (LEDGE) POINT PASS 1 A FEW HICCUPS. DISTURBANCE 3</description>
         <styleUrl>#color_19</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -3582,7 +3582,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Gran (Ledge) Point (159)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210627&lt;br/&gt;159 GRAN (LEDGE) POINT PASS 2 SAME AS PASS 1</description>
+        <description>&lt;b&gt;Gran (Ledge) Point (159)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210627&lt;br/&gt;159 GRAN (LEDGE) POINT PASS 2 SAME AS PASS 1</description>
         <styleUrl>#color_19</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -3634,7 +3634,7 @@
       <name>Graves Rock (145)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Graves Rock (145)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;145 GRAVES ROCK PASS 1</description>
+        <description>&lt;b&gt;Graves Rock (145)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;145 GRAVES ROCK PASS 1</description>
         <styleUrl>#color_0</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -3688,7 +3688,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Graves Rock (145)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210627&lt;br/&gt;145 GRAVES ROCK PASS 2 TO THE LEFT OF PASS 1</description>
+        <description>&lt;b&gt;Graves Rock (145)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210627&lt;br/&gt;145 GRAVES ROCK PASS 2 TO THE LEFT OF PASS 1</description>
         <styleUrl>#color_0</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -3774,7 +3774,7 @@
       <name>Harbor Point (160)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Harbor Point (160)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210628&lt;br/&gt;160 HARBOR POINT PASS 1 - 1 JUMPER</description>
+        <description>&lt;b&gt;Harbor Point (160)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210628&lt;br/&gt;160 HARBOR POINT PASS 1 - 1 JUMPER</description>
         <styleUrl>#color_1</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -3866,7 +3866,7 @@
       <name>Hazy (113)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Hazy (113)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210623&lt;br/&gt;113A HAZY ABORTED PASS</description>
+        <description>&lt;b&gt;Hazy (113)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210623&lt;br/&gt;113A HAZY ABORTED PASS</description>
         <styleUrl>#color_2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -3880,7 +3880,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Hazy (113)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210623&lt;br/&gt;113B HAZY PASS 1</description>
+        <description>&lt;b&gt;Hazy (113)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210623&lt;br/&gt;113B HAZY PASS 1</description>
         <styleUrl>#color_2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -3922,7 +3922,7 @@
       </Placemark>
       <Placemark>
         <name>P3</name>
-        <description>&lt;b&gt;Hazy (113)&lt;/b&gt; — Pass 3&lt;br/&gt;Date: 20210623&lt;br/&gt;113 HAZY B AND A PASS 2</description>
+        <description>&lt;b&gt;Hazy (113)&lt;/b&gt; - Pass 3&lt;br/&gt;Date: 20210623&lt;br/&gt;113 HAZY B AND A PASS 2</description>
         <styleUrl>#color_2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -3996,7 +3996,7 @@
       </Placemark>
       <Placemark>
         <name>P4</name>
-        <description>&lt;b&gt;Hazy (113)&lt;/b&gt; — Pass 4&lt;br/&gt;Date: 20210623&lt;br/&gt;113A HAZY PASS 3 - RIGHT OF P2 - HICCUP MIDPASS BUT OVER WATER</description>
+        <description>&lt;b&gt;Hazy (113)&lt;/b&gt; - Pass 4&lt;br/&gt;Date: 20210623&lt;br/&gt;113A HAZY PASS 3 - RIGHT OF P2 - HICCUP MIDPASS BUT OVER WATER</description>
         <styleUrl>#color_2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -4066,7 +4066,7 @@
       <name>Hook Point (164)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Hook Point (164)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;164 HOOK POINT 1 PASS</description>
+        <description>&lt;b&gt;Hook Point (164)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;164 HOOK POINT 1 PASS</description>
         <styleUrl>#color_3</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -4116,7 +4116,7 @@
       <name>Jacob Rock (121)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Jacob Rock (121)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210623&lt;br/&gt;121 JACOB ROCK PASS 1</description>
+        <description>&lt;b&gt;Jacob Rock (121)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210623&lt;br/&gt;121 JACOB ROCK PASS 1</description>
         <styleUrl>#color_4</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -4154,7 +4154,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Jacob Rock (121)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210627&lt;br/&gt;121 JACOB ROCK PASS 1</description>
+        <description>&lt;b&gt;Jacob Rock (121)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210627&lt;br/&gt;121 JACOB ROCK PASS 1</description>
         <styleUrl>#color_4</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -4196,7 +4196,7 @@
       </Placemark>
       <Placemark>
         <name>P3</name>
-        <description>&lt;b&gt;Jacob Rock (121)&lt;/b&gt; — Pass 3&lt;br/&gt;Date: 20210627&lt;br/&gt;121 JACOB ROCK PASS 2 DIFFERENT ANGLE COUNTERS USE PASS 2. 1 ANIMAL DISTURBANCE</description>
+        <description>&lt;b&gt;Jacob Rock (121)&lt;/b&gt; - Pass 3&lt;br/&gt;Date: 20210627&lt;br/&gt;121 JACOB ROCK PASS 2 DIFFERENT ANGLE COUNTERS USE PASS 2. 1 ANIMAL DISTURBANCE</description>
         <styleUrl>#color_4</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -4240,7 +4240,7 @@
       <name>Kaiuchali (Biorka) (122)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Kaiuchali (Biorka) (122)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;122 KAIUCHALI (BIORKA) PASS 1</description>
+        <description>&lt;b&gt;Kaiuchali (Biorka) (122)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;122 KAIUCHALI (BIORKA) PASS 1</description>
         <styleUrl>#color_5</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -4276,7 +4276,7 @@
       <name>Kodiak/Cape Ikolik (223)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Kodiak/Cape Ikolik (223)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210706&lt;br/&gt;223 KODIAK/CAPE IKOLIK - PASS 1</description>
+        <description>&lt;b&gt;Kodiak/Cape Ikolik (223)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210706&lt;br/&gt;223 KODIAK/CAPE IKOLIK - PASS 1</description>
         <styleUrl>#color_6</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -4321,7 +4321,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Kodiak/Cape Ikolik (223)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210706&lt;br/&gt;223 KODIAK/CAPE IKOLIK - PASS 2 - RIGHT OF P1</description>
+        <description>&lt;b&gt;Kodiak/Cape Ikolik (223)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210706&lt;br/&gt;223 KODIAK/CAPE IKOLIK - PASS 2 - RIGHT OF P1</description>
         <styleUrl>#color_6</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -4367,7 +4367,7 @@
       <name>Kodiak/Cape Ugat (228)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Kodiak/Cape Ugat (228)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210706&lt;br/&gt;228 KODIAK/CAPE UGAT - PASS 1</description>
+        <description>&lt;b&gt;Kodiak/Cape Ugat (228)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210706&lt;br/&gt;228 KODIAK/CAPE UGAT - PASS 1</description>
         <styleUrl>#color_7</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -4415,7 +4415,7 @@
       <name>Kodiak/Gull Point (217)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Kodiak/Gull Point (217)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210706&lt;br/&gt;217 KODIAK/GULL POINT - PASS 1 - ADD 1</description>
+        <description>&lt;b&gt;Kodiak/Gull Point (217)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210706&lt;br/&gt;217 KODIAK/GULL POINT - PASS 1 - ADD 1</description>
         <styleUrl>#color_8</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -4468,7 +4468,7 @@
       <name>Kodiak/Steep Cape (231)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Kodiak/Steep Cape (231)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210706&lt;br/&gt;231 KODIAK/STEEP CAPE - PASS 1</description>
+        <description>&lt;b&gt;Kodiak/Steep Cape (231)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210706&lt;br/&gt;231 KODIAK/STEEP CAPE - PASS 1</description>
         <styleUrl>#color_9</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -4518,7 +4518,7 @@
       <name>Latax Rocks (206)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Latax Rocks (206)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;206 LATAX ROCKS PASS 1</description>
+        <description>&lt;b&gt;Latax Rocks (206)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;206 LATAX ROCKS PASS 1</description>
         <styleUrl>#color_10</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -4608,7 +4608,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Latax Rocks (206)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210703&lt;br/&gt;206 LATAX ROCKS PASS 2 SAME AS PASS 1</description>
+        <description>&lt;b&gt;Latax Rocks (206)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210703&lt;br/&gt;206 LATAX ROCKS PASS 2 SAME AS PASS 1</description>
         <styleUrl>#color_10</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -4714,7 +4714,7 @@
       <name>Libby Island (622)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Libby Island (622)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;622 LIBBY ISLAND PASS 1</description>
+        <description>&lt;b&gt;Libby Island (622)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;622 LIBBY ISLAND PASS 1</description>
         <styleUrl>#color_11</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -4762,7 +4762,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Libby Island (622)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210628&lt;br/&gt;622 HAENKE PASS 1</description>
+        <description>&lt;b&gt;Libby Island (622)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210628&lt;br/&gt;622 HAENKE PASS 1</description>
         <styleUrl>#color_11</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -4812,7 +4812,7 @@
       </Placemark>
       <Placemark>
         <name>P3</name>
-        <description>&lt;b&gt;Libby Island (622)&lt;/b&gt; — Pass 3&lt;br/&gt;Date: 20210628&lt;br/&gt;622 HAENKE PASS 2 - LEFT OF P1</description>
+        <description>&lt;b&gt;Libby Island (622)&lt;/b&gt; - Pass 3&lt;br/&gt;Date: 20210628&lt;br/&gt;622 HAENKE PASS 2 - LEFT OF P1</description>
         <styleUrl>#color_11</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -4854,7 +4854,7 @@
       </Placemark>
       <Placemark>
         <name>P4</name>
-        <description>&lt;b&gt;Libby Island (622)&lt;/b&gt; — Pass 4&lt;br/&gt;Date: 20210703&lt;br/&gt;622 FOX PASS 1</description>
+        <description>&lt;b&gt;Libby Island (622)&lt;/b&gt; - Pass 4&lt;br/&gt;Date: 20210703&lt;br/&gt;622 FOX PASS 1</description>
         <styleUrl>#color_11</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -4880,7 +4880,7 @@
       </Placemark>
       <Placemark>
         <name>P5</name>
-        <description>&lt;b&gt;Libby Island (622)&lt;/b&gt; — Pass 5&lt;br/&gt;Date: 20210703&lt;br/&gt;622 FOX PASS 2 PERPENDICULAR TO PASS 1.</description>
+        <description>&lt;b&gt;Libby Island (622)&lt;/b&gt; - Pass 5&lt;br/&gt;Date: 20210703&lt;br/&gt;622 FOX PASS 2 PERPENDICULAR TO PASS 1.</description>
         <styleUrl>#color_11</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -4924,7 +4924,7 @@
       <name>Middle (558)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Middle (558)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;558 MIDDLE PASS ROCK PASS 1. HICCUP IN BEGINNING OVER WATER</description>
+        <description>&lt;b&gt;Middle (558)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;558 MIDDLE PASS ROCK PASS 1. HICCUP IN BEGINNING OVER WATER</description>
         <styleUrl>#color_12</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -4964,7 +4964,7 @@
       <name>Middleton (168)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Middleton (168)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;168 MIDDLETON PASS 1</description>
+        <description>&lt;b&gt;Middleton (168)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;168 MIDDLETON PASS 1</description>
         <styleUrl>#color_13</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -5041,7 +5041,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Middleton (168)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210703&lt;br/&gt;168 MIDDLETON PASS 2 FURTHER DOWN THE BEACH ON THE SAME PATH AS PASS 1</description>
+        <description>&lt;b&gt;Middleton (168)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210703&lt;br/&gt;168 MIDDLETON PASS 2 FURTHER DOWN THE BEACH ON THE SAME PATH AS PASS 1</description>
         <styleUrl>#color_13</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -5089,7 +5089,7 @@
       </Placemark>
       <Placemark>
         <name>P3</name>
-        <description>&lt;b&gt;Middleton (168)&lt;/b&gt; — Pass 3&lt;br/&gt;Date: 20210703&lt;br/&gt;168 MIDDLETON PASS 3 TO THE LEFT OF PASS 2</description>
+        <description>&lt;b&gt;Middleton (168)&lt;/b&gt; - Pass 3&lt;br/&gt;Date: 20210703&lt;br/&gt;168 MIDDLETON PASS 3 TO THE LEFT OF PASS 2</description>
         <styleUrl>#color_13</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -5136,7 +5136,7 @@
       <name>Nagahut Rocks (196)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Nagahut Rocks (196)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;196 NAGAHUT ROCKS PASS 1</description>
+        <description>&lt;b&gt;Nagahut Rocks (196)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;196 NAGAHUT ROCKS PASS 1</description>
         <styleUrl>#color_14</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -5181,7 +5181,7 @@
       <name>Nagai Rocks/B (249)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Nagai Rocks/B (249)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210708&lt;br/&gt;249 NAGAI ROCKS/B PASS 1</description>
+        <description>&lt;b&gt;Nagai Rocks/B (249)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210708&lt;br/&gt;249 NAGAI ROCKS/B PASS 1</description>
         <styleUrl>#color_15</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -5250,7 +5250,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Nagai Rocks/B (249)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210708&lt;br/&gt;249 NAGAI ROCKS PASS 2 LEFT OF PASS 1</description>
+        <description>&lt;b&gt;Nagai Rocks/B (249)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210708&lt;br/&gt;249 NAGAI ROCKS PASS 2 LEFT OF PASS 1</description>
         <styleUrl>#color_15</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -5307,7 +5307,7 @@
       </Placemark>
       <Placemark>
         <name>P3</name>
-        <description>&lt;b&gt;Nagai Rocks/B (249)&lt;/b&gt; — Pass 3&lt;br/&gt;Date: 20210708&lt;br/&gt;249 NAGAI ROCKS PASS 3 SAME AS PASS 2. PASS 2 HAD HICCUPS</description>
+        <description>&lt;b&gt;Nagai Rocks/B (249)&lt;/b&gt; - Pass 3&lt;br/&gt;Date: 20210708&lt;br/&gt;249 NAGAI ROCKS PASS 3 SAME AS PASS 2. PASS 2 HAD HICCUPS</description>
         <styleUrl>#color_15</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -5348,7 +5348,7 @@
       <name>Perl (194)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Perl (194)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;194 PERL PASS 1</description>
+        <description>&lt;b&gt;Perl (194)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;194 PERL PASS 1</description>
         <styleUrl>#color_16</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -5397,7 +5397,7 @@
       <name>Perry (172)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Perry (172)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;172 PERRY 1 PASS</description>
+        <description>&lt;b&gt;Perry (172)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;172 PERRY 1 PASS</description>
         <styleUrl>#color_17</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -5437,7 +5437,7 @@
       <name>Point Carolus (148)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Point Carolus (148)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;148 POINT CAROLUS PASS 1. POSSIBLY ONLY 1 ANIMAL.</description>
+        <description>&lt;b&gt;Point Carolus (148)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;148 POINT CAROLUS PASS 1. POSSIBLY ONLY 1 ANIMAL.</description>
         <styleUrl>#color_18</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -5486,7 +5486,7 @@
       <name>Point Elrington (177)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Point Elrington (177)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;177 POINT ELRINGTON 1 PASS</description>
+        <description>&lt;b&gt;Point Elrington (177)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;177 POINT ELRINGTON 1 PASS</description>
         <styleUrl>#color_19</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -5539,7 +5539,7 @@
       <name>Point Lull (138)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Point Lull (138)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;138 POINT LULL PASS 1</description>
+        <description>&lt;b&gt;Point Lull (138)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;138 POINT LULL PASS 1</description>
         <styleUrl>#color_0</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -5583,7 +5583,7 @@
       <name>Procession Rocks (178)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Procession Rocks (178)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;178 PROCESSION ROCKS 1 PASS CHECK FOR ONE MALE ON LEFT AT END</description>
+        <description>&lt;b&gt;Procession Rocks (178)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;178 PROCESSION ROCKS 1 PASS CHECK FOR ONE MALE ON LEFT AT END</description>
         <styleUrl>#color_1</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -5638,7 +5638,7 @@
       <name>Puale Bay (241)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Puale Bay (241)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210706&lt;br/&gt;241 PUALE BAY - PASS 1</description>
+        <description>&lt;b&gt;Puale Bay (241)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210706&lt;br/&gt;241 PUALE BAY - PASS 1</description>
         <styleUrl>#color_2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -5707,7 +5707,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Puale Bay (241)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210706&lt;br/&gt;241 PUALE BAY - PASS 2 - RIGHT OF P1</description>
+        <description>&lt;b&gt;Puale Bay (241)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210706&lt;br/&gt;241 PUALE BAY - PASS 2 - RIGHT OF P1</description>
         <styleUrl>#color_2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -5771,7 +5771,7 @@
       <name>Rocky Island (608)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Rocky Island (608)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;608 ROCKY ISLAND PASS 1. BEN NOTED 4 ANIMALS MOVED A  BODY LENGTH</description>
+        <description>&lt;b&gt;Rocky Island (608)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;608 ROCKY ISLAND PASS 1. BEN NOTED 4 ANIMALS MOVED A  BODY LENGTH</description>
         <styleUrl>#color_3</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -5818,7 +5818,7 @@
       <name>Rugged (183)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Rugged (183)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;183 RUGGED 1 PASS</description>
+        <description>&lt;b&gt;Rugged (183)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;183 RUGGED 1 PASS</description>
         <styleUrl>#color_4</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -5913,7 +5913,7 @@
       <name>Sail (134)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Sail (134)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;134 SAIL PASS 1</description>
+        <description>&lt;b&gt;Sail (134)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;134 SAIL PASS 1</description>
         <styleUrl>#color_5</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -5988,7 +5988,7 @@
       <name>Sea Lion Islands (140)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Sea Lion Islands (140)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;140 SEA LION ISLANDS PASS 1. HICCUPS IN THE BEGINNING NOT OVER ANIMALS. 1 JUMPER AND 4 MOVED A BODY LENGTH</description>
+        <description>&lt;b&gt;Sea Lion Islands (140)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;140 SEA LION ISLANDS PASS 1. HICCUPS IN THE BEGINNING NOT OVER ANIMALS. 1 JUMPER AND 4 MOVED A BODY LENGTH</description>
         <styleUrl>#color_6</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -6055,7 +6055,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Sea Lion Islands (140)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210627&lt;br/&gt;140 SEA LION ISLANDS PASS 2 TO THE LEFT OF PASS 1 LOTS OF HICCUPS</description>
+        <description>&lt;b&gt;Sea Lion Islands (140)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210627&lt;br/&gt;140 SEA LION ISLANDS PASS 2 TO THE LEFT OF PASS 1 LOTS OF HICCUPS</description>
         <styleUrl>#color_6</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -6118,7 +6118,7 @@
       </Placemark>
       <Placemark>
         <name>P3</name>
-        <description>&lt;b&gt;Sea Lion Islands (140)&lt;/b&gt; — Pass 3&lt;br/&gt;Date: 20210627&lt;br/&gt;140 SEA LION ISLANDS SAME AS PASS 2</description>
+        <description>&lt;b&gt;Sea Lion Islands (140)&lt;/b&gt; - Pass 3&lt;br/&gt;Date: 20210627&lt;br/&gt;140 SEA LION ISLANDS SAME AS PASS 2</description>
         <styleUrl>#color_6</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -6184,7 +6184,7 @@
       <name>Sea Lion Rock (Puffin Bay) (119)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Sea Lion Rock (Puffin Bay) (119)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210623&lt;br/&gt;119 SEA LION ROCK (PUFFIN BAY) PASS 1</description>
+        <description>&lt;b&gt;Sea Lion Rock (Puffin Bay) (119)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210623&lt;br/&gt;119 SEA LION ROCK (PUFFIN BAY) PASS 1</description>
         <styleUrl>#color_7</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -6228,7 +6228,7 @@
       <name>Seal Rocks (166)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Seal Rocks (166)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;166 SEAL ROCKS 1 PASS</description>
+        <description>&lt;b&gt;Seal Rocks (166)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;166 SEAL ROCKS 1 PASS</description>
         <styleUrl>#color_8</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -6281,7 +6281,7 @@
       <name>Shakun Rocks (235)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Shakun Rocks (235)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210706&lt;br/&gt;235 SHAKUN ROCKS PASS 1</description>
+        <description>&lt;b&gt;Shakun Rocks (235)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210706&lt;br/&gt;235 SHAKUN ROCKS PASS 1</description>
         <styleUrl>#color_9</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -6325,7 +6325,7 @@
       <name>Sitkinak/Cape Sitkinak (220)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Sitkinak/Cape Sitkinak (220)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210706&lt;br/&gt;220 SITKINAK/CAPE SITKINAK - PASS 1 - MORE OFFSHORE ROCKS; NEED TO DO ANOTHER PASS TO GET NEARSHORE ROCKS</description>
+        <description>&lt;b&gt;Sitkinak/Cape Sitkinak (220)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210706&lt;br/&gt;220 SITKINAK/CAPE SITKINAK - PASS 1 - MORE OFFSHORE ROCKS; NEED TO DO ANOTHER PASS TO GET NEARSHORE ROCKS</description>
         <styleUrl>#color_10</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -6362,7 +6362,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Sitkinak/Cape Sitkinak (220)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210706&lt;br/&gt;220 SITKINAK/CAPE SITKINAK - PASS 2 - SAME LINE TO GET NEARSHORE ROCKS BUT HICCUP AND ALTITUDE NOT SET VERY ACCURATELY. WILL ATTEMPT FROM OPPOSITE DIRECTION.</description>
+        <description>&lt;b&gt;Sitkinak/Cape Sitkinak (220)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210706&lt;br/&gt;220 SITKINAK/CAPE SITKINAK - PASS 2 - SAME LINE TO GET NEARSHORE ROCKS BUT HICCUP AND ALTITUDE NOT SET VERY ACCURATELY. WILL ATTEMPT FROM OPPOSITE DIRECTION.</description>
         <styleUrl>#color_10</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -6435,7 +6435,7 @@
       </Placemark>
       <Placemark>
         <name>P3</name>
-        <description>&lt;b&gt;Sitkinak/Cape Sitkinak (220)&lt;/b&gt; — Pass 3&lt;br/&gt;Date: 20210706&lt;br/&gt;220 SITKINAK/CAPE SITKINAK - PASS 3 - GOT THEM ALL THIS PASS</description>
+        <description>&lt;b&gt;Sitkinak/Cape Sitkinak (220)&lt;/b&gt; - Pass 3&lt;br/&gt;Date: 20210706&lt;br/&gt;220 SITKINAK/CAPE SITKINAK - PASS 3 - GOT THEM ALL THIS PASS</description>
         <styleUrl>#color_10</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -6511,7 +6511,7 @@
       <name>South Marble (149)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;South Marble (149)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;149 SOUTH MARBLE PASS 1 INCLUDES OFFSHORE ROCKS AND LEFT SIDE OF ISLAND</description>
+        <description>&lt;b&gt;South Marble (149)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;149 SOUTH MARBLE PASS 1 INCLUDES OFFSHORE ROCKS AND LEFT SIDE OF ISLAND</description>
         <styleUrl>#color_11</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -6569,7 +6569,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;South Marble (149)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210627&lt;br/&gt;149 SOUTH MARBLE PASS 2 TO THE RIGHT OF PASS 1</description>
+        <description>&lt;b&gt;South Marble (149)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210627&lt;br/&gt;149 SOUTH MARBLE PASS 2 TO THE RIGHT OF PASS 1</description>
         <styleUrl>#color_11</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -6630,7 +6630,7 @@
       </Placemark>
       <Placemark>
         <name>P3</name>
-        <description>&lt;b&gt;South Marble (149)&lt;/b&gt; — Pass 3&lt;br/&gt;Date: 20210627&lt;br/&gt;149 SOUTH MARBLE PASS 3 TO THE RIGHT OF PASS 2 (AND PASS 1). DISTURBANCE 10 ANIMALS</description>
+        <description>&lt;b&gt;South Marble (149)&lt;/b&gt; - Pass 3&lt;br/&gt;Date: 20210627&lt;br/&gt;149 SOUTH MARBLE PASS 3 TO THE RIGHT OF PASS 2 (AND PASS 1). DISTURBANCE 10 ANIMALS</description>
         <styleUrl>#color_11</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -6692,7 +6692,7 @@
       <name>Sugarloaf (200)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Sugarloaf (200)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;200 SUGARLOAF PASS 1 ROCKS ON SE SIDE OF ISLAND</description>
+        <description>&lt;b&gt;Sugarloaf (200)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;200 SUGARLOAF PASS 1 ROCKS ON SE SIDE OF ISLAND</description>
         <styleUrl>#color_12</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -6740,7 +6740,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Sugarloaf (200)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210703&lt;br/&gt;200 SUGARLOAF PASS 2  TO THE RIGHT OF PASS 1 AT START END NEAR PASS 2 DIFFERENT ANGLE</description>
+        <description>&lt;b&gt;Sugarloaf (200)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210703&lt;br/&gt;200 SUGARLOAF PASS 2  TO THE RIGHT OF PASS 1 AT START END NEAR PASS 2 DIFFERENT ANGLE</description>
         <styleUrl>#color_12</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -6787,7 +6787,7 @@
       </Placemark>
       <Placemark>
         <name>P3</name>
-        <description>&lt;b&gt;Sugarloaf (200)&lt;/b&gt; — Pass 3&lt;br/&gt;Date: 20210703&lt;br/&gt;200 SUGARLOAF PASS 3 NORTH SIDE OF ISLAND</description>
+        <description>&lt;b&gt;Sugarloaf (200)&lt;/b&gt; - Pass 3&lt;br/&gt;Date: 20210703&lt;br/&gt;200 SUGARLOAF PASS 3 NORTH SIDE OF ISLAND</description>
         <styleUrl>#color_12</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -6845,7 +6845,7 @@
       </Placemark>
       <Placemark>
         <name>P4</name>
-        <description>&lt;b&gt;Sugarloaf (200)&lt;/b&gt; — Pass 4&lt;br/&gt;Date: 20210703&lt;br/&gt;200 SUGARLOAF PASS 4 WEST SIDE OF ISLAND</description>
+        <description>&lt;b&gt;Sugarloaf (200)&lt;/b&gt; - Pass 4&lt;br/&gt;Date: 20210703&lt;br/&gt;200 SUGARLOAF PASS 4 WEST SIDE OF ISLAND</description>
         <styleUrl>#color_12</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -6891,7 +6891,7 @@
       <name>Sunset (136)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Sunset (136)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;136 SUNSET PASS 1 HICCUPS AT THE END OF PASS</description>
+        <description>&lt;b&gt;Sunset (136)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;136 SUNSET PASS 1 HICCUPS AT THE END OF PASS</description>
         <styleUrl>#color_13</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -6952,7 +6952,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Sunset (136)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210627&lt;br/&gt;136 SUNSET PASS 2 SAME AS PASS 1</description>
+        <description>&lt;b&gt;Sunset (136)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210627&lt;br/&gt;136 SUNSET PASS 2 SAME AS PASS 1</description>
         <styleUrl>#color_13</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -7013,7 +7013,7 @@
       <name>The Brothers Sw (133)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;The Brothers Sw (133)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;133 THE BROTHERS SW PASS 1</description>
+        <description>&lt;b&gt;The Brothers Sw (133)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;133 THE BROTHERS SW PASS 1</description>
         <styleUrl>#color_14</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -7058,7 +7058,7 @@
       <name>The Needle (171)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;The Needle (171)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;171 THE NEEDLE 1 PASS</description>
+        <description>&lt;b&gt;The Needle (171)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;171 THE NEEDLE 1 PASS</description>
         <styleUrl>#color_15</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -7113,7 +7113,7 @@
       <name>Timbered (111)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Timbered (111)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210623&lt;br/&gt;111 TIMBERED PASS 1</description>
+        <description>&lt;b&gt;Timbered (111)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210623&lt;br/&gt;111 TIMBERED PASS 1</description>
         <styleUrl>#color_16</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -7156,7 +7156,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Timbered (111)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210623&lt;br/&gt;111 TIMBERED PASS 2 - RIGHT OF PASS 1</description>
+        <description>&lt;b&gt;Timbered (111)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210623&lt;br/&gt;111 TIMBERED PASS 2 - RIGHT OF PASS 1</description>
         <styleUrl>#color_16</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -7208,7 +7208,7 @@
       </Placemark>
       <Placemark>
         <name>P3</name>
-        <description>&lt;b&gt;Timbered (111)&lt;/b&gt; — Pass 3&lt;br/&gt;Date: 20210623&lt;br/&gt;111 TIMBERED PASS 3 - RIGHT OF P2</description>
+        <description>&lt;b&gt;Timbered (111)&lt;/b&gt; - Pass 3&lt;br/&gt;Date: 20210623&lt;br/&gt;111 TIMBERED PASS 3 - RIGHT OF P2</description>
         <styleUrl>#color_16</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -7264,7 +7264,7 @@
       <name>Twoheaded (219)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Twoheaded (219)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210706&lt;br/&gt;219 TWOHEADED - PASS 1</description>
+        <description>&lt;b&gt;Twoheaded (219)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210706&lt;br/&gt;219 TWOHEADED - PASS 1</description>
         <styleUrl>#color_17</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -7306,7 +7306,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Twoheaded (219)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210706&lt;br/&gt;219 TWOHEADED - PASS 3 - OPPOSITE DIRECTION - THINK WE GOT THEM ALL IN THIS ONE!</description>
+        <description>&lt;b&gt;Twoheaded (219)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210706&lt;br/&gt;219 TWOHEADED - PASS 3 - OPPOSITE DIRECTION - THINK WE GOT THEM ALL IN THIS ONE!</description>
         <styleUrl>#color_17</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -7389,7 +7389,7 @@
       </Placemark>
       <Placemark>
         <name>P3</name>
-        <description>&lt;b&gt;Twoheaded (219)&lt;/b&gt; — Pass 3&lt;br/&gt;Date: 20210706&lt;br/&gt;219 KODIAK/CAPE BARNABAS - PASS 1 - DISTURBED 10 ANIMALS</description>
+        <description>&lt;b&gt;Twoheaded (219)&lt;/b&gt; - Pass 3&lt;br/&gt;Date: 20210706&lt;br/&gt;219 KODIAK/CAPE BARNABAS - PASS 1 - DISTURBED 10 ANIMALS</description>
         <styleUrl>#color_17</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -7432,7 +7432,7 @@
       <name>Ushagat/Rocks South (204)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Ushagat/Rocks South (204)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;204 USHAGAT/ROCKS SOUTH  PASS 1</description>
+        <description>&lt;b&gt;Ushagat/Rocks South (204)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;204 USHAGAT/ROCKS SOUTH  PASS 1</description>
         <styleUrl>#color_18</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -7478,7 +7478,7 @@
       <name>Ushagat/Sw (203)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Ushagat/Sw (203)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;203C USHAGAT/SW/C TO 203A USHAGAT/SW 1 PASS ADD 1 ON RIGHT</description>
+        <description>&lt;b&gt;Ushagat/Sw (203)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;203C USHAGAT/SW/C TO 203A USHAGAT/SW 1 PASS ADD 1 ON RIGHT</description>
         <styleUrl>#color_19</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -7593,7 +7593,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Ushagat/Sw (203)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210703&lt;br/&gt;203C USHAGAT/SW/C TO 203A USHAGAT/SW TO THE RIGHT OF PASS 1 BUT ALONG THE SHORE</description>
+        <description>&lt;b&gt;Ushagat/Sw (203)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210703&lt;br/&gt;203C USHAGAT/SW/C TO 203A USHAGAT/SW TO THE RIGHT OF PASS 1 BUT ALONG THE SHORE</description>
         <styleUrl>#color_19</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -7674,7 +7674,7 @@
       </Placemark>
       <Placemark>
         <name>P3</name>
-        <description>&lt;b&gt;Ushagat/Sw (203)&lt;/b&gt; — Pass 3&lt;br/&gt;Date: 20210703&lt;br/&gt;203C PASS USHAGAT/SW/C PERPENDICULAR TO PREVIOUS PASSES</description>
+        <description>&lt;b&gt;Ushagat/Sw (203)&lt;/b&gt; - Pass 3&lt;br/&gt;Date: 20210703&lt;br/&gt;203C PASS USHAGAT/SW/C PERPENDICULAR TO PREVIOUS PASSES</description>
         <styleUrl>#color_19</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -7703,7 +7703,7 @@
       <name>White Sisters (142)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;White Sisters (142)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;142 WHITE SISTERS PASS 1</description>
+        <description>&lt;b&gt;White Sisters (142)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;142 WHITE SISTERS PASS 1</description>
         <styleUrl>#color_0</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -7745,7 +7745,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;White Sisters (142)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210627&lt;br/&gt;142 WHITE SISTERS PASS 2 DIFFERENT ANGLE THAN PASS 1 ALMOST PERPENDICULAR</description>
+        <description>&lt;b&gt;White Sisters (142)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210627&lt;br/&gt;142 WHITE SISTERS PASS 2 DIFFERENT ANGLE THAN PASS 1 ALMOST PERPENDICULAR</description>
         <styleUrl>#color_0</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -7797,7 +7797,7 @@
       </Placemark>
       <Placemark>
         <name>P3</name>
-        <description>&lt;b&gt;White Sisters (142)&lt;/b&gt; — Pass 3&lt;br/&gt;Date: 20210627&lt;br/&gt;142 WHITE SISTERS PASS 3 TO THE LEFT OF PASS 2 LESS FOG</description>
+        <description>&lt;b&gt;White Sisters (142)&lt;/b&gt; - Pass 3&lt;br/&gt;Date: 20210627&lt;br/&gt;142 WHITE SISTERS PASS 3 TO THE LEFT OF PASS 2 LESS FOG</description>
         <styleUrl>#color_0</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -7856,7 +7856,7 @@
       </Placemark>
       <Placemark>
         <name>P4</name>
-        <description>&lt;b&gt;White Sisters (142)&lt;/b&gt; — Pass 4&lt;br/&gt;Date: 20210627&lt;br/&gt;142 WHITE SISTERS PASS 4 TO THE LEFT OF PASS 3. PASS 3 AND 4 PROBABLY BEST PASSES</description>
+        <description>&lt;b&gt;White Sisters (142)&lt;/b&gt; - Pass 4&lt;br/&gt;Date: 20210627&lt;br/&gt;142 WHITE SISTERS PASS 4 TO THE LEFT OF PASS 3. PASS 3 AND 4 PROBABLY BEST PASSES</description>
         <styleUrl>#color_0</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -7917,7 +7917,7 @@
       <name>Wolf Point (107)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Wolf Point (107)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210623&lt;br/&gt;107 WOLF POINT PASS 1 - ADD 2 ON RIGHT</description>
+        <description>&lt;b&gt;Wolf Point (107)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210623&lt;br/&gt;107 WOLF POINT PASS 1 - ADD 2 ON RIGHT</description>
         <styleUrl>#color_1</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -7963,7 +7963,7 @@
       <name>Wooded (Fish) (167)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Wooded (Fish) (167)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;167 WOODED (FISH) PASS 1</description>
+        <description>&lt;b&gt;Wooded (Fish) (167)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;167 WOODED (FISH) PASS 1</description>
         <styleUrl>#color_2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -8021,7 +8021,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Wooded (Fish) (167)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210703&lt;br/&gt;167 WOODED (FISH) PASS 2 DIFFERENT ANGLE THAN PASS 1. BETWEEN 167B AND 167 A ALMOST PERPENDICULAR</description>
+        <description>&lt;b&gt;Wooded (Fish) (167)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210703&lt;br/&gt;167 WOODED (FISH) PASS 2 DIFFERENT ANGLE THAN PASS 1. BETWEEN 167B AND 167 A ALMOST PERPENDICULAR</description>
         <styleUrl>#color_2</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -8075,7 +8075,7 @@
       <name>Yasha (125)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Yasha (125)&lt;/b&gt; — Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;125 YASHA PASS 1</description>
+        <description>&lt;b&gt;Yasha (125)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210627&lt;br/&gt;125 YASHA PASS 1</description>
         <styleUrl>#color_3</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -8133,7 +8133,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Yasha (125)&lt;/b&gt; — Pass 2&lt;br/&gt;Date: 20210627&lt;br/&gt;125 YASHA PASS 2 TO THE RIGHT OF PASS 1 DISTURBANCE 50 ANIMALS</description>
+        <description>&lt;b&gt;Yasha (125)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210627&lt;br/&gt;125 YASHA PASS 2 TO THE RIGHT OF PASS 1 DISTURBANCE 50 ANIMALS</description>
         <styleUrl>#color_3</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
