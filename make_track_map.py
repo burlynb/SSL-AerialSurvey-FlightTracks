@@ -228,6 +228,43 @@ for filepath in csv_files:
 print(f"2024: {sum(len(v) for v in passes_by_site_2024.values())} passes across "
       f"{len(passes_by_site_2024)} sites from {len(csv_files)} csv files.")
 
+# ── load 2024 ASSLAP log notes ─────────────────────────────────────────────────
+
+def load_log_notes(filepath):
+    """
+    Read 2024_ASSLAP_LOGSummary.xlsx and return:
+      {parent_id_str: [(date_str, pass_num, description), ...]}
+    sorted by date then pass.  Rows with no pass number or no description
+    are skipped.
+    """
+    notes = defaultdict(list)
+    try:
+        wb = openpyxl.load_workbook(filepath, data_only=True)
+        ws = wb.active
+        for row in ws.iter_rows(min_row=2, values_only=True):
+            date_val = row[0]   # A: DATE
+            mml_id   = row[1]   # B: MML_ID
+            pass_num = row[6]   # G: PASS
+            desc     = row[9]   # J: PASS DESCRIPTION
+            if pass_num is None or not desc:
+                continue
+            m = re.match(r'(\d+)', str(mml_id).strip())
+            if not m:
+                continue
+            parent_id = m.group(1)
+            date_str = date_val.strftime('%m/%d') if hasattr(date_val, 'strftime') else str(date_val)
+            try:
+                pn = int(pass_num)
+            except (ValueError, TypeError):
+                pn = str(pass_num)   # e.g. 'Obl1', 'Obl2'
+            notes[parent_id].append((date_str, pn, str(desc).strip()))
+    except FileNotFoundError:
+        print("  (ASSLAP log summary not found — skipping)")
+    return {k: sorted(v, key=lambda x: (x[0], str(x[1]))) for k, v in notes.items()}
+
+log_notes_2024 = load_log_notes('flightlogs/2024/2024_ASSLAP_LOGSummary.xlsx')
+print(f"Log notes loaded for {len(log_notes_2024)} 2024 sites.")
+
 # ── match site photos (relative paths for GitHub Pages) ───────────────────────
 
 def find_photo(label, photo_dir):
@@ -296,7 +333,7 @@ folium.TileLayer(
 
 DETAIL_ZOOM = 9   # markers hidden below this zoom; only dots shown
 
-def add_site_layers(passes_by_site, site_photos, year_prefix):
+def add_site_layers(passes_by_site, site_photos, year_prefix, log_notes=None):
     """Add one FeatureGroup per site, prefixed with year."""
     for site in sorted(passes_by_site):
         color      = color_map[site]
@@ -357,11 +394,36 @@ def add_site_layers(passes_by_site, site_photos, year_prefix):
         # Photo label — detail only
         if site in site_photos:
             site_name_short = re.sub(r'\s*\(\d+\)\s*$', '', site).strip()
+
+            # Build pass notes block if log notes exist for this site
+            notes_html = ''
+            if log_notes:
+                pid = re.search(r'\((\d+)\)', site)
+                pid = pid.group(1) if pid else None
+                entries = log_notes.get(pid, []) if pid else []
+                if entries:
+                    # If multiple survey dates exist, prefix each line with the date
+                    dates = {d for d, _, _ in entries}
+                    show_date = len(dates) > 1
+                    rows = ''.join(
+                        f'<div style="margin:2px 0;">'
+                        f'{"<b>" + d + "</b> — " if show_date else ""}'
+                        f'Pass {pn}: {desc}</div>'
+                        for d, pn, desc in entries
+                    )
+                    notes_html = (
+                        f'<div style="text-align:left;margin-top:8px;padding-top:6px;'
+                        f'border-top:1px solid #ddd;font-size:11px;'
+                        f'font-family:sans-serif;color:#333;">'
+                        f'{rows}</div>'
+                    )
+
             popup_html = (
                 f'<div style="text-align:center;font-family:sans-serif;padding:4px;">'
                 f'<b style="font-size:13px;">{site} ({year_prefix})</b><br>'
                 f'<img src="{site_photos[site]}" '
                 f'style="max-width:300px;max-height:220px;margin-top:6px;border-radius:4px;">'
+                f'{notes_html}'
                 f'</div>'
             )
             folium.Marker(
@@ -384,7 +446,7 @@ def add_site_layers(passes_by_site, site_photos, year_prefix):
         group.add_to(m)
 
 add_site_layers(passes_by_site_2021, site_photos_2021, '2021')
-add_site_layers(passes_by_site_2024, site_photos_2024, '2024')
+add_site_layers(passes_by_site_2024, site_photos_2024, '2024', log_notes=log_notes_2024)
 
 folium.LayerControl(collapsed=True).add_to(m)
 
