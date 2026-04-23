@@ -469,8 +469,8 @@ window.addEventListener('load', function() {
   }
   if (!_map) return;
 
-  // Apply on zoom change and when layers are toggled on/off
-  _map.on('zoomend', function() { updateZoomVis(_map); });
+  // Apply continuously during zoom animation and when layers are toggled on/off
+  _map.on('zoom', function() { updateZoomVis(_map); });
   _map.on('layeradd', function() { setTimeout(function(){ updateZoomVis(_map); }, 30); });
 
   // Apply on initial load
