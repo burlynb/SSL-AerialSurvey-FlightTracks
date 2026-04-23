@@ -373,7 +373,17 @@ toggle_html = """
     background: #eee; color: #333; transition: background .15s, color .15s;
   }
   #year-toggle button.active { background: #4363d8; color: #fff; }
+
+  /* Search box injected into the layer control panel */
+  #layer-search {
+    display: block; width: calc(100% - 16px); margin: 6px 8px 4px;
+    padding: 5px 8px; border: 1px solid #ccc; border-radius: 4px;
+    font-size: 12px; font-family: sans-serif; box-sizing: border-box;
+  }
+  #layer-search:focus { outline: none; border-color: #4363d8; }
+  .layer-hidden { display: none !important; }
 </style>
+
 <div id="year-toggle" style="
   position: fixed; top: 10px; left: 50%; transform: translateX(-50%);
   z-index: 9999; display: flex; border-radius: 6px;
@@ -383,7 +393,9 @@ toggle_html = """
   <button data-yr="both" onclick="setYear('both')" class="active">Both</button>
   <button data-yr="2024" onclick="setYear('2024')">2024</button>
 </div>
+
 <script>
+// ── year toggle ───────────────────────────────────────────────────────────────
 function setYear(yr) {
   document.querySelectorAll('#year-toggle button').forEach(function(b) {
     b.classList.toggle('active', b.getAttribute('data-yr') === yr);
@@ -403,6 +415,47 @@ function setYear(yr) {
     if (inp.checked !== show) inp.click();
   });
 }
+
+// ── search box ────────────────────────────────────────────────────────────────
+// Inject a search input at the top of the layer control panel once it exists.
+function injectSearch() {
+  var overlays = document.querySelector('.leaflet-control-layers-overlays');
+  if (!overlays || document.getElementById('layer-search')) return;
+
+  var input = document.createElement('input');
+  input.id = 'layer-search';
+  input.type = 'text';
+  input.placeholder = 'Search sites…';
+
+  // Insert before the overlays list
+  overlays.parentNode.insertBefore(input, overlays);
+
+  input.addEventListener('input', function() {
+    var q = this.value.trim().toLowerCase();
+    document.querySelectorAll(
+      '.leaflet-control-layers-overlays label'
+    ).forEach(function(lbl) {
+      var name = lbl.innerText.trim().toLowerCase();
+      // Strip year prefix for matching so "shaw" finds both "2021 | Shaw" and "2024 | Shaw"
+      var stripped = name.replace(/^\\d{4} \\| /, '');
+      var match = !q || stripped.includes(q) || name.includes(q);
+      lbl.classList.toggle('layer-hidden', !match);
+    });
+  });
+}
+
+// The layer control panel is only added to the DOM when the user expands it.
+// Watch for that using a MutationObserver so the search box is always ready.
+var _searchObserver = new MutationObserver(function() {
+  if (document.querySelector('.leaflet-control-layers-overlays')) {
+    injectSearch();
+  }
+});
+window.addEventListener('load', function() {
+  _searchObserver.observe(document.body, { childList: true, subtree: true });
+  // Also try immediately in case it's already expanded.
+  injectSearch();
+});
 </script>
 """
 
