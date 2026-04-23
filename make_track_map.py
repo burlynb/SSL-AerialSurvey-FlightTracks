@@ -506,8 +506,7 @@ min_lon = min(c[1] for c in all_coords)
 max_lon = max(c[1] for c in all_coords)
 center  = ((min_lat + max_lat) / 2, (min_lon + max_lon) / 2)
 
-m = folium.Map(location=center, zoom_start=5, tiles=None)
-m.fit_bounds([[min_lat, min_lon], [max_lat, max_lon]])
+m = folium.Map(location=[57, -155], zoom_start=5, tiles=None)
 
 folium.TileLayer(
     tiles='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
