@@ -57,12 +57,13 @@ def arrowhead_html(bearing_deg, color, size=20):
     css_rot = bearing_deg - 90
     shadow = "drop-shadow(0px 0px 3px rgba(0,0,0,1))"
     return (
+        f'<div data-mtype="detail">'
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" '
         f'viewBox="0 0 {w} {h}" '
         f'style="transform:rotate({css_rot:.1f}deg);transform-origin:center center;'
         f'filter:{shadow};overflow:visible;">'
         f'<polygon points="0,0 {w},{h//2} 0,{h}" fill="{color}"/>'
-        f'</svg>'
+        f'</svg></div>'
     )
 
 def place_arrowhead(location, bearing_deg, color, group, tooltip='', size=20):
@@ -293,6 +294,8 @@ folium.TileLayer(
     attr='Esri Labels', name='Labels', overlay=True, control=True, opacity=0.7,
 ).add_to(m)
 
+DETAIL_ZOOM = 9   # markers hidden below this zoom; only dots shown
+
 def add_site_layers(passes_by_site, site_photos, year_prefix):
     """Add one FeatureGroup per site, prefixed with year."""
     for site in sorted(passes_by_site):
@@ -302,22 +305,47 @@ def add_site_layers(passes_by_site, site_photos, year_prefix):
         group      = folium.FeatureGroup(name=group_name, show=True)
         site_passes = passes_by_site[site]
 
+        # Centroid used for both the overview dot and the photo label
+        all_site_coords = [c for p in site_passes for c in p['coords']]
+        centroid = (
+            sum(c[0] for c in all_site_coords) / len(all_site_coords),
+            sum(c[1] for c in all_site_coords) / len(all_site_coords),
+        )
+
+        # Overview dot — visible at low zoom, hidden at detail zoom
+        folium.Marker(
+            location=centroid,
+            tooltip=site,
+            icon=folium.DivIcon(
+                html=(f'<div data-mtype="overview" '
+                      f'style="width:10px;height:10px;border-radius:50%;'
+                      f'background:{color};'
+                      f'border:2px solid rgba(255,255,255,0.85);'
+                      f'box-shadow:0 0 4px rgba(0,0,0,0.7);"></div>'),
+                icon_size=(10, 10), icon_anchor=(5, 5),
+            ),
+        ).add_to(group)
+
         for pass_num, p in enumerate(site_passes, 1):
             coords = p['coords']
             badge  = f"P{pass_num}"
             tip    = f"{badge} ({p['date']}) — {p['comment']}"
 
+            # Track line — always visible (thin, not cluttered at low zoom)
             folium.PolyLine(
                 locations=coords, color=color, weight=3, opacity=0.9, tooltip=tip,
             ).add_to(group)
 
+            # Arrows — detail only
             add_arrows(coords, color, group, tip)
 
+            # Pass badge — detail only
             q = max(0, len(coords) // 4)
             folium.Marker(
                 location=coords[q], tooltip=tip,
                 icon=folium.DivIcon(
-                    html=(f'<div style="background:{color};color:{text_color};'
+                    html=(f'<div data-mtype="detail" '
+                          f'style="background:{color};color:{text_color};'
                           f'border-radius:50%;width:20px;height:20px;line-height:20px;'
                           f'text-align:center;font-size:10px;font-weight:bold;'
                           f'font-family:sans-serif;border:1.5px solid rgba(0,0,0,0.4);'
@@ -326,12 +354,8 @@ def add_site_layers(passes_by_site, site_photos, year_prefix):
                 )
             ).add_to(group)
 
+        # Photo label — detail only
         if site in site_photos:
-            all_site_coords = [c for p in site_passes for c in p['coords']]
-            centroid = (
-                sum(c[0] for c in all_site_coords) / len(all_site_coords),
-                sum(c[1] for c in all_site_coords) / len(all_site_coords),
-            )
             site_name_short = re.sub(r'\s*\(\d+\)\s*$', '', site).strip()
             popup_html = (
                 f'<div style="text-align:center;font-family:sans-serif;padding:4px;">'
@@ -345,7 +369,8 @@ def add_site_layers(passes_by_site, site_photos, year_prefix):
                 tooltip=f"{site} ({year_prefix}) — click for photo",
                 popup=folium.Popup(popup_html, max_width=320),
                 icon=folium.DivIcon(
-                    html=(f'<div style="background:{color};color:{text_color};'
+                    html=(f'<div data-mtype="detail" '
+                          f'style="background:{color};color:{text_color};'
                           f'border-radius:4px;padding:2px 6px;'
                           f'font-size:10px;font-weight:bold;font-family:sans-serif;'
                           f'border:1.5px solid rgba(0,0,0,0.4);'
@@ -415,6 +440,42 @@ function setYear(yr) {
     if (inp.checked !== show) inp.click();
   });
 }
+
+// ── zoom-based marker visibility ─────────────────────────────────────────────
+var DETAIL_ZOOM = 9;
+
+function updateZoomVis(map) {
+  var showDetail = map.getZoom() >= DETAIL_ZOOM;
+  document.querySelectorAll('[data-mtype="detail"]').forEach(function(el) {
+    var icon = el.closest('.leaflet-marker-icon');
+    if (icon) icon.style.display = showDetail ? '' : 'none';
+  });
+  document.querySelectorAll('[data-mtype="overview"]').forEach(function(el) {
+    var icon = el.closest('.leaflet-marker-icon');
+    if (icon) icon.style.display = showDetail ? 'none' : '';
+  });
+}
+
+window.addEventListener('load', function() {
+  // Find the Leaflet map instance
+  var _map = null;
+  for (var k in window) {
+    try {
+      if (window[k] && typeof window[k].getZoom === 'function' &&
+          typeof window[k].on === 'function') {
+        _map = window[k]; break;
+      }
+    } catch(e) {}
+  }
+  if (!_map) return;
+
+  // Apply on zoom change and when layers are toggled on/off
+  _map.on('zoomend', function() { updateZoomVis(_map); });
+  _map.on('layeradd', function() { setTimeout(function(){ updateZoomVis(_map); }, 30); });
+
+  // Apply on initial load
+  updateZoomVis(_map);
+});
 
 // ── search box ────────────────────────────────────────────────────────────────
 // Inject a search input at the top of the layer control panel once it exists.
