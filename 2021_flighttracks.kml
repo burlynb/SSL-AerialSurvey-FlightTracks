@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>2021 SSL Aerial Survey Flight Tracks</name>
-    <description>Steller sea lion aerial survey flight tracks, 2021. Each folder is one survey site; each placemark is one camera pass.</description>
+    <name>2021 SSL Aerial Survey Flight Tracks — Gulf of Alaska</name>
+    <description>Steller sea lion aerial survey flight tracks, Gulf of Alaska 2021. Each folder is one survey site; each placemark is one camera pass.</description>
     <Style id="color_0">
       <LineStyle>
         <color>ff4b19e6</color>
@@ -7475,10 +7475,10 @@
       </Placemark>
     </Folder>
     <Folder>
-      <name>Ushagat/Sw (203)</name>
+      <name>Ushagat/SW (203)</name>
       <Placemark>
         <name>P1</name>
-        <description>&lt;b&gt;Ushagat/Sw (203)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;203C USHAGAT/SW/C TO 203A USHAGAT/SW 1 PASS ADD 1 ON RIGHT</description>
+        <description>&lt;b&gt;Ushagat/SW (203)&lt;/b&gt; - Pass 1&lt;br/&gt;Date: 20210703&lt;br/&gt;203C USHAGAT/SW/C TO 203A USHAGAT/SW 1 PASS ADD 1 ON RIGHT</description>
         <styleUrl>#color_19</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -7593,7 +7593,7 @@
       </Placemark>
       <Placemark>
         <name>P2</name>
-        <description>&lt;b&gt;Ushagat/Sw (203)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210703&lt;br/&gt;203C USHAGAT/SW/C TO 203A USHAGAT/SW TO THE RIGHT OF PASS 1 BUT ALONG THE SHORE</description>
+        <description>&lt;b&gt;Ushagat/SW (203)&lt;/b&gt; - Pass 2&lt;br/&gt;Date: 20210703&lt;br/&gt;203C USHAGAT/SW/C TO 203A USHAGAT/SW TO THE RIGHT OF PASS 1 BUT ALONG THE SHORE</description>
         <styleUrl>#color_19</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -7674,7 +7674,7 @@
       </Placemark>
       <Placemark>
         <name>P3</name>
-        <description>&lt;b&gt;Ushagat/Sw (203)&lt;/b&gt; - Pass 3&lt;br/&gt;Date: 20210703&lt;br/&gt;203C PASS USHAGAT/SW/C PERPENDICULAR TO PREVIOUS PASSES</description>
+        <description>&lt;b&gt;Ushagat/SW (203)&lt;/b&gt; - Pass 3&lt;br/&gt;Date: 20210703&lt;br/&gt;203C PASS USHAGAT/SW/C PERPENDICULAR TO PREVIOUS PASSES</description>
         <styleUrl>#color_19</styleUrl>
         <LineString>
           <tessellate>1</tessellate>

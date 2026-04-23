@@ -2,8 +2,10 @@
 generate_kml.py
 ---------------
 Generates KML flight track files for ForeFlight import:
-  2021_flighttracks.kml  — from *.xlsx survey logs
-  2024_flighttracks.kml  — from *.csv survey logs
+  2021_flighttracks.kml  — GOA 2021 xlsx logs
+  2024_flighttracks.kml  — GOA 2024 csv logs
+  2022_flighttracks.kml  — ALI 2022 xlsx/csv logs
+  2023_flighttracks.kml  — ALI 2023 xlsx/csv logs
 
 Import a KML into ForeFlight:
   Files app (or email) -> tap the .kml file -> Open in ForeFlight
@@ -24,7 +26,7 @@ from pathlib import Path
 from xml.etree import ElementTree as ET
 from xml.dom import minidom
 
-# ── shared colour palette ──────────────────────────────────────────────────────
+# ── Shared colour palette ──────────────────────────────────────────────────────
 
 COLORS_HTML = [
     '#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231',
@@ -34,13 +36,10 @@ COLORS_HTML = [
 ]
 
 def to_kml_color(html, alpha='ff'):
-    """Convert #rrggbb -> aabbggrr (KML byte order)."""
     h = html.lstrip('#')
     return f"{alpha}{h[4:6]}{h[2:4]}{h[0:2]}"
 
-# ── 2021 site parsing (xlsx) ───────────────────────────────────────────────────
-
-NAME_OVERRIDES_2021 = {'203': 'Ushagat/SW'}
+# ── Shared skip logic ──────────────────────────────────────────────────────────
 
 SKIP_PREFIXES = (
     'TAKE OFF', 'TAKEOFF', 'TEST FIRE', 'LAND', 'KL ', 'ALTITUDE',
@@ -51,15 +50,24 @@ SKIP_PREFIXES = (
     'PASS 1 ', 'PASS 2 ', 'PASS 3 ', 'PASS 4 ', 'PASS 5 ', 'PASS 6 ',
     'PASS 7 ', 'PASS 8 ', 'PASS 9 ', 'PASS 183', 'NEW SITE',
     '1529', 'HIT OUR', '10 JUMPER', '2 JUMPER',
+    'PORT -', 'STAR -', 'BB ', 'REFORMATTED', 'SET APERTURE',
+    'DISREGARD', 'NO OPENING', 'SILVER BOX', 'PHOTO PASS OF',
 )
 
-_labels_2021 = {}
+def is_operational(comment):
+    return comment.upper().strip().startswith(SKIP_PREFIXES)
 
-def get_site_label_2021(comment):
+# ── GOA 2021 site parsing (xlsx, plain numeric IDs) ───────────────────────────
+
+NAME_OVERRIDES_GOA = {'203': 'Ushagat/SW'}
+
+_labels_goa_2021 = {}
+
+def get_site_label_goa_2021(comment):
     c = re.sub(r'^[^A-Za-z0-9]+', '', comment.strip()).strip()
     if re.match(r'^FORRESTER\s+PASS', c, re.IGNORECASE):
-        _labels_2021.setdefault('FORRESTER', 'Forrester')
-        return _labels_2021['FORRESTER']
+        _labels_goa_2021.setdefault('FORRESTER', 'Forrester')
+        return _labels_goa_2021['FORRESTER']
     m = re.match(
         r'^(?:SSL?)?(\d+)[A-Z]?\s+(.+?)'
         r'(?:\s+(?:PASS|ABORTED|ONE\s+PASS|NO\s+ANIMALS|OBSV|VISUAL|PHOTO|PASS\s+ONE)'
@@ -73,15 +81,16 @@ def get_site_label_2021(comment):
     name = re.sub(r'\s+[A-Z]\s+(?:TO|AND)\s+[A-Z]\s*$', '', name, flags=re.IGNORECASE).strip()
     name = re.sub(r'\s+[A-Z]\s*$', '', name).strip()
     name = re.sub(r'\s+\d+\s*$', '', name).strip()
-    if sid in NAME_OVERRIDES_2021:
-        name = NAME_OVERRIDES_2021[sid]
-    name = name.title()
+    if sid in NAME_OVERRIDES_GOA:
+        name = NAME_OVERRIDES_GOA[sid]
+    else:
+        name = name.title()
     if not name:
         return None
-    _labels_2021.setdefault(sid, f"{name} ({sid})")
-    return _labels_2021[sid]
+    _labels_goa_2021.setdefault(sid, f"{name} ({sid})")
+    return _labels_goa_2021[sid]
 
-# ── 2024 site parsing (csv) ────────────────────────────────────────────────────
+# ── GOA 2024 site parsing (csv, NMEA coordinates) ─────────────────────────────
 
 def nmea_to_dd(val, hemisphere):
     v = float(val)
@@ -91,89 +100,179 @@ def nmea_to_dd(val, hemisphere):
         dd = -dd
     return dd
 
-_labels_2024 = {}
+_labels_goa_2024 = {}
 
-def get_site_label_2024(site_id_raw, site_name_raw):
+def get_site_label_goa_2024(site_id_raw, site_name_raw):
     m = re.match(r'(\d+)', str(site_id_raw).strip())
     parent_id = m.group(1) if m else str(site_id_raw).strip()
-    if parent_id in _labels_2024:
-        return _labels_2024[parent_id]
-    name = str(site_name_raw).strip()
-    name = re.sub(r'\s+[A-Za-z]\s+to\s+[A-Za-z]\s*$', '', name, flags=re.IGNORECASE).strip()
-    name = re.sub(r'/[A-Za-z]\s*$', '', name).strip().strip('/')
+    if parent_id in _labels_goa_2024:
+        return _labels_goa_2024[parent_id]
+    if parent_id in NAME_OVERRIDES_GOA:
+        name = NAME_OVERRIDES_GOA[parent_id]
+    else:
+        name = str(site_name_raw).strip()
+        name = re.sub(r'\s+[A-Za-z]\s+to\s+[A-Za-z]\s*$', '', name, flags=re.IGNORECASE).strip()
+        name = re.sub(r'/[A-Za-z]\s*$', '', name).strip().strip('/')
+        name = name.title()
+    label = f"{name} ({parent_id})"
+    _labels_goa_2024[parent_id] = label
+    return label
+
+# ── ALI site parsing (xlsx+csv, SL-prefixed IDs) ──────────────────────────────
+
+_labels_ali = {}
+
+def get_site_label_ali(comment):
+    c = re.sub(r'^[^A-Za-z0-9]+', '', comment.strip()).strip()
+    m = re.match(
+        r'^(?:SL?)?(\d+)[A-Za-z]?\s+(.+?)'
+        r'(?:\s+(?:PASS|ABORTED|ONE\s+PASS|NO\s+ANIMALS|\d+\s+ANIMALS?|OBSV|VISUAL|'
+        r'PHOTO|PASS\s+ONE|FIRST\s+PHOTO|TOOK\b|COMMENT\b)'
+        r'|\s*[-–;]\s*|\s*$)',
+        c, re.IGNORECASE
+    )
+    if not m:
+        return None
+    sid  = m.group(1)
+    name = m.group(2).strip()
+    name = re.sub(r'^TO\s+(?:SL?)?\d*[A-Za-z]?\s*', '', name, flags=re.IGNORECASE).strip()
+    name = re.sub(r'\s+(?:ADD|COUNT|GOT\s+THEM|WILL\s+DROP)\b.*', '', name, flags=re.IGNORECASE).strip()
+    name = re.sub(r'\s+TO\s+HS\d+.*', '', name, flags=re.IGNORECASE).strip()
+    name = re.sub(r'\s+[A-Z]\s+(?:TO|AND)\s+[A-Z]\s*$', '', name, flags=re.IGNORECASE).strip()
+    name = re.sub(r'\s+[A-Z]\s*$', '', name).strip()
+    name = re.sub(r'\s+\d+\s*$', '', name).strip()
+    name = re.sub(r'\s+ANIMALS?\s*$', '', name, flags=re.IGNORECASE).strip()
     name = name.title()
-    _labels_2024[parent_id] = f"{name} ({parent_id})"
-    return _labels_2024[parent_id]
+    if not name or len(name) < 2:
+        return None
+    _labels_ali.setdefault(sid, f"{name} ({sid})")
+    return _labels_ali[sid]
 
-# ── load 2021 ─────────────────────────────────────────────────────────────────
+# ── Generic X/C-row loaders ────────────────────────────────────────────────────
 
-passes_by_site_2021 = defaultdict(list)
-
-for filepath in sorted([f for f in glob.glob('flightlogs/**/2021/*.xlsx', recursive=True) if 'LOGSummary' not in f and 'ASSLAP' not in f]):
+def load_xc_xlsx(filepath, comment_col=30):
     date_str = Path(filepath).stem[:8]
+    result = []
+    current_x = []
     wb = openpyxl.load_workbook(filepath, data_only=True)
     ws = wb.active
-    current_x = []
     for row in ws.iter_rows(min_row=2, values_only=True):
-        type_, lat, lon, comment = row[0], row[4], row[5], row[30]
-        if type_ == 'X' and lat and lon:
-            current_x.append((float(lat), float(lon)))
-        elif type_ == 'C' and comment:
-            comment = str(comment).strip()
-            if current_x and not comment.upper().strip().startswith(SKIP_PREFIXES):
-                label = get_site_label_2021(comment)
-                if label:
-                    passes_by_site_2021[label].append({
-                        'date': date_str, 'comment': comment, 'coords': list(current_x),
-                    })
+        t, lat, lon = row[0], row[4], row[5]
+        comment = row[comment_col] if len(row) > comment_col else None
+        if t == 'X' and lat and lon:
+            try:
+                current_x.append((float(lat), float(lon)))
+            except (TypeError, ValueError):
+                pass
+        elif t == 'C':
+            if comment and current_x:
+                result.append((date_str, str(comment).strip(), list(current_x)))
             current_x = []
+    return result
 
-print(f"2021: {sum(len(v) for v in passes_by_site_2021.values())} passes across "
-      f"{len(passes_by_site_2021)} sites.")
+def load_xc_csv_ali(filepath, comment_col=28):
+    date_str = Path(filepath).stem[:8]
+    result = []
+    current_x = []
+    with open(filepath, newline='', encoding='utf-8') as f:
+        reader = csv.reader(f)
+        next(reader)
+        for row in reader:
+            if not row:
+                continue
+            t = row[0]
+            lat_raw = row[4] if len(row) > 4 else ''
+            lon_raw = row[5] if len(row) > 5 else ''
+            comment = row[comment_col] if len(row) > comment_col else ''
+            if t == 'X' and lat_raw and lon_raw:
+                try:
+                    current_x.append((float(lat_raw), float(lon_raw)))
+                except (TypeError, ValueError):
+                    pass
+            elif t == 'C':
+                if comment and current_x:
+                    result.append((date_str, comment.strip(), list(current_x)))
+                current_x = []
+    return result
 
-# ── load 2024 ─────────────────────────────────────────────────────────────────
+# ── Load GOA 2021 ─────────────────────────────────────────────────────────────
 
-passes_by_site_2024 = defaultdict(list)
+passes_by_site_goa_2021 = defaultdict(list)
 
-for filepath in sorted(glob.glob('flightlogs/**/2024/*.csv', recursive=True)):
-    m = re.search(r'(\d{4}-\d{2}-\d{2})', filepath)
+for fp in sorted([f for f in glob.glob('flightlogs/**/2021/*.xlsx', recursive=True)
+                  if 'LOGSummary' not in f and 'ASSLAP' not in f]):
+    for date_str, comment, coords in load_xc_xlsx(fp, comment_col=30):
+        if is_operational(comment):
+            continue
+        label = get_site_label_goa_2021(comment)
+        if label:
+            passes_by_site_goa_2021[label].append({'date': date_str, 'comment': comment, 'coords': coords})
+
+print(f"GOA 2021: {sum(len(v) for v in passes_by_site_goa_2021.values())} passes across "
+      f"{len(passes_by_site_goa_2021)} sites.")
+
+# ── Load GOA 2024 ─────────────────────────────────────────────────────────────
+
+passes_by_site_goa_2024 = defaultdict(list)
+
+for fp in sorted(glob.glob('flightlogs/**/2024/*.csv', recursive=True)):
+    m = re.search(r'(\d{4}-\d{2}-\d{2})', fp)
     date_str = m.group(1).replace('-', '') if m else 'unknown'
-
     file_passes = defaultdict(list)
     file_names  = {}
-
-    with open(filepath, newline='', encoding='utf-8') as f:
+    with open(fp, newline='', encoding='utf-8') as f:
         reader = csv.reader(f)
         next(reader)
         for row in reader:
             if len(row) < 31 or row[0] != '$X':
                 continue
-            site_name = row[29].strip()
-            site_id   = row[27].strip()
-            pass_num  = row[30].strip()
+            site_name = row[29].strip(); site_id = row[27].strip(); pass_num = row[30].strip()
             if not (site_name and site_id):
                 continue
             try:
-                lat = nmea_to_dd(row[6], row[7])
-                lon = nmea_to_dd(row[8], row[9])
+                lat = nmea_to_dd(row[6], row[7]); lon = nmea_to_dd(row[8], row[9])
             except (ValueError, ZeroDivisionError):
                 continue
-            key = (site_id, pass_num)
-            file_passes[key].append((lat, lon))
+            file_passes[(site_id, pass_num)].append((lat, lon))
             file_names.setdefault(site_id, site_name)
-
     for (site_id, pass_num), coords in file_passes.items():
         if not coords:
             continue
-        label = get_site_label_2024(site_id, file_names.get(site_id, site_id))
-        passes_by_site_2024[label].append({
+        label = get_site_label_goa_2024(site_id, file_names.get(site_id, site_id))
+        passes_by_site_goa_2024[label].append({
             'date': date_str,
             'comment': f"{file_names.get(site_id, site_id)} pass {pass_num}",
             'coords': coords,
         })
 
-print(f"2024: {sum(len(v) for v in passes_by_site_2024.values())} passes across "
-      f"{len(passes_by_site_2024)} sites.")
+print(f"GOA 2024: {sum(len(v) for v in passes_by_site_goa_2024.values())} passes across "
+      f"{len(passes_by_site_goa_2024)} sites.")
+
+# ── Load ALI 2022 and 2023 ────────────────────────────────────────────────────
+
+def load_ali_year(year_str):
+    passes = defaultdict(list)
+    for fp in sorted([f for f in glob.glob(f'flightlogs/**/{year_str}/*.xlsx', recursive=True)
+                      if 'Aleutian' in f and 'ASSLAP' not in f and 'LOGSummary' not in f]):
+        for date_str, comment, coords in load_xc_xlsx(fp, comment_col=30):
+            if is_operational(comment):
+                continue
+            label = get_site_label_ali(comment)
+            if label:
+                passes[label].append({'date': date_str, 'comment': comment, 'coords': coords})
+    for fp in sorted([f for f in glob.glob(f'flightlogs/**/{year_str}/*.csv', recursive=True)
+                      if 'Aleutian' in f]):
+        for date_str, comment, coords in load_xc_csv_ali(fp, comment_col=28):
+            if is_operational(comment):
+                continue
+            label = get_site_label_ali(comment)
+            if label:
+                passes[label].append({'date': date_str, 'comment': comment, 'coords': coords})
+    print(f"ALI {year_str}: {sum(len(v) for v in passes.values())} passes across {len(passes)} sites.")
+    return passes
+
+passes_by_site_ali_2022 = load_ali_year('2022')
+passes_by_site_ali_2023 = load_ali_year('2023')
 
 # ── KML builder ───────────────────────────────────────────────────────────────
 
@@ -226,28 +325,47 @@ def save_kml(kml_element, outfile):
         f.write(clean_xml)
     print(f"Saved: {outfile}")
 
-# ── write KML files ───────────────────────────────────────────────────────────
+# ── Write KML files ───────────────────────────────────────────────────────────
 
-kml_2021 = build_kml(
-    passes_by_site_2021,
-    '2021 SSL Aerial Survey Flight Tracks',
-    'Steller sea lion aerial survey flight tracks, 2021. '
+save_kml(build_kml(
+    passes_by_site_goa_2021,
+    '2021 SSL Aerial Survey Flight Tracks — Gulf of Alaska',
+    'Steller sea lion aerial survey flight tracks, Gulf of Alaska 2021. '
     'Each folder is one survey site; each placemark is one camera pass.',
-)
-save_kml(kml_2021, '2021_flighttracks.kml')
+), '2021_flighttracks.kml')
 
-kml_2024 = build_kml(
-    passes_by_site_2024,
-    '2024 SSL Aerial Survey Flight Tracks',
-    'Steller sea lion aerial survey flight tracks, 2024. '
+save_kml(build_kml(
+    passes_by_site_goa_2024,
+    '2024 SSL Aerial Survey Flight Tracks — Gulf of Alaska',
+    'Steller sea lion aerial survey flight tracks, Gulf of Alaska 2024. '
     'Each folder is one survey site; each placemark is one camera pass.',
-)
-save_kml(kml_2024, '2024_flighttracks.kml')
+), '2024_flighttracks.kml')
 
-print(f"\n{'Site':<45} {'2021':>4}  {'2024':>4}")
-print('-' * 55)
-all_labels = sorted(set(passes_by_site_2021) | set(passes_by_site_2024))
+save_kml(build_kml(
+    passes_by_site_ali_2022,
+    '2022 SSL Aerial Survey Flight Tracks — Aleutian Islands',
+    'Steller sea lion aerial survey flight tracks, Aleutian Islands 2022. '
+    'Each folder is one survey site; each placemark is one camera pass.',
+), '2022_flighttracks.kml')
+
+save_kml(build_kml(
+    passes_by_site_ali_2023,
+    '2023 SSL Aerial Survey Flight Tracks — Aleutian Islands',
+    'Steller sea lion aerial survey flight tracks, Aleutian Islands 2023. '
+    'Each folder is one survey site; each placemark is one camera pass.',
+), '2023_flighttracks.kml')
+
+# ── Summary table ─────────────────────────────────────────────────────────────
+
+print(f"\n{'Site':<45} {'GOA21':>6} {'GOA24':>6} {'ALI22':>6} {'ALI23':>6}")
+print('-' * 71)
+all_labels = sorted(
+    set(passes_by_site_goa_2021) | set(passes_by_site_goa_2024) |
+    set(passes_by_site_ali_2022) | set(passes_by_site_ali_2023)
+)
 for site in all_labels:
-    n21 = len(passes_by_site_2021.get(site, []))
-    n24 = len(passes_by_site_2024.get(site, []))
-    print(f"{site:<45} {n21 or '':>4}  {n24 or '':>4}")
+    g21 = len(passes_by_site_goa_2021.get(site, []))
+    g24 = len(passes_by_site_goa_2024.get(site, []))
+    a22 = len(passes_by_site_ali_2022.get(site, []))
+    a23 = len(passes_by_site_ali_2023.get(site, []))
+    print(f"{site:<45} {g21 or '':>6} {g24 or '':>6} {a22 or '':>6} {a23 or '':>6}")

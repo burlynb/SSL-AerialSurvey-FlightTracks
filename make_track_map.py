@@ -2,15 +2,17 @@
 make_track_map.py
 -----------------
 Generates index.html with interactive satellite map of SSL aerial survey flight
-tracks for 2021 (xlsx) and 2024 (csv).  Run from the directory containing the
-data files (xlsx and csv) — outputs index.html there.
+tracks.
 
-Photos are loaded from:
-  photos/2021/<site label>.png
-  photos/2024/<site label>.png
-relative to the repo root (where index.html lives).
+Survey data:
+  Gulf of Alaska (GOA): 2021 xlsx + 2024 csv
+  Aleutian Islands (ALI): 2022 xlsx/csv + 2023 xlsx/csv
 
-Year toggle buttons (2021 / Both / 2024) let the user show/hide layers.
+Photos loaded from:
+  photos/2021/  photos/2024/  photos/2022/  photos/2023/
+
+UI: region toggle (Gulf of Alaska | Aleutian Islands),
+    year sub-toggle (2021/Both/2024 for GOA; 2022/Both/2023 for ALI).
 """
 
 import csv
@@ -89,8 +91,7 @@ def add_arrows(coords, color, group, tip=''):
 def largest_segment(coords, max_step_deg=0.05):
     """
     Split a coordinate list at GPS jumps larger than max_step_deg and
-    return the longest contiguous segment.  Removes pre/post-pass bad fixes
-    where the GPS hadn't settled (e.g. Sandman Reef Rock).
+    return the longest contiguous segment.
     """
     if len(coords) < 2:
         return coords
@@ -104,7 +105,7 @@ def largest_segment(coords, max_step_deg=0.05):
     segments.append(current)
     return max(segments, key=len)
 
-# ── 2021 comment parsing (xlsx) ────────────────────────────────────────────────
+# ── Shared skip logic ─────────────────────────────────────────────────────────
 
 SKIP_PREFIXES = (
     'TAKE OFF', 'TAKEOFF', 'TEST FIRE', 'LAND', 'KL ', 'ALTITUDE',
@@ -115,20 +116,25 @@ SKIP_PREFIXES = (
     'PASS 1 ', 'PASS 2 ', 'PASS 3 ', 'PASS 4 ', 'PASS 5 ', 'PASS 6 ',
     'PASS 7 ', 'PASS 8 ', 'PASS 9 ', 'PASS 183', 'PASS 2\n',
     'NEW SITE', '1529', 'HIT OUR', '10 JUMPER', '2 JUMPER',
+    # ALI-specific operational notes
+    'PORT -', 'STAR -', 'BB ', 'REFORMATTED', 'SET APERTURE',
+    'DISREGARD', 'NO OPENING', 'SILVER BOX', 'PHOTO PASS OF',
 )
 
 def is_operational(comment):
     return comment.upper().strip().startswith(SKIP_PREFIXES)
 
-NAME_OVERRIDES_2021 = {'203': 'Ushagat/SW'}
+# ── GOA 2021 site label parsing ───────────────────────────────────────────────
 
-_labels_2021 = {}   # numeric site_id string -> display label
+NAME_OVERRIDES_GOA = {'203': 'Ushagat/SW'}
 
-def get_site_label_2021(comment):
+_labels_goa_2021 = {}
+
+def get_site_label_goa_2021(comment):
     c = re.sub(r'^[^A-Za-z0-9]+', '', comment.strip()).strip()
     if re.match(r'^FORRESTER\s+PASS', c, re.IGNORECASE):
-        _labels_2021.setdefault('FORRESTER', 'Forrester')
-        return _labels_2021['FORRESTER']
+        _labels_goa_2021.setdefault('FORRESTER', 'Forrester')
+        return _labels_goa_2021['FORRESTER']
     m = re.match(
         r'^(?:SSL?)?(\d+)[A-Z]?\s+(.+?)'
         r'(?:\s+(?:PASS|ABORTED|ONE\s+PASS|NO\s+ANIMALS|OBSV|VISUAL|PHOTO|PASS\s+ONE)'
@@ -142,77 +148,166 @@ def get_site_label_2021(comment):
     name = re.sub(r'\s+[A-Z]\s+(?:TO|AND)\s+[A-Z]\s*$', '', name, flags=re.IGNORECASE).strip()
     name = re.sub(r'\s+[A-Z]\s*$', '', name).strip()
     name = re.sub(r'\s+\d+\s*$', '', name).strip()
-    name = name.title()
+    if sid in NAME_OVERRIDES_GOA:
+        name = NAME_OVERRIDES_GOA[sid]
+    else:
+        name = name.title()
     if not name:
         return None
-    if sid in NAME_OVERRIDES_2021:
-        name = NAME_OVERRIDES_2021[sid]
-    _labels_2021.setdefault(sid, f"{name} ({sid})")
-    return _labels_2021[sid]
+    _labels_goa_2021.setdefault(sid, f"{name} ({sid})")
+    return _labels_goa_2021[sid]
 
-# ── 2024 site name parsing (csv) ───────────────────────────────────────────────
+# ── GOA 2024 site label parsing ───────────────────────────────────────────────
 
-_labels_2024 = {}   # parent numeric id string -> display label
+_labels_goa_2024 = {}
 
-def get_site_label_2024(site_id_raw, site_name_raw):
+def get_site_label_goa_2024(site_id_raw, site_name_raw):
     """Return label like 'Shaw (233)' from raw CSV site_id and site_name."""
     m = re.match(r'(\d+)', str(site_id_raw).strip())
     parent_id = m.group(1) if m else str(site_id_raw).strip()
-    if parent_id in _labels_2024:
-        return _labels_2024[parent_id]
-    name = str(site_name_raw).strip()
-    # Strip trailing " X to Y" artifacts (e.g. "NAGAI ROCKS/B to A")
-    name = re.sub(r'\s+[A-Za-z]\s+to\s+[A-Za-z]\s*$', '', name, flags=re.IGNORECASE).strip()
-    # Strip trailing single-letter sub-site suffix: "/B", "/C" — but keep "/SW", "/NW"
-    name = re.sub(r'/[A-Za-z]\s*$', '', name).strip().strip('/')
-    name = name.title()
+    if parent_id in _labels_goa_2024:
+        return _labels_goa_2024[parent_id]
+    if parent_id in NAME_OVERRIDES_GOA:
+        name = NAME_OVERRIDES_GOA[parent_id]
+    else:
+        name = str(site_name_raw).strip()
+        name = re.sub(r'\s+[A-Za-z]\s+to\s+[A-Za-z]\s*$', '', name, flags=re.IGNORECASE).strip()
+        name = re.sub(r'/[A-Za-z]\s*$', '', name).strip().strip('/')
+        name = name.title()
     label = f"{name} ({parent_id})"
-    _labels_2024[parent_id] = label
+    _labels_goa_2024[parent_id] = label
     return label
 
-# ── load 2021 passes (xlsx) ────────────────────────────────────────────────────
+# ── ALI (2022/2023) site label parsing ────────────────────────────────────────
+# ALI flight logs use "SL" prefix (e.g. "SL398 SILAK") or plain numbers
+# (e.g. "337 UNALASKA/BISHOP POINT"). The GOA regex uses "SSL?" which matches
+# "SS" or "SSL" but not "SL", so ALI needs its own regex with "SL?".
 
-passes_by_site_2021 = defaultdict(list)   # label -> [{date, comment, coords}]
+_labels_ali = {}   # shared across 2022 and 2023 for consistent naming
 
-xlsx_files = sorted([f for f in glob.glob('flightlogs/**/2021/*.xlsx', recursive=True) if 'LOGSummary' not in f and 'ASSLAP' not in f])
-for filepath in xlsx_files:
+def get_site_label_ali(comment):
+    c = re.sub(r'^[^A-Za-z0-9]+', '', comment.strip()).strip()
+    m = re.match(
+        r'^(?:SL?)?(\d+)[A-Za-z]?\s+(.+?)'
+        r'(?:\s+(?:PASS|ABORTED|ONE\s+PASS|NO\s+ANIMALS|\d+\s+ANIMALS?|OBSV|VISUAL|'
+        r'PHOTO|PASS\s+ONE|FIRST\s+PHOTO|TOOK\b|COMMENT\b)'
+        r'|\s*[-–;]\s*|\s*$)',
+        c, re.IGNORECASE
+    )
+    if not m:
+        return None
+    sid  = m.group(1)
+    name = m.group(2).strip()
+    # Strip "TO SL326A " type cross-site prefix
+    name = re.sub(r'^TO\s+(?:SL?)?\d*[A-Za-z]?\s*', '', name, flags=re.IGNORECASE).strip()
+    # Strip trailing instruction phrases ("ADD FOUR ON RIGHT", "TOOK PASS", etc.)
+    name = re.sub(r'\s+(?:ADD|COUNT|GOT\s+THEM|WILL\s+DROP)\b.*', '', name, flags=re.IGNORECASE).strip()
+    # Strip harbor-seal cross-reference ("TO HS1910 AND HS1913")
+    name = re.sub(r'\s+TO\s+HS\d+.*', '', name, flags=re.IGNORECASE).strip()
+    name = re.sub(r'\s+[A-Z]\s+(?:TO|AND)\s+[A-Z]\s*$', '', name, flags=re.IGNORECASE).strip()
+    name = re.sub(r'\s+[A-Z]\s*$', '', name).strip()
+    name = re.sub(r'\s+\d+\s*$', '', name).strip()
+    name = re.sub(r'\s+ANIMALS?\s*$', '', name, flags=re.IGNORECASE).strip()
+    name = name.title()
+    if not name or len(name) < 2:
+        return None
+    _labels_ali.setdefault(sid, f"{name} ({sid})")
+    return _labels_ali[sid]
+
+# ── Generic X/C-row file loader (xlsx and ALI csv) ────────────────────────────
+
+def load_xc_xlsx(filepath, comment_col=30):
+    """
+    Load an xlsx flight log using X/C row convention.
+    X rows supply decimal-degree coords (col 4=lat, col 5=lon).
+    C rows supply the pass comment at comment_col.
+    Returns list of (date_str, comment, [(lat,lon),...]).
+    """
     date_str = Path(filepath).stem[:8]
     wb = openpyxl.load_workbook(filepath, data_only=True)
     ws = wb.active
+    result = []
     current_x = []
     for row in ws.iter_rows(min_row=2, values_only=True):
-        type_, lat, lon, comment = row[0], row[4], row[5], row[30]
-        if type_ == 'X' and lat and lon:
-            current_x.append((float(lat), float(lon)))
-        elif type_ == 'C' and comment:
-            comment = str(comment).strip()
-            if current_x and not is_operational(comment):
-                label = get_site_label_2021(comment)
-                if label:
-                    passes_by_site_2021[label].append({
-                        'date': date_str, 'comment': comment, 'coords': list(current_x),
-                    })
+        t, lat, lon = row[0], row[4], row[5]
+        comment = row[comment_col] if len(row) > comment_col else None
+        if t == 'X' and lat and lon:
+            try:
+                current_x.append((float(lat), float(lon)))
+            except (TypeError, ValueError):
+                pass
+        elif t == 'C':
+            if comment and current_x:
+                result.append((date_str, str(comment).strip(), list(current_x)))
             current_x = []
+    return result
 
-print(f"2021: {sum(len(v) for v in passes_by_site_2021.values())} passes across "
-      f"{len(passes_by_site_2021)} sites from {len(xlsx_files)} xlsx files.")
-
-# ── load 2024 passes (csv) ─────────────────────────────────────────────────────
-
-passes_by_site_2024 = defaultdict(list)   # label -> [{date, comment, coords}]
-
-csv_files = sorted(glob.glob('flightlogs/**/2024/*.csv', recursive=True))
-for filepath in csv_files:
-    m = re.search(r'(\d{4}-\d{2}-\d{2})', filepath)
-    date_str = m.group(1).replace('-', '') if m else 'unknown'
-
-    # Within each file, group coords by (raw_site_id, pass_num)
-    file_passes  = defaultdict(list)    # (raw_site_id, pass_num) -> [(lat, lon), ...]
-    file_names   = {}                   # raw_site_id -> first-seen site_name
-
+def load_xc_csv(filepath, comment_col=28):
+    """
+    Load an ALI csv flight log using X/C row convention.
+    X rows supply decimal-degree coords (col 4=lat, col 5=lon).
+    C rows supply the pass comment at comment_col.
+    Returns list of (date_str, comment, [(lat,lon),...]).
+    """
+    date_str = Path(filepath).stem[:8]
+    result = []
+    current_x = []
     with open(filepath, newline='', encoding='utf-8') as f:
         reader = csv.reader(f)
-        next(reader)   # skip header
+        next(reader)  # skip header
+        for row in reader:
+            if not row:
+                continue
+            t = row[0]
+            lat_raw = row[4] if len(row) > 4 else ''
+            lon_raw = row[5] if len(row) > 5 else ''
+            comment = row[comment_col] if len(row) > comment_col else ''
+            if t == 'X' and lat_raw and lon_raw:
+                try:
+                    current_x.append((float(lat_raw), float(lon_raw)))
+                except (TypeError, ValueError):
+                    pass
+            elif t == 'C':
+                if comment and current_x:
+                    result.append((date_str, comment.strip(), list(current_x)))
+                current_x = []
+    return result
+
+# ── Load GOA 2021 passes (xlsx, X/C rows, plain numeric IDs) ──────────────────
+
+passes_by_site_goa_2021 = defaultdict(list)
+
+xlsx_files_goa_2021 = sorted([
+    f for f in glob.glob('flightlogs/**/2021/*.xlsx', recursive=True)
+    if 'LOGSummary' not in f and 'ASSLAP' not in f
+])
+for filepath in xlsx_files_goa_2021:
+    for date_str, comment, coords in load_xc_xlsx(filepath, comment_col=30):
+        if is_operational(comment):
+            continue
+        label = get_site_label_goa_2021(comment)
+        if label:
+            passes_by_site_goa_2021[label].append({
+                'date': date_str, 'comment': comment,
+                'coords': largest_segment(coords),
+            })
+
+print(f"GOA 2021: {sum(len(v) for v in passes_by_site_goa_2021.values())} passes across "
+      f"{len(passes_by_site_goa_2021)} sites from {len(xlsx_files_goa_2021)} xlsx files.")
+
+# ── Load GOA 2024 passes (NMEA csv, $X rows) ──────────────────────────────────
+
+passes_by_site_goa_2024 = defaultdict(list)
+
+csv_files_goa_2024 = sorted(glob.glob('flightlogs/**/2024/*.csv', recursive=True))
+for filepath in csv_files_goa_2024:
+    m = re.search(r'(\d{4}-\d{2}-\d{2})', filepath)
+    date_str = m.group(1).replace('-', '') if m else 'unknown'
+    file_passes = defaultdict(list)
+    file_names  = {}
+    with open(filepath, newline='', encoding='utf-8') as f:
+        reader = csv.reader(f)
+        next(reader)
         for row in reader:
             if len(row) < 31 or row[0] != '$X':
                 continue
@@ -230,43 +325,91 @@ for filepath in csv_files:
                 lon = nmea_to_dd(lon_val, lon_ew)
             except (ValueError, ZeroDivisionError):
                 continue
-            key = (site_id, pass_num)
-            file_passes[key].append((lat, lon))
+            file_passes[(site_id, pass_num)].append((lat, lon))
             file_names.setdefault(site_id, site_name)
-
     for (site_id, pass_num), coords in file_passes.items():
         coords = largest_segment(coords)
         if not coords:
             continue
         site_name = file_names.get(site_id, site_id)
-        label = get_site_label_2024(site_id, site_name)
-        passes_by_site_2024[label].append({
+        label = get_site_label_goa_2024(site_id, site_name)
+        passes_by_site_goa_2024[label].append({
             'date': date_str,
             'comment': f"{site_name} pass {pass_num}",
             'coords': coords,
         })
 
-print(f"2024: {sum(len(v) for v in passes_by_site_2024.values())} passes across "
-      f"{len(passes_by_site_2024)} sites from {len(csv_files)} csv files.")
+print(f"GOA 2024: {sum(len(v) for v in passes_by_site_goa_2024.values())} passes across "
+      f"{len(passes_by_site_goa_2024)} sites from {len(csv_files_goa_2024)} csv files.")
 
-# ── load 2024 ASSLAP log notes ─────────────────────────────────────────────────
+# ── Load ALI passes (xlsx + csv, X/C rows, SL-prefixed IDs) ──────────────────
 
-def load_log_notes(filepath):
+def load_ali_year(year_str):
+    """Load all ALI passes for a given year from xlsx and csv files."""
+    passes = defaultdict(list)
+    xlsx_files = sorted([
+        f for f in glob.glob(f'flightlogs/**/Aleutian Islands/**/{year_str}/*.xlsx', recursive=True)
+        if 'ASSLAP' not in f and 'LOGSummary' not in f
+    ])
+    # Also match without nested region subdirectory
+    xlsx_files += sorted([
+        f for f in glob.glob(f'flightlogs/**/{year_str}/*.xlsx', recursive=True)
+        if 'Aleutian' in f and 'ASSLAP' not in f and 'LOGSummary' not in f
+        and f not in xlsx_files
+    ])
+    for fp in xlsx_files:
+        for date_str, comment, coords in load_xc_xlsx(fp, comment_col=30):
+            if is_operational(comment):
+                continue
+            label = get_site_label_ali(comment)
+            if label:
+                passes[label].append({
+                    'date': date_str, 'comment': comment,
+                    'coords': largest_segment(coords),
+                })
+
+    csv_files = sorted([
+        f for f in glob.glob(f'flightlogs/**/{year_str}/*.csv', recursive=True)
+        if 'Aleutian' in f
+    ])
+    for fp in csv_files:
+        for date_str, comment, coords in load_xc_csv(fp, comment_col=28):
+            if is_operational(comment):
+                continue
+            label = get_site_label_ali(comment)
+            if label:
+                passes[label].append({
+                    'date': date_str, 'comment': comment,
+                    'coords': largest_segment(coords),
+                })
+    n_xlsx = len(xlsx_files)
+    n_csv  = len(csv_files)
+    print(f"ALI {year_str}: {sum(len(v) for v in passes.values())} passes across "
+          f"{len(passes)} sites from {n_xlsx} xlsx + {n_csv} csv files.")
+    return passes
+
+passes_by_site_ali_2022 = load_ali_year('2022')
+passes_by_site_ali_2023 = load_ali_year('2023')
+
+# ── Load ASSLAP log notes ──────────────────────────────────────────────────────
+
+def load_log_notes(filepath, col_date=0, col_mml=1, col_pass=6, col_desc=9):
     """
-    Read 2024_ASSLAP_LOGSummary.xlsx and return:
+    Read an ASSLAP LOGSummary xlsx and return:
       {parent_id_str: [(date_str, pass_num, description), ...]}
-    sorted by date then pass.  Rows with no pass number or no description
-    are skipped.
+    Rows with no pass number or no description are skipped.
     """
     notes = defaultdict(list)
     try:
         wb = openpyxl.load_workbook(filepath, data_only=True)
         ws = wb.active
         for row in ws.iter_rows(min_row=2, values_only=True):
-            date_val = row[0]   # A: DATE
-            mml_id   = row[1]   # B: MML_ID
-            pass_num = row[6]   # G: PASS
-            desc     = row[9]   # J: PASS DESCRIPTION
+            if len(row) <= max(col_date, col_mml, col_pass, col_desc):
+                continue
+            date_val = row[col_date]
+            mml_id   = row[col_mml]
+            pass_num = row[col_pass]
+            desc     = row[col_desc]
             if pass_num is None or not desc:
                 continue
             m = re.match(r'(\d+)', str(mml_id).strip())
@@ -277,20 +420,28 @@ def load_log_notes(filepath):
             try:
                 pn = int(pass_num)
             except (ValueError, TypeError):
-                pn = str(pass_num)   # e.g. 'Obl1', 'Obl2'
+                pn = str(pass_num)
             notes[parent_id].append((date_str, pn, str(desc).strip()))
     except FileNotFoundError:
-        print("  (ASSLAP log summary not found — skipping)")
+        print(f"  (log summary not found at {filepath} — skipping)")
     return {k: sorted(v, key=lambda x: (x[0], str(x[1]))) for k, v in notes.items()}
 
-_asslap = glob.glob('flightlogs/**/2024/*ASSLAP*.xlsx', recursive=True)
-log_notes_2024 = load_log_notes(_asslap[0]) if _asslap else {}
-print(f"Log notes loaded for {len(log_notes_2024)} 2024 sites.")
+# GOA 2024 ASSLAP (col_date=0, col_mml=1, col_pass=6, col_desc=9)
+_asslap_goa_2024 = glob.glob('flightlogs/**/2024/*ASSLAP*.xlsx', recursive=True)
+log_notes_goa_2024 = load_log_notes(_asslap_goa_2024[0]) if _asslap_goa_2024 else {}
+print(f"GOA 2024 log notes: {len(log_notes_goa_2024)} sites.")
 
-# ── match site photos (relative paths for GitHub Pages) ───────────────────────
+# ALI 2022 ASSLAP (col_date=2, col_mml=3, col_pass=7, col_desc=10)
+_asslap_ali_2022 = glob.glob('flightlogs/**/2022/*ASSLAP*.xlsx', recursive=True)
+log_notes_ali_2022 = (
+    load_log_notes(_asslap_ali_2022[0], col_date=2, col_mml=3, col_pass=7, col_desc=10)
+    if _asslap_ali_2022 else {}
+)
+print(f"ALI 2022 log notes: {len(log_notes_ali_2022)} sites.")
+
+# ── Match site photos ──────────────────────────────────────────────────────────
 
 def find_photo(label, photo_dir):
-    """Return relative path string if photo exists, else None."""
     safe = re.sub(r'[\\/:*?"<>|]', '_', label)
     for ext in ('png', 'jpg', 'jpeg'):
         p = Path(photo_dir) / f"{safe}.{ext}"
@@ -298,21 +449,15 @@ def find_photo(label, photo_dir):
             return str(p).replace('\\', '/')
     return None
 
-site_photos_2021 = {}
-for label in passes_by_site_2021:
-    path = find_photo(label, 'photos/2021')
-    if path:
-        site_photos_2021[label] = path
+site_photos_goa_2021 = {l: find_photo(l, 'photos/2021') for l in passes_by_site_goa_2021 if find_photo(l, 'photos/2021')}
+site_photos_goa_2024 = {l: find_photo(l, 'photos/2024') for l in passes_by_site_goa_2024 if find_photo(l, 'photos/2024')}
+site_photos_ali_2022 = {l: find_photo(l, 'photos/2022') for l in passes_by_site_ali_2022 if find_photo(l, 'photos/2022')}
+site_photos_ali_2023 = {l: find_photo(l, 'photos/2023') for l in passes_by_site_ali_2023 if find_photo(l, 'photos/2023')}
 
-site_photos_2024 = {}
-for label in passes_by_site_2024:
-    path = find_photo(label, 'photos/2024')
-    if path:
-        site_photos_2024[label] = path
+print(f"Photos: GOA 2021={len(site_photos_goa_2021)}, GOA 2024={len(site_photos_goa_2024)}, "
+      f"ALI 2022={len(site_photos_ali_2022)}, ALI 2023={len(site_photos_ali_2023)}")
 
-print(f"Photos found: {len(site_photos_2021)} for 2021, {len(site_photos_2024)} for 2024.")
-
-# ── colour palette ─────────────────────────────────────────────────────────────
+# ── Colour palettes ────────────────────────────────────────────────────────────
 
 COLORS = [
     '#e6194b','#3cb44b','#ffe119','#4363d8','#f58231',
@@ -322,15 +467,18 @@ COLORS = [
 ]
 LIGHT_COLORS = {'#ffe119','#bfef45','#42d4f4','#fabed4','#aaffc3','#ffd8b1','#e6beff'}
 
-# Assign colors by site label so the same site looks the same across years
-all_site_labels = sorted(set(passes_by_site_2021) | set(passes_by_site_2024))
-color_map = {label: COLORS[i % len(COLORS)] for i, label in enumerate(all_site_labels)}
+# Same site across years gets same colour within a region
+all_goa_labels = sorted(set(passes_by_site_goa_2021) | set(passes_by_site_goa_2024))
+all_ali_labels = sorted(set(passes_by_site_ali_2022) | set(passes_by_site_ali_2023))
+color_map_goa = {l: COLORS[i % len(COLORS)] for i, l in enumerate(all_goa_labels)}
+color_map_ali = {l: COLORS[i % len(COLORS)] for i, l in enumerate(all_ali_labels)}
 
-# ── build map ──────────────────────────────────────────────────────────────────
+# ── Build map ──────────────────────────────────────────────────────────────────
 
 all_coords = [
     c
-    for sites in (passes_by_site_2021, passes_by_site_2024)
+    for sites in (passes_by_site_goa_2021, passes_by_site_goa_2024,
+                  passes_by_site_ali_2022, passes_by_site_ali_2023)
     for site_passes in sites.values()
     for p in site_passes
     for c in p['coords']
@@ -341,7 +489,7 @@ min_lon = min(c[1] for c in all_coords)
 max_lon = max(c[1] for c in all_coords)
 center  = ((min_lat + max_lat) / 2, (min_lon + max_lon) / 2)
 
-m = folium.Map(location=center, zoom_start=6, tiles=None)
+m = folium.Map(location=center, zoom_start=5, tiles=None)
 m.fit_bounds([[min_lat, min_lon], [max_lat, max_lon]])
 
 folium.TileLayer(
@@ -353,25 +501,28 @@ folium.TileLayer(
     attr='Esri Labels', name='Labels', overlay=True, control=True, opacity=0.7,
 ).add_to(m)
 
-DETAIL_ZOOM = 9   # markers hidden below this zoom; only dots shown
+DETAIL_ZOOM = 9
 
-def add_site_layers(passes_by_site, site_photos, year_prefix, log_notes=None):
-    """Add one FeatureGroup per site, prefixed with year."""
+def add_site_layers(passes_by_site, site_photos, layer_prefix, color_map, log_notes=None, show=True):
+    """
+    Add one FeatureGroup per site.
+    layer_prefix: e.g. 'GOA 2021', 'ALI 2022' — used as the first token in the
+                  layer name so the JS toggle can filter by region+year.
+    """
     for site in sorted(passes_by_site):
         color      = color_map[site]
         text_color = '#000' if color in LIGHT_COLORS else '#fff'
-        group_name = f"{year_prefix} | {site}"
-        group      = folium.FeatureGroup(name=group_name, show=True)
+        group_name = f"{layer_prefix} | {site}"
+        group      = folium.FeatureGroup(name=group_name, show=show)
         site_passes = passes_by_site[site]
 
-        # Centroid used for both the overview dot and the photo label
         all_site_coords = [c for p in site_passes for c in p['coords']]
         centroid = (
             sum(c[0] for c in all_site_coords) / len(all_site_coords),
             sum(c[1] for c in all_site_coords) / len(all_site_coords),
         )
 
-        # Overview dot — visible at low zoom, hidden at detail zoom
+        # Overview dot — visible at low zoom
         folium.Marker(
             location=centroid,
             tooltip=site,
@@ -390,15 +541,12 @@ def add_site_layers(passes_by_site, site_photos, year_prefix, log_notes=None):
             badge  = f"P{pass_num}"
             tip    = f"{badge} ({p['date']}) — {p['comment']}"
 
-            # Track line — always visible (thin, not cluttered at low zoom)
             folium.PolyLine(
                 locations=coords, color=color, weight=3, opacity=0.9, tooltip=tip,
             ).add_to(group)
 
-            # Arrows — detail only
             add_arrows(coords, color, group, tip)
 
-            # Pass badge — detail only
             q = max(0, len(coords) // 4)
             folium.Marker(
                 location=coords[q], tooltip=tip,
@@ -413,18 +561,15 @@ def add_site_layers(passes_by_site, site_photos, year_prefix, log_notes=None):
                 )
             ).add_to(group)
 
-        # Photo label — detail only
         if site in site_photos:
             site_name_short = re.sub(r'\s*\(\d+\)\s*$', '', site).strip()
 
-            # Build pass notes block if log notes exist for this site
             notes_html = ''
             if log_notes:
                 pid = re.search(r'\((\d+)\)', site)
                 pid = pid.group(1) if pid else None
                 entries = log_notes.get(pid, []) if pid else []
                 if entries:
-                    # If multiple survey dates exist, prefix each line with the date
                     dates = {d for d, _, _ in entries}
                     show_date = len(dates) > 1
                     rows = ''.join(
@@ -442,7 +587,7 @@ def add_site_layers(passes_by_site, site_photos, year_prefix, log_notes=None):
 
             popup_html = (
                 f'<div style="text-align:center;font-family:sans-serif;padding:4px;">'
-                f'<b style="font-size:13px;">{site} ({year_prefix})</b><br>'
+                f'<b style="font-size:13px;">{site} ({layer_prefix})</b><br>'
                 f'<img src="{site_photos[site]}" '
                 f'style="max-width:300px;max-height:220px;margin-top:6px;border-radius:4px;">'
                 f'{notes_html}'
@@ -450,7 +595,7 @@ def add_site_layers(passes_by_site, site_photos, year_prefix, log_notes=None):
             )
             folium.Marker(
                 location=centroid,
-                tooltip=f"{site} ({year_prefix}) — click for photo",
+                tooltip=f"{site} ({layer_prefix}) — click for photo",
                 popup=folium.Popup(popup_html, max_width=320),
                 icon=folium.DivIcon(
                     html=(f'<div data-mtype="detail" '
@@ -461,37 +606,52 @@ def add_site_layers(passes_by_site, site_photos, year_prefix, log_notes=None):
                           f'box-shadow:1px 1px 3px rgba(0,0,0,0.5);white-space:nowrap;">'
                           f'&#128247; {site_name_short}</div>'),
                     icon_size=(len(site_name_short) * 7 + 30, 20),
-                    icon_anchor=(-8, 10),  # 8px gap: label floats right of centroid
+                    icon_anchor=(-8, 10),
                 )
             ).add_to(group)
 
         group.add_to(m)
 
-add_site_layers(passes_by_site_2021, site_photos_2021, '2021')
-add_site_layers(passes_by_site_2024, site_photos_2024, '2024', log_notes=log_notes_2024)
+# GOA layers shown by default; ALI layers hidden (JS toggle reveals them)
+add_site_layers(passes_by_site_goa_2021, site_photos_goa_2021, 'GOA 2021', color_map_goa, show=True)
+add_site_layers(passes_by_site_goa_2024, site_photos_goa_2024, 'GOA 2024', color_map_goa,
+                log_notes=log_notes_goa_2024, show=True)
+add_site_layers(passes_by_site_ali_2022, site_photos_ali_2022, 'ALEU 2022', color_map_ali,
+                log_notes=log_notes_ali_2022, show=False)
+add_site_layers(passes_by_site_ali_2023, site_photos_ali_2023, 'ALEU 2023', color_map_ali, show=False)
 
 folium.LayerControl(collapsed=True).add_to(m)
 
-# ── year-toggle buttons ────────────────────────────────────────────────────────
+# ── Region + year toggle UI ────────────────────────────────────────────────────
 
 toggle_html = """
 <style>
-  #year-toggle button {
-    padding: 8px 20px; border: none; cursor: pointer;
-    font-family: sans-serif; font-size: 13px; font-weight: bold;
-    background: #eee; color: #333; transition: background .15s, color .15s;
+  #survey-toggle {
+    position: fixed; top: 10px; left: 50%; transform: translateX(-50%);
+    z-index: 9999; display: flex; flex-direction: column; align-items: center;
+    background: rgba(255,255,255,0.95); border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.35); overflow: hidden;
   }
-  #year-toggle button.active { background: #4363d8; color: #fff; }
+  #region-toggle, #year-toggle-row {
+    display: flex; width: 100%;
+  }
+  #survey-toggle button {
+    padding: 7px 18px; border: none; cursor: pointer;
+    font-family: sans-serif; font-size: 13px; font-weight: bold;
+    background: #eee; color: #555; transition: background .15s, color .15s;
+    flex: 1;
+  }
+  #region-toggle button { font-size: 12px; border-bottom: 1px solid #ddd; }
+  #region-toggle button.active { background: #1a4a7a; color: #fff; }
+  #year-toggle-row button.active { background: #4363d8; color: #fff; }
+  #year-toggle-row { border-top: 1px solid #ddd; }
 
-  /* Zoom-based marker visibility via CSS — no JS iteration needed */
-  /* Default (low zoom): hide detail markers, show overview dots */
+  /* Zoom-based marker visibility via CSS */
   .leaflet-marker-icon:has([data-mtype="detail"])  { display: none; }
   .leaflet-marker-icon:has([data-mtype="overview"]) { display: block; }
-  /* Detail zoom: flip them */
   .zoom-detail .leaflet-marker-icon:has([data-mtype="detail"])  { display: block; }
   .zoom-detail .leaflet-marker-icon:has([data-mtype="overview"]) { display: none; }
 
-  /* Search box injected into the layer control panel */
   #layer-search {
     display: block; width: calc(100% - 16px); margin: 6px 8px 4px;
     padding: 5px 8px; border: 1px solid #ccc; border-radius: 4px;
@@ -501,102 +661,122 @@ toggle_html = """
   .layer-hidden { display: none !important; }
 </style>
 
-<div id="year-toggle" style="
-  position: fixed; top: 10px; left: 50%; transform: translateX(-50%);
-  z-index: 9999; display: flex; border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.35); overflow: hidden;
-">
-  <button data-yr="2021" onclick="setYear('2021')">2021</button>
-  <button data-yr="both" onclick="setYear('both')" class="active">Both</button>
-  <button data-yr="2024" onclick="setYear('2024')">2024</button>
+<div id="survey-toggle">
+  <div id="region-toggle">
+    <button data-region="goa" class="active" onclick="setRegion('goa')">Gulf of Alaska</button>
+    <button data-region="aleu" onclick="setRegion('aleu')">Aleutian Islands</button>
+  </div>
+  <div id="year-toggle-row">
+    <div id="goa-years" style="display:flex;flex:1;">
+      <button data-yr="2021" onclick="setYear('2021')">2021</button>
+      <button data-yr="both" class="active" onclick="setYear('both')">Both</button>
+      <button data-yr="2024" onclick="setYear('2024')">2024</button>
+    </div>
+    <div id="aleu-years" style="display:none;flex:1;">
+      <button data-yr="2022" onclick="setYear('2022')">2022</button>
+      <button data-yr="both" class="active" onclick="setYear('both')">Both</button>
+      <button data-yr="2023" onclick="setYear('2023')">2023</button>
+    </div>
+  </div>
 </div>
 
 <script>
-// ── year toggle ───────────────────────────────────────────────────────────────
-function setYear(yr) {
-  document.querySelectorAll('#year-toggle button').forEach(function(b) {
+// ── Region + year toggle ──────────────────────────────────────────────────────
+var currentRegion = 'goa';
+var currentYear   = {goa: 'both', aleu: 'both'};
+
+function setRegion(r) {
+  currentRegion = r;
+  document.querySelectorAll('#region-toggle button').forEach(function(b) {
+    b.classList.toggle('active', b.getAttribute('data-region') === r);
+  });
+  document.getElementById('goa-years').style.display  = (r === 'goa')  ? 'flex' : 'none';
+  document.getElementById('aleu-years').style.display = (r === 'aleu') ? 'flex' : 'none';
+  var yr = currentYear[r];
+  document.querySelectorAll('#' + r + '-years button').forEach(function(b) {
     b.classList.toggle('active', b.getAttribute('data-yr') === yr);
   });
-  document.querySelectorAll(
-    '.leaflet-control-layers-overlays label'
-  ).forEach(function(lbl) {
+  updateLayers();
+}
+
+function setYear(yr) {
+  currentYear[currentRegion] = yr;
+  document.querySelectorAll('#' + currentRegion + '-years button').forEach(function(b) {
+    b.classList.toggle('active', b.getAttribute('data-yr') === yr);
+  });
+  updateLayers();
+}
+
+function updateLayers() {
+  var r  = currentRegion;
+  var yr = currentYear[r];
+  document.querySelectorAll('.leaflet-control-layers-overlays label').forEach(function(lbl) {
     var txt = lbl.innerText.trim();
     var inp = lbl.querySelector('input[type="checkbox"]');
     if (!inp) return;
-    var is2021 = txt.startsWith('2021 |');
-    var is2024 = txt.startsWith('2024 |');
-    if (!is2021 && !is2024) return;
-    var show = yr === 'both'
-            || (yr === '2021' && is2021)
-            || (yr === '2024' && is2024);
+    var isGOA21  = txt.startsWith('GOA 2021 |');
+    var isGOA24  = txt.startsWith('GOA 2024 |');
+    var isALEU22 = txt.startsWith('ALEU 2022 |');
+    var isALEU23 = txt.startsWith('ALEU 2023 |');
+    if (!isGOA21 && !isGOA24 && !isALEU22 && !isALEU23) return;
+    var inRegion = (r === 'goa') ? (isGOA21 || isGOA24) : (isALEU22 || isALEU23);
+    var show;
+    if (!inRegion) {
+      show = false;
+    } else if (yr === 'both') {
+      show = true;
+    } else if (r === 'goa') {
+      show = (yr === '2021' && isGOA21) || (yr === '2024' && isGOA24);
+    } else {
+      show = (yr === '2022' && isALEU22) || (yr === '2023' && isALEU23);
+    }
     if (inp.checked !== show) inp.click();
   });
 }
 
-// -- zoom-based marker visibility --
-// CSS handles show/hide via .zoom-detail class on the map container.
-// JS just toggles that one class - no per-marker iteration needed.
+// ── Zoom-based marker visibility ──────────────────────────────────────────────
 var DETAIL_ZOOM = 9;
-
 window.addEventListener('load', function() {
   var _map = null;
   for (var k in window) {
     try {
       if (window[k] && typeof window[k].getZoom === 'function' &&
-          typeof window[k].on === 'function') {
-        _map = window[k]; break;
-      }
+          typeof window[k].on === 'function') { _map = window[k]; break; }
     } catch(e) {}
   }
   if (!_map) return;
-
   function updateZoomVis() {
     _map.getContainer().classList.toggle('zoom-detail', _map.getZoom() >= DETAIL_ZOOM);
   }
-
   _map.on('zoom', updateZoomVis);
   _map.on('layeradd', updateZoomVis);
   updateZoomVis();
 });
 
-// ── search box ────────────────────────────────────────────────────────────────
-// Inject a search input at the top of the layer control panel once it exists.
+// ── Search box ────────────────────────────────────────────────────────────────
 function injectSearch() {
   var overlays = document.querySelector('.leaflet-control-layers-overlays');
   if (!overlays || document.getElementById('layer-search')) return;
-
   var input = document.createElement('input');
   input.id = 'layer-search';
   input.type = 'text';
-  input.placeholder = 'Search sites…';
-
-  // Insert before the overlays list
+  input.placeholder = 'Search sites\u2026';
   overlays.parentNode.insertBefore(input, overlays);
-
   input.addEventListener('input', function() {
     var q = this.value.trim().toLowerCase();
-    document.querySelectorAll(
-      '.leaflet-control-layers-overlays label'
-    ).forEach(function(lbl) {
+    document.querySelectorAll('.leaflet-control-layers-overlays label').forEach(function(lbl) {
       var name = lbl.innerText.trim().toLowerCase();
-      // Strip year prefix for matching so "shaw" finds both "2021 | Shaw" and "2024 | Shaw"
-      var stripped = name.replace(/^\\d{4} \\| /, '');
+      var stripped = name.replace(/^(goa|aleu) \\d{4} \\| /, '');
       var match = !q || stripped.includes(q) || name.includes(q);
       lbl.classList.toggle('layer-hidden', !match);
     });
   });
 }
-
-// The layer control panel is only added to the DOM when the user expands it.
-// Watch for that using a MutationObserver so the search box is always ready.
 var _searchObserver = new MutationObserver(function() {
-  if (document.querySelector('.leaflet-control-layers-overlays')) {
-    injectSearch();
-  }
+  if (document.querySelector('.leaflet-control-layers-overlays')) injectSearch();
 });
 window.addEventListener('load', function() {
   _searchObserver.observe(document.body, { childList: true, subtree: true });
-  // Also try immediately in case it's already expanded.
   injectSearch();
 });
 </script>
@@ -604,17 +784,22 @@ window.addEventListener('load', function() {
 
 m.get_root().html.add_child(folium.Element(toggle_html))
 
-# ── write output ───────────────────────────────────────────────────────────────
+# ── Write output ───────────────────────────────────────────────────────────────
 
 outfile = 'index.html'
 m.save(outfile)
 print(f"\nSaved: {outfile}")
-print(f"\n{'Site':<45} {'2021':>4}  {'2024':>4}  {'Photo 2021':>10}  {'Photo 2024':>10}")
-print('-' * 80)
-all_labels = sorted(set(passes_by_site_2021) | set(passes_by_site_2024))
+
+# Summary table
+print(f"\n{'Site':<45} {'G21':>4} {'G24':>4} {'A22':>4} {'A23':>4}")
+print('-' * 65)
+all_labels = sorted(
+    set(passes_by_site_goa_2021) | set(passes_by_site_goa_2024) |
+    set(passes_by_site_ali_2022) | set(passes_by_site_ali_2023)
+)
 for site in all_labels:
-    n21  = len(passes_by_site_2021.get(site, []))
-    n24  = len(passes_by_site_2024.get(site, []))
-    p21  = 'yes' if site in site_photos_2021 else ''
-    p24  = 'yes' if site in site_photos_2024 else ''
-    print(f"{site:<45} {n21 or '':>4}  {n24 or '':>4}  {p21:>10}  {p24:>10}")
+    g21 = len(passes_by_site_goa_2021.get(site, []))
+    g24 = len(passes_by_site_goa_2024.get(site, []))
+    a22 = len(passes_by_site_ali_2022.get(site, []))
+    a23 = len(passes_by_site_ali_2023.get(site, []))
+    print(f"{site:<45} {g21 or '':>4} {g24 or '':>4} {a22 or '':>4} {a23 or '':>4}")
