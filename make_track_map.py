@@ -18,9 +18,12 @@ UI: region toggle (Gulf of Alaska | Aleutian Islands),
 import csv
 import openpyxl
 import folium
-import re
-import math
 import glob
+import math
+import os
+import re
+import shutil
+import tempfile
 from collections import defaultdict
 from pathlib import Path
 
@@ -456,6 +459,73 @@ log_notes_ali_2023 = (
 )
 print(f"ALI 2023 log notes: {len(log_notes_ali_2023)} sites.")
 
+def load_log_notes_by_name(filepath, col_date=0, col_name=3, col_pass=6, col_desc=10):
+    """Load 2021-style ASSLAP keyed by normalized SITENAME (no MML IDs in file)."""
+    notes = defaultdict(list)
+    tmp_path = None
+    try:
+        fd, tmp_path = tempfile.mkstemp(suffix='.xlsx')
+        os.close(fd)
+        shutil.copy2(filepath, tmp_path)
+        wb = openpyxl.load_workbook(tmp_path, data_only=True)
+        ws = wb.active
+        for row in ws.iter_rows(min_row=2, values_only=True):
+            if len(row) <= max(col_date, col_name, col_pass, col_desc):
+                continue
+            name_val = row[col_name]; pass_num = row[col_pass]; desc = row[col_desc]
+            if not name_val or pass_num is None or not desc:
+                continue
+            key = re.sub(r'[^A-Z0-9]', '', str(name_val).upper())
+            date_val = row[col_date]
+            date_str = date_val.strftime('%m/%d') if hasattr(date_val, 'strftime') else str(date_val)
+            try:
+                pn = int(pass_num)
+            except (ValueError, TypeError):
+                pn = str(pass_num)
+            notes[key].append((date_str, pn, str(desc).strip()))
+    except FileNotFoundError:
+        print(f"  (ASSLAP not found: {filepath})")
+    except Exception as e:
+        print(f"  (ASSLAP error: {e})")
+    finally:
+        if tmp_path:
+            try:
+                os.unlink(tmp_path)
+            except Exception:
+                pass
+    return {k: sorted(v, key=lambda x: (x[0], str(x[1]))) for k, v in notes.items()}
+
+def match_notes_to_ids(notes_by_name, passes_by_site):
+    """Re-key name-keyed notes by numeric site ID, with prefix fallback (min 8 chars)."""
+    MIN_PREFIX = 8
+    result = {}
+    for site in passes_by_site:
+        m = re.search(r'\((\d+)\)', site)
+        if not m:
+            continue
+        sid = m.group(1)
+        name_part = re.sub(r'\s*\(\d+\)\s*$', '', site).strip()
+        key = re.sub(r'[^A-Z0-9]', '', name_part.upper())
+        if key in notes_by_name:
+            result[sid] = notes_by_name[key]
+            continue
+        merged = []
+        for n_key, n_notes in notes_by_name.items():
+            if len(key) >= MIN_PREFIX and len(n_key) >= MIN_PREFIX:
+                if key.startswith(n_key) or n_key.startswith(key):
+                    merged.extend(n_notes)
+        if merged:
+            result[sid] = sorted(merged, key=lambda x: (x[0], str(x[1])))
+    return result
+
+_asslap_goa_2021 = glob.glob('flightlogs/**/2021/*ASSLAP*.xlsx', recursive=True)
+if _asslap_goa_2021:
+    _notes_by_name_2021 = load_log_notes_by_name(_asslap_goa_2021[0])
+    log_notes_goa_2021 = match_notes_to_ids(_notes_by_name_2021, passes_by_site_goa_2021)
+else:
+    log_notes_goa_2021 = {}
+print(f"GOA 2021 log notes: {len(log_notes_goa_2021)} sites.")
+
 # ── Match site photos ──────────────────────────────────────────────────────────
 
 def find_photo(label, photo_dir):
@@ -629,7 +699,8 @@ def add_site_layers(passes_by_site, site_photos, layer_prefix, color_map, log_no
         group.add_to(m)
 
 # GOA layers shown by default; ALI layers hidden (JS toggle reveals them)
-add_site_layers(passes_by_site_goa_2021, site_photos_goa_2021, 'GOA 2021', color_map_goa, show=True)
+add_site_layers(passes_by_site_goa_2021, site_photos_goa_2021, 'GOA 2021', color_map_goa,
+                log_notes=log_notes_goa_2021, show=True)
 add_site_layers(passes_by_site_goa_2024, site_photos_goa_2024, 'GOA 2024', color_map_goa,
                 log_notes=log_notes_goa_2024, show=True)
 add_site_layers(passes_by_site_ali_2022, site_photos_ali_2022, 'ALEU 2022', color_map_ali,

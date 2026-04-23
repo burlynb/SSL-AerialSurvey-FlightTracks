@@ -17,9 +17,13 @@ KML design for ForeFlight:
 """
 
 import csv
+import html as html_mod
 import openpyxl
 import glob
+import os
 import re
+import shutil
+import tempfile
 from collections import defaultdict
 from pathlib import Path
 from xml.etree import ElementTree as ET
@@ -28,9 +32,9 @@ from xml.dom import minidom
 # ── Color palette (matches web map) ──────────────────────────────────────────
 
 COLORS_HTML = [
-    '#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231',
+    '#e6194b', '#ff6b6b', '#ffe119', '#4363d8', '#f58231',
     '#911eb4', '#42d4f4', '#f032e6', '#bfef45', '#fabed4',
-    '#469990', '#dcbeff', '#9a6324', '#800000', '#aaffc3',
+    '#469990', '#dcbeff', '#9a6324', '#800000', '#c9c9ff',
     '#808000', '#ffd8b1', '#000075', '#a9a9a9', '#e6beff',
 ]
 
@@ -317,6 +321,68 @@ def load_log_notes(filepath, col_date=0, col_mml=1, col_pass=6, col_desc=9, shee
         print(f"  (ASSLAP not found: {filepath})")
     return {k: sorted(v, key=lambda x: (x[0], str(x[1]))) for k, v in notes.items()}
 
+def load_log_notes_by_name(filepath, col_date=0, col_name=3, col_pass=6, col_desc=10):
+    """Load 2021-style ASSLAP where rows have site names (not MML IDs). Returns dict keyed
+    by normalized SITENAME (uppercase, alphanumeric only)."""
+    notes = defaultdict(list)
+    tmp_path = None
+    try:
+        fd, tmp_path = tempfile.mkstemp(suffix='.xlsx')
+        os.close(fd)
+        shutil.copy2(filepath, tmp_path)
+        wb = openpyxl.load_workbook(tmp_path, data_only=True)
+        ws = wb.active
+        for row in ws.iter_rows(min_row=2, values_only=True):
+            if len(row) <= max(col_date, col_name, col_pass, col_desc):
+                continue
+            name_val = row[col_name]; pass_num = row[col_pass]; desc = row[col_desc]
+            if not name_val or pass_num is None or not desc:
+                continue
+            key = re.sub(r'[^A-Z0-9]', '', str(name_val).upper())
+            date_val = row[col_date]
+            date_str = date_val.strftime('%m/%d') if hasattr(date_val, 'strftime') else str(date_val)
+            try:
+                pn = int(pass_num)
+            except (ValueError, TypeError):
+                pn = str(pass_num)
+            notes[key].append((date_str, pn, str(desc).strip()))
+    except FileNotFoundError:
+        print(f"  (ASSLAP not found: {filepath})")
+    except Exception as e:
+        print(f"  (ASSLAP error: {e})")
+    finally:
+        if tmp_path:
+            try:
+                os.unlink(tmp_path)
+            except Exception:
+                pass
+    return {k: sorted(v, key=lambda x: (x[0], str(x[1]))) for k, v in notes.items()}
+
+def match_notes_to_ids(notes_by_name, passes_by_site):
+    """Re-key a name-keyed notes dict by numeric site ID by matching against site labels.
+    Falls back to prefix match (e.g. 'CAPESTELIASB' vs 'CAPESTELIAS') when both keys
+    are at least 8 chars, preventing short-key false matches like MIDDLE vs MIDDLETON."""
+    MIN_PREFIX = 8
+    result = {}
+    for site in passes_by_site:
+        m = re.search(r'\((\d+)\)', site)
+        if not m:
+            continue
+        sid = m.group(1)
+        name_part = re.sub(r'\s*\(\d+\)\s*$', '', site).strip()
+        key = re.sub(r'[^A-Z0-9]', '', name_part.upper())
+        if key in notes_by_name:
+            result[sid] = notes_by_name[key]
+            continue
+        merged = []
+        for n_key, n_notes in notes_by_name.items():
+            if len(key) >= MIN_PREFIX and len(n_key) >= MIN_PREFIX:
+                if key.startswith(n_key) or n_key.startswith(key):
+                    merged.extend(n_notes)
+        if merged:
+            result[sid] = sorted(merged, key=lambda x: (x[0], str(x[1])))
+    return result
+
 _asslap_goa_2024 = glob.glob('flightlogs/**/2024/*ASSLAP*.xlsx', recursive=True)
 log_notes_goa_2024 = load_log_notes(_asslap_goa_2024[0]) if _asslap_goa_2024 else {}
 print(f"GOA 2024 log notes: {len(log_notes_goa_2024)} sites.")
@@ -335,6 +401,14 @@ log_notes_ali_2023 = (
     if _asslap_ali_2023 else {}
 )
 print(f"ALI 2023 log notes: {len(log_notes_ali_2023)} sites.")
+
+_asslap_goa_2021 = glob.glob('flightlogs/**/2021/*ASSLAP*.xlsx', recursive=True)
+if _asslap_goa_2021:
+    _notes_by_name_2021 = load_log_notes_by_name(_asslap_goa_2021[0])
+    log_notes_goa_2021 = match_notes_to_ids(_notes_by_name_2021, passes_by_site_goa_2021)
+else:
+    log_notes_goa_2021 = {}
+print(f"GOA 2021 log notes: {len(log_notes_goa_2021)} sites.")
 
 # ── Utilities ─────────────────────────────────────────────────────────────────
 
@@ -436,7 +510,7 @@ def build_kml(passes_by_site, year, region, log_notes=None):
         kc = to_kml_color(COLORS_HTML[ci])
         site_passes = passes_by_site[site]
 
-        m = re.search(r'\((\w+)\)', site)
+        m = re.search(r'\((\d+)\)', site)
         site_num = m.group(1) if m else site
 
         all_coords = [c for p in site_passes for c in p['coords']]
@@ -451,6 +525,7 @@ def build_kml(passes_by_site, year, region, log_notes=None):
         # Site label Point — tappable, shows full info
         pm_lbl = ET.SubElement(folder, 'Placemark')
         ET.SubElement(pm_lbl, 'name').text = site_num
+        ET.SubElement(pm_lbl, 'Snippet', maxLines='1').text = site
         ET.SubElement(pm_lbl, 'description').text = desc
         ET.SubElement(pm_lbl, 'styleUrl').text = f'#site{ci}'
         pt = ET.SubElement(pm_lbl, 'Point')
@@ -505,6 +580,10 @@ def build_kml(passes_by_site, year, region, log_notes=None):
 
 def save_kml(kml_element, outfile):
     raw = ET.tostring(kml_element, encoding='unicode')
+    def wrap_cdata(m):
+        inner = html_mod.unescape(m.group(1))
+        return f'<description><![CDATA[{inner}]]></description>'
+    raw = re.sub(r'<description>(.*?)</description>', wrap_cdata, raw, flags=re.DOTALL)
     pretty = minidom.parseString(raw).toprettyxml(indent='  ')
     clean = '<?xml version="1.0" encoding="UTF-8"?>\n' + '\n'.join(pretty.split('\n')[1:])
     with open(outfile, 'w', encoding='utf-8') as f:
@@ -513,7 +592,8 @@ def save_kml(kml_element, outfile):
 
 # ── Generate all four KML files ───────────────────────────────────────────────
 
-save_kml(build_kml(passes_by_site_goa_2021, '2021', 'Gulf of Alaska'),
+save_kml(build_kml(passes_by_site_goa_2021, '2021', 'Gulf of Alaska',
+                   log_notes=log_notes_goa_2021),
          '2021_flighttracks.kml')
 
 save_kml(build_kml(passes_by_site_goa_2024, '2024', 'Gulf of Alaska',

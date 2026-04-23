@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>2021 SSL Aerial Survey — Gulf of Alaska</name>
-    <description>Steller sea lion aerial survey flight tracks, Gulf of Alaska 2021. Tap a site label to see site name and pass notes.</description>
+    <description><![CDATA[Steller sea lion aerial survey flight tracks, Gulf of Alaska 2021. Tap a site label to see site name and pass notes.]]></description>
     <Style id="startDot">
       <IconStyle>
         <color>ff00bb00</color>
@@ -81,7 +81,7 @@
     </StyleMap>
     <Style id="ln1">
       <LineStyle>
-        <color>ff4bb43c</color>
+        <color>ff6b6bff</color>
         <width>5</width>
       </LineStyle>
       <LabelStyle>
@@ -90,7 +90,7 @@
     </Style>
     <Style id="lh1">
       <LineStyle>
-        <color>ff4bb43c</color>
+        <color>ff6b6bff</color>
         <width>8</width>
       </LineStyle>
       <LabelStyle>
@@ -99,7 +99,7 @@
     </Style>
     <Style id="sn1">
       <IconStyle>
-        <color>ff4bb43c</color>
+        <color>ff6b6bff</color>
         <scale>1.0</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
@@ -112,7 +112,7 @@
     </Style>
     <Style id="sh1">
       <IconStyle>
-        <color>ff4bb43c</color>
+        <color>ff6b6bff</color>
         <scale>1.4</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
@@ -913,7 +913,7 @@
     </StyleMap>
     <Style id="ln14">
       <LineStyle>
-        <color>ffc3ffaa</color>
+        <color>ffffc9c9</color>
         <width>5</width>
       </LineStyle>
       <LabelStyle>
@@ -922,7 +922,7 @@
     </Style>
     <Style id="lh14">
       <LineStyle>
-        <color>ffc3ffaa</color>
+        <color>ffffc9c9</color>
         <width>8</width>
       </LineStyle>
       <LabelStyle>
@@ -931,7 +931,7 @@
     </Style>
     <Style id="sn14">
       <IconStyle>
-        <color>ffc3ffaa</color>
+        <color>ffffc9c9</color>
         <scale>1.0</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
@@ -944,7 +944,7 @@
     </Style>
     <Style id="sh14">
       <IconStyle>
-        <color>ffc3ffaa</color>
+        <color>ffffc9c9</color>
         <scale>1.4</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
@@ -1299,7 +1299,8 @@
       <name>Aghiyuk (246)</name>
       <Placemark>
         <name>246</name>
-        <description>&lt;b&gt;Aghiyuk (246)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)</description>
+        <Snippet maxLines="1">Aghiyuk (246)</Snippet>
+        <description><![CDATA[<b>Aghiyuk (246)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 8)<br/><b>Pass 2</b> (Jul 8): L of P1 for offshore rocks]]></description>
         <styleUrl>#site0</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1366,7 +1367,7 @@
       </Placemark>
       <Placemark>
         <name>Aghiyuk (246)</name>
-        <description>&lt;b&gt;Aghiyuk (246)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)</description>
+        <description><![CDATA[<b>Aghiyuk (246)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 8)<br/><b>Pass 2</b> (Jul 8): L of P1 for offshore rocks]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1427,7 +1428,7 @@
       </Placemark>
       <Placemark>
         <name>Aghiyuk (246)</name>
-        <description>&lt;b&gt;Aghiyuk (246)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)</description>
+        <description><![CDATA[<b>Aghiyuk (246)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 8)<br/><b>Pass 2</b> (Jul 8): L of P1 for offshore rocks]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1458,7 +1459,8 @@
       <name>Benjamin (156)</name>
       <Placemark>
         <name>156</name>
-        <description>&lt;b&gt;Benjamin (156)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
+        <Snippet maxLines="1">Benjamin (156)</Snippet>
+        <description><![CDATA[<b>Benjamin (156)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Count jumpers; hiccup in photos, possibly over animals<br/><b>Pass 2</b> (Jun 27): L of P1; all animals in water]]></description>
         <styleUrl>#site1</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1537,7 +1539,7 @@
       </Placemark>
       <Placemark>
         <name>Benjamin (156)</name>
-        <description>&lt;b&gt;Benjamin (156)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Benjamin (156)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Count jumpers; hiccup in photos, possibly over animals<br/><b>Pass 2</b> (Jun 27): L of P1; all animals in water]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1548,7 +1550,7 @@
         <name/>
         <Style>
           <IconStyle>
-            <color>ff4bb43c</color>
+            <color>ff6b6bff</color>
             <scale>0.65</scale>
             <Icon>
               <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
@@ -1610,7 +1612,7 @@
       </Placemark>
       <Placemark>
         <name>Benjamin (156)</name>
-        <description>&lt;b&gt;Benjamin (156)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Benjamin (156)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Count jumpers; hiccup in photos, possibly over animals<br/><b>Pass 2</b> (Jun 27): L of P1; all animals in water]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1621,7 +1623,7 @@
         <name/>
         <Style>
           <IconStyle>
-            <color>ff4bb43c</color>
+            <color>ff6b6bff</color>
             <scale>0.65</scale>
             <Icon>
               <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
@@ -1641,7 +1643,8 @@
       <name>Biali Rock (120)</name>
       <Placemark>
         <name>120</name>
-        <description>&lt;b&gt;Biali Rock (120)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)</description>
+        <Snippet maxLines="1">Biali Rock (120)</Snippet>
+        <description><![CDATA[<b>Biali Rock (120)</b><br/>2021 — Gulf of Alaska<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jun 23): Missed some groups<br/><b>Pass 2</b> (Jun 23): Perpendicular to P1<br/><b>Pass 3</b> (Jun 23): Opposite direction of P2<br/><b>Pass 4</b> (Jun 23): R of P3]]></description>
         <styleUrl>#site2</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1685,7 +1688,7 @@
       </Placemark>
       <Placemark>
         <name>Biali Rock (120)</name>
-        <description>&lt;b&gt;Biali Rock (120)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Biali Rock (120)</b><br/>2021 — Gulf of Alaska<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jun 23): Missed some groups<br/><b>Pass 2</b> (Jun 23): Perpendicular to P1<br/><b>Pass 3</b> (Jun 23): Opposite direction of P2<br/><b>Pass 4</b> (Jun 23): R of P3]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1749,7 +1752,7 @@
       </Placemark>
       <Placemark>
         <name>Biali Rock (120)</name>
-        <description>&lt;b&gt;Biali Rock (120)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Biali Rock (120)</b><br/>2021 — Gulf of Alaska<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jun 23): Missed some groups<br/><b>Pass 2</b> (Jun 23): Perpendicular to P1<br/><b>Pass 3</b> (Jun 23): Opposite direction of P2<br/><b>Pass 4</b> (Jun 23): R of P3]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1879,7 +1882,7 @@
       </Placemark>
       <Placemark>
         <name>Biali Rock (120)</name>
-        <description>&lt;b&gt;Biali Rock (120)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Biali Rock (120)</b><br/>2021 — Gulf of Alaska<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jun 23): Missed some groups<br/><b>Pass 2</b> (Jun 23): Perpendicular to P1<br/><b>Pass 3</b> (Jun 23): Opposite direction of P2<br/><b>Pass 4</b> (Jun 23): R of P3]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1980,7 +1983,7 @@
       </Placemark>
       <Placemark>
         <name>Biali Rock (120)</name>
-        <description>&lt;b&gt;Biali Rock (120)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Biali Rock (120)</b><br/>2021 — Gulf of Alaska<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jun 23): Missed some groups<br/><b>Pass 2</b> (Jun 23): Perpendicular to P1<br/><b>Pass 3</b> (Jun 23): Opposite direction of P2<br/><b>Pass 4</b> (Jun 23): R of P3]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2011,7 +2014,8 @@
       <name>Cape Addington (110)</name>
       <Placemark>
         <name>110</name>
-        <description>&lt;b&gt;Cape Addington (110)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)</description>
+        <Snippet maxLines="1">Cape Addington (110)</Snippet>
+        <description><![CDATA[<b>Cape Addington (110)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 23)]]></description>
         <styleUrl>#site3</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2069,7 +2073,7 @@
       </Placemark>
       <Placemark>
         <name>Cape Addington (110)</name>
-        <description>&lt;b&gt;Cape Addington (110)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Cape Addington (110)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 23)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2100,7 +2104,8 @@
       <name>Cape Bingham (144)</name>
       <Placemark>
         <name>144</name>
-        <description>&lt;b&gt;Cape Bingham (144)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 28)</description>
+        <Snippet maxLines="1">Cape Bingham (144)</Snippet>
+        <description><![CDATA[<b>Cape Bingham (144)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Surveyed again with nearby sites; B site<br/><b>Pass 2</b> (Jun 28): Surveyed again with nearby sites; A site, probably no animals but photos just in case]]></description>
         <styleUrl>#site4</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2136,7 +2141,7 @@
       </Placemark>
       <Placemark>
         <name>Cape Bingham (144)</name>
-        <description>&lt;b&gt;Cape Bingham (144)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 28)</description>
+        <description><![CDATA[<b>Cape Bingham (144)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Surveyed again with nearby sites; B site<br/><b>Pass 2</b> (Jun 28): Surveyed again with nearby sites; A site, probably no animals but photos just in case]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2258,7 +2263,7 @@
       </Placemark>
       <Placemark>
         <name>Cape Bingham (144)</name>
-        <description>&lt;b&gt;Cape Bingham (144)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 28)</description>
+        <description><![CDATA[<b>Cape Bingham (144)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Surveyed again with nearby sites; B site<br/><b>Pass 2</b> (Jun 28): Surveyed again with nearby sites; A site, probably no animals but photos just in case]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2289,7 +2294,8 @@
       <name>Cape Hinchinbrook (165)</name>
       <Placemark>
         <name>165</name>
-        <description>&lt;b&gt;Cape Hinchinbrook (165)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <Snippet maxLines="1">Cape Hinchinbrook (165)</Snippet>
+        <description><![CDATA[<b>Cape Hinchinbrook (165)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3): Check for 4 on R (passed under tire, should be fine)]]></description>
         <styleUrl>#site5</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2365,7 +2371,7 @@
       </Placemark>
       <Placemark>
         <name>Cape Hinchinbrook (165)</name>
-        <description>&lt;b&gt;Cape Hinchinbrook (165)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Cape Hinchinbrook (165)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3): Check for 4 on R (passed under tire, should be fine)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2396,7 +2402,8 @@
       <name>Cape Kuliak (239)</name>
       <Placemark>
         <name>239</name>
-        <description>&lt;b&gt;Cape Kuliak (239)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)</description>
+        <Snippet maxLines="1">Cape Kuliak (239)</Snippet>
+        <description><![CDATA[<b>Cape Kuliak (239)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 6)]]></description>
         <styleUrl>#site6</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2441,7 +2448,7 @@
       </Placemark>
       <Placemark>
         <name>Cape Kuliak (239)</name>
-        <description>&lt;b&gt;Cape Kuliak (239)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)</description>
+        <description><![CDATA[<b>Cape Kuliak (239)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 6)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2472,7 +2479,8 @@
       <name>Cape Ommaney (117)</name>
       <Placemark>
         <name>117</name>
-        <description>&lt;b&gt;Cape Ommaney (117)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 26)</description>
+        <Snippet maxLines="1">Cape Ommaney (117)</Snippet>
+        <description><![CDATA[<b>Cape Ommaney (117)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 26)]]></description>
         <styleUrl>#site7</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2517,7 +2525,7 @@
       </Placemark>
       <Placemark>
         <name>Cape Ommaney (117)</name>
-        <description>&lt;b&gt;Cape Ommaney (117)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 26)</description>
+        <description><![CDATA[<b>Cape Ommaney (117)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 26)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2548,7 +2556,8 @@
       <name>Cape Resurrection (182)</name>
       <Placemark>
         <name>182</name>
-        <description>&lt;b&gt;Cape Resurrection (182)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)</description>
+        <Snippet maxLines="1">Cape Resurrection (182)</Snippet>
+        <description><![CDATA[<b>Cape Resurrection (182)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 3): C site to B site<br/><b>Pass 2</b> (Jul 3): C site to B site, R of P1; animals under ledge hard to photograph!]]></description>
         <styleUrl>#site8</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2630,7 +2639,7 @@
       </Placemark>
       <Placemark>
         <name>Cape Resurrection (182)</name>
-        <description>&lt;b&gt;Cape Resurrection (182)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Cape Resurrection (182)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 3): C site to B site<br/><b>Pass 2</b> (Jul 3): C site to B site, R of P1; animals under ledge hard to photograph!]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2731,7 +2740,7 @@
       </Placemark>
       <Placemark>
         <name>Cape Resurrection (182)</name>
-        <description>&lt;b&gt;Cape Resurrection (182)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Cape Resurrection (182)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 3): C site to B site<br/><b>Pass 2</b> (Jul 3): C site to B site, R of P1; animals under ledge hard to photograph!]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2762,7 +2771,8 @@
       <name>Cape St. Elias/B (163)</name>
       <Placemark>
         <name>163</name>
-        <description>&lt;b&gt;Cape St. Elias/B (163)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)</description>
+        <Snippet maxLines="1">Cape St. Elias/B (163)</Snippet>
+        <description><![CDATA[<b>Cape St. Elias/B (163)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 3): B site<br/><b>Pass 2</b> (Jul 3): A site<br/><b>Pass 3</b> (Jul 3): A site, R of P2]]></description>
         <styleUrl>#site9</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2804,7 +2814,7 @@
       </Placemark>
       <Placemark>
         <name>Cape St. Elias/B (163)</name>
-        <description>&lt;b&gt;Cape St. Elias/B (163)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Cape St. Elias/B (163)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 3): B site<br/><b>Pass 2</b> (Jul 3): A site<br/><b>Pass 3</b> (Jul 3): A site, R of P2]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2876,7 +2886,7 @@
       </Placemark>
       <Placemark>
         <name>Cape St. Elias/B (163)</name>
-        <description>&lt;b&gt;Cape St. Elias/B (163)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Cape St. Elias/B (163)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 3): B site<br/><b>Pass 2</b> (Jul 3): A site<br/><b>Pass 3</b> (Jul 3): A site, R of P2]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2941,7 +2951,7 @@
       </Placemark>
       <Placemark>
         <name>Cape St. Elias/B (163)</name>
-        <description>&lt;b&gt;Cape St. Elias/B (163)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Cape St. Elias/B (163)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 3): B site<br/><b>Pass 2</b> (Jul 3): A site<br/><b>Pass 3</b> (Jul 3): A site, R of P2]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2972,7 +2982,8 @@
       <name>Chirikof (248)</name>
       <Placemark>
         <name>248</name>
-        <description>&lt;b&gt;Chirikof (248)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)</description>
+        <Snippet maxLines="1">Chirikof (248)</Snippet>
+        <description><![CDATA[<b>Chirikof (248)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 8): A site to B site<br/><b>Pass 2</b> (Jul 8): Perpendicular to P1 to get rocks and haulout beach]]></description>
         <styleUrl>#site10</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3066,7 +3077,7 @@
       </Placemark>
       <Placemark>
         <name>Chirikof (248)</name>
-        <description>&lt;b&gt;Chirikof (248)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)</description>
+        <description><![CDATA[<b>Chirikof (248)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 8): A site to B site<br/><b>Pass 2</b> (Jul 8): Perpendicular to P1 to get rocks and haulout beach]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3149,7 +3160,7 @@
       </Placemark>
       <Placemark>
         <name>Chirikof (248)</name>
-        <description>&lt;b&gt;Chirikof (248)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)</description>
+        <description><![CDATA[<b>Chirikof (248)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 8): A site to B site<br/><b>Pass 2</b> (Jul 8): Perpendicular to P1 to get rocks and haulout beach]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3180,7 +3191,8 @@
       <name>Chowiet (247)</name>
       <Placemark>
         <name>247</name>
-        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;8 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jul 8)</description>
+        <Snippet maxLines="1">Chowiet (247)</Snippet>
+        <description><![CDATA[<b>Chowiet (247)</b><br/>2021 — Gulf of Alaska<br/><b>8 passes</b><br/><br/><b>Pass 1</b> (Jul 8): E and D sites; check for 1 at end of pass<br/><b>Pass 2</b> (Jul 8): F site; perpendicular to P1 to get other side of cove<br/><b>Pass 3</b> (Jul 8): L of P2 to get beach (I wasn't sure we'd gotten it all on P1 and P2)<br/><b>Pass 4</b> (Jul 8): R of P1, trying to get pocket beach, but missed<br/><b>Pass 5</b> (Jul 8): Opposite direction of P1 and P4 to get pocket beach<br/><b>Pass 6</b> (Jul 8): A and B sites<br/><b>Pass 7</b> (Jul 8): L of P6 to get groups on rocks<br/><b>Pass 8</b> (Jul 8): Different group, offshore rock SW of Chowiet A-B]]></description>
         <styleUrl>#site11</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3283,7 +3295,7 @@
       </Placemark>
       <Placemark>
         <name>Chowiet (247)</name>
-        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;8 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jul 8)</description>
+        <description><![CDATA[<b>Chowiet (247)</b><br/>2021 — Gulf of Alaska<br/><b>8 passes</b><br/><br/><b>Pass 1</b> (Jul 8): E and D sites; check for 1 at end of pass<br/><b>Pass 2</b> (Jul 8): F site; perpendicular to P1 to get other side of cove<br/><b>Pass 3</b> (Jul 8): L of P2 to get beach (I wasn't sure we'd gotten it all on P1 and P2)<br/><b>Pass 4</b> (Jul 8): R of P1, trying to get pocket beach, but missed<br/><b>Pass 5</b> (Jul 8): Opposite direction of P1 and P4 to get pocket beach<br/><b>Pass 6</b> (Jul 8): A and B sites<br/><b>Pass 7</b> (Jul 8): L of P6 to get groups on rocks<br/><b>Pass 8</b> (Jul 8): Different group, offshore rock SW of Chowiet A-B]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3360,7 +3372,7 @@
       </Placemark>
       <Placemark>
         <name>Chowiet (247)</name>
-        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;8 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jul 8)</description>
+        <description><![CDATA[<b>Chowiet (247)</b><br/>2021 — Gulf of Alaska<br/><b>8 passes</b><br/><br/><b>Pass 1</b> (Jul 8): E and D sites; check for 1 at end of pass<br/><b>Pass 2</b> (Jul 8): F site; perpendicular to P1 to get other side of cove<br/><b>Pass 3</b> (Jul 8): L of P2 to get beach (I wasn't sure we'd gotten it all on P1 and P2)<br/><b>Pass 4</b> (Jul 8): R of P1, trying to get pocket beach, but missed<br/><b>Pass 5</b> (Jul 8): Opposite direction of P1 and P4 to get pocket beach<br/><b>Pass 6</b> (Jul 8): A and B sites<br/><b>Pass 7</b> (Jul 8): L of P6 to get groups on rocks<br/><b>Pass 8</b> (Jul 8): Different group, offshore rock SW of Chowiet A-B]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3420,7 +3432,7 @@
       </Placemark>
       <Placemark>
         <name>Chowiet (247)</name>
-        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;8 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jul 8)</description>
+        <description><![CDATA[<b>Chowiet (247)</b><br/>2021 — Gulf of Alaska<br/><b>8 passes</b><br/><br/><b>Pass 1</b> (Jul 8): E and D sites; check for 1 at end of pass<br/><b>Pass 2</b> (Jul 8): F site; perpendicular to P1 to get other side of cove<br/><b>Pass 3</b> (Jul 8): L of P2 to get beach (I wasn't sure we'd gotten it all on P1 and P2)<br/><b>Pass 4</b> (Jul 8): R of P1, trying to get pocket beach, but missed<br/><b>Pass 5</b> (Jul 8): Opposite direction of P1 and P4 to get pocket beach<br/><b>Pass 6</b> (Jul 8): A and B sites<br/><b>Pass 7</b> (Jul 8): L of P6 to get groups on rocks<br/><b>Pass 8</b> (Jul 8): Different group, offshore rock SW of Chowiet A-B]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3481,7 +3493,7 @@
       </Placemark>
       <Placemark>
         <name>Chowiet (247)</name>
-        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;8 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jul 8)</description>
+        <description><![CDATA[<b>Chowiet (247)</b><br/>2021 — Gulf of Alaska<br/><b>8 passes</b><br/><br/><b>Pass 1</b> (Jul 8): E and D sites; check for 1 at end of pass<br/><b>Pass 2</b> (Jul 8): F site; perpendicular to P1 to get other side of cove<br/><b>Pass 3</b> (Jul 8): L of P2 to get beach (I wasn't sure we'd gotten it all on P1 and P2)<br/><b>Pass 4</b> (Jul 8): R of P1, trying to get pocket beach, but missed<br/><b>Pass 5</b> (Jul 8): Opposite direction of P1 and P4 to get pocket beach<br/><b>Pass 6</b> (Jul 8): A and B sites<br/><b>Pass 7</b> (Jul 8): L of P6 to get groups on rocks<br/><b>Pass 8</b> (Jul 8): Different group, offshore rock SW of Chowiet A-B]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3590,7 +3602,7 @@
       </Placemark>
       <Placemark>
         <name>Chowiet (247)</name>
-        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;8 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jul 8)</description>
+        <description><![CDATA[<b>Chowiet (247)</b><br/>2021 — Gulf of Alaska<br/><b>8 passes</b><br/><br/><b>Pass 1</b> (Jul 8): E and D sites; check for 1 at end of pass<br/><b>Pass 2</b> (Jul 8): F site; perpendicular to P1 to get other side of cove<br/><b>Pass 3</b> (Jul 8): L of P2 to get beach (I wasn't sure we'd gotten it all on P1 and P2)<br/><b>Pass 4</b> (Jul 8): R of P1, trying to get pocket beach, but missed<br/><b>Pass 5</b> (Jul 8): Opposite direction of P1 and P4 to get pocket beach<br/><b>Pass 6</b> (Jul 8): A and B sites<br/><b>Pass 7</b> (Jul 8): L of P6 to get groups on rocks<br/><b>Pass 8</b> (Jul 8): Different group, offshore rock SW of Chowiet A-B]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3662,7 +3674,7 @@
       </Placemark>
       <Placemark>
         <name>Chowiet (247)</name>
-        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;8 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jul 8)</description>
+        <description><![CDATA[<b>Chowiet (247)</b><br/>2021 — Gulf of Alaska<br/><b>8 passes</b><br/><br/><b>Pass 1</b> (Jul 8): E and D sites; check for 1 at end of pass<br/><b>Pass 2</b> (Jul 8): F site; perpendicular to P1 to get other side of cove<br/><b>Pass 3</b> (Jul 8): L of P2 to get beach (I wasn't sure we'd gotten it all on P1 and P2)<br/><b>Pass 4</b> (Jul 8): R of P1, trying to get pocket beach, but missed<br/><b>Pass 5</b> (Jul 8): Opposite direction of P1 and P4 to get pocket beach<br/><b>Pass 6</b> (Jul 8): A and B sites<br/><b>Pass 7</b> (Jul 8): L of P6 to get groups on rocks<br/><b>Pass 8</b> (Jul 8): Different group, offshore rock SW of Chowiet A-B]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3726,7 +3738,7 @@
       </Placemark>
       <Placemark>
         <name>Chowiet (247)</name>
-        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;8 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jul 8)</description>
+        <description><![CDATA[<b>Chowiet (247)</b><br/>2021 — Gulf of Alaska<br/><b>8 passes</b><br/><br/><b>Pass 1</b> (Jul 8): E and D sites; check for 1 at end of pass<br/><b>Pass 2</b> (Jul 8): F site; perpendicular to P1 to get other side of cove<br/><b>Pass 3</b> (Jul 8): L of P2 to get beach (I wasn't sure we'd gotten it all on P1 and P2)<br/><b>Pass 4</b> (Jul 8): R of P1, trying to get pocket beach, but missed<br/><b>Pass 5</b> (Jul 8): Opposite direction of P1 and P4 to get pocket beach<br/><b>Pass 6</b> (Jul 8): A and B sites<br/><b>Pass 7</b> (Jul 8): L of P6 to get groups on rocks<br/><b>Pass 8</b> (Jul 8): Different group, offshore rock SW of Chowiet A-B]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3802,7 +3814,7 @@
       </Placemark>
       <Placemark>
         <name>Chowiet (247)</name>
-        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;8 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jul 8)</description>
+        <description><![CDATA[<b>Chowiet (247)</b><br/>2021 — Gulf of Alaska<br/><b>8 passes</b><br/><br/><b>Pass 1</b> (Jul 8): E and D sites; check for 1 at end of pass<br/><b>Pass 2</b> (Jul 8): F site; perpendicular to P1 to get other side of cove<br/><b>Pass 3</b> (Jul 8): L of P2 to get beach (I wasn't sure we'd gotten it all on P1 and P2)<br/><b>Pass 4</b> (Jul 8): R of P1, trying to get pocket beach, but missed<br/><b>Pass 5</b> (Jul 8): Opposite direction of P1 and P4 to get pocket beach<br/><b>Pass 6</b> (Jul 8): A and B sites<br/><b>Pass 7</b> (Jul 8): L of P6 to get groups on rocks<br/><b>Pass 8</b> (Jul 8): Different group, offshore rock SW of Chowiet A-B]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3833,7 +3845,8 @@
       <name>Chowiet (267)</name>
       <Placemark>
         <name>267</name>
-        <description>&lt;b&gt;Chowiet (267)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)</description>
+        <Snippet maxLines="1">Chowiet (267)</Snippet>
+        <description><![CDATA[<b>Chowiet (267)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 8): E and D sites; check for 1 at end of pass]]></description>
         <styleUrl>#site12</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3883,7 +3896,7 @@
       </Placemark>
       <Placemark>
         <name>Chowiet (267)</name>
-        <description>&lt;b&gt;Chowiet (267)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)</description>
+        <description><![CDATA[<b>Chowiet (267)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 8): E and D sites; check for 1 at end of pass]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3914,7 +3927,8 @@
       <name>Coronation (112)</name>
       <Placemark>
         <name>112</name>
-        <description>&lt;b&gt;Coronation (112)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)</description>
+        <Snippet maxLines="1">Coronation (112)</Snippet>
+        <description><![CDATA[<b>Coronation (112)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 23): Not sure there are any animals here but photos anyway<br/><b>Pass 2</b> (Jun 23): Still not sure there are animals present]]></description>
         <styleUrl>#site13</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3968,7 +3982,7 @@
       </Placemark>
       <Placemark>
         <name>Coronation (112)</name>
-        <description>&lt;b&gt;Coronation (112)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Coronation (112)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 23): Not sure there are any animals here but photos anyway<br/><b>Pass 2</b> (Jun 23): Still not sure there are animals present]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4022,7 +4036,7 @@
       </Placemark>
       <Placemark>
         <name>Coronation (112)</name>
-        <description>&lt;b&gt;Coronation (112)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Coronation (112)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 23): Not sure there are any animals here but photos anyway<br/><b>Pass 2</b> (Jun 23): Still not sure there are animals present]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4053,7 +4067,8 @@
       <name>Danger (176)</name>
       <Placemark>
         <name>176</name>
-        <description>&lt;b&gt;Danger (176)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <Snippet maxLines="1">Danger (176)</Snippet>
+        <description><![CDATA[<b>Danger (176)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3)]]></description>
         <styleUrl>#site14</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4099,7 +4114,7 @@
       </Placemark>
       <Placemark>
         <name>Danger (176)</name>
-        <description>&lt;b&gt;Danger (176)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Danger (176)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4110,7 +4125,7 @@
         <name/>
         <Style>
           <IconStyle>
-            <color>ffc3ffaa</color>
+            <color>ffffc9c9</color>
             <scale>0.65</scale>
             <Icon>
               <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
@@ -4130,7 +4145,8 @@
       <name>Dutch Group (587)</name>
       <Placemark>
         <name>587</name>
-        <description>&lt;b&gt;Dutch Group (587)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <Snippet maxLines="1">Dutch Group (587)</Snippet>
+        <description><![CDATA[<b>Dutch Group (587)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3)]]></description>
         <styleUrl>#site15</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4180,7 +4196,7 @@
       </Placemark>
       <Placemark>
         <name>Dutch Group (587)</name>
-        <description>&lt;b&gt;Dutch Group (587)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Dutch Group (587)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4211,7 +4227,8 @@
       <name>Emmons Test (141)</name>
       <Placemark>
         <name>141</name>
-        <description>&lt;b&gt;Emmons Test (141)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
+        <Snippet maxLines="1">Emmons Test (141)</Snippet>
+        <description><![CDATA[<b>Emmons Test (141)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27)]]></description>
         <styleUrl>#site16</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4282,7 +4299,7 @@
       </Placemark>
       <Placemark>
         <name>Emmons Test (141)</name>
-        <description>&lt;b&gt;Emmons Test (141)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Emmons Test (141)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4313,7 +4330,8 @@
       <name>Forrester</name>
       <Placemark>
         <name>Forrester</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
+        <Snippet maxLines="1">Forrester</Snippet>
+        <description><![CDATA[<b>Forrester</b><br/>2021 — Gulf of Alaska<br/><b>15 passes</b><br/><br/><b>Pass 1</b> (Jun 23)<br/><b>Pass 2</b> (Jun 23)<br/><b>Pass 3</b> (Jun 23)<br/><b>Pass 4</b> (Jun 23)<br/><b>Pass 5</b> (Jun 23)<br/><b>Pass 6</b> (Jun 23)<br/><b>Pass 7</b> (Jun 23)<br/><b>Pass 8</b> (Jun 23)<br/><b>Pass 9</b> (Jun 23)<br/><b>Pass 10</b> (Jun 23)<br/><b>Pass 11</b> (Jun 23)<br/><b>Pass 12</b> (Jun 23)<br/><b>Pass 13</b> (Jun 23)<br/><b>Pass 14</b> (Jun 23)<br/><b>Pass 15</b> (Jun 23)]]></description>
         <styleUrl>#site17</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4361,7 +4379,7 @@
       </Placemark>
       <Placemark>
         <name>Forrester</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Forrester</b><br/>2021 — Gulf of Alaska<br/><b>15 passes</b><br/><br/><b>Pass 1</b> (Jun 23)<br/><b>Pass 2</b> (Jun 23)<br/><b>Pass 3</b> (Jun 23)<br/><b>Pass 4</b> (Jun 23)<br/><b>Pass 5</b> (Jun 23)<br/><b>Pass 6</b> (Jun 23)<br/><b>Pass 7</b> (Jun 23)<br/><b>Pass 8</b> (Jun 23)<br/><b>Pass 9</b> (Jun 23)<br/><b>Pass 10</b> (Jun 23)<br/><b>Pass 11</b> (Jun 23)<br/><b>Pass 12</b> (Jun 23)<br/><b>Pass 13</b> (Jun 23)<br/><b>Pass 14</b> (Jun 23)<br/><b>Pass 15</b> (Jun 23)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4465,7 +4483,7 @@
       </Placemark>
       <Placemark>
         <name>Forrester</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Forrester</b><br/>2021 — Gulf of Alaska<br/><b>15 passes</b><br/><br/><b>Pass 1</b> (Jun 23)<br/><b>Pass 2</b> (Jun 23)<br/><b>Pass 3</b> (Jun 23)<br/><b>Pass 4</b> (Jun 23)<br/><b>Pass 5</b> (Jun 23)<br/><b>Pass 6</b> (Jun 23)<br/><b>Pass 7</b> (Jun 23)<br/><b>Pass 8</b> (Jun 23)<br/><b>Pass 9</b> (Jun 23)<br/><b>Pass 10</b> (Jun 23)<br/><b>Pass 11</b> (Jun 23)<br/><b>Pass 12</b> (Jun 23)<br/><b>Pass 13</b> (Jun 23)<br/><b>Pass 14</b> (Jun 23)<br/><b>Pass 15</b> (Jun 23)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4561,7 +4579,7 @@
       </Placemark>
       <Placemark>
         <name>Forrester</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Forrester</b><br/>2021 — Gulf of Alaska<br/><b>15 passes</b><br/><br/><b>Pass 1</b> (Jun 23)<br/><b>Pass 2</b> (Jun 23)<br/><b>Pass 3</b> (Jun 23)<br/><b>Pass 4</b> (Jun 23)<br/><b>Pass 5</b> (Jun 23)<br/><b>Pass 6</b> (Jun 23)<br/><b>Pass 7</b> (Jun 23)<br/><b>Pass 8</b> (Jun 23)<br/><b>Pass 9</b> (Jun 23)<br/><b>Pass 10</b> (Jun 23)<br/><b>Pass 11</b> (Jun 23)<br/><b>Pass 12</b> (Jun 23)<br/><b>Pass 13</b> (Jun 23)<br/><b>Pass 14</b> (Jun 23)<br/><b>Pass 15</b> (Jun 23)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4672,7 +4690,7 @@
       </Placemark>
       <Placemark>
         <name>Forrester</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Forrester</b><br/>2021 — Gulf of Alaska<br/><b>15 passes</b><br/><br/><b>Pass 1</b> (Jun 23)<br/><b>Pass 2</b> (Jun 23)<br/><b>Pass 3</b> (Jun 23)<br/><b>Pass 4</b> (Jun 23)<br/><b>Pass 5</b> (Jun 23)<br/><b>Pass 6</b> (Jun 23)<br/><b>Pass 7</b> (Jun 23)<br/><b>Pass 8</b> (Jun 23)<br/><b>Pass 9</b> (Jun 23)<br/><b>Pass 10</b> (Jun 23)<br/><b>Pass 11</b> (Jun 23)<br/><b>Pass 12</b> (Jun 23)<br/><b>Pass 13</b> (Jun 23)<br/><b>Pass 14</b> (Jun 23)<br/><b>Pass 15</b> (Jun 23)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4797,7 +4815,7 @@
       </Placemark>
       <Placemark>
         <name>Forrester</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Forrester</b><br/>2021 — Gulf of Alaska<br/><b>15 passes</b><br/><br/><b>Pass 1</b> (Jun 23)<br/><b>Pass 2</b> (Jun 23)<br/><b>Pass 3</b> (Jun 23)<br/><b>Pass 4</b> (Jun 23)<br/><b>Pass 5</b> (Jun 23)<br/><b>Pass 6</b> (Jun 23)<br/><b>Pass 7</b> (Jun 23)<br/><b>Pass 8</b> (Jun 23)<br/><b>Pass 9</b> (Jun 23)<br/><b>Pass 10</b> (Jun 23)<br/><b>Pass 11</b> (Jun 23)<br/><b>Pass 12</b> (Jun 23)<br/><b>Pass 13</b> (Jun 23)<br/><b>Pass 14</b> (Jun 23)<br/><b>Pass 15</b> (Jun 23)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4860,7 +4878,7 @@
       </Placemark>
       <Placemark>
         <name>Forrester</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Forrester</b><br/>2021 — Gulf of Alaska<br/><b>15 passes</b><br/><br/><b>Pass 1</b> (Jun 23)<br/><b>Pass 2</b> (Jun 23)<br/><b>Pass 3</b> (Jun 23)<br/><b>Pass 4</b> (Jun 23)<br/><b>Pass 5</b> (Jun 23)<br/><b>Pass 6</b> (Jun 23)<br/><b>Pass 7</b> (Jun 23)<br/><b>Pass 8</b> (Jun 23)<br/><b>Pass 9</b> (Jun 23)<br/><b>Pass 10</b> (Jun 23)<br/><b>Pass 11</b> (Jun 23)<br/><b>Pass 12</b> (Jun 23)<br/><b>Pass 13</b> (Jun 23)<br/><b>Pass 14</b> (Jun 23)<br/><b>Pass 15</b> (Jun 23)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4980,7 +4998,7 @@
       </Placemark>
       <Placemark>
         <name>Forrester</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Forrester</b><br/>2021 — Gulf of Alaska<br/><b>15 passes</b><br/><br/><b>Pass 1</b> (Jun 23)<br/><b>Pass 2</b> (Jun 23)<br/><b>Pass 3</b> (Jun 23)<br/><b>Pass 4</b> (Jun 23)<br/><b>Pass 5</b> (Jun 23)<br/><b>Pass 6</b> (Jun 23)<br/><b>Pass 7</b> (Jun 23)<br/><b>Pass 8</b> (Jun 23)<br/><b>Pass 9</b> (Jun 23)<br/><b>Pass 10</b> (Jun 23)<br/><b>Pass 11</b> (Jun 23)<br/><b>Pass 12</b> (Jun 23)<br/><b>Pass 13</b> (Jun 23)<br/><b>Pass 14</b> (Jun 23)<br/><b>Pass 15</b> (Jun 23)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5075,7 +5093,7 @@
       </Placemark>
       <Placemark>
         <name>Forrester</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Forrester</b><br/>2021 — Gulf of Alaska<br/><b>15 passes</b><br/><br/><b>Pass 1</b> (Jun 23)<br/><b>Pass 2</b> (Jun 23)<br/><b>Pass 3</b> (Jun 23)<br/><b>Pass 4</b> (Jun 23)<br/><b>Pass 5</b> (Jun 23)<br/><b>Pass 6</b> (Jun 23)<br/><b>Pass 7</b> (Jun 23)<br/><b>Pass 8</b> (Jun 23)<br/><b>Pass 9</b> (Jun 23)<br/><b>Pass 10</b> (Jun 23)<br/><b>Pass 11</b> (Jun 23)<br/><b>Pass 12</b> (Jun 23)<br/><b>Pass 13</b> (Jun 23)<br/><b>Pass 14</b> (Jun 23)<br/><b>Pass 15</b> (Jun 23)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5243,7 +5261,7 @@
       </Placemark>
       <Placemark>
         <name>Forrester</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Forrester</b><br/>2021 — Gulf of Alaska<br/><b>15 passes</b><br/><br/><b>Pass 1</b> (Jun 23)<br/><b>Pass 2</b> (Jun 23)<br/><b>Pass 3</b> (Jun 23)<br/><b>Pass 4</b> (Jun 23)<br/><b>Pass 5</b> (Jun 23)<br/><b>Pass 6</b> (Jun 23)<br/><b>Pass 7</b> (Jun 23)<br/><b>Pass 8</b> (Jun 23)<br/><b>Pass 9</b> (Jun 23)<br/><b>Pass 10</b> (Jun 23)<br/><b>Pass 11</b> (Jun 23)<br/><b>Pass 12</b> (Jun 23)<br/><b>Pass 13</b> (Jun 23)<br/><b>Pass 14</b> (Jun 23)<br/><b>Pass 15</b> (Jun 23)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5320,7 +5338,7 @@
       </Placemark>
       <Placemark>
         <name>Forrester</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Forrester</b><br/>2021 — Gulf of Alaska<br/><b>15 passes</b><br/><br/><b>Pass 1</b> (Jun 23)<br/><b>Pass 2</b> (Jun 23)<br/><b>Pass 3</b> (Jun 23)<br/><b>Pass 4</b> (Jun 23)<br/><b>Pass 5</b> (Jun 23)<br/><b>Pass 6</b> (Jun 23)<br/><b>Pass 7</b> (Jun 23)<br/><b>Pass 8</b> (Jun 23)<br/><b>Pass 9</b> (Jun 23)<br/><b>Pass 10</b> (Jun 23)<br/><b>Pass 11</b> (Jun 23)<br/><b>Pass 12</b> (Jun 23)<br/><b>Pass 13</b> (Jun 23)<br/><b>Pass 14</b> (Jun 23)<br/><b>Pass 15</b> (Jun 23)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5415,7 +5433,7 @@
       </Placemark>
       <Placemark>
         <name>Forrester</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Forrester</b><br/>2021 — Gulf of Alaska<br/><b>15 passes</b><br/><br/><b>Pass 1</b> (Jun 23)<br/><b>Pass 2</b> (Jun 23)<br/><b>Pass 3</b> (Jun 23)<br/><b>Pass 4</b> (Jun 23)<br/><b>Pass 5</b> (Jun 23)<br/><b>Pass 6</b> (Jun 23)<br/><b>Pass 7</b> (Jun 23)<br/><b>Pass 8</b> (Jun 23)<br/><b>Pass 9</b> (Jun 23)<br/><b>Pass 10</b> (Jun 23)<br/><b>Pass 11</b> (Jun 23)<br/><b>Pass 12</b> (Jun 23)<br/><b>Pass 13</b> (Jun 23)<br/><b>Pass 14</b> (Jun 23)<br/><b>Pass 15</b> (Jun 23)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5495,7 +5513,7 @@
       </Placemark>
       <Placemark>
         <name>Forrester</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Forrester</b><br/>2021 — Gulf of Alaska<br/><b>15 passes</b><br/><br/><b>Pass 1</b> (Jun 23)<br/><b>Pass 2</b> (Jun 23)<br/><b>Pass 3</b> (Jun 23)<br/><b>Pass 4</b> (Jun 23)<br/><b>Pass 5</b> (Jun 23)<br/><b>Pass 6</b> (Jun 23)<br/><b>Pass 7</b> (Jun 23)<br/><b>Pass 8</b> (Jun 23)<br/><b>Pass 9</b> (Jun 23)<br/><b>Pass 10</b> (Jun 23)<br/><b>Pass 11</b> (Jun 23)<br/><b>Pass 12</b> (Jun 23)<br/><b>Pass 13</b> (Jun 23)<br/><b>Pass 14</b> (Jun 23)<br/><b>Pass 15</b> (Jun 23)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5555,7 +5573,7 @@
       </Placemark>
       <Placemark>
         <name>Forrester</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Forrester</b><br/>2021 — Gulf of Alaska<br/><b>15 passes</b><br/><br/><b>Pass 1</b> (Jun 23)<br/><b>Pass 2</b> (Jun 23)<br/><b>Pass 3</b> (Jun 23)<br/><b>Pass 4</b> (Jun 23)<br/><b>Pass 5</b> (Jun 23)<br/><b>Pass 6</b> (Jun 23)<br/><b>Pass 7</b> (Jun 23)<br/><b>Pass 8</b> (Jun 23)<br/><b>Pass 9</b> (Jun 23)<br/><b>Pass 10</b> (Jun 23)<br/><b>Pass 11</b> (Jun 23)<br/><b>Pass 12</b> (Jun 23)<br/><b>Pass 13</b> (Jun 23)<br/><b>Pass 14</b> (Jun 23)<br/><b>Pass 15</b> (Jun 23)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5651,7 +5669,7 @@
       </Placemark>
       <Placemark>
         <name>Forrester</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Forrester</b><br/>2021 — Gulf of Alaska<br/><b>15 passes</b><br/><br/><b>Pass 1</b> (Jun 23)<br/><b>Pass 2</b> (Jun 23)<br/><b>Pass 3</b> (Jun 23)<br/><b>Pass 4</b> (Jun 23)<br/><b>Pass 5</b> (Jun 23)<br/><b>Pass 6</b> (Jun 23)<br/><b>Pass 7</b> (Jun 23)<br/><b>Pass 8</b> (Jun 23)<br/><b>Pass 9</b> (Jun 23)<br/><b>Pass 10</b> (Jun 23)<br/><b>Pass 11</b> (Jun 23)<br/><b>Pass 12</b> (Jun 23)<br/><b>Pass 13</b> (Jun 23)<br/><b>Pass 14</b> (Jun 23)<br/><b>Pass 15</b> (Jun 23)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5715,7 +5733,7 @@
       </Placemark>
       <Placemark>
         <name>Forrester</name>
-        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Forrester</b><br/>2021 — Gulf of Alaska<br/><b>15 passes</b><br/><br/><b>Pass 1</b> (Jun 23)<br/><b>Pass 2</b> (Jun 23)<br/><b>Pass 3</b> (Jun 23)<br/><b>Pass 4</b> (Jun 23)<br/><b>Pass 5</b> (Jun 23)<br/><b>Pass 6</b> (Jun 23)<br/><b>Pass 7</b> (Jun 23)<br/><b>Pass 8</b> (Jun 23)<br/><b>Pass 9</b> (Jun 23)<br/><b>Pass 10</b> (Jun 23)<br/><b>Pass 11</b> (Jun 23)<br/><b>Pass 12</b> (Jun 23)<br/><b>Pass 13</b> (Jun 23)<br/><b>Pass 14</b> (Jun 23)<br/><b>Pass 15</b> (Jun 23)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5746,7 +5764,8 @@
       <name>Glacier (169)</name>
       <Placemark>
         <name>169</name>
-        <description>&lt;b&gt;Glacier (169)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;6 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 3)</description>
+        <Snippet maxLines="1">Glacier (169)</Snippet>
+        <description><![CDATA[<b>Glacier (169)</b><br/>2021 — Gulf of Alaska<br/><b>6 passes</b><br/><br/><b>Pass 1</b> (Jul 3): Not a good approach for this site<br/><b>Pass 2</b> (Jul 3): Perpendicular to P1<br/><b>Pass 3</b> (Jul 3): Slightly R of P2, banked to get under trees; short pass of first beach group - hiccup<br/><b>Pass 4</b> (Jul 3): Same as P3, keep missing animals in banked pass<br/><b>Pass 5</b> (Jul 3): Same as previous, slightly banked<br/><b>Pass 6</b> (Jul 3): Same as previous, but skipped first beach group]]></description>
         <styleUrl>#site18</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5780,7 +5799,7 @@
       </Placemark>
       <Placemark>
         <name>Glacier (169)</name>
-        <description>&lt;b&gt;Glacier (169)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;6 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Glacier (169)</b><br/>2021 — Gulf of Alaska<br/><b>6 passes</b><br/><br/><b>Pass 1</b> (Jul 3): Not a good approach for this site<br/><b>Pass 2</b> (Jul 3): Perpendicular to P1<br/><b>Pass 3</b> (Jul 3): Slightly R of P2, banked to get under trees; short pass of first beach group - hiccup<br/><b>Pass 4</b> (Jul 3): Same as P3, keep missing animals in banked pass<br/><b>Pass 5</b> (Jul 3): Same as previous, slightly banked<br/><b>Pass 6</b> (Jul 3): Same as previous, but skipped first beach group]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5870,7 +5889,7 @@
       </Placemark>
       <Placemark>
         <name>Glacier (169)</name>
-        <description>&lt;b&gt;Glacier (169)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;6 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Glacier (169)</b><br/>2021 — Gulf of Alaska<br/><b>6 passes</b><br/><br/><b>Pass 1</b> (Jul 3): Not a good approach for this site<br/><b>Pass 2</b> (Jul 3): Perpendicular to P1<br/><b>Pass 3</b> (Jul 3): Slightly R of P2, banked to get under trees; short pass of first beach group - hiccup<br/><b>Pass 4</b> (Jul 3): Same as P3, keep missing animals in banked pass<br/><b>Pass 5</b> (Jul 3): Same as previous, slightly banked<br/><b>Pass 6</b> (Jul 3): Same as previous, but skipped first beach group]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5940,7 +5959,7 @@
       </Placemark>
       <Placemark>
         <name>Glacier (169)</name>
-        <description>&lt;b&gt;Glacier (169)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;6 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Glacier (169)</b><br/>2021 — Gulf of Alaska<br/><b>6 passes</b><br/><br/><b>Pass 1</b> (Jul 3): Not a good approach for this site<br/><b>Pass 2</b> (Jul 3): Perpendicular to P1<br/><b>Pass 3</b> (Jul 3): Slightly R of P2, banked to get under trees; short pass of first beach group - hiccup<br/><b>Pass 4</b> (Jul 3): Same as P3, keep missing animals in banked pass<br/><b>Pass 5</b> (Jul 3): Same as previous, slightly banked<br/><b>Pass 6</b> (Jul 3): Same as previous, but skipped first beach group]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6021,7 +6040,7 @@
       </Placemark>
       <Placemark>
         <name>Glacier (169)</name>
-        <description>&lt;b&gt;Glacier (169)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;6 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Glacier (169)</b><br/>2021 — Gulf of Alaska<br/><b>6 passes</b><br/><br/><b>Pass 1</b> (Jul 3): Not a good approach for this site<br/><b>Pass 2</b> (Jul 3): Perpendicular to P1<br/><b>Pass 3</b> (Jul 3): Slightly R of P2, banked to get under trees; short pass of first beach group - hiccup<br/><b>Pass 4</b> (Jul 3): Same as P3, keep missing animals in banked pass<br/><b>Pass 5</b> (Jul 3): Same as previous, slightly banked<br/><b>Pass 6</b> (Jul 3): Same as previous, but skipped first beach group]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6121,7 +6140,7 @@
       </Placemark>
       <Placemark>
         <name>Glacier (169)</name>
-        <description>&lt;b&gt;Glacier (169)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;6 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Glacier (169)</b><br/>2021 — Gulf of Alaska<br/><b>6 passes</b><br/><br/><b>Pass 1</b> (Jul 3): Not a good approach for this site<br/><b>Pass 2</b> (Jul 3): Perpendicular to P1<br/><b>Pass 3</b> (Jul 3): Slightly R of P2, banked to get under trees; short pass of first beach group - hiccup<br/><b>Pass 4</b> (Jul 3): Same as P3, keep missing animals in banked pass<br/><b>Pass 5</b> (Jul 3): Same as previous, slightly banked<br/><b>Pass 6</b> (Jul 3): Same as previous, but skipped first beach group]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6197,7 +6216,7 @@
       </Placemark>
       <Placemark>
         <name>Glacier (169)</name>
-        <description>&lt;b&gt;Glacier (169)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;6 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Glacier (169)</b><br/>2021 — Gulf of Alaska<br/><b>6 passes</b><br/><br/><b>Pass 1</b> (Jul 3): Not a good approach for this site<br/><b>Pass 2</b> (Jul 3): Perpendicular to P1<br/><b>Pass 3</b> (Jul 3): Slightly R of P2, banked to get under trees; short pass of first beach group - hiccup<br/><b>Pass 4</b> (Jul 3): Same as P3, keep missing animals in banked pass<br/><b>Pass 5</b> (Jul 3): Same as previous, slightly banked<br/><b>Pass 6</b> (Jul 3): Same as previous, but skipped first beach group]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6227,8 +6246,9 @@
     <Folder>
       <name>Gran (Ledge) Point (159)</name>
       <Placemark>
-        <name>Ledge</name>
-        <description>&lt;b&gt;Gran (Ledge) Point (159)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
+        <name>159</name>
+        <Snippet maxLines="1">Gran (Ledge) Point (159)</Snippet>
+        <description><![CDATA[<b>Gran (Ledge) Point (159)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Hiccups! Many animals hanging out in water<br/><b>Pass 2</b> (Jun 27): Same as P1 - got them all!]]></description>
         <styleUrl>#site19</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6271,7 +6291,7 @@
       </Placemark>
       <Placemark>
         <name>Gran (Ledge) Point (159)</name>
-        <description>&lt;b&gt;Gran (Ledge) Point (159)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Gran (Ledge) Point (159)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Hiccups! Many animals hanging out in water<br/><b>Pass 2</b> (Jun 27): Same as P1 - got them all!]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6345,7 +6365,7 @@
       </Placemark>
       <Placemark>
         <name>Gran (Ledge) Point (159)</name>
-        <description>&lt;b&gt;Gran (Ledge) Point (159)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Gran (Ledge) Point (159)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Hiccups! Many animals hanging out in water<br/><b>Pass 2</b> (Jun 27): Same as P1 - got them all!]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6376,7 +6396,8 @@
       <name>Graves Rock (145)</name>
       <Placemark>
         <name>145</name>
-        <description>&lt;b&gt;Graves Rock (145)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
+        <Snippet maxLines="1">Graves Rock (145)</Snippet>
+        <description><![CDATA[<b>Graves Rock (145)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 27)<br/><b>Pass 2</b> (Jun 27): L of P1]]></description>
         <styleUrl>#site0</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6436,7 +6457,7 @@
       </Placemark>
       <Placemark>
         <name>Graves Rock (145)</name>
-        <description>&lt;b&gt;Graves Rock (145)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Graves Rock (145)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 27)<br/><b>Pass 2</b> (Jun 27): L of P1]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6544,7 +6565,7 @@
       </Placemark>
       <Placemark>
         <name>Graves Rock (145)</name>
-        <description>&lt;b&gt;Graves Rock (145)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Graves Rock (145)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 27)<br/><b>Pass 2</b> (Jun 27): L of P1]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6575,7 +6596,8 @@
       <name>Harbor Point (160)</name>
       <Placemark>
         <name>160</name>
-        <description>&lt;b&gt;Harbor Point (160)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 28)</description>
+        <Snippet maxLines="1">Harbor Point (160)</Snippet>
+        <description><![CDATA[<b>Harbor Point (160)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 28)]]></description>
         <styleUrl>#site1</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6670,7 +6692,7 @@
       </Placemark>
       <Placemark>
         <name>Harbor Point (160)</name>
-        <description>&lt;b&gt;Harbor Point (160)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 28)</description>
+        <description><![CDATA[<b>Harbor Point (160)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 28)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6681,7 +6703,7 @@
         <name/>
         <Style>
           <IconStyle>
-            <color>ff4bb43c</color>
+            <color>ff6b6bff</color>
             <scale>0.65</scale>
             <Icon>
               <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
@@ -6701,7 +6723,8 @@
       <name>Hazy (113)</name>
       <Placemark>
         <name>113</name>
-        <description>&lt;b&gt;Hazy (113)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)</description>
+        <Snippet maxLines="1">Hazy (113)</Snippet>
+        <description><![CDATA[<b>Hazy (113)</b><br/>2021 — Gulf of Alaska<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jun 23): B site, got them all<br/><b>Pass 2</b> (Jun 23): Rock N of Hazy<br/><b>Pass 3</b> (Jun 23): A site, west side of island<br/><b>Pass 4</b> (Jun 23): A site, L of P3]]></description>
         <styleUrl>#site2</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6721,7 +6744,7 @@
       </Placemark>
       <Placemark>
         <name>Hazy (113)</name>
-        <description>&lt;b&gt;Hazy (113)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Hazy (113)</b><br/>2021 — Gulf of Alaska<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jun 23): B site, got them all<br/><b>Pass 2</b> (Jun 23): Rock N of Hazy<br/><b>Pass 3</b> (Jun 23): A site, west side of island<br/><b>Pass 4</b> (Jun 23): A site, L of P3]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6788,7 +6811,7 @@
       </Placemark>
       <Placemark>
         <name>Hazy (113)</name>
-        <description>&lt;b&gt;Hazy (113)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Hazy (113)</b><br/>2021 — Gulf of Alaska<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jun 23): B site, got them all<br/><b>Pass 2</b> (Jun 23): Rock N of Hazy<br/><b>Pass 3</b> (Jun 23): A site, west side of island<br/><b>Pass 4</b> (Jun 23): A site, L of P3]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6887,7 +6910,7 @@
       </Placemark>
       <Placemark>
         <name>Hazy (113)</name>
-        <description>&lt;b&gt;Hazy (113)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Hazy (113)</b><br/>2021 — Gulf of Alaska<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jun 23): B site, got them all<br/><b>Pass 2</b> (Jun 23): Rock N of Hazy<br/><b>Pass 3</b> (Jun 23): A site, west side of island<br/><b>Pass 4</b> (Jun 23): A site, L of P3]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6979,7 +7002,7 @@
       </Placemark>
       <Placemark>
         <name>Hazy (113)</name>
-        <description>&lt;b&gt;Hazy (113)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Hazy (113)</b><br/>2021 — Gulf of Alaska<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jun 23): B site, got them all<br/><b>Pass 2</b> (Jun 23): Rock N of Hazy<br/><b>Pass 3</b> (Jun 23): A site, west side of island<br/><b>Pass 4</b> (Jun 23): A site, L of P3]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7010,7 +7033,8 @@
       <name>Hook Point (164)</name>
       <Placemark>
         <name>164</name>
-        <description>&lt;b&gt;Hook Point (164)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <Snippet maxLines="1">Hook Point (164)</Snippet>
+        <description><![CDATA[<b>Hook Point (164)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3)]]></description>
         <styleUrl>#site3</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7063,7 +7087,7 @@
       </Placemark>
       <Placemark>
         <name>Hook Point (164)</name>
-        <description>&lt;b&gt;Hook Point (164)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Hook Point (164)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7094,7 +7118,8 @@
       <name>Jacob Rock (121)</name>
       <Placemark>
         <name>121</name>
-        <description>&lt;b&gt;Jacob Rock (121)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)</description>
+        <Snippet maxLines="1">Jacob Rock (121)</Snippet>
+        <description><![CDATA[<b>Jacob Rock (121)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jun 23): Surveyed this site again because it's close to Kaiuchali; not a good pass approach<br/><b>Pass 2</b> (Jun 27): Different approach from P1, got them all<br/><b>Pass 3</b> (Jun 27)]]></description>
         <styleUrl>#site4</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7138,7 +7163,7 @@
       </Placemark>
       <Placemark>
         <name>Jacob Rock (121)</name>
-        <description>&lt;b&gt;Jacob Rock (121)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Jacob Rock (121)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jun 23): Surveyed this site again because it's close to Kaiuchali; not a good pass approach<br/><b>Pass 2</b> (Jun 27): Different approach from P1, got them all<br/><b>Pass 3</b> (Jun 27)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7205,7 +7230,7 @@
       </Placemark>
       <Placemark>
         <name>Jacob Rock (121)</name>
-        <description>&lt;b&gt;Jacob Rock (121)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Jacob Rock (121)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jun 23): Surveyed this site again because it's close to Kaiuchali; not a good pass approach<br/><b>Pass 2</b> (Jun 27): Different approach from P1, got them all<br/><b>Pass 3</b> (Jun 27)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7271,7 +7296,7 @@
       </Placemark>
       <Placemark>
         <name>Jacob Rock (121)</name>
-        <description>&lt;b&gt;Jacob Rock (121)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Jacob Rock (121)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jun 23): Surveyed this site again because it's close to Kaiuchali; not a good pass approach<br/><b>Pass 2</b> (Jun 27): Different approach from P1, got them all<br/><b>Pass 3</b> (Jun 27)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7301,8 +7326,9 @@
     <Folder>
       <name>Kaiuchali (Biorka) (122)</name>
       <Placemark>
-        <name>Biorka</name>
-        <description>&lt;b&gt;Kaiuchali (Biorka) (122)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
+        <name>122</name>
+        <Snippet maxLines="1">Kaiuchali (Biorka) (122)</Snippet>
+        <description><![CDATA[<b>Kaiuchali (Biorka) (122)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27)]]></description>
         <styleUrl>#site5</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7341,7 +7367,7 @@
       </Placemark>
       <Placemark>
         <name>Kaiuchali (Biorka) (122)</name>
-        <description>&lt;b&gt;Kaiuchali (Biorka) (122)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Kaiuchali (Biorka) (122)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7372,7 +7398,8 @@
       <name>Kodiak/Cape Ikolik (223)</name>
       <Placemark>
         <name>223</name>
-        <description>&lt;b&gt;Kodiak/Cape Ikolik (223)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)</description>
+        <Snippet maxLines="1">Kodiak/Cape Ikolik (223)</Snippet>
+        <description><![CDATA[<b>Kodiak/Cape Ikolik (223)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 6)<br/><b>Pass 2</b> (Jul 6): R of P1]]></description>
         <styleUrl>#site6</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7423,7 +7450,7 @@
       </Placemark>
       <Placemark>
         <name>Kodiak/Cape Ikolik (223)</name>
-        <description>&lt;b&gt;Kodiak/Cape Ikolik (223)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)</description>
+        <description><![CDATA[<b>Kodiak/Cape Ikolik (223)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 6)<br/><b>Pass 2</b> (Jul 6): R of P1]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7491,7 +7518,7 @@
       </Placemark>
       <Placemark>
         <name>Kodiak/Cape Ikolik (223)</name>
-        <description>&lt;b&gt;Kodiak/Cape Ikolik (223)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)</description>
+        <description><![CDATA[<b>Kodiak/Cape Ikolik (223)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 6)<br/><b>Pass 2</b> (Jul 6): R of P1]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7522,7 +7549,8 @@
       <name>Kodiak/Cape Ugat (228)</name>
       <Placemark>
         <name>228</name>
-        <description>&lt;b&gt;Kodiak/Cape Ugat (228)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)</description>
+        <Snippet maxLines="1">Kodiak/Cape Ugat (228)</Snippet>
+        <description><![CDATA[<b>Kodiak/Cape Ugat (228)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 6)]]></description>
         <styleUrl>#site7</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7573,7 +7601,7 @@
       </Placemark>
       <Placemark>
         <name>Kodiak/Cape Ugat (228)</name>
-        <description>&lt;b&gt;Kodiak/Cape Ugat (228)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)</description>
+        <description><![CDATA[<b>Kodiak/Cape Ugat (228)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 6)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7604,7 +7632,8 @@
       <name>Kodiak/Gull Point (217)</name>
       <Placemark>
         <name>217</name>
-        <description>&lt;b&gt;Kodiak/Gull Point (217)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)</description>
+        <Snippet maxLines="1">Kodiak/Gull Point (217)</Snippet>
+        <description><![CDATA[<b>Kodiak/Gull Point (217)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 6)]]></description>
         <styleUrl>#site8</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7660,7 +7689,7 @@
       </Placemark>
       <Placemark>
         <name>Kodiak/Gull Point (217)</name>
-        <description>&lt;b&gt;Kodiak/Gull Point (217)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)</description>
+        <description><![CDATA[<b>Kodiak/Gull Point (217)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 6)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7691,7 +7720,8 @@
       <name>Kodiak/Steep Cape (231)</name>
       <Placemark>
         <name>231</name>
-        <description>&lt;b&gt;Kodiak/Steep Cape (231)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)</description>
+        <Snippet maxLines="1">Kodiak/Steep Cape (231)</Snippet>
+        <description><![CDATA[<b>Kodiak/Steep Cape (231)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 6)]]></description>
         <styleUrl>#site9</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7744,7 +7774,7 @@
       </Placemark>
       <Placemark>
         <name>Kodiak/Steep Cape (231)</name>
-        <description>&lt;b&gt;Kodiak/Steep Cape (231)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)</description>
+        <description><![CDATA[<b>Kodiak/Steep Cape (231)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 6)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7775,7 +7805,8 @@
       <name>Latax Rocks (206)</name>
       <Placemark>
         <name>206</name>
-        <description>&lt;b&gt;Latax Rocks (206)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)</description>
+        <Snippet maxLines="1">Latax Rocks (206)</Snippet>
+        <description><![CDATA[<b>Latax Rocks (206)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 3): Hiccups over animals<br/><b>Pass 2</b> (Jul 3): Same as P1]]></description>
         <styleUrl>#site10</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7871,7 +7902,7 @@
       </Placemark>
       <Placemark>
         <name>Latax Rocks (206)</name>
-        <description>&lt;b&gt;Latax Rocks (206)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Latax Rocks (206)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 3): Hiccups over animals<br/><b>Pass 2</b> (Jul 3): Same as P1]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7999,7 +8030,7 @@
       </Placemark>
       <Placemark>
         <name>Latax Rocks (206)</name>
-        <description>&lt;b&gt;Latax Rocks (206)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Latax Rocks (206)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 3): Hiccups over animals<br/><b>Pass 2</b> (Jul 3): Same as P1]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8030,7 +8061,8 @@
       <name>Libby Island (622)</name>
       <Placemark>
         <name>622</name>
-        <description>&lt;b&gt;Libby Island (622)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 28)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 28)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)</description>
+        <Snippet maxLines="1">Libby Island (622)</Snippet>
+        <description><![CDATA[<b>Libby Island (622)</b><br/>2021 — Gulf of Alaska<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Quite a few animals here!<br/><b>Pass 2</b> (Jun 28)<br/><b>Pass 3</b> (Jun 28)<br/><b>Pass 4</b> (Jul 3)<br/><b>Pass 5</b> (Jul 3)]]></description>
         <styleUrl>#site11</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8084,7 +8116,7 @@
       </Placemark>
       <Placemark>
         <name>Libby Island (622)</name>
-        <description>&lt;b&gt;Libby Island (622)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 28)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 28)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Libby Island (622)</b><br/>2021 — Gulf of Alaska<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Quite a few animals here!<br/><b>Pass 2</b> (Jun 28)<br/><b>Pass 3</b> (Jun 28)<br/><b>Pass 4</b> (Jul 3)<br/><b>Pass 5</b> (Jul 3)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8159,7 +8191,7 @@
       </Placemark>
       <Placemark>
         <name>Libby Island (622)</name>
-        <description>&lt;b&gt;Libby Island (622)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 28)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 28)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Libby Island (622)</b><br/>2021 — Gulf of Alaska<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Quite a few animals here!<br/><b>Pass 2</b> (Jun 28)<br/><b>Pass 3</b> (Jun 28)<br/><b>Pass 4</b> (Jul 3)<br/><b>Pass 5</b> (Jul 3)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8226,7 +8258,7 @@
       </Placemark>
       <Placemark>
         <name>Libby Island (622)</name>
-        <description>&lt;b&gt;Libby Island (622)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 28)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 28)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Libby Island (622)</b><br/>2021 — Gulf of Alaska<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Quite a few animals here!<br/><b>Pass 2</b> (Jun 28)<br/><b>Pass 3</b> (Jun 28)<br/><b>Pass 4</b> (Jul 3)<br/><b>Pass 5</b> (Jul 3)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8277,7 +8309,7 @@
       </Placemark>
       <Placemark>
         <name>Libby Island (622)</name>
-        <description>&lt;b&gt;Libby Island (622)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 28)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 28)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Libby Island (622)</b><br/>2021 — Gulf of Alaska<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Quite a few animals here!<br/><b>Pass 2</b> (Jun 28)<br/><b>Pass 3</b> (Jun 28)<br/><b>Pass 4</b> (Jul 3)<br/><b>Pass 5</b> (Jul 3)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8343,7 +8375,7 @@
       </Placemark>
       <Placemark>
         <name>Libby Island (622)</name>
-        <description>&lt;b&gt;Libby Island (622)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 28)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 28)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Libby Island (622)</b><br/>2021 — Gulf of Alaska<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Quite a few animals here!<br/><b>Pass 2</b> (Jun 28)<br/><b>Pass 3</b> (Jun 28)<br/><b>Pass 4</b> (Jul 3)<br/><b>Pass 5</b> (Jul 3)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8374,7 +8406,8 @@
       <name>Middle (558)</name>
       <Placemark>
         <name>558</name>
-        <description>&lt;b&gt;Middle (558)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
+        <Snippet maxLines="1">Middle (558)</Snippet>
+        <description><![CDATA[<b>Middle (558)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27)]]></description>
         <styleUrl>#site12</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8417,7 +8450,7 @@
       </Placemark>
       <Placemark>
         <name>Middle (558)</name>
-        <description>&lt;b&gt;Middle (558)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Middle (558)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8448,7 +8481,8 @@
       <name>Middleton (168)</name>
       <Placemark>
         <name>168</name>
-        <description>&lt;b&gt;Middleton (168)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)</description>
+        <Snippet maxLines="1">Middleton (168)</Snippet>
+        <description><![CDATA[<b>Middleton (168)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 3): Count animals in water<br/><b>Pass 2</b> (Jul 3): Different group from P1, count jumpers<br/><b>Pass 3</b> (Jul 3): L of P2 - Kyle spotted killer whale, visible in SSLS1742-SSLS1743!!]]></description>
         <styleUrl>#site13</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8531,7 +8565,7 @@
       </Placemark>
       <Placemark>
         <name>Middleton (168)</name>
-        <description>&lt;b&gt;Middleton (168)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Middleton (168)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 3): Count animals in water<br/><b>Pass 2</b> (Jul 3): Different group from P1, count jumpers<br/><b>Pass 3</b> (Jul 3): L of P2 - Kyle spotted killer whale, visible in SSLS1742-SSLS1743!!]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8604,7 +8638,7 @@
       </Placemark>
       <Placemark>
         <name>Middleton (168)</name>
-        <description>&lt;b&gt;Middleton (168)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Middleton (168)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 3): Count animals in water<br/><b>Pass 2</b> (Jul 3): Different group from P1, count jumpers<br/><b>Pass 3</b> (Jul 3): L of P2 - Kyle spotted killer whale, visible in SSLS1742-SSLS1743!!]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8673,7 +8707,7 @@
       </Placemark>
       <Placemark>
         <name>Middleton (168)</name>
-        <description>&lt;b&gt;Middleton (168)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Middleton (168)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 3): Count animals in water<br/><b>Pass 2</b> (Jul 3): Different group from P1, count jumpers<br/><b>Pass 3</b> (Jul 3): L of P2 - Kyle spotted killer whale, visible in SSLS1742-SSLS1743!!]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8704,7 +8738,8 @@
       <name>Nagahut Rocks (196)</name>
       <Placemark>
         <name>196</name>
-        <description>&lt;b&gt;Nagahut Rocks (196)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <Snippet maxLines="1">Nagahut Rocks (196)</Snippet>
+        <description><![CDATA[<b>Nagahut Rocks (196)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3): Only a few animals]]></description>
         <styleUrl>#site14</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8752,7 +8787,7 @@
       </Placemark>
       <Placemark>
         <name>Nagahut Rocks (196)</name>
-        <description>&lt;b&gt;Nagahut Rocks (196)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Nagahut Rocks (196)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3): Only a few animals]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8763,7 +8798,7 @@
         <name/>
         <Style>
           <IconStyle>
-            <color>ffc3ffaa</color>
+            <color>ffffc9c9</color>
             <scale>0.65</scale>
             <Icon>
               <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
@@ -8783,7 +8818,8 @@
       <name>Nagai Rocks/B (249)</name>
       <Placemark>
         <name>249</name>
-        <description>&lt;b&gt;Nagai Rocks/B (249)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)</description>
+        <Snippet maxLines="1">Nagai Rocks/B (249)</Snippet>
+        <description><![CDATA[<b>Nagai Rocks/B (249)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 8): A site to B site<br/><b>Pass 2</b> (Jul 8): L of P1 - not sure it was far enough left, plus hiccups over animals missed in P1<br/><b>Pass 3</b> (Jul 8): L of P1 and P2 - got the group we missed in P1]]></description>
         <styleUrl>#site15</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8858,7 +8894,7 @@
       </Placemark>
       <Placemark>
         <name>Nagai Rocks/B (249)</name>
-        <description>&lt;b&gt;Nagai Rocks/B (249)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)</description>
+        <description><![CDATA[<b>Nagai Rocks/B (249)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 8): A site to B site<br/><b>Pass 2</b> (Jul 8): L of P1 - not sure it was far enough left, plus hiccups over animals missed in P1<br/><b>Pass 3</b> (Jul 8): L of P1 and P2 - got the group we missed in P1]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8940,7 +8976,7 @@
       </Placemark>
       <Placemark>
         <name>Nagai Rocks/B (249)</name>
-        <description>&lt;b&gt;Nagai Rocks/B (249)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)</description>
+        <description><![CDATA[<b>Nagai Rocks/B (249)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 8): A site to B site<br/><b>Pass 2</b> (Jul 8): L of P1 - not sure it was far enough left, plus hiccups over animals missed in P1<br/><b>Pass 3</b> (Jul 8): L of P1 and P2 - got the group we missed in P1]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9003,7 +9039,7 @@
       </Placemark>
       <Placemark>
         <name>Nagai Rocks/B (249)</name>
-        <description>&lt;b&gt;Nagai Rocks/B (249)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)</description>
+        <description><![CDATA[<b>Nagai Rocks/B (249)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 8): A site to B site<br/><b>Pass 2</b> (Jul 8): L of P1 - not sure it was far enough left, plus hiccups over animals missed in P1<br/><b>Pass 3</b> (Jul 8): L of P1 and P2 - got the group we missed in P1]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9034,7 +9070,8 @@
       <name>Perl (194)</name>
       <Placemark>
         <name>194</name>
-        <description>&lt;b&gt;Perl (194)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <Snippet maxLines="1">Perl (194)</Snippet>
+        <description><![CDATA[<b>Perl (194)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3): Got them all in one pass!]]></description>
         <styleUrl>#site16</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9086,7 +9123,7 @@
       </Placemark>
       <Placemark>
         <name>Perl (194)</name>
-        <description>&lt;b&gt;Perl (194)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Perl (194)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3): Got them all in one pass!]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9117,7 +9154,8 @@
       <name>Perry (172)</name>
       <Placemark>
         <name>172</name>
-        <description>&lt;b&gt;Perry (172)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <Snippet maxLines="1">Perry (172)</Snippet>
+        <description><![CDATA[<b>Perry (172)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3): Count jumpers]]></description>
         <styleUrl>#site17</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9160,7 +9198,7 @@
       </Placemark>
       <Placemark>
         <name>Perry (172)</name>
-        <description>&lt;b&gt;Perry (172)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Perry (172)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3): Count jumpers]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9191,7 +9229,8 @@
       <name>Point Carolus (148)</name>
       <Placemark>
         <name>148</name>
-        <description>&lt;b&gt;Point Carolus (148)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
+        <Snippet maxLines="1">Point Carolus (148)</Snippet>
+        <description><![CDATA[<b>Point Carolus (148)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27): Photos, but may only be 1 animal here]]></description>
         <styleUrl>#site18</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9243,7 +9282,7 @@
       </Placemark>
       <Placemark>
         <name>Point Carolus (148)</name>
-        <description>&lt;b&gt;Point Carolus (148)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Point Carolus (148)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27): Photos, but may only be 1 animal here]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9274,7 +9313,8 @@
       <name>Point Elrington (177)</name>
       <Placemark>
         <name>177</name>
-        <description>&lt;b&gt;Point Elrington (177)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <Snippet maxLines="1">Point Elrington (177)</Snippet>
+        <description><![CDATA[<b>Point Elrington (177)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3)]]></description>
         <styleUrl>#site19</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9330,7 +9370,7 @@
       </Placemark>
       <Placemark>
         <name>Point Elrington (177)</name>
-        <description>&lt;b&gt;Point Elrington (177)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Point Elrington (177)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9361,7 +9401,8 @@
       <name>Point Lull (138)</name>
       <Placemark>
         <name>138</name>
-        <description>&lt;b&gt;Point Lull (138)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
+        <Snippet maxLines="1">Point Lull (138)</Snippet>
+        <description><![CDATA[<b>Point Lull (138)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27): Small group]]></description>
         <styleUrl>#site0</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9408,7 +9449,7 @@
       </Placemark>
       <Placemark>
         <name>Point Lull (138)</name>
-        <description>&lt;b&gt;Point Lull (138)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Point Lull (138)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27): Small group]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9439,7 +9480,8 @@
       <name>Procession Rocks (178)</name>
       <Placemark>
         <name>178</name>
-        <description>&lt;b&gt;Procession Rocks (178)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <Snippet maxLines="1">Procession Rocks (178)</Snippet>
+        <description><![CDATA[<b>Procession Rocks (178)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3): Check for 1 male on L at end of pass (he should be in frame)]]></description>
         <styleUrl>#site1</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9497,7 +9539,7 @@
       </Placemark>
       <Placemark>
         <name>Procession Rocks (178)</name>
-        <description>&lt;b&gt;Procession Rocks (178)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Procession Rocks (178)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3): Check for 1 male on L at end of pass (he should be in frame)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9508,7 +9550,7 @@
         <name/>
         <Style>
           <IconStyle>
-            <color>ff4bb43c</color>
+            <color>ff6b6bff</color>
             <scale>0.65</scale>
             <Icon>
               <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
@@ -9528,7 +9570,8 @@
       <name>Puale Bay (241)</name>
       <Placemark>
         <name>241</name>
-        <description>&lt;b&gt;Puale Bay (241)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)</description>
+        <Snippet maxLines="1">Puale Bay (241)</Snippet>
+        <description><![CDATA[<b>Puale Bay (241)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 6)<br/><b>Pass 2</b> (Jul 6): R of P1]]></description>
         <styleUrl>#site2</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9603,7 +9646,7 @@
       </Placemark>
       <Placemark>
         <name>Puale Bay (241)</name>
-        <description>&lt;b&gt;Puale Bay (241)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)</description>
+        <description><![CDATA[<b>Puale Bay (241)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 6)<br/><b>Pass 2</b> (Jul 6): R of P1]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9689,7 +9732,7 @@
       </Placemark>
       <Placemark>
         <name>Puale Bay (241)</name>
-        <description>&lt;b&gt;Puale Bay (241)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)</description>
+        <description><![CDATA[<b>Puale Bay (241)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 6)<br/><b>Pass 2</b> (Jul 6): R of P1]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9720,7 +9763,8 @@
       <name>Rocky Island (608)</name>
       <Placemark>
         <name>608</name>
-        <description>&lt;b&gt;Rocky Island (608)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
+        <Snippet maxLines="1">Rocky Island (608)</Snippet>
+        <description><![CDATA[<b>Rocky Island (608)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27): Lots of animals swimming]]></description>
         <styleUrl>#site3</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9770,7 +9814,7 @@
       </Placemark>
       <Placemark>
         <name>Rocky Island (608)</name>
-        <description>&lt;b&gt;Rocky Island (608)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Rocky Island (608)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27): Lots of animals swimming]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9801,7 +9845,8 @@
       <name>Rugged (183)</name>
       <Placemark>
         <name>183</name>
-        <description>&lt;b&gt;Rugged (183)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <Snippet maxLines="1">Rugged (183)</Snippet>
+        <description><![CDATA[<b>Rugged (183)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3): A site to B site, only small group at beginning of photo pass]]></description>
         <styleUrl>#site4</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9899,7 +9944,7 @@
       </Placemark>
       <Placemark>
         <name>Rugged (183)</name>
-        <description>&lt;b&gt;Rugged (183)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Rugged (183)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3): A site to B site, only small group at beginning of photo pass]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9930,7 +9975,8 @@
       <name>Sail (134)</name>
       <Placemark>
         <name>134</name>
-        <description>&lt;b&gt;Sail (134)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
+        <Snippet maxLines="1">Sail (134)</Snippet>
+        <description><![CDATA[<b>Sail (134)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27): Quite a few animals here!]]></description>
         <styleUrl>#site5</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10008,7 +10054,7 @@
       </Placemark>
       <Placemark>
         <name>Sail (134)</name>
-        <description>&lt;b&gt;Sail (134)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Sail (134)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27): Quite a few animals here!]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10039,7 +10085,8 @@
       <name>Sea Lion Islands (140)</name>
       <Placemark>
         <name>140</name>
-        <description>&lt;b&gt;Sea Lion Islands (140)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)</description>
+        <Snippet maxLines="1">Sea Lion Islands (140)</Snippet>
+        <description><![CDATA[<b>Sea Lion Islands (140)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Hiccups over water<br/><b>Pass 2</b> (Jun 27): L of P1, hiccups<br/><b>Pass 3</b> (Jun 27): Same as P2 - good!]]></description>
         <styleUrl>#site6</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10112,7 +10159,7 @@
       </Placemark>
       <Placemark>
         <name>Sea Lion Islands (140)</name>
-        <description>&lt;b&gt;Sea Lion Islands (140)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Sea Lion Islands (140)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Hiccups over water<br/><b>Pass 2</b> (Jun 27): L of P1, hiccups<br/><b>Pass 3</b> (Jun 27): Same as P2 - good!]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10200,7 +10247,7 @@
       </Placemark>
       <Placemark>
         <name>Sea Lion Islands (140)</name>
-        <description>&lt;b&gt;Sea Lion Islands (140)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Sea Lion Islands (140)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Hiccups over water<br/><b>Pass 2</b> (Jun 27): L of P1, hiccups<br/><b>Pass 3</b> (Jun 27): Same as P2 - good!]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10288,7 +10335,7 @@
       </Placemark>
       <Placemark>
         <name>Sea Lion Islands (140)</name>
-        <description>&lt;b&gt;Sea Lion Islands (140)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Sea Lion Islands (140)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Hiccups over water<br/><b>Pass 2</b> (Jun 27): L of P1, hiccups<br/><b>Pass 3</b> (Jun 27): Same as P2 - good!]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10319,7 +10366,8 @@
       <name>Sea Lion Rock (Puffin Bay) (119)</name>
       <Placemark>
         <name>119</name>
-        <description>&lt;b&gt;Sea Lion Rock (Puffin Bay) (119)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)</description>
+        <Snippet maxLines="1">Sea Lion Rock (Puffin Bay) (119)</Snippet>
+        <description><![CDATA[<b>Sea Lion Rock (Puffin Bay) (119)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 23)]]></description>
         <styleUrl>#site7</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10366,7 +10414,7 @@
       </Placemark>
       <Placemark>
         <name>Sea Lion Rock (Puffin Bay) (119)</name>
-        <description>&lt;b&gt;Sea Lion Rock (Puffin Bay) (119)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Sea Lion Rock (Puffin Bay) (119)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 23)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10397,7 +10445,8 @@
       <name>Seal Rocks (166)</name>
       <Placemark>
         <name>166</name>
-        <description>&lt;b&gt;Seal Rocks (166)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <Snippet maxLines="1">Seal Rocks (166)</Snippet>
+        <description><![CDATA[<b>Seal Rocks (166)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3)]]></description>
         <styleUrl>#site8</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10453,7 +10502,7 @@
       </Placemark>
       <Placemark>
         <name>Seal Rocks (166)</name>
-        <description>&lt;b&gt;Seal Rocks (166)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Seal Rocks (166)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10484,7 +10533,8 @@
       <name>Shakun Rocks (235)</name>
       <Placemark>
         <name>235</name>
-        <description>&lt;b&gt;Shakun Rocks (235)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)</description>
+        <Snippet maxLines="1">Shakun Rocks (235)</Snippet>
+        <description><![CDATA[<b>Shakun Rocks (235)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 6)]]></description>
         <styleUrl>#site9</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10531,7 +10581,7 @@
       </Placemark>
       <Placemark>
         <name>Shakun Rocks (235)</name>
-        <description>&lt;b&gt;Shakun Rocks (235)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)</description>
+        <description><![CDATA[<b>Shakun Rocks (235)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 6)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10562,7 +10612,8 @@
       <name>Sitkinak/Cape Sitkinak (220)</name>
       <Placemark>
         <name>220</name>
-        <description>&lt;b&gt;Sitkinak/Cape Sitkinak (220)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 6)</description>
+        <Snippet maxLines="1">Sitkinak/Cape Sitkinak (220)</Snippet>
+        <description><![CDATA[<b>Sitkinak/Cape Sitkinak (220)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 6): Only got offshore rocks in this pass<br/><b>Pass 2</b> (Jul 6): Same approach as P1 to get nearshore rocks; hiccups and altitude issues<br/><b>Pass 3</b> (Jul 6): Opposite direction of P1 and P2, better approach to get all]]></description>
         <styleUrl>#site10</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10605,7 +10656,7 @@
       </Placemark>
       <Placemark>
         <name>Sitkinak/Cape Sitkinak (220)</name>
-        <description>&lt;b&gt;Sitkinak/Cape Sitkinak (220)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 6)</description>
+        <description><![CDATA[<b>Sitkinak/Cape Sitkinak (220)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 6): Only got offshore rocks in this pass<br/><b>Pass 2</b> (Jul 6): Same approach as P1 to get nearshore rocks; hiccups and altitude issues<br/><b>Pass 3</b> (Jul 6): Opposite direction of P1 and P2, better approach to get all]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10703,7 +10754,7 @@
       </Placemark>
       <Placemark>
         <name>Sitkinak/Cape Sitkinak (220)</name>
-        <description>&lt;b&gt;Sitkinak/Cape Sitkinak (220)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 6)</description>
+        <description><![CDATA[<b>Sitkinak/Cape Sitkinak (220)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 6): Only got offshore rocks in this pass<br/><b>Pass 2</b> (Jul 6): Same approach as P1 to get nearshore rocks; hiccups and altitude issues<br/><b>Pass 3</b> (Jul 6): Opposite direction of P1 and P2, better approach to get all]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10801,7 +10852,7 @@
       </Placemark>
       <Placemark>
         <name>Sitkinak/Cape Sitkinak (220)</name>
-        <description>&lt;b&gt;Sitkinak/Cape Sitkinak (220)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 6)</description>
+        <description><![CDATA[<b>Sitkinak/Cape Sitkinak (220)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 6): Only got offshore rocks in this pass<br/><b>Pass 2</b> (Jul 6): Same approach as P1 to get nearshore rocks; hiccups and altitude issues<br/><b>Pass 3</b> (Jul 6): Opposite direction of P1 and P2, better approach to get all]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10832,7 +10883,8 @@
       <name>South Marble (149)</name>
       <Placemark>
         <name>149</name>
-        <description>&lt;b&gt;South Marble (149)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)</description>
+        <Snippet maxLines="1">South Marble (149)</Snippet>
+        <description><![CDATA[<b>South Marble (149)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Lots of swimmers<br/><b>Pass 2</b> (Jun 27): R of P1<br/><b>Pass 3</b> (Jun 27): R of P1 and P2]]></description>
         <styleUrl>#site11</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10896,7 +10948,7 @@
       </Placemark>
       <Placemark>
         <name>South Marble (149)</name>
-        <description>&lt;b&gt;South Marble (149)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>South Marble (149)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Lots of swimmers<br/><b>Pass 2</b> (Jun 27): R of P1<br/><b>Pass 3</b> (Jun 27): R of P1 and P2]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10982,7 +11034,7 @@
       </Placemark>
       <Placemark>
         <name>South Marble (149)</name>
-        <description>&lt;b&gt;South Marble (149)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>South Marble (149)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Lots of swimmers<br/><b>Pass 2</b> (Jun 27): R of P1<br/><b>Pass 3</b> (Jun 27): R of P1 and P2]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11066,7 +11118,7 @@
       </Placemark>
       <Placemark>
         <name>South Marble (149)</name>
-        <description>&lt;b&gt;South Marble (149)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>South Marble (149)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Lots of swimmers<br/><b>Pass 2</b> (Jun 27): R of P1<br/><b>Pass 3</b> (Jun 27): R of P1 and P2]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11097,7 +11149,8 @@
       <name>Sugarloaf (200)</name>
       <Placemark>
         <name>200</name>
-        <description>&lt;b&gt;Sugarloaf (200)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)</description>
+        <Snippet maxLines="1">Sugarloaf (200)</Snippet>
+        <description><![CDATA[<b>Sugarloaf (200)</b><br/>2021 — Gulf of Alaska<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 3): NE to SW direction, to photograph SE rocks<br/><b>Pass 2</b> (Jul 3): NE to SW direction at slightly different angle, to photograph east side of island; check for one animal at end - hiccups<br/><b>Pass 3</b> (Jul 3): E to W direction, north side of island<br/><b>Pass 4</b> (Jul 3): N to S direction, west side of island]]></description>
         <styleUrl>#site12</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11151,7 +11204,7 @@
       </Placemark>
       <Placemark>
         <name>Sugarloaf (200)</name>
-        <description>&lt;b&gt;Sugarloaf (200)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Sugarloaf (200)</b><br/>2021 — Gulf of Alaska<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 3): NE to SW direction, to photograph SE rocks<br/><b>Pass 2</b> (Jul 3): NE to SW direction at slightly different angle, to photograph east side of island; check for one animal at end - hiccups<br/><b>Pass 3</b> (Jul 3): E to W direction, north side of island<br/><b>Pass 4</b> (Jul 3): N to S direction, west side of island]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11223,7 +11276,7 @@
       </Placemark>
       <Placemark>
         <name>Sugarloaf (200)</name>
-        <description>&lt;b&gt;Sugarloaf (200)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Sugarloaf (200)</b><br/>2021 — Gulf of Alaska<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 3): NE to SW direction, to photograph SE rocks<br/><b>Pass 2</b> (Jul 3): NE to SW direction at slightly different angle, to photograph east side of island; check for one animal at end - hiccups<br/><b>Pass 3</b> (Jul 3): E to W direction, north side of island<br/><b>Pass 4</b> (Jul 3): N to S direction, west side of island]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11306,7 +11359,7 @@
       </Placemark>
       <Placemark>
         <name>Sugarloaf (200)</name>
-        <description>&lt;b&gt;Sugarloaf (200)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Sugarloaf (200)</b><br/>2021 — Gulf of Alaska<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 3): NE to SW direction, to photograph SE rocks<br/><b>Pass 2</b> (Jul 3): NE to SW direction at slightly different angle, to photograph east side of island; check for one animal at end - hiccups<br/><b>Pass 3</b> (Jul 3): E to W direction, north side of island<br/><b>Pass 4</b> (Jul 3): N to S direction, west side of island]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11374,7 +11427,7 @@
       </Placemark>
       <Placemark>
         <name>Sugarloaf (200)</name>
-        <description>&lt;b&gt;Sugarloaf (200)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Sugarloaf (200)</b><br/>2021 — Gulf of Alaska<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 3): NE to SW direction, to photograph SE rocks<br/><b>Pass 2</b> (Jul 3): NE to SW direction at slightly different angle, to photograph east side of island; check for one animal at end - hiccups<br/><b>Pass 3</b> (Jul 3): E to W direction, north side of island<br/><b>Pass 4</b> (Jul 3): N to S direction, west side of island]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11405,7 +11458,8 @@
       <name>Sunset (136)</name>
       <Placemark>
         <name>136</name>
-        <description>&lt;b&gt;Sunset (136)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
+        <Snippet maxLines="1">Sunset (136)</Snippet>
+        <description><![CDATA[<b>Sunset (136)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Hiccup toward end of pass<br/><b>Pass 2</b> (Jun 27): L of P1? Possibly same as P1]]></description>
         <styleUrl>#site13</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11472,7 +11526,7 @@
       </Placemark>
       <Placemark>
         <name>Sunset (136)</name>
-        <description>&lt;b&gt;Sunset (136)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Sunset (136)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Hiccup toward end of pass<br/><b>Pass 2</b> (Jun 27): L of P1? Possibly same as P1]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11555,7 +11609,7 @@
       </Placemark>
       <Placemark>
         <name>Sunset (136)</name>
-        <description>&lt;b&gt;Sunset (136)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Sunset (136)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 27): Hiccup toward end of pass<br/><b>Pass 2</b> (Jun 27): L of P1? Possibly same as P1]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11586,7 +11640,8 @@
       <name>The Brothers Sw (133)</name>
       <Placemark>
         <name>133</name>
-        <description>&lt;b&gt;The Brothers Sw (133)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
+        <Snippet maxLines="1">The Brothers Sw (133)</Snippet>
+        <description><![CDATA[<b>The Brothers Sw (133)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27)]]></description>
         <styleUrl>#site14</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11634,7 +11689,7 @@
       </Placemark>
       <Placemark>
         <name>The Brothers Sw (133)</name>
-        <description>&lt;b&gt;The Brothers Sw (133)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>The Brothers Sw (133)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11645,7 +11700,7 @@
         <name/>
         <Style>
           <IconStyle>
-            <color>ffc3ffaa</color>
+            <color>ffffc9c9</color>
             <scale>0.65</scale>
             <Icon>
               <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
@@ -11665,7 +11720,8 @@
       <name>The Needle (171)</name>
       <Placemark>
         <name>171</name>
-        <description>&lt;b&gt;The Needle (171)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <Snippet maxLines="1">The Needle (171)</Snippet>
+        <description><![CDATA[<b>The Needle (171)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3)]]></description>
         <styleUrl>#site15</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11723,7 +11779,7 @@
       </Placemark>
       <Placemark>
         <name>The Needle (171)</name>
-        <description>&lt;b&gt;The Needle (171)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>The Needle (171)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11754,7 +11810,8 @@
       <name>Timbered (111)</name>
       <Placemark>
         <name>111</name>
-        <description>&lt;b&gt;Timbered (111)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)</description>
+        <Snippet maxLines="1">Timbered (111)</Snippet>
+        <description><![CDATA[<b>Timbered (111)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jun 23)<br/><b>Pass 2</b> (Jun 23): R of P1<br/><b>Pass 3</b> (Jun 23): R of P2]]></description>
         <styleUrl>#site16</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11803,7 +11860,7 @@
       </Placemark>
       <Placemark>
         <name>Timbered (111)</name>
-        <description>&lt;b&gt;Timbered (111)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Timbered (111)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jun 23)<br/><b>Pass 2</b> (Jun 23): R of P1<br/><b>Pass 3</b> (Jun 23): R of P2]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11880,7 +11937,7 @@
       </Placemark>
       <Placemark>
         <name>Timbered (111)</name>
-        <description>&lt;b&gt;Timbered (111)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Timbered (111)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jun 23)<br/><b>Pass 2</b> (Jun 23): R of P1<br/><b>Pass 3</b> (Jun 23): R of P2]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11958,7 +12015,7 @@
       </Placemark>
       <Placemark>
         <name>Timbered (111)</name>
-        <description>&lt;b&gt;Timbered (111)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Timbered (111)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jun 23)<br/><b>Pass 2</b> (Jun 23): R of P1<br/><b>Pass 3</b> (Jun 23): R of P2]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11989,7 +12046,8 @@
       <name>Twoheaded (219)</name>
       <Placemark>
         <name>219</name>
-        <description>&lt;b&gt;Twoheaded (219)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 6)</description>
+        <Snippet maxLines="1">Twoheaded (219)</Snippet>
+        <description><![CDATA[<b>Twoheaded (219)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 6): B site to A site, check for 1 on L on the beach - hiccups<br/><b>Pass 2</b> (Jul 6): B site to A site, R of P1; still missed animals - more hiccups<br/><b>Pass 3</b> (Jul 6): Opposite direction of P1 and P2, may have gotten all in this pass! Count jumper]]></description>
         <styleUrl>#site17</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12037,7 +12095,7 @@
       </Placemark>
       <Placemark>
         <name>Twoheaded (219)</name>
-        <description>&lt;b&gt;Twoheaded (219)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 6)</description>
+        <description><![CDATA[<b>Twoheaded (219)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 6): B site to A site, check for 1 on L on the beach - hiccups<br/><b>Pass 2</b> (Jul 6): B site to A site, R of P1; still missed animals - more hiccups<br/><b>Pass 3</b> (Jul 6): Opposite direction of P1 and P2, may have gotten all in this pass! Count jumper]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12145,7 +12203,7 @@
       </Placemark>
       <Placemark>
         <name>Twoheaded (219)</name>
-        <description>&lt;b&gt;Twoheaded (219)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 6)</description>
+        <description><![CDATA[<b>Twoheaded (219)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 6): B site to A site, check for 1 on L on the beach - hiccups<br/><b>Pass 2</b> (Jul 6): B site to A site, R of P1; still missed animals - more hiccups<br/><b>Pass 3</b> (Jul 6): Opposite direction of P1 and P2, may have gotten all in this pass! Count jumper]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12210,7 +12268,7 @@
       </Placemark>
       <Placemark>
         <name>Twoheaded (219)</name>
-        <description>&lt;b&gt;Twoheaded (219)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 6)</description>
+        <description><![CDATA[<b>Twoheaded (219)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 6): B site to A site, check for 1 on L on the beach - hiccups<br/><b>Pass 2</b> (Jul 6): B site to A site, R of P1; still missed animals - more hiccups<br/><b>Pass 3</b> (Jul 6): Opposite direction of P1 and P2, may have gotten all in this pass! Count jumper]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12241,7 +12299,8 @@
       <name>Ushagat/Rocks South (204)</name>
       <Placemark>
         <name>204</name>
-        <description>&lt;b&gt;Ushagat/Rocks South (204)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <Snippet maxLines="1">Ushagat/Rocks South (204)</Snippet>
+        <description><![CDATA[<b>Ushagat/Rocks South (204)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3)]]></description>
         <styleUrl>#site18</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12290,7 +12349,7 @@
       </Placemark>
       <Placemark>
         <name>Ushagat/Rocks South (204)</name>
-        <description>&lt;b&gt;Ushagat/Rocks South (204)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Ushagat/Rocks South (204)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12321,7 +12380,8 @@
       <name>Ushagat/SW (203)</name>
       <Placemark>
         <name>203</name>
-        <description>&lt;b&gt;Ushagat/SW (203)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)</description>
+        <Snippet maxLines="1">Ushagat/SW (203)</Snippet>
+        <description><![CDATA[<b>Ushagat/SW (203)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 3): C site to A site, offshore rocks<br/><b>Pass 2</b> (Jul 3): C site to A site, shoreline R of P1 - C site offshore rocks visible at start of pass<br/><b>Pass 3</b> (Jul 3): B site had 1 animal, quick photo pass is C site again]]></description>
         <styleUrl>#site19</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12442,7 +12502,7 @@
       </Placemark>
       <Placemark>
         <name>Ushagat/SW (203)</name>
-        <description>&lt;b&gt;Ushagat/SW (203)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Ushagat/SW (203)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 3): C site to A site, offshore rocks<br/><b>Pass 2</b> (Jul 3): C site to A site, shoreline R of P1 - C site offshore rocks visible at start of pass<br/><b>Pass 3</b> (Jul 3): B site had 1 animal, quick photo pass is C site again]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12548,7 +12608,7 @@
       </Placemark>
       <Placemark>
         <name>Ushagat/SW (203)</name>
-        <description>&lt;b&gt;Ushagat/SW (203)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Ushagat/SW (203)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 3): C site to A site, offshore rocks<br/><b>Pass 2</b> (Jul 3): C site to A site, shoreline R of P1 - C site offshore rocks visible at start of pass<br/><b>Pass 3</b> (Jul 3): B site had 1 animal, quick photo pass is C site again]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12599,7 +12659,7 @@
       </Placemark>
       <Placemark>
         <name>Ushagat/SW (203)</name>
-        <description>&lt;b&gt;Ushagat/SW (203)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Ushagat/SW (203)</b><br/>2021 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 3): C site to A site, offshore rocks<br/><b>Pass 2</b> (Jul 3): C site to A site, shoreline R of P1 - C site offshore rocks visible at start of pass<br/><b>Pass 3</b> (Jul 3): B site had 1 animal, quick photo pass is C site again]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12630,7 +12690,8 @@
       <name>White Sisters (142)</name>
       <Placemark>
         <name>142</name>
-        <description>&lt;b&gt;White Sisters (142)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 27)</description>
+        <Snippet maxLines="1">White Sisters (142)</Snippet>
+        <description><![CDATA[<b>White Sisters (142)</b><br/>2021 — Gulf of Alaska<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jun 27)<br/><b>Pass 2</b> (Jun 27): Different angle and opposite direction from P1 - better approach<br/><b>Pass 3</b> (Jun 27): L of P2<br/><b>Pass 4</b> (Jun 27): L of P3]]></description>
         <styleUrl>#site0</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12678,7 +12739,7 @@
       </Placemark>
       <Placemark>
         <name>White Sisters (142)</name>
-        <description>&lt;b&gt;White Sisters (142)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>White Sisters (142)</b><br/>2021 — Gulf of Alaska<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jun 27)<br/><b>Pass 2</b> (Jun 27): Different angle and opposite direction from P1 - better approach<br/><b>Pass 3</b> (Jun 27): L of P2<br/><b>Pass 4</b> (Jun 27): L of P3]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12755,7 +12816,7 @@
       </Placemark>
       <Placemark>
         <name>White Sisters (142)</name>
-        <description>&lt;b&gt;White Sisters (142)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>White Sisters (142)</b><br/>2021 — Gulf of Alaska<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jun 27)<br/><b>Pass 2</b> (Jun 27): Different angle and opposite direction from P1 - better approach<br/><b>Pass 3</b> (Jun 27): L of P2<br/><b>Pass 4</b> (Jun 27): L of P3]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12839,7 +12900,7 @@
       </Placemark>
       <Placemark>
         <name>White Sisters (142)</name>
-        <description>&lt;b&gt;White Sisters (142)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>White Sisters (142)</b><br/>2021 — Gulf of Alaska<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jun 27)<br/><b>Pass 2</b> (Jun 27): Different angle and opposite direction from P1 - better approach<br/><b>Pass 3</b> (Jun 27): L of P2<br/><b>Pass 4</b> (Jun 27): L of P3]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12922,7 +12983,7 @@
       </Placemark>
       <Placemark>
         <name>White Sisters (142)</name>
-        <description>&lt;b&gt;White Sisters (142)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>White Sisters (142)</b><br/>2021 — Gulf of Alaska<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jun 27)<br/><b>Pass 2</b> (Jun 27): Different angle and opposite direction from P1 - better approach<br/><b>Pass 3</b> (Jun 27): L of P2<br/><b>Pass 4</b> (Jun 27): L of P3]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12953,7 +13014,8 @@
       <name>Wolf Point (107)</name>
       <Placemark>
         <name>107</name>
-        <description>&lt;b&gt;Wolf Point (107)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)</description>
+        <Snippet maxLines="1">Wolf Point (107)</Snippet>
+        <description><![CDATA[<b>Wolf Point (107)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 23)]]></description>
         <styleUrl>#site1</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -13002,7 +13064,7 @@
       </Placemark>
       <Placemark>
         <name>Wolf Point (107)</name>
-        <description>&lt;b&gt;Wolf Point (107)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Wolf Point (107)</b><br/>2021 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 23)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -13013,7 +13075,7 @@
         <name/>
         <Style>
           <IconStyle>
-            <color>ff4bb43c</color>
+            <color>ff6b6bff</color>
             <scale>0.65</scale>
             <Icon>
               <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
@@ -13032,8 +13094,9 @@
     <Folder>
       <name>Wooded (Fish) (167)</name>
       <Placemark>
-        <name>Fish</name>
-        <description>&lt;b&gt;Wooded (Fish) (167)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)</description>
+        <name>167</name>
+        <Snippet maxLines="1">Wooded (Fish) (167)</Snippet>
+        <description><![CDATA[<b>Wooded (Fish) (167)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 3): B site to A site<br/><b>Pass 2</b> (Jul 3): B site to A site, but different angle from P1 to get south side of island]]></description>
         <styleUrl>#site2</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -13097,7 +13160,7 @@
       </Placemark>
       <Placemark>
         <name>Wooded (Fish) (167)</name>
-        <description>&lt;b&gt;Wooded (Fish) (167)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Wooded (Fish) (167)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 3): B site to A site<br/><b>Pass 2</b> (Jul 3): B site to A site, but different angle from P1 to get south side of island]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -13173,7 +13236,7 @@
       </Placemark>
       <Placemark>
         <name>Wooded (Fish) (167)</name>
-        <description>&lt;b&gt;Wooded (Fish) (167)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)</description>
+        <description><![CDATA[<b>Wooded (Fish) (167)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 3): B site to A site<br/><b>Pass 2</b> (Jul 3): B site to A site, but different angle from P1 to get south side of island]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -13204,7 +13267,8 @@
       <name>Yasha (125)</name>
       <Placemark>
         <name>125</name>
-        <description>&lt;b&gt;Yasha (125)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
+        <Snippet maxLines="1">Yasha (125)</Snippet>
+        <description><![CDATA[<b>Yasha (125)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 27)<br/><b>Pass 2</b> (Jun 27): R of P1]]></description>
         <styleUrl>#site3</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -13268,7 +13332,7 @@
       </Placemark>
       <Placemark>
         <name>Yasha (125)</name>
-        <description>&lt;b&gt;Yasha (125)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Yasha (125)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 27)<br/><b>Pass 2</b> (Jun 27): R of P1]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -13351,7 +13415,7 @@
       </Placemark>
       <Placemark>
         <name>Yasha (125)</name>
-        <description>&lt;b&gt;Yasha (125)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Yasha (125)</b><br/>2021 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 27)<br/><b>Pass 2</b> (Jun 27): R of P1]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>

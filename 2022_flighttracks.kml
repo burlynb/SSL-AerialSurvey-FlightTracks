@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>2022 SSL Aerial Survey — Aleutian Islands</name>
-    <description>Steller sea lion aerial survey flight tracks, Aleutian Islands 2022. Tap a site label to see site name and pass notes.</description>
+    <description><![CDATA[Steller sea lion aerial survey flight tracks, Aleutian Islands 2022. Tap a site label to see site name and pass notes.]]></description>
     <Style id="startDot">
       <IconStyle>
         <color>ff00bb00</color>
@@ -81,7 +81,7 @@
     </StyleMap>
     <Style id="ln1">
       <LineStyle>
-        <color>ff4bb43c</color>
+        <color>ff6b6bff</color>
         <width>5</width>
       </LineStyle>
       <LabelStyle>
@@ -90,7 +90,7 @@
     </Style>
     <Style id="lh1">
       <LineStyle>
-        <color>ff4bb43c</color>
+        <color>ff6b6bff</color>
         <width>8</width>
       </LineStyle>
       <LabelStyle>
@@ -99,7 +99,7 @@
     </Style>
     <Style id="sn1">
       <IconStyle>
-        <color>ff4bb43c</color>
+        <color>ff6b6bff</color>
         <scale>1.0</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
@@ -112,7 +112,7 @@
     </Style>
     <Style id="sh1">
       <IconStyle>
-        <color>ff4bb43c</color>
+        <color>ff6b6bff</color>
         <scale>1.4</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
@@ -913,7 +913,7 @@
     </StyleMap>
     <Style id="ln14">
       <LineStyle>
-        <color>ffc3ffaa</color>
+        <color>ffffc9c9</color>
         <width>5</width>
       </LineStyle>
       <LabelStyle>
@@ -922,7 +922,7 @@
     </Style>
     <Style id="lh14">
       <LineStyle>
-        <color>ffc3ffaa</color>
+        <color>ffffc9c9</color>
         <width>8</width>
       </LineStyle>
       <LabelStyle>
@@ -931,7 +931,7 @@
     </Style>
     <Style id="sn14">
       <IconStyle>
-        <color>ffc3ffaa</color>
+        <color>ffffc9c9</color>
         <scale>1.0</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
@@ -944,7 +944,7 @@
     </Style>
     <Style id="sh14">
       <IconStyle>
-        <color>ffc3ffaa</color>
+        <color>ffffc9c9</color>
         <scale>1.4</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
@@ -1299,7 +1299,8 @@
       <name>Adak/Cape Kagigikak (590)</name>
       <Placemark>
         <name>590</name>
-        <description>&lt;b&gt;Adak/Cape Kagigikak (590)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Add 1 on L; not very many animals.</description>
+        <Snippet maxLines="1">Adak/Cape Kagigikak (590)</Snippet>
+        <description><![CDATA[<b>Adak/Cape Kagigikak (590)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 9): Add 1 on L; not very many animals.]]></description>
         <styleUrl>#site0</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1347,7 +1348,7 @@
       </Placemark>
       <Placemark>
         <name>Adak/Cape Kagigikak (590)</name>
-        <description>&lt;b&gt;Adak/Cape Kagigikak (590)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Add 1 on L; not very many animals.</description>
+        <description><![CDATA[<b>Adak/Cape Kagigikak (590)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 9): Add 1 on L; not very many animals.]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1378,7 +1379,8 @@
       <name>Adak/Cape Yakak (404)</name>
       <Placemark>
         <name>404</name>
-        <description>&lt;b&gt;Adak/Cape Yakak (404)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Disturbed 4</description>
+        <Snippet maxLines="1">Adak/Cape Yakak (404)</Snippet>
+        <description><![CDATA[<b>Adak/Cape Yakak (404)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 9): Disturbed 4]]></description>
         <styleUrl>#site1</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1430,7 +1432,7 @@
       </Placemark>
       <Placemark>
         <name>Adak/Cape Yakak (404)</name>
-        <description>&lt;b&gt;Adak/Cape Yakak (404)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Disturbed 4</description>
+        <description><![CDATA[<b>Adak/Cape Yakak (404)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 9): Disturbed 4]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1441,7 +1443,7 @@
         <name/>
         <Style>
           <IconStyle>
-            <color>ff4bb43c</color>
+            <color>ff6b6bff</color>
             <scale>0.65</scale>
             <Icon>
               <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
@@ -1461,7 +1463,8 @@
       <name>Adak/Crone Island (405)</name>
       <Placemark>
         <name>405</name>
-        <description>&lt;b&gt;Adak/Crone Island (405)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Check for 1 animal on rock on left; only 2 animals seen at this site</description>
+        <Snippet maxLines="1">Adak/Crone Island (405)</Snippet>
+        <description><![CDATA[<b>Adak/Crone Island (405)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 9): Check for 1 animal on rock on left; only 2 animals seen at this site]]></description>
         <styleUrl>#site2</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1505,7 +1508,7 @@
       </Placemark>
       <Placemark>
         <name>Adak/Crone Island (405)</name>
-        <description>&lt;b&gt;Adak/Crone Island (405)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Check for 1 animal on rock on left; only 2 animals seen at this site</description>
+        <description><![CDATA[<b>Adak/Crone Island (405)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 9): Check for 1 animal on rock on left; only 2 animals seen at this site]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1536,7 +1539,8 @@
       <name>Adak/Lake Point (403)</name>
       <Placemark>
         <name>403</name>
-        <description>&lt;b&gt;Adak/Lake Point (403)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Add 1 on R; got them all!</description>
+        <Snippet maxLines="1">Adak/Lake Point (403)</Snippet>
+        <description><![CDATA[<b>Adak/Lake Point (403)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 9): Add 1 on R; got them all!]]></description>
         <styleUrl>#site3</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1593,7 +1597,7 @@
       </Placemark>
       <Placemark>
         <name>Adak/Lake Point (403)</name>
-        <description>&lt;b&gt;Adak/Lake Point (403)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Add 1 on R; got them all!</description>
+        <description><![CDATA[<b>Adak/Lake Point (403)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 9): Add 1 on R; got them all!]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1624,7 +1628,8 @@
       <name>Adugak (357)</name>
       <Placemark>
         <name>357</name>
-        <description>&lt;b&gt;Adugak (357)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10): Add 2 on L&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Right of Pass 1; disturbed 10; check for 7 males that passed under tire at end</description>
+        <Snippet maxLines="1">Adugak (357)</Snippet>
+        <description><![CDATA[<b>Adugak (357)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 10): Add 2 on L<br/><b>Pass 2</b> (Jul 10): Right of Pass 1; disturbed 10; check for 7 males that passed under tire at end]]></description>
         <styleUrl>#site4</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1682,7 +1687,7 @@
       </Placemark>
       <Placemark>
         <name>Adugak (357)</name>
-        <description>&lt;b&gt;Adugak (357)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10): Add 2 on L&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Right of Pass 1; disturbed 10; check for 7 males that passed under tire at end</description>
+        <description><![CDATA[<b>Adugak (357)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 10): Add 2 on L<br/><b>Pass 2</b> (Jul 10): Right of Pass 1; disturbed 10; check for 7 males that passed under tire at end]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1746,7 +1751,7 @@
       </Placemark>
       <Placemark>
         <name>Adugak (357)</name>
-        <description>&lt;b&gt;Adugak (357)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10): Add 2 on L&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Right of Pass 1; disturbed 10; check for 7 males that passed under tire at end</description>
+        <description><![CDATA[<b>Adugak (357)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 10): Add 2 on L<br/><b>Pass 2</b> (Jul 10): Right of Pass 1; disturbed 10; check for 7 males that passed under tire at end]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1777,7 +1782,8 @@
       <name>Akun Billingshead (321)</name>
       <Placemark>
         <name>321</name>
-        <description>&lt;b&gt;Akun Billingshead (321)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23): Haulout beach; add 1 on L at beginning; lots of disturbance (no count)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23): 2000' altitude, perpendicular to Pass 1&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23): 1200' altitude, opposite Pass 2&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23): 1200' altitude, right of Pass 3</description>
+        <Snippet maxLines="1">Akun Billingshead (321)</Snippet>
+        <description><![CDATA[<b>Akun Billingshead (321)</b><br/>2022 — Aleutian Islands<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jun 23): Haulout beach; add 1 on L at beginning; lots of disturbance (no count)<br/><b>Pass 2</b> (Jun 23): 2000' altitude, perpendicular to Pass 1<br/><b>Pass 3</b> (Jun 23): 1200' altitude, opposite Pass 2<br/><b>Pass 4</b> (Jun 23): 1200' altitude, right of Pass 3]]></description>
         <styleUrl>#site5</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1842,7 +1848,7 @@
       </Placemark>
       <Placemark>
         <name>Akun Billingshead (321)</name>
-        <description>&lt;b&gt;Akun Billingshead (321)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23): Haulout beach; add 1 on L at beginning; lots of disturbance (no count)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23): 2000' altitude, perpendicular to Pass 1&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23): 1200' altitude, opposite Pass 2&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23): 1200' altitude, right of Pass 3</description>
+        <description><![CDATA[<b>Akun Billingshead (321)</b><br/>2022 — Aleutian Islands<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jun 23): Haulout beach; add 1 on L at beginning; lots of disturbance (no count)<br/><b>Pass 2</b> (Jun 23): 2000' altitude, perpendicular to Pass 1<br/><b>Pass 3</b> (Jun 23): 1200' altitude, opposite Pass 2<br/><b>Pass 4</b> (Jun 23): 1200' altitude, right of Pass 3]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1900,7 +1906,7 @@
       </Placemark>
       <Placemark>
         <name>Akun Billingshead (321)</name>
-        <description>&lt;b&gt;Akun Billingshead (321)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23): Haulout beach; add 1 on L at beginning; lots of disturbance (no count)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23): 2000' altitude, perpendicular to Pass 1&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23): 1200' altitude, opposite Pass 2&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23): 1200' altitude, right of Pass 3</description>
+        <description><![CDATA[<b>Akun Billingshead (321)</b><br/>2022 — Aleutian Islands<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jun 23): Haulout beach; add 1 on L at beginning; lots of disturbance (no count)<br/><b>Pass 2</b> (Jun 23): 2000' altitude, perpendicular to Pass 1<br/><b>Pass 3</b> (Jun 23): 1200' altitude, opposite Pass 2<br/><b>Pass 4</b> (Jun 23): 1200' altitude, right of Pass 3]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1968,7 +1974,7 @@
       </Placemark>
       <Placemark>
         <name>Akun Billingshead (321)</name>
-        <description>&lt;b&gt;Akun Billingshead (321)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23): Haulout beach; add 1 on L at beginning; lots of disturbance (no count)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23): 2000' altitude, perpendicular to Pass 1&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23): 1200' altitude, opposite Pass 2&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23): 1200' altitude, right of Pass 3</description>
+        <description><![CDATA[<b>Akun Billingshead (321)</b><br/>2022 — Aleutian Islands<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jun 23): Haulout beach; add 1 on L at beginning; lots of disturbance (no count)<br/><b>Pass 2</b> (Jun 23): 2000' altitude, perpendicular to Pass 1<br/><b>Pass 3</b> (Jun 23): 1200' altitude, opposite Pass 2<br/><b>Pass 4</b> (Jun 23): 1200' altitude, right of Pass 3]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2029,7 +2035,7 @@
       </Placemark>
       <Placemark>
         <name>Akun Billingshead (321)</name>
-        <description>&lt;b&gt;Akun Billingshead (321)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23): Haulout beach; add 1 on L at beginning; lots of disturbance (no count)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23): 2000' altitude, perpendicular to Pass 1&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23): 1200' altitude, opposite Pass 2&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23): 1200' altitude, right of Pass 3</description>
+        <description><![CDATA[<b>Akun Billingshead (321)</b><br/>2022 — Aleutian Islands<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jun 23): Haulout beach; add 1 on L at beginning; lots of disturbance (no count)<br/><b>Pass 2</b> (Jun 23): 2000' altitude, perpendicular to Pass 1<br/><b>Pass 3</b> (Jun 23): 1200' altitude, opposite Pass 2<br/><b>Pass 4</b> (Jun 23): 1200' altitude, right of Pass 3]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2060,7 +2066,8 @@
       <name>Akutan Reef (325)</name>
       <Placemark>
         <name>325</name>
-        <description>&lt;b&gt;Akutan Reef (325)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23): B to A site; add 3 on L at beginning</description>
+        <Snippet maxLines="1">Akutan Reef (325)</Snippet>
+        <description><![CDATA[<b>Akutan Reef (325)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 23): B to A site; add 3 on L at beginning]]></description>
         <styleUrl>#site6</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2189,7 +2196,7 @@
       </Placemark>
       <Placemark>
         <name>Akutan Reef (325)</name>
-        <description>&lt;b&gt;Akutan Reef (325)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23): B to A site; add 3 on L at beginning</description>
+        <description><![CDATA[<b>Akutan Reef (325)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 23): B to A site; add 3 on L at beginning]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2220,7 +2227,8 @@
       <name>Amak Rocks (302)</name>
       <Placemark>
         <name>302</name>
-        <description>&lt;b&gt;Amak Rocks (302)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27): C site; 9 jumpers&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27): B to A site; missed a couple groups</description>
+        <Snippet maxLines="1">Amak Rocks (302)</Snippet>
+        <description><![CDATA[<b>Amak Rocks (302)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 27): C site; 9 jumpers<br/><b>Pass 2</b> (Jun 27): B to A site; missed a couple groups]]></description>
         <styleUrl>#site7</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2251,7 +2259,7 @@
       </Placemark>
       <Placemark>
         <name>Amak Rocks (302)</name>
-        <description>&lt;b&gt;Amak Rocks (302)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27): C site; 9 jumpers&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27): B to A site; missed a couple groups</description>
+        <description><![CDATA[<b>Amak Rocks (302)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 27): C site; 9 jumpers<br/><b>Pass 2</b> (Jun 27): B to A site; missed a couple groups]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2361,7 +2369,7 @@
       </Placemark>
       <Placemark>
         <name>Amak Rocks (302)</name>
-        <description>&lt;b&gt;Amak Rocks (302)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27): C site; 9 jumpers&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27): B to A site; missed a couple groups</description>
+        <description><![CDATA[<b>Amak Rocks (302)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 27): C site; 9 jumpers<br/><b>Pass 2</b> (Jun 27): B to A site; missed a couple groups]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2392,7 +2400,8 @@
       <name>Atka Cape Korovin (385)</name>
       <Placemark>
         <name>385</name>
-        <description>&lt;b&gt;Atka Cape Korovin (385)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10): Fly by pass disturbed animals; may be no animals photographed in this pass&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Count animals in water</description>
+        <Snippet maxLines="1">Atka Cape Korovin (385)</Snippet>
+        <description><![CDATA[<b>Atka Cape Korovin (385)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 10): Fly by pass disturbed animals; may be no animals photographed in this pass<br/><b>Pass 2</b> (Jul 10): Count animals in water]]></description>
         <styleUrl>#site8</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2427,7 +2436,7 @@
       </Placemark>
       <Placemark>
         <name>Atka Cape Korovin (385)</name>
-        <description>&lt;b&gt;Atka Cape Korovin (385)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10): Fly by pass disturbed animals; may be no animals photographed in this pass&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Count animals in water</description>
+        <description><![CDATA[<b>Atka Cape Korovin (385)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 10): Fly by pass disturbed animals; may be no animals photographed in this pass<br/><b>Pass 2</b> (Jul 10): Count animals in water]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2493,7 +2502,7 @@
       </Placemark>
       <Placemark>
         <name>Atka Cape Korovin (385)</name>
-        <description>&lt;b&gt;Atka Cape Korovin (385)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10): Fly by pass disturbed animals; may be no animals photographed in this pass&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Count animals in water</description>
+        <description><![CDATA[<b>Atka Cape Korovin (385)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 10): Fly by pass disturbed animals; may be no animals photographed in this pass<br/><b>Pass 2</b> (Jul 10): Count animals in water]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2524,7 +2533,8 @@
       <name>Atka North Cape (384)</name>
       <Placemark>
         <name>384</name>
-        <description>&lt;b&gt;Atka North Cape (384)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10): Add 1 on L; disturbed group outside photo swath&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Right of Pass 1; count jumpers</description>
+        <Snippet maxLines="1">Atka North Cape (384)</Snippet>
+        <description><![CDATA[<b>Atka North Cape (384)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 10): Add 1 on L; disturbed group outside photo swath<br/><b>Pass 2</b> (Jul 10): Right of Pass 1; count jumpers]]></description>
         <styleUrl>#site9</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2563,7 +2573,7 @@
       </Placemark>
       <Placemark>
         <name>Atka North Cape (384)</name>
-        <description>&lt;b&gt;Atka North Cape (384)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10): Add 1 on L; disturbed group outside photo swath&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Right of Pass 1; count jumpers</description>
+        <description><![CDATA[<b>Atka North Cape (384)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 10): Add 1 on L; disturbed group outside photo swath<br/><b>Pass 2</b> (Jul 10): Right of Pass 1; count jumpers]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2612,7 +2622,7 @@
       </Placemark>
       <Placemark>
         <name>Atka North Cape (384)</name>
-        <description>&lt;b&gt;Atka North Cape (384)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10): Add 1 on L; disturbed group outside photo swath&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Right of Pass 1; count jumpers</description>
+        <description><![CDATA[<b>Atka North Cape (384)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 10): Add 1 on L; disturbed group outside photo swath<br/><b>Pass 2</b> (Jul 10): Right of Pass 1; count jumpers]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2643,7 +2653,8 @@
       <name>Bird (292)</name>
       <Placemark>
         <name>292</name>
-        <description>&lt;b&gt;Bird (292)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23): Missed this site in 2021; 2 jumpers during scouting pass + count jumpers in photos; low clouds&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23): Same as Pass 1, were hoping clouds had moved; disturbed all but 3</description>
+        <Snippet maxLines="1">Bird (292)</Snippet>
+        <description><![CDATA[<b>Bird (292)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 23): Missed this site in 2021; 2 jumpers during scouting pass + count jumpers in photos; low clouds<br/><b>Pass 2</b> (Jun 23): Same as Pass 1, were hoping clouds had moved; disturbed all but 3]]></description>
         <styleUrl>#site10</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2684,7 +2695,7 @@
       </Placemark>
       <Placemark>
         <name>Bird (292)</name>
-        <description>&lt;b&gt;Bird (292)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23): Missed this site in 2021; 2 jumpers during scouting pass + count jumpers in photos; low clouds&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23): Same as Pass 1, were hoping clouds had moved; disturbed all but 3</description>
+        <description><![CDATA[<b>Bird (292)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 23): Missed this site in 2021; 2 jumpers during scouting pass + count jumpers in photos; low clouds<br/><b>Pass 2</b> (Jun 23): Same as Pass 1, were hoping clouds had moved; disturbed all but 3]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2743,7 +2754,7 @@
       </Placemark>
       <Placemark>
         <name>Bird (292)</name>
-        <description>&lt;b&gt;Bird (292)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23): Missed this site in 2021; 2 jumpers during scouting pass + count jumpers in photos; low clouds&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23): Same as Pass 1, were hoping clouds had moved; disturbed all but 3</description>
+        <description><![CDATA[<b>Bird (292)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 23): Missed this site in 2021; 2 jumpers during scouting pass + count jumpers in photos; low clouds<br/><b>Pass 2</b> (Jun 23): Same as Pass 1, were hoping clouds had moved; disturbed all but 3]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2774,7 +2785,8 @@
       <name>Bobrof (411)</name>
       <Placemark>
         <name>411</name>
-        <description>&lt;b&gt;Bobrof (411)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Disturbed all, count jumpers</description>
+        <Snippet maxLines="1">Bobrof (411)</Snippet>
+        <description><![CDATA[<b>Bobrof (411)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 9): Disturbed all, count jumpers]]></description>
         <styleUrl>#site11</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2823,7 +2835,7 @@
       </Placemark>
       <Placemark>
         <name>Bobrof (411)</name>
-        <description>&lt;b&gt;Bobrof (411)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Disturbed all, count jumpers</description>
+        <description><![CDATA[<b>Bobrof (411)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 9): Disturbed all, count jumpers]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2854,7 +2866,8 @@
       <name>Bogoslof/Fire Island (344)</name>
       <Placemark>
         <name>344</name>
-        <description>&lt;b&gt;Bogoslof/Fire Island (344)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27): 1 jumper&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27): Right of Pass 1; count 1 swimmer at beginning&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27): Right of Pass 1-2&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 27): Right of Pass 1-3, slightly different angle&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 27): Left of Pass 4 and right of Pass 3 - wanted to make sure we got all males on west side of sandy point</description>
+        <Snippet maxLines="1">Bogoslof/Fire Island (344)</Snippet>
+        <description><![CDATA[<b>Bogoslof/Fire Island (344)</b><br/>2022 — Aleutian Islands<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jun 27): 1 jumper<br/><b>Pass 2</b> (Jun 27): Right of Pass 1; count 1 swimmer at beginning<br/><b>Pass 3</b> (Jun 27): Right of Pass 1-2<br/><b>Pass 4</b> (Jun 27): Right of Pass 1-3, slightly different angle<br/><b>Pass 5</b> (Jun 27): Left of Pass 4 and right of Pass 3 - wanted to make sure we got all males on west side of sandy point]]></description>
         <styleUrl>#site12</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2896,7 +2909,7 @@
       </Placemark>
       <Placemark>
         <name>Bogoslof/Fire Island (344)</name>
-        <description>&lt;b&gt;Bogoslof/Fire Island (344)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27): 1 jumper&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27): Right of Pass 1; count 1 swimmer at beginning&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27): Right of Pass 1-2&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 27): Right of Pass 1-3, slightly different angle&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 27): Left of Pass 4 and right of Pass 3 - wanted to make sure we got all males on west side of sandy point</description>
+        <description><![CDATA[<b>Bogoslof/Fire Island (344)</b><br/>2022 — Aleutian Islands<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jun 27): 1 jumper<br/><b>Pass 2</b> (Jun 27): Right of Pass 1; count 1 swimmer at beginning<br/><b>Pass 3</b> (Jun 27): Right of Pass 1-2<br/><b>Pass 4</b> (Jun 27): Right of Pass 1-3, slightly different angle<br/><b>Pass 5</b> (Jun 27): Left of Pass 4 and right of Pass 3 - wanted to make sure we got all males on west side of sandy point]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2999,7 +3012,7 @@
       </Placemark>
       <Placemark>
         <name>Bogoslof/Fire Island (344)</name>
-        <description>&lt;b&gt;Bogoslof/Fire Island (344)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27): 1 jumper&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27): Right of Pass 1; count 1 swimmer at beginning&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27): Right of Pass 1-2&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 27): Right of Pass 1-3, slightly different angle&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 27): Left of Pass 4 and right of Pass 3 - wanted to make sure we got all males on west side of sandy point</description>
+        <description><![CDATA[<b>Bogoslof/Fire Island (344)</b><br/>2022 — Aleutian Islands<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jun 27): 1 jumper<br/><b>Pass 2</b> (Jun 27): Right of Pass 1; count 1 swimmer at beginning<br/><b>Pass 3</b> (Jun 27): Right of Pass 1-2<br/><b>Pass 4</b> (Jun 27): Right of Pass 1-3, slightly different angle<br/><b>Pass 5</b> (Jun 27): Left of Pass 4 and right of Pass 3 - wanted to make sure we got all males on west side of sandy point]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3070,7 +3083,7 @@
       </Placemark>
       <Placemark>
         <name>Bogoslof/Fire Island (344)</name>
-        <description>&lt;b&gt;Bogoslof/Fire Island (344)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27): 1 jumper&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27): Right of Pass 1; count 1 swimmer at beginning&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27): Right of Pass 1-2&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 27): Right of Pass 1-3, slightly different angle&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 27): Left of Pass 4 and right of Pass 3 - wanted to make sure we got all males on west side of sandy point</description>
+        <description><![CDATA[<b>Bogoslof/Fire Island (344)</b><br/>2022 — Aleutian Islands<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jun 27): 1 jumper<br/><b>Pass 2</b> (Jun 27): Right of Pass 1; count 1 swimmer at beginning<br/><b>Pass 3</b> (Jun 27): Right of Pass 1-2<br/><b>Pass 4</b> (Jun 27): Right of Pass 1-3, slightly different angle<br/><b>Pass 5</b> (Jun 27): Left of Pass 4 and right of Pass 3 - wanted to make sure we got all males on west side of sandy point]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3145,7 +3158,7 @@
       </Placemark>
       <Placemark>
         <name>Bogoslof/Fire Island (344)</name>
-        <description>&lt;b&gt;Bogoslof/Fire Island (344)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27): 1 jumper&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27): Right of Pass 1; count 1 swimmer at beginning&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27): Right of Pass 1-2&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 27): Right of Pass 1-3, slightly different angle&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 27): Left of Pass 4 and right of Pass 3 - wanted to make sure we got all males on west side of sandy point</description>
+        <description><![CDATA[<b>Bogoslof/Fire Island (344)</b><br/>2022 — Aleutian Islands<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jun 27): 1 jumper<br/><b>Pass 2</b> (Jun 27): Right of Pass 1; count 1 swimmer at beginning<br/><b>Pass 3</b> (Jun 27): Right of Pass 1-2<br/><b>Pass 4</b> (Jun 27): Right of Pass 1-3, slightly different angle<br/><b>Pass 5</b> (Jun 27): Left of Pass 4 and right of Pass 3 - wanted to make sure we got all males on west side of sandy point]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3246,7 +3259,7 @@
       </Placemark>
       <Placemark>
         <name>Bogoslof/Fire Island (344)</name>
-        <description>&lt;b&gt;Bogoslof/Fire Island (344)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27): 1 jumper&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27): Right of Pass 1; count 1 swimmer at beginning&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27): Right of Pass 1-2&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 27): Right of Pass 1-3, slightly different angle&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 27): Left of Pass 4 and right of Pass 3 - wanted to make sure we got all males on west side of sandy point</description>
+        <description><![CDATA[<b>Bogoslof/Fire Island (344)</b><br/>2022 — Aleutian Islands<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jun 27): 1 jumper<br/><b>Pass 2</b> (Jun 27): Right of Pass 1; count 1 swimmer at beginning<br/><b>Pass 3</b> (Jun 27): Right of Pass 1-2<br/><b>Pass 4</b> (Jun 27): Right of Pass 1-3, slightly different angle<br/><b>Pass 5</b> (Jun 27): Left of Pass 4 and right of Pass 3 - wanted to make sure we got all males on west side of sandy point]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3277,7 +3290,8 @@
       <name>Gramp Rock (416)</name>
       <Placemark>
         <name>416</name>
-        <description>&lt;b&gt;Gramp Rock (416)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Haulout at start of site</description>
+        <Snippet maxLines="1">Gramp Rock (416)</Snippet>
+        <description><![CDATA[<b>Gramp Rock (416)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 9): Haulout at start of site]]></description>
         <styleUrl>#site13</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3346,7 +3360,7 @@
       </Placemark>
       <Placemark>
         <name>Gramp Rock (416)</name>
-        <description>&lt;b&gt;Gramp Rock (416)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Haulout at start of site</description>
+        <description><![CDATA[<b>Gramp Rock (416)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 9): Haulout at start of site]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3377,7 +3391,8 @@
       <name>Great Sitkin (396)</name>
       <Placemark>
         <name>396</name>
-        <description>&lt;b&gt;Great Sitkin (396)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): C site; 0 animals at A + B sites; disturbed animals on fly by pass, count animals in water</description>
+        <Snippet maxLines="1">Great Sitkin (396)</Snippet>
+        <description><![CDATA[<b>Great Sitkin (396)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 9): C site; 0 animals at A + B sites; disturbed animals on fly by pass, count animals in water]]></description>
         <styleUrl>#site14</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3446,7 +3461,7 @@
       </Placemark>
       <Placemark>
         <name>Great Sitkin (396)</name>
-        <description>&lt;b&gt;Great Sitkin (396)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): C site; 0 animals at A + B sites; disturbed animals on fly by pass, count animals in water</description>
+        <description><![CDATA[<b>Great Sitkin (396)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 9): C site; 0 animals at A + B sites; disturbed animals on fly by pass, count animals in water]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3457,7 +3472,7 @@
         <name/>
         <Style>
           <IconStyle>
-            <color>ffc3ffaa</color>
+            <color>ffffc9c9</color>
             <scale>0.65</scale>
             <Icon>
               <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
@@ -3477,7 +3492,8 @@
       <name>Ilak (415)</name>
       <Placemark>
         <name>415</name>
-        <description>&lt;b&gt;Ilak (415)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): West side of island&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 9): North side, east to west; check for 1 male on L at beginning&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 9)</description>
+        <Snippet maxLines="1">Ilak (415)</Snippet>
+        <description><![CDATA[<b>Ilak (415)</b><br/>2022 — Aleutian Islands<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 9): West side of island<br/><b>Pass 2</b> (Jul 9): North side, east to west; check for 1 male on L at beginning<br/><b>Pass 3</b> (Jul 9)]]></description>
         <styleUrl>#site15</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3525,7 +3541,7 @@
       </Placemark>
       <Placemark>
         <name>Ilak (415)</name>
-        <description>&lt;b&gt;Ilak (415)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): West side of island&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 9): North side, east to west; check for 1 male on L at beginning&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 9)</description>
+        <description><![CDATA[<b>Ilak (415)</b><br/>2022 — Aleutian Islands<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 9): West side of island<br/><b>Pass 2</b> (Jul 9): North side, east to west; check for 1 male on L at beginning<br/><b>Pass 3</b> (Jul 9)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3613,7 +3629,7 @@
       </Placemark>
       <Placemark>
         <name>Ilak (415)</name>
-        <description>&lt;b&gt;Ilak (415)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): West side of island&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 9): North side, east to west; check for 1 male on L at beginning&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 9)</description>
+        <description><![CDATA[<b>Ilak (415)</b><br/>2022 — Aleutian Islands<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 9): West side of island<br/><b>Pass 2</b> (Jul 9): North side, east to west; check for 1 male on L at beginning<br/><b>Pass 3</b> (Jul 9)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3693,7 +3709,7 @@
       </Placemark>
       <Placemark>
         <name>Ilak (415)</name>
-        <description>&lt;b&gt;Ilak (415)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): West side of island&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 9): North side, east to west; check for 1 male on L at beginning&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 9)</description>
+        <description><![CDATA[<b>Ilak (415)</b><br/>2022 — Aleutian Islands<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 9): West side of island<br/><b>Pass 2</b> (Jul 9): North side, east to west; check for 1 male on L at beginning<br/><b>Pass 3</b> (Jul 9)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3724,7 +3740,8 @@
       <name>Kagalaska/Ragged Point (624)</name>
       <Placemark>
         <name>624</name>
-        <description>&lt;b&gt;Kagalaska/Ragged Point (624)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Count disturbance</description>
+        <Snippet maxLines="1">Kagalaska/Ragged Point (624)</Snippet>
+        <description><![CDATA[<b>Kagalaska/Ragged Point (624)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 9): Count disturbance]]></description>
         <styleUrl>#site16</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3771,7 +3788,7 @@
       </Placemark>
       <Placemark>
         <name>Kagalaska/Ragged Point (624)</name>
-        <description>&lt;b&gt;Kagalaska/Ragged Point (624)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Count disturbance</description>
+        <description><![CDATA[<b>Kagalaska/Ragged Point (624)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 9): Count disturbance]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3802,7 +3819,8 @@
       <name>Kanaga/Ship Rock (409)</name>
       <Placemark>
         <name>409</name>
-        <description>&lt;b&gt;Kanaga/Ship Rock (409)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Check for 1 animal left of the main group</description>
+        <Snippet maxLines="1">Kanaga/Ship Rock (409)</Snippet>
+        <description><![CDATA[<b>Kanaga/Ship Rock (409)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 9): Check for 1 animal left of the main group]]></description>
         <styleUrl>#site17</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3841,7 +3859,7 @@
       </Placemark>
       <Placemark>
         <name>Kanaga/Ship Rock (409)</name>
-        <description>&lt;b&gt;Kanaga/Ship Rock (409)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Check for 1 animal left of the main group</description>
+        <description><![CDATA[<b>Kanaga/Ship Rock (409)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 9): Check for 1 animal left of the main group]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3872,7 +3890,8 @@
       <name>Ogchul (354)</name>
       <Placemark>
         <name>354</name>
-        <description>&lt;b&gt;Ogchul (354)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10): Disturbed 1&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Right of Pass 1 to get different beach</description>
+        <Snippet maxLines="1">Ogchul (354)</Snippet>
+        <description><![CDATA[<b>Ogchul (354)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 10): Disturbed 1<br/><b>Pass 2</b> (Jul 10): Right of Pass 1 to get different beach]]></description>
         <styleUrl>#site18</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3927,7 +3946,7 @@
       </Placemark>
       <Placemark>
         <name>Ogchul (354)</name>
-        <description>&lt;b&gt;Ogchul (354)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10): Disturbed 1&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Right of Pass 1 to get different beach</description>
+        <description><![CDATA[<b>Ogchul (354)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 10): Disturbed 1<br/><b>Pass 2</b> (Jul 10): Right of Pass 1 to get different beach]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3997,7 +4016,7 @@
       </Placemark>
       <Placemark>
         <name>Ogchul (354)</name>
-        <description>&lt;b&gt;Ogchul (354)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10): Disturbed 1&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Right of Pass 1 to get different beach</description>
+        <description><![CDATA[<b>Ogchul (354)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 10): Disturbed 1<br/><b>Pass 2</b> (Jul 10): Right of Pass 1 to get different beach]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4028,7 +4047,8 @@
       <name>Sea Lion Rock Amak (303)</name>
       <Placemark>
         <name>303</name>
-        <description>&lt;b&gt;Sea Lion Rock Amak (303)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27): FMC failed; 1 jumper</description>
+        <Snippet maxLines="1">Sea Lion Rock Amak (303)</Snippet>
+        <description><![CDATA[<b>Sea Lion Rock Amak (303)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27): FMC failed; 1 jumper]]></description>
         <styleUrl>#site19</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4073,7 +4093,7 @@
       </Placemark>
       <Placemark>
         <name>Sea Lion Rock Amak (303)</name>
-        <description>&lt;b&gt;Sea Lion Rock Amak (303)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27): FMC failed; 1 jumper</description>
+        <description><![CDATA[<b>Sea Lion Rock Amak (303)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27): FMC failed; 1 jumper]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4104,7 +4124,8 @@
       <name>Seguam Saddleridge (369)</name>
       <Placemark>
         <name>369</name>
-        <description>&lt;b&gt;Seguam Saddleridge (369)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10): Disturbed most animals; add 1&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Left of Pass 1 and slightly different angle, more disturbance</description>
+        <Snippet maxLines="1">Seguam Saddleridge (369)</Snippet>
+        <description><![CDATA[<b>Seguam Saddleridge (369)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 10): Disturbed most animals; add 1<br/><b>Pass 2</b> (Jul 10): Left of Pass 1 and slightly different angle, more disturbance]]></description>
         <styleUrl>#site0</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4178,7 +4199,7 @@
       </Placemark>
       <Placemark>
         <name>Seguam Saddleridge (369)</name>
-        <description>&lt;b&gt;Seguam Saddleridge (369)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10): Disturbed most animals; add 1&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Left of Pass 1 and slightly different angle, more disturbance</description>
+        <description><![CDATA[<b>Seguam Saddleridge (369)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 10): Disturbed most animals; add 1<br/><b>Pass 2</b> (Jul 10): Left of Pass 1 and slightly different angle, more disturbance]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4247,7 +4268,7 @@
       </Placemark>
       <Placemark>
         <name>Seguam Saddleridge (369)</name>
-        <description>&lt;b&gt;Seguam Saddleridge (369)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10): Disturbed most animals; add 1&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Left of Pass 1 and slightly different angle, more disturbance</description>
+        <description><![CDATA[<b>Seguam Saddleridge (369)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 10): Disturbed most animals; add 1<br/><b>Pass 2</b> (Jul 10): Left of Pass 1 and slightly different angle, more disturbance]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4278,7 +4299,8 @@
       <name>Silak (398)</name>
       <Placemark>
         <name>398</name>
-        <description>&lt;b&gt;Silak (398)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): 20 animals outside photo swath disturbed&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 9): Left of Pass 1, count jumpers</description>
+        <Snippet maxLines="1">Silak (398)</Snippet>
+        <description><![CDATA[<b>Silak (398)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 9): 20 animals outside photo swath disturbed<br/><b>Pass 2</b> (Jul 9): Left of Pass 1, count jumpers]]></description>
         <styleUrl>#site1</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4311,7 +4333,7 @@
       </Placemark>
       <Placemark>
         <name>Silak (398)</name>
-        <description>&lt;b&gt;Silak (398)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): 20 animals outside photo swath disturbed&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 9): Left of Pass 1, count jumpers</description>
+        <description><![CDATA[<b>Silak (398)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 9): 20 animals outside photo swath disturbed<br/><b>Pass 2</b> (Jul 9): Left of Pass 1, count jumpers]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4322,7 +4344,7 @@
         <name/>
         <Style>
           <IconStyle>
-            <color>ff4bb43c</color>
+            <color>ff6b6bff</color>
             <scale>0.65</scale>
             <Icon>
               <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
@@ -4370,7 +4392,7 @@
       </Placemark>
       <Placemark>
         <name>Silak (398)</name>
-        <description>&lt;b&gt;Silak (398)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): 20 animals outside photo swath disturbed&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 9): Left of Pass 1, count jumpers</description>
+        <description><![CDATA[<b>Silak (398)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 9): 20 animals outside photo swath disturbed<br/><b>Pass 2</b> (Jul 9): Left of Pass 1, count jumpers]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4381,7 +4403,7 @@
         <name/>
         <Style>
           <IconStyle>
-            <color>ff4bb43c</color>
+            <color>ff6b6bff</color>
             <scale>0.65</scale>
             <Icon>
               <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
@@ -4401,7 +4423,8 @@
       <name>Tag (418)</name>
       <Placemark>
         <name>418</name>
-        <description>&lt;b&gt;Tag (418)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Count disturbance, maybe 20 animals?&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 9): Right of Pass 1&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 9): Left of Pass 1, different group</description>
+        <Snippet maxLines="1">Tag (418)</Snippet>
+        <description><![CDATA[<b>Tag (418)</b><br/>2022 — Aleutian Islands<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 9): Count disturbance, maybe 20 animals?<br/><b>Pass 2</b> (Jul 9): Right of Pass 1<br/><b>Pass 3</b> (Jul 9): Left of Pass 1, different group]]></description>
         <styleUrl>#site2</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4451,7 +4474,7 @@
       </Placemark>
       <Placemark>
         <name>Tag (418)</name>
-        <description>&lt;b&gt;Tag (418)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Count disturbance, maybe 20 animals?&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 9): Right of Pass 1&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 9): Left of Pass 1, different group</description>
+        <description><![CDATA[<b>Tag (418)</b><br/>2022 — Aleutian Islands<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 9): Count disturbance, maybe 20 animals?<br/><b>Pass 2</b> (Jul 9): Right of Pass 1<br/><b>Pass 3</b> (Jul 9): Left of Pass 1, different group]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4519,7 +4542,7 @@
       </Placemark>
       <Placemark>
         <name>Tag (418)</name>
-        <description>&lt;b&gt;Tag (418)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Count disturbance, maybe 20 animals?&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 9): Right of Pass 1&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 9): Left of Pass 1, different group</description>
+        <description><![CDATA[<b>Tag (418)</b><br/>2022 — Aleutian Islands<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 9): Count disturbance, maybe 20 animals?<br/><b>Pass 2</b> (Jul 9): Right of Pass 1<br/><b>Pass 3</b> (Jul 9): Left of Pass 1, different group]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4571,7 +4594,7 @@
       </Placemark>
       <Placemark>
         <name>Tag (418)</name>
-        <description>&lt;b&gt;Tag (418)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Count disturbance, maybe 20 animals?&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 9): Right of Pass 1&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 9): Left of Pass 1, different group</description>
+        <description><![CDATA[<b>Tag (418)</b><br/>2022 — Aleutian Islands<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 9): Count disturbance, maybe 20 animals?<br/><b>Pass 2</b> (Jul 9): Right of Pass 1<br/><b>Pass 3</b> (Jul 9): Left of Pass 1, different group]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4602,7 +4625,8 @@
       <name>Ugidak (417)</name>
       <Placemark>
         <name>417</name>
-        <description>&lt;b&gt;Ugidak (417)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): 1 jumper</description>
+        <Snippet maxLines="1">Ugidak (417)</Snippet>
+        <description><![CDATA[<b>Ugidak (417)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 9): 1 jumper]]></description>
         <styleUrl>#site3</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4643,7 +4667,7 @@
       </Placemark>
       <Placemark>
         <name>Ugidak (417)</name>
-        <description>&lt;b&gt;Ugidak (417)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): 1 jumper</description>
+        <description><![CDATA[<b>Ugidak (417)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 9): 1 jumper]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4674,7 +4698,8 @@
       <name>Ulak/Hasgox Point (424)</name>
       <Placemark>
         <name>424</name>
-        <description>&lt;b&gt;Ulak/Hasgox Point (424)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Disturbed 30; add 1 on R&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 9): Right of Pass 1; disturbed additional 30 animals; add 3 on R</description>
+        <Snippet maxLines="1">Ulak/Hasgox Point (424)</Snippet>
+        <description><![CDATA[<b>Ulak/Hasgox Point (424)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 9): Disturbed 30; add 1 on R<br/><b>Pass 2</b> (Jul 9): Right of Pass 1; disturbed additional 30 animals; add 3 on R]]></description>
         <styleUrl>#site4</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4719,7 +4744,7 @@
       </Placemark>
       <Placemark>
         <name>Ulak/Hasgox Point (424)</name>
-        <description>&lt;b&gt;Ulak/Hasgox Point (424)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Disturbed 30; add 1 on R&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 9): Right of Pass 1; disturbed additional 30 animals; add 3 on R</description>
+        <description><![CDATA[<b>Ulak/Hasgox Point (424)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 9): Disturbed 30; add 1 on R<br/><b>Pass 2</b> (Jul 9): Right of Pass 1; disturbed additional 30 animals; add 3 on R]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4795,7 +4820,7 @@
       </Placemark>
       <Placemark>
         <name>Ulak/Hasgox Point (424)</name>
-        <description>&lt;b&gt;Ulak/Hasgox Point (424)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Disturbed 30; add 1 on R&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 9): Right of Pass 1; disturbed additional 30 animals; add 3 on R</description>
+        <description><![CDATA[<b>Ulak/Hasgox Point (424)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 9): Disturbed 30; add 1 on R<br/><b>Pass 2</b> (Jul 9): Right of Pass 1; disturbed additional 30 animals; add 3 on R]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4826,7 +4851,8 @@
       <name>Umnak/Cape Aslik (350)</name>
       <Placemark>
         <name>350</name>
-        <description>&lt;b&gt;Umnak/Cape Aslik (350)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27): Count jumpers</description>
+        <Snippet maxLines="1">Umnak/Cape Aslik (350)</Snippet>
+        <description><![CDATA[<b>Umnak/Cape Aslik (350)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27): Count jumpers]]></description>
         <styleUrl>#site5</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4891,7 +4917,7 @@
       </Placemark>
       <Placemark>
         <name>Umnak/Cape Aslik (350)</name>
-        <description>&lt;b&gt;Umnak/Cape Aslik (350)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27): Count jumpers</description>
+        <description><![CDATA[<b>Umnak/Cape Aslik (350)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27): Count jumpers]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4922,7 +4948,8 @@
       <name>Unalaska Brundage Head (557)</name>
       <Placemark>
         <name>557</name>
-        <description>&lt;b&gt;Unalaska Brundage Head (557)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)</description>
+        <Snippet maxLines="1">Unalaska Brundage Head (557)</Snippet>
+        <description><![CDATA[<b>Unalaska Brundage Head (557)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 23)]]></description>
         <styleUrl>#site6</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4962,7 +4989,7 @@
       </Placemark>
       <Placemark>
         <name>Unalaska Brundage Head (557)</name>
-        <description>&lt;b&gt;Unalaska Brundage Head (557)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Unalaska Brundage Head (557)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 23)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4993,7 +5020,8 @@
       <name>Unalaska Cape Izigan (343)</name>
       <Placemark>
         <name>343</name>
-        <description>&lt;b&gt;Unalaska Cape Izigan (343)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Right of Pass 1; disturbed 20; check for 8 males on R (should be in photos)</description>
+        <Snippet maxLines="1">Unalaska Cape Izigan (343)</Snippet>
+        <description><![CDATA[<b>Unalaska Cape Izigan (343)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 10)<br/><b>Pass 2</b> (Jul 10): Right of Pass 1; disturbed 20; check for 8 males on R (should be in photos)]]></description>
         <styleUrl>#site7</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5082,7 +5110,7 @@
       </Placemark>
       <Placemark>
         <name>Unalaska Cape Izigan (343)</name>
-        <description>&lt;b&gt;Unalaska Cape Izigan (343)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Right of Pass 1; disturbed 20; check for 8 males on R (should be in photos)</description>
+        <description><![CDATA[<b>Unalaska Cape Izigan (343)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 10)<br/><b>Pass 2</b> (Jul 10): Right of Pass 1; disturbed 20; check for 8 males on R (should be in photos)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5183,7 +5211,7 @@
       </Placemark>
       <Placemark>
         <name>Unalaska Cape Izigan (343)</name>
-        <description>&lt;b&gt;Unalaska Cape Izigan (343)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Right of Pass 1; disturbed 20; check for 8 males on R (should be in photos)</description>
+        <description><![CDATA[<b>Unalaska Cape Izigan (343)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 10)<br/><b>Pass 2</b> (Jul 10): Right of Pass 1; disturbed 20; check for 8 males on R (should be in photos)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5214,7 +5242,8 @@
       <name>Unalaska Priest Rock (335)</name>
       <Placemark>
         <name>335</name>
-        <description>&lt;b&gt;Unalaska Priest Rock (335)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)</description>
+        <Snippet maxLines="1">Unalaska Priest Rock (335)</Snippet>
+        <description><![CDATA[<b>Unalaska Priest Rock (335)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 23)]]></description>
         <styleUrl>#site8</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5254,7 +5283,7 @@
       </Placemark>
       <Placemark>
         <name>Unalaska Priest Rock (335)</name>
-        <description>&lt;b&gt;Unalaska Priest Rock (335)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Unalaska Priest Rock (335)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 23)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5285,7 +5314,8 @@
       <name>Unalaska/Bishop Point (337)</name>
       <Placemark>
         <name>337</name>
-        <description>&lt;b&gt;Unalaska/Bishop Point (337)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27): 30 disturbed, count jumpers</description>
+        <Snippet maxLines="1">Unalaska/Bishop Point (337)</Snippet>
+        <description><![CDATA[<b>Unalaska/Bishop Point (337)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27): 30 disturbed, count jumpers]]></description>
         <styleUrl>#site9</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5347,7 +5377,7 @@
       </Placemark>
       <Placemark>
         <name>Unalaska/Bishop Point (337)</name>
-        <description>&lt;b&gt;Unalaska/Bishop Point (337)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27): 30 disturbed, count jumpers</description>
+        <description><![CDATA[<b>Unalaska/Bishop Point (337)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27): 30 disturbed, count jumpers]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5378,7 +5408,8 @@
       <name>Unalaska/Makushin Bay (339)</name>
       <Placemark>
         <name>339</name>
-        <description>&lt;b&gt;Unalaska/Makushin Bay (339)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
+        <Snippet maxLines="1">Unalaska/Makushin Bay (339)</Snippet>
+        <description><![CDATA[<b>Unalaska/Makushin Bay (339)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27)]]></description>
         <styleUrl>#site10</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5414,7 +5445,7 @@
       </Placemark>
       <Placemark>
         <name>Unalaska/Makushin Bay (339)</name>
-        <description>&lt;b&gt;Unalaska/Makushin Bay (339)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Unalaska/Makushin Bay (339)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5445,7 +5476,8 @@
       <name>Unalaska/Spray Cape (341)</name>
       <Placemark>
         <name>341</name>
-        <description>&lt;b&gt;Unalaska/Spray Cape (341)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27): Check for 2 on small rock on right; count jumpers - all disturbed</description>
+        <Snippet maxLines="1">Unalaska/Spray Cape (341)</Snippet>
+        <description><![CDATA[<b>Unalaska/Spray Cape (341)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27): Check for 2 on small rock on right; count jumpers - all disturbed]]></description>
         <styleUrl>#site11</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5494,7 +5526,7 @@
       </Placemark>
       <Placemark>
         <name>Unalaska/Spray Cape (341)</name>
-        <description>&lt;b&gt;Unalaska/Spray Cape (341)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27): Check for 2 on small rock on right; count jumpers - all disturbed</description>
+        <description><![CDATA[<b>Unalaska/Spray Cape (341)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27): Check for 2 on small rock on right; count jumpers - all disturbed]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5525,7 +5557,8 @@
       <name>Unalaska/W Of Makushin Bay (607)</name>
       <Placemark>
         <name>607</name>
-        <description>&lt;b&gt;Unalaska/W Of Makushin Bay (607)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
+        <Snippet maxLines="1">Unalaska/W Of Makushin Bay (607)</Snippet>
+        <description><![CDATA[<b>Unalaska/W Of Makushin Bay (607)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27)]]></description>
         <styleUrl>#site12</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5575,7 +5608,7 @@
       </Placemark>
       <Placemark>
         <name>Unalaska/W Of Makushin Bay (607)</name>
-        <description>&lt;b&gt;Unalaska/W Of Makushin Bay (607)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
+        <description><![CDATA[<b>Unalaska/W Of Makushin Bay (607)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 27)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5606,7 +5639,8 @@
       <name>Unimak Cape Sarichef (299)</name>
       <Placemark>
         <name>299</name>
-        <description>&lt;b&gt;Unimak Cape Sarichef (299)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23): Some animals disturbed (no count)</description>
+        <Snippet maxLines="1">Unimak Cape Sarichef (299)</Snippet>
+        <description><![CDATA[<b>Unimak Cape Sarichef (299)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 23): Some animals disturbed (no count)]]></description>
         <styleUrl>#site13</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5650,7 +5684,7 @@
       </Placemark>
       <Placemark>
         <name>Unimak Cape Sarichef (299)</name>
-        <description>&lt;b&gt;Unimak Cape Sarichef (299)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23): Some animals disturbed (no count)</description>
+        <description><![CDATA[<b>Unimak Cape Sarichef (299)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 23): Some animals disturbed (no count)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5681,7 +5715,8 @@
       <name>Unimak Cape Sarichef (605)</name>
       <Placemark>
         <name>605</name>
-        <description>&lt;b&gt;Unimak Cape Sarichef (605)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23): Check for 1 on R; lots of disturbance (no count) + ~40 disturbed here by Pass 1 at Cape Sarichef (299)</description>
+        <Snippet maxLines="1">Unimak Cape Sarichef (605)</Snippet>
+        <description><![CDATA[<b>Unimak Cape Sarichef (605)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 23): Check for 1 on R; lots of disturbance (no count) + ~40 disturbed here by Pass 1 at Cape Sarichef (299)]]></description>
         <styleUrl>#site14</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5729,7 +5764,7 @@
       </Placemark>
       <Placemark>
         <name>Unimak Cape Sarichef (605)</name>
-        <description>&lt;b&gt;Unimak Cape Sarichef (605)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23): Check for 1 on R; lots of disturbance (no count) + ~40 disturbed here by Pass 1 at Cape Sarichef (299)</description>
+        <description><![CDATA[<b>Unimak Cape Sarichef (605)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 23): Check for 1 on R; lots of disturbance (no count) + ~40 disturbed here by Pass 1 at Cape Sarichef (299)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5740,7 +5775,7 @@
         <name/>
         <Style>
           <IconStyle>
-            <color>ffc3ffaa</color>
+            <color>ffffc9c9</color>
             <scale>0.65</scale>
             <Icon>
               <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
@@ -5760,7 +5795,8 @@
       <name>Unimak Of Oksenof Point (606)</name>
       <Placemark>
         <name>606</name>
-        <description>&lt;b&gt;Unimak Of Oksenof Point (606)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23): Right of Pass 2; disturbed 3</description>
+        <Snippet maxLines="1">Unimak Of Oksenof Point (606)</Snippet>
+        <description><![CDATA[<b>Unimak Of Oksenof Point (606)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 23)<br/><b>Pass 2</b> (Jun 23): Right of Pass 2; disturbed 3]]></description>
         <styleUrl>#site15</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5803,7 +5839,7 @@
       </Placemark>
       <Placemark>
         <name>Unimak Of Oksenof Point (606)</name>
-        <description>&lt;b&gt;Unimak Of Oksenof Point (606)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23): Right of Pass 2; disturbed 3</description>
+        <description><![CDATA[<b>Unimak Of Oksenof Point (606)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 23)<br/><b>Pass 2</b> (Jun 23): Right of Pass 2; disturbed 3]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5865,7 +5901,7 @@
       </Placemark>
       <Placemark>
         <name>Unimak Of Oksenof Point (606)</name>
-        <description>&lt;b&gt;Unimak Of Oksenof Point (606)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23): Right of Pass 2; disturbed 3</description>
+        <description><![CDATA[<b>Unimak Of Oksenof Point (606)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 23)<br/><b>Pass 2</b> (Jun 23): Right of Pass 2; disturbed 3]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5896,7 +5932,8 @@
       <name>Unimak Oksenof Point (301)</name>
       <Placemark>
         <name>301</name>
-        <description>&lt;b&gt;Unimak Oksenof Point (301)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)</description>
+        <Snippet maxLines="1">Unimak Oksenof Point (301)</Snippet>
+        <description><![CDATA[<b>Unimak Oksenof Point (301)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 23)]]></description>
         <styleUrl>#site16</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5944,7 +5981,7 @@
       </Placemark>
       <Placemark>
         <name>Unimak Oksenof Point (301)</name>
-        <description>&lt;b&gt;Unimak Oksenof Point (301)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)</description>
+        <description><![CDATA[<b>Unimak Oksenof Point (301)</b><br/>2022 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 23)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5975,7 +6012,8 @@
       <name>Vsevidof (355)</name>
       <Placemark>
         <name>355</name>
-        <description>&lt;b&gt;Vsevidof (355)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10): Disturbed 15&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Left of Pass 1, different group; disturbed most animals</description>
+        <Snippet maxLines="1">Vsevidof (355)</Snippet>
+        <description><![CDATA[<b>Vsevidof (355)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 10): Disturbed 15<br/><b>Pass 2</b> (Jul 10): Left of Pass 1, different group; disturbed most animals]]></description>
         <styleUrl>#site17</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6026,7 +6064,7 @@
       </Placemark>
       <Placemark>
         <name>Vsevidof (355)</name>
-        <description>&lt;b&gt;Vsevidof (355)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10): Disturbed 15&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Left of Pass 1, different group; disturbed most animals</description>
+        <description><![CDATA[<b>Vsevidof (355)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 10): Disturbed 15<br/><b>Pass 2</b> (Jul 10): Left of Pass 1, different group; disturbed most animals]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6094,7 +6132,7 @@
       </Placemark>
       <Placemark>
         <name>Vsevidof (355)</name>
-        <description>&lt;b&gt;Vsevidof (355)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10): Disturbed 15&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Left of Pass 1, different group; disturbed most animals</description>
+        <description><![CDATA[<b>Vsevidof (355)</b><br/>2022 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 10): Disturbed 15<br/><b>Pass 2</b> (Jul 10): Left of Pass 1, different group; disturbed most animals]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6125,7 +6163,8 @@
       <name>Yunaska (363)</name>
       <Placemark>
         <name>363</name>
-        <description>&lt;b&gt;Yunaska (363)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10): FMC error - don't use this pass; ~10 animals jumped off rock and ~30 disturbed on rookery beach&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Haulout beach; surveyed at 1000' to prevent disturbance&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 10): Rookery beach; surveyed 1000'&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 10): Right of Pass 3; surveyed at 1000'&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 10)</description>
+        <Snippet maxLines="1">Yunaska (363)</Snippet>
+        <description><![CDATA[<b>Yunaska (363)</b><br/>2022 — Aleutian Islands<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jul 10): FMC error - don't use this pass; ~10 animals jumped off rock and ~30 disturbed on rookery beach<br/><b>Pass 2</b> (Jul 10): Haulout beach; surveyed at 1000' to prevent disturbance<br/><b>Pass 3</b> (Jul 10): Rookery beach; surveyed 1000'<br/><b>Pass 4</b> (Jul 10): Right of Pass 3; surveyed at 1000'<br/><b>Pass 5</b> (Jul 10)]]></description>
         <styleUrl>#site18</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6147,7 +6186,7 @@
       </Placemark>
       <Placemark>
         <name>Yunaska (363)</name>
-        <description>&lt;b&gt;Yunaska (363)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10): FMC error - don't use this pass; ~10 animals jumped off rock and ~30 disturbed on rookery beach&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Haulout beach; surveyed at 1000' to prevent disturbance&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 10): Rookery beach; surveyed 1000'&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 10): Right of Pass 3; surveyed at 1000'&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 10)</description>
+        <description><![CDATA[<b>Yunaska (363)</b><br/>2022 — Aleutian Islands<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jul 10): FMC error - don't use this pass; ~10 animals jumped off rock and ~30 disturbed on rookery beach<br/><b>Pass 2</b> (Jul 10): Haulout beach; surveyed at 1000' to prevent disturbance<br/><b>Pass 3</b> (Jul 10): Rookery beach; surveyed 1000'<br/><b>Pass 4</b> (Jul 10): Right of Pass 3; surveyed at 1000'<br/><b>Pass 5</b> (Jul 10)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6234,7 +6273,7 @@
       </Placemark>
       <Placemark>
         <name>Yunaska (363)</name>
-        <description>&lt;b&gt;Yunaska (363)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10): FMC error - don't use this pass; ~10 animals jumped off rock and ~30 disturbed on rookery beach&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Haulout beach; surveyed at 1000' to prevent disturbance&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 10): Rookery beach; surveyed 1000'&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 10): Right of Pass 3; surveyed at 1000'&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 10)</description>
+        <description><![CDATA[<b>Yunaska (363)</b><br/>2022 — Aleutian Islands<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jul 10): FMC error - don't use this pass; ~10 animals jumped off rock and ~30 disturbed on rookery beach<br/><b>Pass 2</b> (Jul 10): Haulout beach; surveyed at 1000' to prevent disturbance<br/><b>Pass 3</b> (Jul 10): Rookery beach; surveyed 1000'<br/><b>Pass 4</b> (Jul 10): Right of Pass 3; surveyed at 1000'<br/><b>Pass 5</b> (Jul 10)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6324,7 +6363,7 @@
       </Placemark>
       <Placemark>
         <name>Yunaska (363)</name>
-        <description>&lt;b&gt;Yunaska (363)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10): FMC error - don't use this pass; ~10 animals jumped off rock and ~30 disturbed on rookery beach&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Haulout beach; surveyed at 1000' to prevent disturbance&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 10): Rookery beach; surveyed 1000'&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 10): Right of Pass 3; surveyed at 1000'&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 10)</description>
+        <description><![CDATA[<b>Yunaska (363)</b><br/>2022 — Aleutian Islands<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jul 10): FMC error - don't use this pass; ~10 animals jumped off rock and ~30 disturbed on rookery beach<br/><b>Pass 2</b> (Jul 10): Haulout beach; surveyed at 1000' to prevent disturbance<br/><b>Pass 3</b> (Jul 10): Rookery beach; surveyed 1000'<br/><b>Pass 4</b> (Jul 10): Right of Pass 3; surveyed at 1000'<br/><b>Pass 5</b> (Jul 10)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6391,7 +6430,7 @@
       </Placemark>
       <Placemark>
         <name>Yunaska (363)</name>
-        <description>&lt;b&gt;Yunaska (363)&lt;/b&gt;&lt;br/&gt;2022 — Aleutian Islands&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 10): FMC error - don't use this pass; ~10 animals jumped off rock and ~30 disturbed on rookery beach&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 10): Haulout beach; surveyed at 1000' to prevent disturbance&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 10): Rookery beach; surveyed 1000'&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 10): Right of Pass 3; surveyed at 1000'&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 10)</description>
+        <description><![CDATA[<b>Yunaska (363)</b><br/>2022 — Aleutian Islands<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jul 10): FMC error - don't use this pass; ~10 animals jumped off rock and ~30 disturbed on rookery beach<br/><b>Pass 2</b> (Jul 10): Haulout beach; surveyed at 1000' to prevent disturbance<br/><b>Pass 3</b> (Jul 10): Rookery beach; surveyed 1000'<br/><b>Pass 4</b> (Jul 10): Right of Pass 3; surveyed at 1000'<br/><b>Pass 5</b> (Jul 10)]]></description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
