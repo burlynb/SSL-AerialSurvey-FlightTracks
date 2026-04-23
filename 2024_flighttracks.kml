@@ -15,6 +15,15 @@
         <scale>0</scale>
       </LabelStyle>
     </Style>
+    <Style id="numLabel">
+      <IconStyle>
+        <scale>0</scale>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
     <Style id="ln0">
       <LineStyle>
         <color>ff4b19e6</color>
@@ -43,7 +52,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>0.9</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <Style id="sh0">
@@ -56,7 +65,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>1.1</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <StyleMap id="line0">
@@ -107,7 +116,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>0.9</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <Style id="sh1">
@@ -120,7 +129,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>1.1</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <StyleMap id="line1">
@@ -171,7 +180,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>0.9</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <Style id="sh2">
@@ -184,7 +193,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>1.1</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <StyleMap id="line2">
@@ -235,7 +244,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>0.9</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <Style id="sh3">
@@ -248,7 +257,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>1.1</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <StyleMap id="line3">
@@ -299,7 +308,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>0.9</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <Style id="sh4">
@@ -312,7 +321,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>1.1</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <StyleMap id="line4">
@@ -363,7 +372,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>0.9</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <Style id="sh5">
@@ -376,7 +385,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>1.1</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <StyleMap id="line5">
@@ -427,7 +436,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>0.9</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <Style id="sh6">
@@ -440,7 +449,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>1.1</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <StyleMap id="line6">
@@ -491,7 +500,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>0.9</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <Style id="sh7">
@@ -504,7 +513,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>1.1</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <StyleMap id="line7">
@@ -555,7 +564,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>0.9</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <Style id="sh8">
@@ -568,7 +577,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>1.1</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <StyleMap id="line8">
@@ -619,7 +628,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>0.9</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <Style id="sh9">
@@ -632,7 +641,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>1.1</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <StyleMap id="line9">
@@ -683,7 +692,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>0.9</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <Style id="sh10">
@@ -696,7 +705,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>1.1</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <StyleMap id="line10">
@@ -747,7 +756,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>0.9</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <Style id="sh11">
@@ -760,7 +769,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>1.1</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <StyleMap id="line11">
@@ -811,7 +820,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>0.9</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <Style id="sh12">
@@ -824,7 +833,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>1.1</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <StyleMap id="line12">
@@ -875,7 +884,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>0.9</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <Style id="sh13">
@@ -888,7 +897,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>1.1</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <StyleMap id="line13">
@@ -939,7 +948,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>0.9</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <Style id="sh14">
@@ -952,7 +961,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>1.1</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <StyleMap id="line14">
@@ -1003,7 +1012,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>0.9</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <Style id="sh15">
@@ -1016,7 +1025,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>1.1</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <StyleMap id="line15">
@@ -1067,7 +1076,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>0.9</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <Style id="sh16">
@@ -1080,7 +1089,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>1.1</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <StyleMap id="line16">
@@ -1131,7 +1140,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>0.9</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <Style id="sh17">
@@ -1144,7 +1153,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>1.1</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <StyleMap id="line17">
@@ -1195,7 +1204,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>0.9</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <Style id="sh18">
@@ -1208,7 +1217,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>1.1</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <StyleMap id="line18">
@@ -1259,7 +1268,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>0.9</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <Style id="sh19">
@@ -1272,7 +1281,7 @@
       </IconStyle>
       <LabelStyle>
         <color>ffffffff</color>
-        <scale>1.1</scale>
+        <scale>0</scale>
       </LabelStyle>
     </Style>
     <StyleMap id="line19">
@@ -1299,7 +1308,14 @@
       <name>Aghiyuk (246)</name>
       <Placemark>
         <name>246</name>
-        <Snippet maxLines="1">Aghiyuk (246)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-156.8107884710145,56.15691110869566,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aghiyuk (246)</name>
         <description><![CDATA[<b>Aghiyuk (246)</b><br/>2024 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 1): Pass 1 offshore rocks; disturbed 2 animals<br/><b>Pass 2</b> (Jul 1): Pass 2 for animals on shore; not many animals here]]></description>
         <styleUrl>#site0</styleUrl>
         <Point>
@@ -1443,7 +1459,14 @@
       <name>Atkins (260)</name>
       <Placemark>
         <name>260</name>
-        <Snippet maxLines="1">Atkins (260)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-159.3010023793651,55.050693900793654,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Atkins (260)</name>
         <description><![CDATA[<b>Atkins (260)</b><br/>2024 — Gulf of Alaska<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 1): North to south of A site<br/><b>Pass 2</b> (Jul 1): Right of Pass 1; started photo pass earlier<br/><b>Pass 3</b> (Jul 1): B site; disturbed 15; perpendicular to Passes 1 and 2<br/><b>Pass 4</b> (Jul 1): Same as Pass 3 but started photo pass earlier; count animals in the water; disturbed 5 more; animals at end of this pass overlap with A site]]></description>
         <styleUrl>#site1</styleUrl>
         <Point>
@@ -1821,7 +1844,14 @@
       <name>Bird (292)</name>
       <Placemark>
         <name>292</name>
-        <Snippet maxLines="1">Bird (292)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-163.29411947166668,54.66680517333333,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bird (292)</name>
         <description><![CDATA[<b>Bird (292)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 8): Disturbed 2]]></description>
         <styleUrl>#site2</styleUrl>
         <Point>
@@ -1984,7 +2014,14 @@
       <name>Cape Fairfield (181)</name>
       <Placemark>
         <name>181</name>
-        <Snippet maxLines="1">Cape Fairfield (181)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-148.84015949122806,59.922841719298255,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cape Fairfield (181)</name>
         <description><![CDATA[<b>Cape Fairfield (181)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3)]]></description>
         <styleUrl>#site3</styleUrl>
         <Point>
@@ -2066,7 +2103,14 @@
       <name>Cape Gull (238)</name>
       <Placemark>
         <name>238</name>
-        <Snippet maxLines="1">Cape Gull (238)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-154.15119846934866,58.19322535249042,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cape Gull (238)</name>
         <description><![CDATA[<b>Cape Gull (238)</b><br/>2024 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jun 28): Surveyed again since all disturbed on 6/28; no animals at B site<br/><b>Pass 2</b> (Jun 28): Same as Pass 1 but slower; if counting this pass count animals in the water<br/><b>Pass 3</b> (Jul 4)]]></description>
         <styleUrl>#site4</styleUrl>
         <Point>
@@ -2286,7 +2330,14 @@
       <name>Cape Puget (179)</name>
       <Placemark>
         <name>179</name>
-        <Snippet maxLines="1">Cape Puget (179)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-148.44963107222222,59.941382488888884,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cape Puget (179)</name>
         <description><![CDATA[<b>Cape Puget (179)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3): Disturbed 2 that jumped in water; visual count of 4]]></description>
         <styleUrl>#site5</styleUrl>
         <Point>
@@ -2379,7 +2430,14 @@
       <name>Cape Resurrection (182)</name>
       <Placemark>
         <name>182</name>
-        <Snippet maxLines="1">Cape Resurrection (182)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-149.2881137,59.869762509090904,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cape Resurrection (182)</name>
         <description><![CDATA[<b>Cape Resurrection (182)</b><br/>2024 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 3): A site; add 1 on right<br/><b>Pass 2</b> (Jul 3): B site; no animals at C site]]></description>
         <styleUrl>#site6</styleUrl>
         <Point>
@@ -2532,7 +2590,14 @@
       <name>Cape St. Elias (163)</name>
       <Placemark>
         <name>163</name>
-        <Snippet maxLines="1">Cape St. Elias (163)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-144.5985607740113,59.77875055649718,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cape St. Elias (163)</name>
         <description><![CDATA[<b>Cape St. Elias (163)</b><br/>2024 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 3): B site<br/><b>Pass 2</b> (Jul 3): A site; add 3 on offshore rock on left]]></description>
         <styleUrl>#site7</styleUrl>
         <Point>
@@ -2689,7 +2754,14 @@
       <name>Castle Rock (258)</name>
       <Placemark>
         <name>258</name>
-        <Snippet maxLines="1">Castle Rock (258)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-159.49211370895523,55.276100731343284,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castle Rock (258)</name>
         <description><![CDATA[<b>Castle Rock (258)</b><br/>2024 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 1): Only got one group this pass<br/><b>Pass 2</b> (Jul 1): Got both groups - count this pass if possible; opposite direction of Pass 1; add 1]]></description>
         <styleUrl>#site8</styleUrl>
         <Point>
@@ -2854,7 +2926,14 @@
       <name>Caton (289)</name>
       <Placemark>
         <name>289</name>
-        <Snippet maxLines="1">Caton (289)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-162.34240216111112,54.386848888888885,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Caton (289)</name>
         <description><![CDATA[<b>Caton (289)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 8): Disturbed 20]]></description>
         <styleUrl>#site9</styleUrl>
         <Point>
@@ -2947,7 +3026,14 @@
       <name>Chernabura (261)</name>
       <Placemark>
         <name>261</name>
-        <Snippet maxLines="1">Chernabura (261)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-159.57028634003834,54.75508098275862,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chernabura (261)</name>
         <description><![CDATA[<b>Chernabura (261)</b><br/>2024 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 1): B site; add 5 on right at start<br/><b>Pass 2</b> (Jul 1): Left of Pass 1<br/><b>Pass 3</b> (Jul 1): A site; disturbed 15]]></description>
         <styleUrl>#site10</styleUrl>
         <Point>
@@ -3254,7 +3340,14 @@
       <name>Chirikof (248)</name>
       <Placemark>
         <name>248</name>
-        <Snippet maxLines="1">Chirikof (248)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-155.71180319475656,55.77278299250937,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chirikof (248)</name>
         <description><![CDATA[<b>Chirikof (248)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 1): A to B site; add four on the left at the start of the pass]]></description>
         <styleUrl>#site11</styleUrl>
         <Point>
@@ -3406,7 +3499,14 @@
       <name>Chiswell Islands (185)</name>
       <Placemark>
         <name>185</name>
-        <Snippet maxLines="1">Chiswell Islands (185)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-149.58462011442785,59.60787583830846,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chiswell Islands (185)</name>
         <description><![CDATA[<b>Chiswell Islands (185)</b><br/>2024 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 3): B site<br/><b>Pass 2</b> (Jul 3): A site; add 1 on left]]></description>
         <styleUrl>#site12</styleUrl>
         <Point>
@@ -3571,7 +3671,14 @@
       <name>Chowiet (247)</name>
       <Placemark>
         <name>247</name>
-        <Snippet maxLines="1">Chowiet (247)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-156.68438561619718,56.01669094659624,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chowiet (247)</name>
         <description><![CDATA[<b>Chowiet (247)</b><br/>2024 — Gulf of Alaska<br/><b>8 passes</b><br/><br/><b>Pass 1</b> (Jul 1): A site<br/><b>Pass 2</b> (Jul 1): B site; add one on left<br/><b>Pass 3</b> (Jul 1): C site<br/><b>Pass 4</b> (Jul 1): Right of Pass 3<br/><b>Pass 5</b> (Jul 1): D and F sites; add one on the left<br/><b>Pass 6</b> (Jul 1): Similar to Pass 5 with harder bank for D site<br/><b>Pass 7</b> (Jul 1): E site; add 2 on left<br/><b>Pass 8</b> (Jul 1): Right of Pass 7]]></description>
         <styleUrl>#site13</styleUrl>
         <Point>
@@ -4163,7 +4270,14 @@
       <name>Clubbing Rocks North (285)</name>
       <Placemark>
         <name>285</name>
-        <Snippet maxLines="1">Clubbing Rocks North (285)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-162.47019131666667,54.73604867777778,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clubbing Rocks North (285)</name>
         <description><![CDATA[<b>Clubbing Rocks North (285)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 8): A site; disturbed 2]]></description>
         <styleUrl>#site14</styleUrl>
         <Point>
@@ -4256,7 +4370,14 @@
       <name>Clubbing Rocks South (286)</name>
       <Placemark>
         <name>286</name>
-        <Snippet maxLines="1">Clubbing Rocks South (286)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-162.44459694685992,54.698901946859905,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clubbing Rocks South (286)</name>
         <description><![CDATA[<b>Clubbing Rocks South (286)</b><br/>2024 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 8): Disturbed 4<br/><b>Pass 2</b> (Jul 8): Left of Pass 1; Pass 1 may be better]]></description>
         <styleUrl>#site15</styleUrl>
         <Point>
@@ -4423,7 +4544,14 @@
       <name>Egg (Sand Point) (268)</name>
       <Placemark>
         <name>268</name>
-        <Snippet maxLines="1">Egg (Sand Point) (268)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-160.51823845959598,55.27779623989899,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Egg (Sand Point) (268)</name>
         <description><![CDATA[<b>Egg (Sand Point) (268)</b><br/>2024 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 1): Not a good approach<br/><b>Pass 2</b> (Jul 1): Got them all - count this pass if possible; opposite direction as Pass 1]]></description>
         <styleUrl>#site16</styleUrl>
         <Point>
@@ -4587,7 +4715,14 @@
       <name>Flat (198)</name>
       <Placemark>
         <name>198</name>
-        <Snippet maxLines="1">Flat (198)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-151.99343955392155,59.32901819607843,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Flat (198)</name>
         <description><![CDATA[<b>Flat (198)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 2)]]></description>
         <styleUrl>#site17</styleUrl>
         <Point>
@@ -4684,7 +4819,14 @@
       <name>Fox (662)</name>
       <Placemark>
         <name>662</name>
-        <Snippet maxLines="1">Fox (662)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-144.60067742592594,60.16698364351852,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fox (662)</name>
         <description><![CDATA[<b>Fox (662)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3): Count animals in water; no disturbance]]></description>
         <styleUrl>#site18</styleUrl>
         <Point>
@@ -4783,7 +4925,14 @@
       <name>Granite Cape (186)</name>
       <Placemark>
         <name>186</name>
-        <Snippet maxLines="1">Granite Cape (186)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-149.75991411728396,59.608224956790124,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Granite Cape (186)</name>
         <description><![CDATA[<b>Granite Cape (186)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3)]]></description>
         <styleUrl>#site19</styleUrl>
         <Point>
@@ -4873,7 +5022,14 @@
       <name>Hook Point (164)</name>
       <Placemark>
         <name>164</name>
-        <Snippet maxLines="1">Hook Point (164)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-146.26014124444444,60.331252477777774,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hook Point (164)</name>
         <description><![CDATA[<b>Hook Point (164)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3)]]></description>
         <styleUrl>#site0</styleUrl>
         <Point>
@@ -4966,7 +5122,14 @@
       <name>Jude (273)</name>
       <Placemark>
         <name>273</name>
-        <Snippet maxLines="1">Jude (273)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-161.1045429360119,55.26309964732143,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jude (273)</name>
         <description><![CDATA[<b>Jude (273)</b><br/>2024 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 1): Distubed 10<br/><b>Pass 2</b> (Jul 1): Right of Pass 1<br/><b>Pass 3</b> (Jul 1): Between Pass 1 and Pass 2]]></description>
         <styleUrl>#site1</styleUrl>
         <Point>
@@ -5211,7 +5374,14 @@
       <name>Kak (252)</name>
       <Placemark>
         <name>252</name>
-        <Snippet maxLines="1">Kak (252)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-157.83358044117648,56.287333877450976,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kak (252)</name>
         <description><![CDATA[<b>Kak (252)</b><br/>2024 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 4): Disturbed 20; check for 6 animals at end of pass<br/><b>Pass 2</b> (Jul 4): Different group; disturbed 40 more<br/><b>Pass 3</b> (Jul 4)]]></description>
         <styleUrl>#site2</styleUrl>
         <Point>
@@ -5412,7 +5582,14 @@
       <name>Kilokak Rocks (242)</name>
       <Placemark>
         <name>242</name>
-        <Snippet maxLines="1">Kilokak Rocks (242)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-156.2800730576923,57.15740456410256,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kilokak Rocks (242)</name>
         <description><![CDATA[<b>Kilokak Rocks (242)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 4): Disturbed 10]]></description>
         <styleUrl>#site3</styleUrl>
         <Point>
@@ -5501,7 +5678,14 @@
       <name>Kodiak/Cape Barnabas (218)</name>
       <Placemark>
         <name>218</name>
-        <Snippet maxLines="1">Kodiak/Cape Barnabas (218)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-152.8765897795699,57.16632643548387,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kodiak/Cape Barnabas (218)</name>
         <description><![CDATA[<b>Kodiak/Cape Barnabas (218)</b><br/>2024 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 4)<br/><b>Pass 2</b> (Jul 4): Right of Pass 1]]></description>
         <styleUrl>#site4</styleUrl>
         <Point>
@@ -5661,7 +5845,14 @@
       <name>Kodiak/Cape Chiniak (215)</name>
       <Placemark>
         <name>215</name>
-        <Snippet maxLines="1">Kodiak/Cape Chiniak (215)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-152.1353741625,57.633258437500004,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kodiak/Cape Chiniak (215)</name>
         <description><![CDATA[<b>Kodiak/Cape Chiniak (215)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 4): No animals at B site]]></description>
         <styleUrl>#site5</styleUrl>
         <Point>
@@ -5764,7 +5955,14 @@
       <name>Kodiak/Cape Ikolik (223)</name>
       <Placemark>
         <name>223</name>
-        <Snippet maxLines="1">Kodiak/Cape Ikolik (223)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-154.81270826875,57.29242664791667,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kodiak/Cape Ikolik (223)</name>
         <description><![CDATA[<b>Kodiak/Cape Ikolik (223)</b><br/>2024 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 4): Offshore rocks; add 1 on right<br/><b>Pass 2</b> (Jul 4): Left of Pass 1<br/><b>Pass 3</b> (Jul 4): Different rock to the NW; consider adding waypoint here]]></description>
         <styleUrl>#site6</styleUrl>
         <Point>
@@ -5977,7 +6175,14 @@
       <name>Kodiak/Cape Ugat (228)</name>
       <Placemark>
         <name>228</name>
-        <Snippet maxLines="1">Kodiak/Cape Ugat (228)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-153.85027160555555,57.873711883333335,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kodiak/Cape Ugat (228)</name>
         <description><![CDATA[<b>Kodiak/Cape Ugat (228)</b><br/>2024 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 28)<br/><b>Pass 2</b> (Jun 28): Right of Pass 1]]></description>
         <styleUrl>#site7</styleUrl>
         <Point>
@@ -6135,7 +6340,14 @@
       <name>Kodiak/Gull Point (217)</name>
       <Placemark>
         <name>217</name>
-        <Snippet maxLines="1">Kodiak/Gull Point (217)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-152.6031751781609,57.35830382183909,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kodiak/Gull Point (217)</name>
         <description><![CDATA[<b>Kodiak/Gull Point (217)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 4)]]></description>
         <styleUrl>#site8</styleUrl>
         <Point>
@@ -6227,7 +6439,14 @@
       <name>Kodiak/Izhut Bay (665)</name>
       <Placemark>
         <name>665</name>
-        <Snippet maxLines="1">Kodiak/Izhut Bay (665)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-152.26134130434784,58.23455952173913,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kodiak/Izhut Bay (665)</name>
         <description><![CDATA[<b>Kodiak/Izhut Bay (665)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 2)]]></description>
         <styleUrl>#site9</styleUrl>
         <Point>
@@ -6313,7 +6532,14 @@
       <name>Kodiak/Steep Cape (231)</name>
       <Placemark>
         <name>231</name>
-        <Snippet maxLines="1">Kodiak/Steep Cape (231)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-153.19038134615386,58.21160121794872,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kodiak/Steep Cape (231)</name>
         <description><![CDATA[<b>Kodiak/Steep Cape (231)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 28): Add 4 jumpers from scouting pass]]></description>
         <styleUrl>#site10</styleUrl>
         <Point>
@@ -6402,7 +6628,14 @@
       <name>Kupreanof Point (257)</name>
       <Placemark>
         <name>257</name>
-        <Snippet maxLines="1">Kupreanof Point (257)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-159.59825392401962,55.566601509803924,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kupreanof Point (257)</name>
         <description><![CDATA[<b>Kupreanof Point (257)</b><br/>2024 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 1): Check for 2 males on beach in the middle; disturbed 20<br/><b>Pass 2</b> (Jul 1): Different group; disturbed 15]]></description>
         <styleUrl>#site11</styleUrl>
         <Point>
@@ -6568,7 +6801,14 @@
       <name>Latax Rocks (206)</name>
       <Placemark>
         <name>206</name>
-        <Snippet maxLines="1">Latax Rocks (206)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-152.50060968596492,58.678275968421055,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Latax Rocks (206)</name>
         <description><![CDATA[<b>Latax Rocks (206)</b><br/>2024 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 2): Add 1 on left<br/><b>Pass 2</b> (Jul 2): Different rock; disturbed 1<br/><b>Pass 3</b> (Jul 2): Different group]]></description>
         <styleUrl>#site12</styleUrl>
         <Point>
@@ -6796,7 +7036,14 @@
       <name>Lighthouse Rocks (250)</name>
       <Placemark>
         <name>250</name>
-        <Snippet maxLines="1">Lighthouse Rocks (250)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-157.40722631073447,55.77672656214689,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lighthouse Rocks (250)</name>
         <description><![CDATA[<b>Lighthouse Rocks (250)</b><br/>2024 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 1)<br/><b>Pass 2</b> (Jul 1): Left of Pass 1]]></description>
         <styleUrl>#site13</styleUrl>
         <Point>
@@ -6953,7 +7200,14 @@
       <name>Long Island (213)</name>
       <Placemark>
         <name>213</name>
-        <Snippet maxLines="1">Long Island (213)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-152.21287172727273,57.778768268939395,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Long Island (213)</name>
         <description><![CDATA[<b>Long Island (213)</b><br/>2024 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 2): Not many animals here<br/><b>Pass 2</b> (Jul 2): Right of Pass 1 but different group; add 4 on right]]></description>
         <styleUrl>#site14</styleUrl>
         <Point>
@@ -7095,7 +7349,14 @@
       <name>Marmot (212)</name>
       <Placemark>
         <name>212</name>
-        <Snippet maxLines="1">Marmot (212)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-151.82117642229483,58.185504948075526,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marmot (212)</name>
         <description><![CDATA[<b>Marmot (212)</b><br/>2024 — Gulf of Alaska<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jul 2): South to north; Beach 7 (A site) through Beach 5<br/><b>Pass 2</b> (Jul 3): Beach 4 (B site); pretty sure we got straggler males at beginning but drifted off rookery<br/><b>Pass 3</b> (Jul 3): Left of Pass 2; Beach 5 may be in photos at start of pass<br/><b>Pass 4</b> (Jul 3): Same as Pass 3; definitely got rookery this pass; check for 4 on left at start (straggler males group)<br/><b>Pass 5</b> (Jul 3)]]></description>
         <styleUrl>#site15</styleUrl>
         <Point>
@@ -7757,7 +8018,14 @@
       <name>Middleton (168)</name>
       <Placemark>
         <name>168</name>
-        <Snippet maxLines="1">Middleton (168)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-146.2711946236559,59.470743849462366,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Middleton (168)</name>
         <description><![CDATA[<b>Middleton (168)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3): Flew entire island to check for missed animals]]></description>
         <styleUrl>#site16</styleUrl>
         <Point>
@@ -7851,7 +8119,14 @@
       <name>Mitrofania (255)</name>
       <Placemark>
         <name>255</name>
-        <Snippet maxLines="1">Mitrofania (255)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-158.70270263978495,55.84029579569892,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mitrofania (255)</name>
         <description><![CDATA[<b>Mitrofania (255)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 4): Disturbed 5]]></description>
         <styleUrl>#site17</styleUrl>
         <Point>
@@ -7945,7 +8220,14 @@
       <name>Nagahut Rocks (196)</name>
       <Placemark>
         <name>196</name>
-        <Snippet maxLines="1">Nagahut Rocks (196)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-151.76908856521737,59.09945320289855,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nagahut Rocks (196)</name>
         <description><![CDATA[<b>Nagahut Rocks (196)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 2)]]></description>
         <styleUrl>#site18</styleUrl>
         <Point>
@@ -8031,7 +8313,14 @@
       <name>Nagai Rocks (249)</name>
       <Placemark>
         <name>249</name>
-        <Snippet maxLines="1">Nagai Rocks (249)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-155.7919721918239,55.827158533018874,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nagai Rocks (249)</name>
         <description><![CDATA[<b>Nagai Rocks (249)</b><br/>2024 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 1): B to A site<br/><b>Pass 2</b> (Jul 1): Right of Pass 1]]></description>
         <styleUrl>#site19</styleUrl>
         <Point>
@@ -8235,7 +8524,14 @@
       <name>Nagai/Mountain Point (266)</name>
       <Placemark>
         <name>266</name>
-        <Snippet maxLines="1">Nagai/Mountain Point (266)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-160.24947852933335,54.89497258,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nagai/Mountain Point (266)</name>
         <description><![CDATA[<b>Nagai/Mountain Point (266)</b><br/>2024 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 1): C site; add two on right<br/><b>Pass 2</b> (Jul 1): Offshore rocks near B site<br/><b>Pass 3</b> (Jul 1): B site beach; slightly different angle from Pass 2; add 3 on right at end of photo pass; disturbed 3]]></description>
         <styleUrl>#site0</styleUrl>
         <Point>
@@ -8493,7 +8789,14 @@
       <name>Natoa (Grotto) (562)</name>
       <Placemark>
         <name>562</name>
-        <Snippet maxLines="1">Natoa (Grotto) (562)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-149.59966156521742,59.63162244927536,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Natoa (Grotto) (562)</name>
         <description><![CDATA[<b>Natoa (Grotto) (562)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3): Add 1 on right]]></description>
         <styleUrl>#site1</styleUrl>
         <Point>
@@ -8579,7 +8882,14 @@
       <name>No Name (563)</name>
       <Placemark>
         <name>563</name>
-        <Snippet maxLines="1">No Name (563)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-149.50908424358974,59.71784927564102,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>No Name (563)</name>
         <description><![CDATA[<b>No Name (563)</b><br/>2024 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 3): B site<br/><b>Pass 2</b> (Jul 3): A site]]></description>
         <styleUrl>#site2</styleUrl>
         <Point>
@@ -8729,7 +9039,14 @@
       <name>Olga Rocks Sw (278)</name>
       <Placemark>
         <name>278</name>
-        <Snippet maxLines="1">Olga Rocks Sw (278)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-161.50597696813725,54.99480911029412,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Olga Rocks Sw (278)</name>
         <description><![CDATA[<b>Olga Rocks Sw (278)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 1)]]></description>
         <styleUrl>#site3</styleUrl>
         <Point>
@@ -8860,7 +9177,14 @@
       <name>Omega (274)</name>
       <Placemark>
         <name>274</name>
-        <Snippet maxLines="1">Omega (274)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-161.24232271264367,55.24230635632184,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Omega (274)</name>
         <description><![CDATA[<b>Omega (274)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 1)]]></description>
         <styleUrl>#site4</styleUrl>
         <Point>
@@ -8952,7 +9276,14 @@
       <name>Outer (Pye) (190)</name>
       <Placemark>
         <name>190</name>
-        <Snippet maxLines="1">Outer (Pye) (190)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-150.39189086160715,59.34137038541667,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Outer (Pye) (190)</name>
         <description><![CDATA[<b>Outer (Pye) (190)</b><br/>2024 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 3): Offshore rock and B site<br/><b>Pass 2</b> (Jul 3): A site; add 1 on left]]></description>
         <styleUrl>#site5</styleUrl>
         <Point>
@@ -9162,7 +9493,14 @@
       <name>Perl (194)</name>
       <Placemark>
         <name>194</name>
-        <Snippet maxLines="1">Perl (194)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-151.66230434946235,59.094602537634415,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Perl (194)</name>
         <description><![CDATA[<b>Perl (194)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 2)]]></description>
         <styleUrl>#site6</styleUrl>
         <Point>
@@ -9256,7 +9594,14 @@
       <name>Pinnacle Rock (280)</name>
       <Placemark>
         <name>280</name>
-        <Snippet maxLines="1">Pinnacle Rock (280)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-161.77505100574714,54.77100034252873,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pinnacle Rock (280)</name>
         <description><![CDATA[<b>Pinnacle Rock (280)</b><br/>2024 — Gulf of Alaska<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 1): B to A site; disturbed 4<br/><b>Pass 2</b> (Jul 1): Right of Pass 1; disturbed 10 more<br/><b>Pass 3</b> (Jul 1): Rocks NW of A site - Add waypoint; disturbed 1<br/><b>Pass 4</b> (Jul 1): Rocks SW of B site - Add waypoint]]></description>
         <styleUrl>#site7</styleUrl>
         <Point>
@@ -9569,7 +9914,14 @@
       <name>Point Elrington (177)</name>
       <Placemark>
         <name>177</name>
-        <Snippet maxLines="1">Point Elrington (177)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-148.2494583034188,59.934604012820515,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Point Elrington (177)</name>
         <description><![CDATA[<b>Point Elrington (177)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3): Check for 2 animals on rock at end of pass on left]]></description>
         <styleUrl>#site8</styleUrl>
         <Point>
@@ -9671,7 +10023,14 @@
       <name>Point Latouche (175)</name>
       <Placemark>
         <name>175</name>
-        <Snippet maxLines="1">Point Latouche (175)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-148.0827618847352,59.92456269470405,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Point Latouche (175)</name>
         <description><![CDATA[<b>Point Latouche (175)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3)]]></description>
         <styleUrl>#site9</styleUrl>
         <Point>
@@ -9841,7 +10200,14 @@
       <name>Procession Rocks (178)</name>
       <Placemark>
         <name>178</name>
-        <Snippet maxLines="1">Procession Rocks (178)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-148.28455467647058,60.006740276960784,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Procession Rocks (178)</name>
         <description><![CDATA[<b>Procession Rocks (178)</b><br/>2024 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 3)<br/><b>Pass 2</b> (Jul 3): Left of Pass 1]]></description>
         <styleUrl>#site10</styleUrl>
         <Point>
@@ -10007,7 +10373,14 @@
       <name>Puale Bay (241)</name>
       <Placemark>
         <name>241</name>
-        <Snippet maxLines="1">Puale Bay (241)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-155.3930862920635,57.67562418730158,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Puale Bay (241)</name>
         <description><![CDATA[<b>Puale Bay (241)</b><br/>2024 — Gulf of Alaska<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 4): Disturbed 2<br/><b>Pass 2</b> (Jul 4): Different group; opposite direction of Pass 1<br/><b>Pass 3</b> (Jul 4): Different group right of Pass 1; disturbed 3 animals<br/><b>Pass 4</b> (Jul 4): Right of Pass 3; add 1 on right]]></description>
         <styleUrl>#site11</styleUrl>
         <Point>
@@ -10280,7 +10653,14 @@
       <name>Ragged/Hoof Point (564)</name>
       <Placemark>
         <name>564</name>
-        <Snippet maxLines="1">Ragged/Hoof Point (564)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-150.29619542816093,59.42048274425287,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ragged/Hoof Point (564)</name>
         <description><![CDATA[<b>Ragged/Hoof Point (564)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3)]]></description>
         <styleUrl>#site12</styleUrl>
         <Point>
@@ -10401,7 +10781,14 @@
       <name>Rugged (183)</name>
       <Placemark>
         <name>183</name>
-        <Snippet maxLines="1">Rugged (183)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-149.37492646527778,59.836197993055556,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rugged (183)</name>
         <description><![CDATA[<b>Rugged (183)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3)]]></description>
         <styleUrl>#site13</styleUrl>
         <Point>
@@ -10488,7 +10875,14 @@
       <name>Sandman Reef Rock (670)</name>
       <Placemark>
         <name>670</name>
-        <Snippet maxLines="1">Sandman Reef Rock (670)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-161.8564328409091,54.727053295454546,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sandman Reef Rock (670)</name>
         <description><![CDATA[<b>Sandman Reef Rock (670)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 1): Not many animals here]]></description>
         <styleUrl>#site14</styleUrl>
         <Point>
@@ -10573,7 +10967,14 @@
       <name>Sea Lion Rocks (Marmot) (211)</name>
       <Placemark>
         <name>211</name>
-        <Snippet maxLines="1">Sea Lion Rocks (Marmot) (211)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-151.8148303095238,58.3421561031746,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sea Lion Rocks (Marmot) (211)</name>
         <description><![CDATA[<b>Sea Lion Rocks (Marmot) (211)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 2)]]></description>
         <styleUrl>#site15</styleUrl>
         <Point>
@@ -10657,7 +11058,14 @@
       <name>Sea Lion Rocks (Shumagins) (269)</name>
       <Placemark>
         <name>269</name>
-        <Snippet maxLines="1">Sea Lion Rocks (Shumagins) (269)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-160.51735067142857,55.07766170476191,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sea Lion Rocks (Shumagins) (269)</name>
         <description><![CDATA[<b>Sea Lion Rocks (Shumagins) (269)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 1)]]></description>
         <styleUrl>#site16</styleUrl>
         <Point>
@@ -10755,7 +11163,14 @@
       <name>Sea Otter (207)</name>
       <Placemark>
         <name>207</name>
-        <Snippet maxLines="1">Sea Otter (207)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-152.22250901159418,58.5216103057971,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sea Otter (207)</name>
         <description><![CDATA[<b>Sea Otter (207)</b><br/>2024 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 2): Disturbed 50<br/><b>Pass 2</b> (Jul 2): Left of Pass 1; disturbed 3<br/><b>Pass 3</b> (Jul 2): Left of Pass 2]]></description>
         <styleUrl>#site17</styleUrl>
         <Point>
@@ -11003,7 +11418,14 @@
       <name>Seal Rocks (166)</name>
       <Placemark>
         <name>166</name>
-        <Snippet maxLines="1">Seal Rocks (166)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-146.83681315656565,60.1625392979798,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seal Rocks (166)</name>
         <description><![CDATA[<b>Seal Rocks (166)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3): Add 1 on right]]></description>
         <styleUrl>#site18</styleUrl>
         <Point>
@@ -11099,7 +11521,14 @@
       <name>Seal Rocks (Kenai) (187)</name>
       <Placemark>
         <name>187</name>
-        <Snippet maxLines="1">Seal Rocks (Kenai) (187)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-149.62676305847953,59.51872941812866,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seal Rocks (Kenai) (187)</name>
         <description><![CDATA[<b>Seal Rocks (Kenai) (187)</b><br/>2024 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 3)<br/><b>Pass 2</b> (Jul 3): Left of Pass 1; different group]]></description>
         <styleUrl>#site19</styleUrl>
         <Point>
@@ -11254,7 +11683,14 @@
       <name>Shakun Rocks (235)</name>
       <Placemark>
         <name>235</name>
-        <Snippet maxLines="1">Shakun Rocks (235)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-153.68967944607843,58.548281514705884,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shakun Rocks (235)</name>
         <description><![CDATA[<b>Shakun Rocks (235)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jun 28)]]></description>
         <styleUrl>#site0</styleUrl>
         <Point>
@@ -11351,7 +11787,14 @@
       <name>Shaw (233)</name>
       <Placemark>
         <name>233</name>
-        <Snippet maxLines="1">Shaw (233)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-153.38752020567375,59.00524429078014,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shaw (233)</name>
         <description><![CDATA[<b>Shaw (233)</b><br/>2024 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jun 28): May be only harbor seals in photo pass; disturbed 20 harbor seals<br/><b>Pass 2</b> (Jun 28): May be only harbor seals in photo pass; different part of beach; Add 2 SSLs not in photos]]></description>
         <styleUrl>#site1</styleUrl>
         <Point>
@@ -11543,7 +11986,14 @@
       <name>Sitkinak/Cape Sitkinak (220)</name>
       <Placemark>
         <name>220</name>
-        <Snippet maxLines="1">Sitkinak/Cape Sitkinak (220)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-153.8562742277778,56.56994890277778,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sitkinak/Cape Sitkinak (220)</name>
         <description><![CDATA[<b>Sitkinak/Cape Sitkinak (220)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 4): Count animals in the water; no disturbance]]></description>
         <styleUrl>#site2</styleUrl>
         <Point>
@@ -11666,7 +12116,14 @@
       <name>South Rocks (290)</name>
       <Placemark>
         <name>290</name>
-        <Snippet maxLines="1">South Rocks (290)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-162.68276572222223,54.303922820105825,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>South Rocks (290)</name>
         <description><![CDATA[<b>South Rocks (290)</b><br/>2024 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 8): Disturbed 1<br/><b>Pass 2</b> (Jul 8): Different group; opposite direction of Pass 1; disturbed 15; add 6 on left; check for 3 animals on rock on right at start of pass and one male on left at end]]></description>
         <styleUrl>#site3</styleUrl>
         <Point>
@@ -11827,7 +12284,14 @@
       <name>Spitz (256)</name>
       <Placemark>
         <name>256</name>
-        <Snippet maxLines="1">Spitz (256)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-158.89604437356323,55.77940862068966,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spitz (256)</name>
         <description><![CDATA[<b>Spitz (256)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 4): Add 3 on right]]></description>
         <styleUrl>#site4</styleUrl>
         <Point>
@@ -11919,7 +12383,14 @@
       <name>Sugarloaf (200)</name>
       <Placemark>
         <name>200</name>
-        <Snippet maxLines="1">Sugarloaf (200)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-152.03737979979675,58.886970546747975,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sugarloaf (200)</name>
         <description><![CDATA[<b>Sugarloaf (200)</b><br/>2024 — Gulf of Alaska<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jul 2): Check for 1 on left at start of pass; south to north on east side of island<br/><b>Pass 2</b> (Jul 2): East to west on north side of island; beginning of this pass overlaps with end of Pass 1<br/><b>Pass 3</b> (Jul 2): North to south on west side; add 1 on left<br/><b>Pass 4</b> (Jul 2): South side of island; add 5 on left before photo pass<br/><b>Pass 5</b> (Jul 2): Offshore rock]]></description>
         <styleUrl>#site5</styleUrl>
         <Point>
@@ -12286,7 +12757,14 @@
       <name>Suklik (672)</name>
       <Placemark>
         <name>672</name>
-        <Snippet maxLines="1">Suklik (672)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-156.63145973214287,56.039288994047624,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Suklik (672)</name>
         <description><![CDATA[<b>Suklik (672)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 1): May be no animals in photos; visual count of 2 out of photo swath; disturbed 1]]></description>
         <styleUrl>#site6</styleUrl>
         <Point>
@@ -12377,7 +12855,14 @@
       <name>Sushilnoi Rocks (279)</name>
       <Placemark>
         <name>279</name>
-        <Snippet maxLines="1">Sushilnoi Rocks (279)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-161.73591265512823,54.83053745256411,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sushilnoi Rocks (279)</name>
         <description><![CDATA[<b>Sushilnoi Rocks (279)</b><br/>2024 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 1): B site; disturbed 3<br/><b>Pass 2</b> (Jul 1): A site; disturbed 25<br/><b>Pass 3</b> (Jul 1): Right of Pass 2; disturbed 30; possible pause in photos]]></description>
         <styleUrl>#site7</styleUrl>
         <Point>
@@ -12640,7 +13125,14 @@
       <name>Sutwik (245)</name>
       <Placemark>
         <name>245</name>
-        <Snippet maxLines="1">Sutwik (245)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-157.34882585310734,56.51772705649718,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sutwik (245)</name>
         <description><![CDATA[<b>Sutwik (245)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 4): A site; no animals at B site]]></description>
         <styleUrl>#site8</styleUrl>
         <Point>
@@ -12762,7 +13254,14 @@
       <name>The Haystacks (263)</name>
       <Placemark>
         <name>263</name>
-        <Snippet maxLines="1">The Haystacks (263)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-160.05649559375001,55.26792231770833,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Haystacks (263)</name>
         <description><![CDATA[<b>The Haystacks (263)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 1): One jumper]]></description>
         <styleUrl>#site9</styleUrl>
         <Point>
@@ -12857,7 +13356,14 @@
       <name>The Needle (171)</name>
       <Placemark>
         <name>171</name>
-        <Snippet maxLines="1">The Needle (171)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-147.6017322222222,60.11091104545454,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Needle (171)</name>
         <description><![CDATA[<b>The Needle (171)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 3): Surveyed again with nearby sites]]></description>
         <styleUrl>#site10</styleUrl>
         <Point>
@@ -12953,7 +13459,14 @@
       <name>The Whaleback (264)</name>
       <Placemark>
         <name>264</name>
-        <Snippet maxLines="1">The Whaleback (264)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-160.0837572222222,55.28006989583333,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Whaleback (264)</name>
         <description><![CDATA[<b>The Whaleback (264)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 1)]]></description>
         <styleUrl>#site11</styleUrl>
         <Point>
@@ -13040,7 +13553,14 @@
       <name>Twoheaded (219)</name>
       <Placemark>
         <name>219</name>
-        <Snippet maxLines="1">Twoheaded (219)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-153.5611013115942,56.89943404528986,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Twoheaded (219)</name>
         <description><![CDATA[<b>Twoheaded (219)</b><br/>2024 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 4)<br/><b>Pass 2</b> (Jul 4): Left of Pass 1 for B site]]></description>
         <styleUrl>#site12</styleUrl>
         <Point>
@@ -13230,7 +13750,14 @@
       <name>Umga (283)</name>
       <Placemark>
         <name>283</name>
-        <Snippet maxLines="1">Umga (283)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-162.679814,55.16107950000001,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Umga (283)</name>
         <description><![CDATA[<b>Umga (283)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 8)]]></description>
         <styleUrl>#site13</styleUrl>
         <Point>
@@ -13297,7 +13824,14 @@
       <name>Unga/Acheredin Point (272)</name>
       <Placemark>
         <name>272</name>
-        <Snippet maxLines="1">Unga/Acheredin Point (272)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-160.81431303703704,55.12060247942387,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Unga/Acheredin Point (272)</name>
         <description><![CDATA[<b>Unga/Acheredin Point (272)</b><br/>2024 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 1): B site<br/><b>Pass 2</b> (Jul 1): To the right of Pass 1]]></description>
         <styleUrl>#site14</styleUrl>
         <Point>
@@ -13476,7 +14010,14 @@
       <name>Ushagat/Nw (202)</name>
       <Placemark>
         <name>202</name>
-        <Snippet maxLines="1">Ushagat/Nw (202)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-152.34716466666669,58.95722082222222,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ushagat/Nw (202)</name>
         <description><![CDATA[<b>Ushagat/Nw (202)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 2): Rock past the waypoint]]></description>
         <styleUrl>#site15</styleUrl>
         <Point>
@@ -13554,7 +14095,14 @@
       <name>Ushagat/Rocks South (204)</name>
       <Placemark>
         <name>204</name>
-        <Snippet maxLines="1">Ushagat/Rocks South (204)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-152.3240371847826,58.8763423115942,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ushagat/Rocks South (204)</name>
         <description><![CDATA[<b>Ushagat/Rocks South (204)</b><br/>2024 — Gulf of Alaska<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 2): Add 1 on left<br/><b>Pass 2</b> (Jul 2): Different group]]></description>
         <styleUrl>#site16</styleUrl>
         <Point>
@@ -13698,7 +14246,14 @@
       <name>Ushagat/SW (203)</name>
       <Placemark>
         <name>203</name>
-        <Snippet maxLines="1">Ushagat/SW (203)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-152.35099755000002,58.90906271875,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ushagat/SW (203)</name>
         <description><![CDATA[<b>Ushagat/SW (203)</b><br/>2024 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 2): A site<br/><b>Pass 2</b> (Jul 2): Animals on beach between A and C sites<br/><b>Pass 3</b> (Jul 2): C site; check for 5 on rock at end (may not be in photos)]]></description>
         <styleUrl>#site17</styleUrl>
         <Point>
@@ -13911,7 +14466,14 @@
       <name>Wooded (Fish) (167)</name>
       <Placemark>
         <name>167</name>
-        <Snippet maxLines="1">Wooded (Fish) (167)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-147.3442535,59.87946157235142,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wooded (Fish) (167)</name>
         <description><![CDATA[<b>Wooded (Fish) (167)</b><br/>2024 — Gulf of Alaska<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 3): B site; check for 1 on right on first beach<br/><b>Pass 2</b> (Jul 3): Left of Pass 1; A site<br/><b>Pass 3</b> (Jul 3): Left of Pass 2; offshore rocks]]></description>
         <styleUrl>#site18</styleUrl>
         <Point>
@@ -14173,7 +14735,14 @@
       <name>Wosnesenski (275)</name>
       <Placemark>
         <name>275</name>
-        <Snippet maxLines="1">Wosnesenski (275)</Snippet>
+        <styleUrl>#numLabel</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-161.41778110215054,55.16693802150537,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wosnesenski (275)</name>
         <description><![CDATA[<b>Wosnesenski (275)</b><br/>2024 — Gulf of Alaska<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 1): Disturbed 1]]></description>
         <styleUrl>#site19</styleUrl>
         <Point>

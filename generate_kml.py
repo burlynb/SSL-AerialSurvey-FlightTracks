@@ -466,6 +466,13 @@ def build_kml(passes_by_site, year, region, log_notes=None):
     ET.SubElement(ico, 'href').text = 'http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png'
     ET.SubElement(ET.SubElement(st, 'LabelStyle'), 'scale').text = '0'
 
+    # ── Shared number-label style (text only, no icon) ────────────────────────
+    st_num = ET.SubElement(doc, 'Style', id='numLabel')
+    ET.SubElement(ET.SubElement(st_num, 'IconStyle'), 'scale').text = '0'
+    num_lb = ET.SubElement(st_num, 'LabelStyle')
+    ET.SubElement(num_lb, 'color').text = 'ffffffff'
+    ET.SubElement(num_lb, 'scale').text = '0.8'
+
     # ── Per-color styles: line normal/highlight + site-label normal/highlight + StyleMaps ──
     for i, html_color in enumerate(COLORS_HTML):
         kc = to_kml_color(html_color)
@@ -499,8 +506,8 @@ def build_kml(passes_by_site, year, region, log_notes=None):
 
         line_style(f'ln{i}', 5)
         line_style(f'lh{i}', 8)
-        dot_style(f'sn{i}', 1.0, 0.9)
-        dot_style(f'sh{i}', 1.4, 1.1)
+        dot_style(f'sn{i}', 1.0, 0)
+        dot_style(f'sh{i}', 1.4, 0)
         stylemap(f'line{i}', f'ln{i}', f'lh{i}')
         stylemap(f'site{i}', f'sn{i}', f'sh{i}')
 
@@ -522,10 +529,17 @@ def build_kml(passes_by_site, year, region, log_notes=None):
         folder = ET.SubElement(doc, 'Folder')
         ET.SubElement(folder, 'name').text = site
 
-        # Site label Point — always visible, carries all tappable info
+        # Number text label — "246" visible on map, no popup
+        pm_num = ET.SubElement(folder, 'Placemark')
+        ET.SubElement(pm_num, 'name').text = site_num
+        ET.SubElement(pm_num, 'styleUrl').text = '#numLabel'
+        pt_num = ET.SubElement(pm_num, 'Point')
+        ET.SubElement(pt_num, 'altitudeMode').text = 'clampToGround'
+        ET.SubElement(pt_num, 'coordinates').text = f'{cen_lon},{cen_lat},0'
+
+        # Site info dot — colored triangle, label hidden; tap to see full name + notes
         pm_lbl = ET.SubElement(folder, 'Placemark')
-        ET.SubElement(pm_lbl, 'name').text = site_num
-        ET.SubElement(pm_lbl, 'Snippet', maxLines='1').text = site
+        ET.SubElement(pm_lbl, 'name').text = site
         ET.SubElement(pm_lbl, 'description').text = desc
         ET.SubElement(pm_lbl, 'styleUrl').text = f'#site{ci}'
         pt = ET.SubElement(pm_lbl, 'Point')
