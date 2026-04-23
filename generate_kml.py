@@ -1,23 +1,23 @@
 """
 generate_kml.py
 ---------------
-Generates KML flight track files for ForeFlight import:
-  2021_flighttracks.kml  — GOA 2021 xlsx logs
-  2024_flighttracks.kml  — GOA 2024 csv logs
-  2022_flighttracks.kml  — ALI 2022 xlsx/csv logs
-  2023_flighttracks.kml  — ALI 2023 xlsx/csv logs
+Generates KML flight track files for ForeFlight import.
 
-Import a KML into ForeFlight:
-  Files app (or email) -> tap the .kml file -> Open in ForeFlight
+  2021_flighttracks.kml  — GOA 2021
+  2024_flighttracks.kml  — GOA 2024
+  2022_flighttracks.kml  — ALI 2022
+  2023_flighttracks.kml  — ALI 2023
 
-KML notes:
-  - Coordinates are lon,lat,alt (KML standard)
-  - Colors are AABBGGRR (KML standard, reversed from HTML)
-  - altitudeMode = clampToGround so tracks appear on the moving map surface
-  - Sites are grouped in Folders so ForeFlight can toggle them individually
+KML design for ForeFlight:
+  - One labeled Point per site at track centroid (site number shown on map;
+    tap to see site name, year, and per-pass survey notes)
+  - One LineString per pass, thick (width 5) with StyleMap highlight
+  - Green start dot + bearing arrow at end of each pass
+  - ASSLAP pass notes included in popup description where available
 """
 
 import csv
+import math
 import openpyxl
 import glob
 import re
@@ -26,7 +26,7 @@ from pathlib import Path
 from xml.etree import ElementTree as ET
 from xml.dom import minidom
 
-# ── Shared colour palette ──────────────────────────────────────────────────────
+# ── Color palette (matches web map) ──────────────────────────────────────────
 
 COLORS_HTML = [
     '#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231',
@@ -39,7 +39,7 @@ def to_kml_color(html, alpha='ff'):
     h = html.lstrip('#')
     return f"{alpha}{h[4:6]}{h[2:4]}{h[0:2]}"
 
-# ── Shared skip logic ──────────────────────────────────────────────────────────
+# ── Shared skip logic ─────────────────────────────────────────────────────────
 
 SKIP_PREFIXES = (
     'TAKE OFF', 'TAKEOFF', 'TEST FIRE', 'LAND', 'KL ', 'ALTITUDE',
@@ -57,7 +57,7 @@ SKIP_PREFIXES = (
 def is_operational(comment):
     return comment.upper().strip().startswith(SKIP_PREFIXES)
 
-# ── GOA 2021 site parsing (xlsx, plain numeric IDs) ───────────────────────────
+# ── Site label parsing ────────────────────────────────────────────────────────
 
 NAME_OVERRIDES_GOA = {'203': 'Ushagat/SW'}
 
@@ -90,8 +90,6 @@ def get_site_label_goa_2021(comment):
     _labels_goa_2021.setdefault(sid, f"{name} ({sid})")
     return _labels_goa_2021[sid]
 
-# ── GOA 2024 site parsing (csv, NMEA coordinates) ─────────────────────────────
-
 def nmea_to_dd(val, hemisphere):
     v = float(val)
     deg = int(v / 100)
@@ -117,8 +115,6 @@ def get_site_label_goa_2024(site_id_raw, site_name_raw):
     label = f"{name} ({parent_id})"
     _labels_goa_2024[parent_id] = label
     return label
-
-# ── ALI site parsing (xlsx+csv, SL-prefixed IDs) ──────────────────────────────
 
 _labels_ali = {}
 
@@ -148,14 +144,13 @@ def get_site_label_ali(comment):
     _labels_ali.setdefault(sid, f"{name} ({sid})")
     return _labels_ali[sid]
 
-# ── Generic X/C-row loaders ────────────────────────────────────────────────────
+# ── Generic X/C-row loaders ───────────────────────────────────────────────────
 
 def load_xc_xlsx(filepath, comment_col=30):
     date_str = Path(filepath).stem[:8]
-    result = []
-    current_x = []
     wb = openpyxl.load_workbook(filepath, data_only=True)
     ws = wb.active
+    result, current_x = [], []
     for row in ws.iter_rows(min_row=2, values_only=True):
         t, lat, lon = row[0], row[4], row[5]
         comment = row[comment_col] if len(row) > comment_col else None
@@ -172,8 +167,7 @@ def load_xc_xlsx(filepath, comment_col=30):
 
 def load_xc_csv_ali(filepath, comment_col=28):
     date_str = Path(filepath).stem[:8]
-    result = []
-    current_x = []
+    result, current_x = [], []
     with open(filepath, newline='', encoding='utf-8') as f:
         reader = csv.reader(f)
         next(reader)
@@ -195,10 +189,34 @@ def load_xc_csv_ali(filepath, comment_col=28):
                 current_x = []
     return result
 
-# ── Load GOA 2021 ─────────────────────────────────────────────────────────────
+# ── GPS outlier filter ────────────────────────────────────────────────────────
+
+def largest_segment(coords, max_step_deg=0.05):
+    if len(coords) < 2:
+        return coords
+    segments, current = [], [coords[0]]
+    for prev, curr in zip(coords, coords[1:]):
+        if abs(curr[0]-prev[0]) > max_step_deg or abs(curr[1]-prev[1]) > max_step_deg:
+            segments.append(current)
+            current = [curr]
+        else:
+            current.append(curr)
+    segments.append(current)
+    return max(segments, key=len)
+
+# ── Antimeridian normalization ────────────────────────────────────────────────
+
+def fix_antimeridian(passes):
+    for pass_list in passes.values():
+        all_lons = [c[1] for p in pass_list for c in p['coords']]
+        if all_lons and max(all_lons) - min(all_lons) > 180:
+            for p in pass_list:
+                p['coords'] = [(lat, -lon if lon > 0 else lon) for lat, lon in p['coords']]
+    return passes
+
+# ── Load passes ───────────────────────────────────────────────────────────────
 
 passes_by_site_goa_2021 = defaultdict(list)
-
 for fp in sorted([f for f in glob.glob('flightlogs/**/2021/*.xlsx', recursive=True)
                   if 'LOGSummary' not in f and 'ASSLAP' not in f]):
     for date_str, comment, coords in load_xc_xlsx(fp, comment_col=30):
@@ -206,15 +224,12 @@ for fp in sorted([f for f in glob.glob('flightlogs/**/2021/*.xlsx', recursive=Tr
             continue
         label = get_site_label_goa_2021(comment)
         if label:
-            passes_by_site_goa_2021[label].append({'date': date_str, 'comment': comment, 'coords': coords})
-
-print(f"GOA 2021: {sum(len(v) for v in passes_by_site_goa_2021.values())} passes across "
+            passes_by_site_goa_2021[label].append(
+                {'date': date_str, 'comment': comment, 'coords': largest_segment(coords)})
+print(f"GOA 2021: {sum(len(v) for v in passes_by_site_goa_2021.values())} passes / "
       f"{len(passes_by_site_goa_2021)} sites.")
 
-# ── Load GOA 2024 ─────────────────────────────────────────────────────────────
-
 passes_by_site_goa_2024 = defaultdict(list)
-
 for fp in sorted(glob.glob('flightlogs/**/2024/*.csv', recursive=True)):
     m = re.search(r'(\d{4}-\d{2}-\d{2})', fp)
     date_str = m.group(1).replace('-', '') if m else 'unknown'
@@ -236,6 +251,7 @@ for fp in sorted(glob.glob('flightlogs/**/2024/*.csv', recursive=True)):
             file_passes[(site_id, pass_num)].append((lat, lon))
             file_names.setdefault(site_id, site_name)
     for (site_id, pass_num), coords in file_passes.items():
+        coords = largest_segment(coords)
         if not coords:
             continue
         label = get_site_label_goa_2024(site_id, file_names.get(site_id, site_id))
@@ -244,11 +260,8 @@ for fp in sorted(glob.glob('flightlogs/**/2024/*.csv', recursive=True)):
             'comment': f"{file_names.get(site_id, site_id)} pass {pass_num}",
             'coords': coords,
         })
-
-print(f"GOA 2024: {sum(len(v) for v in passes_by_site_goa_2024.values())} passes across "
+print(f"GOA 2024: {sum(len(v) for v in passes_by_site_goa_2024.values())} passes / "
       f"{len(passes_by_site_goa_2024)} sites.")
-
-# ── Load ALI 2022 and 2023 ────────────────────────────────────────────────────
 
 def load_ali_year(year_str):
     passes = defaultdict(list)
@@ -259,7 +272,8 @@ def load_ali_year(year_str):
                 continue
             label = get_site_label_ali(comment)
             if label:
-                passes[label].append({'date': date_str, 'comment': comment, 'coords': coords})
+                passes[label].append(
+                    {'date': date_str, 'comment': comment, 'coords': largest_segment(coords)})
     for fp in sorted([f for f in glob.glob(f'flightlogs/**/{year_str}/*.csv', recursive=True)
                       if 'Aleutian' in f]):
         for date_str, comment, coords in load_xc_csv_ali(fp, comment_col=28):
@@ -267,105 +281,259 @@ def load_ali_year(year_str):
                 continue
             label = get_site_label_ali(comment)
             if label:
-                passes[label].append({'date': date_str, 'comment': comment, 'coords': coords})
-    print(f"ALI {year_str}: {sum(len(v) for v in passes.values())} passes across {len(passes)} sites.")
+                passes[label].append(
+                    {'date': date_str, 'comment': comment, 'coords': largest_segment(coords)})
+    fix_antimeridian(passes)
+    print(f"ALI {year_str}: {sum(len(v) for v in passes.values())} passes / {len(passes)} sites.")
     return passes
 
 passes_by_site_ali_2022 = load_ali_year('2022')
 passes_by_site_ali_2023 = load_ali_year('2023')
 
+# ── ASSLAP log notes ──────────────────────────────────────────────────────────
+
+def load_log_notes(filepath, col_date=0, col_mml=1, col_pass=6, col_desc=9, sheet_name=None):
+    notes = defaultdict(list)
+    try:
+        wb = openpyxl.load_workbook(filepath, data_only=True)
+        ws = wb[sheet_name] if sheet_name else wb.active
+        for row in ws.iter_rows(min_row=2, values_only=True):
+            if len(row) <= max(col_date, col_mml, col_pass, col_desc):
+                continue
+            mml_id = row[col_mml]; pass_num = row[col_pass]; desc = row[col_desc]
+            if pass_num is None or not desc:
+                continue
+            m = re.match(r'(\d+)', str(mml_id).strip()) if mml_id else None
+            if not m:
+                continue
+            pid = m.group(1)
+            date_val = row[col_date]
+            date_str = date_val.strftime('%m/%d') if hasattr(date_val, 'strftime') else str(date_val)
+            try:
+                pn = int(pass_num)
+            except (ValueError, TypeError):
+                pn = str(pass_num)
+            notes[pid].append((date_str, pn, str(desc).strip()))
+    except FileNotFoundError:
+        print(f"  (ASSLAP not found: {filepath})")
+    return {k: sorted(v, key=lambda x: (x[0], str(x[1]))) for k, v in notes.items()}
+
+_asslap_goa_2024 = glob.glob('flightlogs/**/2024/*ASSLAP*.xlsx', recursive=True)
+log_notes_goa_2024 = load_log_notes(_asslap_goa_2024[0]) if _asslap_goa_2024 else {}
+print(f"GOA 2024 log notes: {len(log_notes_goa_2024)} sites.")
+
+_asslap_ali_2022 = glob.glob('flightlogs/**/2022/*ASSLAP*.xlsx', recursive=True)
+log_notes_ali_2022 = (
+    load_log_notes(_asslap_ali_2022[0], col_date=2, col_mml=3, col_pass=7, col_desc=10)
+    if _asslap_ali_2022 else {}
+)
+print(f"ALI 2022 log notes: {len(log_notes_ali_2022)} sites.")
+
+_asslap_ali_2023 = glob.glob('flightlogs/**/2023/*ASSLAP*.xlsx', recursive=True)
+log_notes_ali_2023 = (
+    load_log_notes(_asslap_ali_2023[0], col_date=2, col_mml=3, col_pass=7, col_desc=10,
+                   sheet_name='ASSLAP23_SurveySites')
+    if _asslap_ali_2023 else {}
+)
+print(f"ALI 2023 log notes: {len(log_notes_ali_2023)} sites.")
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+
+def compass_bearing(lat1, lon1, lat2, lon2):
+    lat1, lat2 = math.radians(lat1), math.radians(lat2)
+    dlon = math.radians(lon2 - lon1)
+    x = math.sin(dlon) * math.cos(lat2)
+    y = math.cos(lat1) * math.sin(lat2) - math.sin(lat1) * math.cos(lat2) * math.cos(dlon)
+    return (math.degrees(math.atan2(x, y)) + 360) % 360
+
+def fmt_date(d):
+    months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+    s = str(d)
+    if len(s) == 8 and s.isdigit():
+        return f"{months[int(s[4:6])-1]} {int(s[6:8])}"
+    return s
+
+def make_description(site, year, region, site_passes, log_notes):
+    pid = re.search(r'\((\d+)\)', site)
+    pid = pid.group(1) if pid else None
+    notes_list = log_notes.get(pid, []) if log_notes and pid else []
+    notes_by_pass = {}
+    for _, pn, desc in notes_list:
+        try:
+            notes_by_pass[int(pn)] = desc
+        except (ValueError, TypeError):
+            pass
+
+    n = len(site_passes)
+    lines = [
+        f'<b>{site}</b>',
+        f'{year} — {region}',
+        f'<b>{n} pass{"es" if n != 1 else ""}</b>',
+        '',
+    ]
+    for i, p in enumerate(site_passes, 1):
+        date_label = fmt_date(p['date'])
+        note = notes_by_pass.get(i)
+        if note:
+            lines.append(f'<b>Pass {i}</b> ({date_label}): {note}')
+        else:
+            lines.append(f'<b>Pass {i}</b> ({date_label})')
+    return '<br/>'.join(lines)
+
 # ── KML builder ───────────────────────────────────────────────────────────────
 
-def build_kml(passes_by_site, title, description):
+def build_kml(passes_by_site, year, region, log_notes=None):
     kml = ET.Element('kml', xmlns='http://www.opengis.net/kml/2.2')
     doc = ET.SubElement(kml, 'Document')
-    ET.SubElement(doc, 'name').text = title
-    ET.SubElement(doc, 'description').text = description
+    ET.SubElement(doc, 'name').text = f"{year} SSL Aerial Survey — {region}"
+    ET.SubElement(doc, 'description').text = (
+        f"Steller sea lion aerial survey flight tracks, {region} {year}. "
+        f"Tap a site label to see site name and pass notes."
+    )
 
+    # ── Shared start-dot style (green) ────────────────────────────────────────
+    st = ET.SubElement(doc, 'Style', id='startDot')
+    ic = ET.SubElement(st, 'IconStyle')
+    ET.SubElement(ic, 'color').text = 'ff00bb00'
+    ET.SubElement(ic, 'scale').text = '0.65'
+    ico = ET.SubElement(ic, 'Icon')
+    ET.SubElement(ico, 'href').text = 'http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png'
+    ET.SubElement(ET.SubElement(st, 'LabelStyle'), 'scale').text = '0'
+
+    # ── Per-color styles: line normal/highlight + site-label normal/highlight + StyleMaps ──
     for i, html_color in enumerate(COLORS_HTML):
-        style = ET.SubElement(doc, 'Style', id=f'color_{i}')
-        ls = ET.SubElement(style, 'LineStyle')
-        ET.SubElement(ls, 'color').text = to_kml_color(html_color)
-        ET.SubElement(ls, 'width').text = '3'
-        label_style = ET.SubElement(style, 'LabelStyle')
-        ET.SubElement(label_style, 'scale').text = '0.8'
+        kc = to_kml_color(html_color)
 
+        def line_style(sid, width):
+            s = ET.SubElement(doc, 'Style', id=sid)
+            ls = ET.SubElement(s, 'LineStyle')
+            ET.SubElement(ls, 'color').text = kc
+            ET.SubElement(ls, 'width').text = str(width)
+            ET.SubElement(ET.SubElement(s, 'LabelStyle'), 'scale').text = '0'
+
+        def dot_style(sid, dot_scale, label_scale):
+            s = ET.SubElement(doc, 'Style', id=sid)
+            ics = ET.SubElement(s, 'IconStyle')
+            ET.SubElement(ics, 'color').text = kc
+            ET.SubElement(ics, 'scale').text = str(dot_scale)
+            ico2 = ET.SubElement(ics, 'Icon')
+            ET.SubElement(ico2, 'href').text = 'http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png'
+            lbs = ET.SubElement(s, 'LabelStyle')
+            ET.SubElement(lbs, 'color').text = 'ffffffff'
+            ET.SubElement(lbs, 'scale').text = str(label_scale)
+
+        def stylemap(smid, normal_id, highlight_id):
+            sm = ET.SubElement(doc, 'StyleMap', id=smid)
+            pn = ET.SubElement(sm, 'Pair')
+            ET.SubElement(pn, 'key').text = 'normal'
+            ET.SubElement(pn, 'styleUrl').text = f'#{normal_id}'
+            ph = ET.SubElement(sm, 'Pair')
+            ET.SubElement(ph, 'key').text = 'highlight'
+            ET.SubElement(ph, 'styleUrl').text = f'#{highlight_id}'
+
+        line_style(f'ln{i}', 5)
+        line_style(f'lh{i}', 8)
+        dot_style(f'sn{i}', 1.0, 0.9)
+        dot_style(f'sh{i}', 1.4, 1.1)
+        stylemap(f'line{i}', f'ln{i}', f'lh{i}')
+        stylemap(f'site{i}', f'sn{i}', f'sh{i}')
+
+    # ── Site folders ──────────────────────────────────────────────────────────
     for idx, site in enumerate(sorted(passes_by_site)):
-        color_id = f'color_{idx % len(COLORS_HTML)}'
+        ci = idx % len(COLORS_HTML)
+        kc = to_kml_color(COLORS_HTML[ci])
+        site_passes = passes_by_site[site]
+
+        m = re.search(r'\((\w+)\)', site)
+        site_num = m.group(1) if m else site
+
+        all_coords = [c for p in site_passes for c in p['coords']]
+        cen_lat = sum(c[0] for c in all_coords) / len(all_coords)
+        cen_lon = sum(c[1] for c in all_coords) / len(all_coords)
+
+        desc = make_description(site, year, region, site_passes, log_notes)
+
         folder = ET.SubElement(doc, 'Folder')
         ET.SubElement(folder, 'name').text = site
 
-        for pass_num, p in enumerate(passes_by_site[site], 1):
-            pm = ET.SubElement(folder, 'Placemark')
-            ET.SubElement(pm, 'name').text = f"P{pass_num}"
-            ET.SubElement(pm, 'description').text = (
-                f"<b>{site}</b> - Pass {pass_num}<br/>"
-                f"Date: {p['date']}<br/>"
-                f"{p['comment']}"
-            )
-            ET.SubElement(pm, 'styleUrl').text = f'#{color_id}'
+        # Site label Point — tappable, shows full info
+        pm_lbl = ET.SubElement(folder, 'Placemark')
+        ET.SubElement(pm_lbl, 'name').text = site_num
+        ET.SubElement(pm_lbl, 'description').text = desc
+        ET.SubElement(pm_lbl, 'styleUrl').text = f'#site{ci}'
+        pt = ET.SubElement(pm_lbl, 'Point')
+        ET.SubElement(pt, 'altitudeMode').text = 'clampToGround'
+        ET.SubElement(pt, 'coordinates').text = f'{cen_lon},{cen_lat},0'
 
-            line = ET.SubElement(pm, 'LineString')
-            ET.SubElement(line, 'tessellate').text = '1'
-            ET.SubElement(line, 'altitudeMode').text = 'clampToGround'
+        # Pass tracks
+        for pi, p in enumerate(site_passes, 1):
+            coords = p['coords']
 
-            coord_str = '\n'.join(
-                f"          {lon},{lat},0"
-                for lat, lon in p['coords']
+            # Track line
+            pm_line = ET.SubElement(folder, 'Placemark')
+            ET.SubElement(pm_line, 'name').text = f'P{pi}'
+            ET.SubElement(pm_line, 'styleUrl').text = f'#line{ci}'
+            ls_el = ET.SubElement(pm_line, 'LineString')
+            ET.SubElement(ls_el, 'tessellate').text = '1'
+            ET.SubElement(ls_el, 'altitudeMode').text = 'clampToGround'
+            ET.SubElement(ls_el, 'coordinates').text = '\n'.join(
+                f'{lon},{lat},0' for lat, lon in coords
             )
-            ET.SubElement(line, 'coordinates').text = '\n' + coord_str + '\n        '
+
+            if len(coords) < 2:
+                continue
+
+            # Start dot
+            pm_s = ET.SubElement(folder, 'Placemark')
+            ET.SubElement(pm_s, 'name').text = ''
+            ET.SubElement(pm_s, 'styleUrl').text = '#startDot'
+            pt_s = ET.SubElement(pm_s, 'Point')
+            ET.SubElement(pt_s, 'altitudeMode').text = 'clampToGround'
+            ET.SubElement(pt_s, 'coordinates').text = f'{coords[0][1]},{coords[0][0]},0'
+
+            # End arrow (bearing from ~last 10% of track)
+            n_c = len(coords)
+            i_from = max(0, n_c - max(2, n_c // 10))
+            bearing = compass_bearing(*coords[i_from], *coords[-1])
+            pm_e = ET.SubElement(folder, 'Placemark')
+            ET.SubElement(pm_e, 'name').text = ''
+            end_style = ET.SubElement(pm_e, 'Style')
+            end_ic = ET.SubElement(end_style, 'IconStyle')
+            ET.SubElement(end_ic, 'color').text = kc
+            ET.SubElement(end_ic, 'scale').text = '1.1'
+            ET.SubElement(end_ic, 'heading').text = f'{bearing:.1f}'
+            end_ico = ET.SubElement(end_ic, 'Icon')
+            ET.SubElement(end_ico, 'href').text = 'http://maps.google.com/mapfiles/kml/shapes/arrow.png'
+            ET.SubElement(ET.SubElement(end_style, 'LabelStyle'), 'scale').text = '0'
+            pt_e = ET.SubElement(pm_e, 'Point')
+            ET.SubElement(pt_e, 'altitudeMode').text = 'clampToGround'
+            ET.SubElement(pt_e, 'coordinates').text = f'{coords[-1][1]},{coords[-1][0]},0'
 
     return kml
 
+# ── Serialise with pretty-print ───────────────────────────────────────────────
+
 def save_kml(kml_element, outfile):
-    raw_xml   = ET.tostring(kml_element, encoding='unicode')
-    pretty    = minidom.parseString(raw_xml).toprettyxml(indent='  ')
-    clean_xml = '<?xml version="1.0" encoding="UTF-8"?>\n' + '\n'.join(pretty.split('\n')[1:])
+    raw = ET.tostring(kml_element, encoding='unicode')
+    pretty = minidom.parseString(raw).toprettyxml(indent='  ')
+    clean = '<?xml version="1.0" encoding="UTF-8"?>\n' + '\n'.join(pretty.split('\n')[1:])
     with open(outfile, 'w', encoding='utf-8') as f:
-        f.write(clean_xml)
+        f.write(clean)
     print(f"Saved: {outfile}")
 
-# ── Write KML files ───────────────────────────────────────────────────────────
+# ── Generate all four KML files ───────────────────────────────────────────────
 
-save_kml(build_kml(
-    passes_by_site_goa_2021,
-    '2021 SSL Aerial Survey Flight Tracks — Gulf of Alaska',
-    'Steller sea lion aerial survey flight tracks, Gulf of Alaska 2021. '
-    'Each folder is one survey site; each placemark is one camera pass.',
-), '2021_flighttracks.kml')
+save_kml(build_kml(passes_by_site_goa_2021, '2021', 'Gulf of Alaska'),
+         '2021_flighttracks.kml')
 
-save_kml(build_kml(
-    passes_by_site_goa_2024,
-    '2024 SSL Aerial Survey Flight Tracks — Gulf of Alaska',
-    'Steller sea lion aerial survey flight tracks, Gulf of Alaska 2024. '
-    'Each folder is one survey site; each placemark is one camera pass.',
-), '2024_flighttracks.kml')
+save_kml(build_kml(passes_by_site_goa_2024, '2024', 'Gulf of Alaska',
+                   log_notes=log_notes_goa_2024),
+         '2024_flighttracks.kml')
 
-save_kml(build_kml(
-    passes_by_site_ali_2022,
-    '2022 SSL Aerial Survey Flight Tracks — Aleutian Islands',
-    'Steller sea lion aerial survey flight tracks, Aleutian Islands 2022. '
-    'Each folder is one survey site; each placemark is one camera pass.',
-), '2022_flighttracks.kml')
+save_kml(build_kml(passes_by_site_ali_2022, '2022', 'Aleutian Islands',
+                   log_notes=log_notes_ali_2022),
+         '2022_flighttracks.kml')
 
-save_kml(build_kml(
-    passes_by_site_ali_2023,
-    '2023 SSL Aerial Survey Flight Tracks — Aleutian Islands',
-    'Steller sea lion aerial survey flight tracks, Aleutian Islands 2023. '
-    'Each folder is one survey site; each placemark is one camera pass.',
-), '2023_flighttracks.kml')
-
-# ── Summary table ─────────────────────────────────────────────────────────────
-
-print(f"\n{'Site':<45} {'GOA21':>6} {'GOA24':>6} {'ALI22':>6} {'ALI23':>6}")
-print('-' * 71)
-all_labels = sorted(
-    set(passes_by_site_goa_2021) | set(passes_by_site_goa_2024) |
-    set(passes_by_site_ali_2022) | set(passes_by_site_ali_2023)
-)
-for site in all_labels:
-    g21 = len(passes_by_site_goa_2021.get(site, []))
-    g24 = len(passes_by_site_goa_2024.get(site, []))
-    a22 = len(passes_by_site_ali_2022.get(site, []))
-    a23 = len(passes_by_site_ali_2023.get(site, []))
-    print(f"{site:<45} {g21 or '':>6} {g24 or '':>6} {a22 or '':>6} {a23 or '':>6}")
+save_kml(build_kml(passes_by_site_ali_2023, '2023', 'Aleutian Islands',
+                   log_notes=log_notes_ali_2023),
+         '2023_flighttracks.kml')
