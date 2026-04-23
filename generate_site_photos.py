@@ -96,7 +96,7 @@ def get_site_label_2024(site_id_raw, site_name_raw):
 
 passes_by_site_2021 = defaultdict(list)   # label -> [[(lat, lon), ...], ...]
 
-for filepath in sorted(glob.glob('flightlogs/2021/*.xlsx')):
+for filepath in sorted([f for f in glob.glob('flightlogs/**/2021/*.xlsx', recursive=True) if 'LOGSummary' not in f and 'ASSLAP' not in f]):
     wb = openpyxl.load_workbook(filepath, data_only=True)
     ws = wb.active
     current_x = []
@@ -115,7 +115,7 @@ for filepath in sorted(glob.glob('flightlogs/2021/*.xlsx')):
 
 passes_by_site_2024 = defaultdict(list)
 
-for filepath in sorted(glob.glob('flightlogs/2024/*.csv')):
+for filepath in sorted(glob.glob('flightlogs/**/2024/*.csv', recursive=True)):
     file_passes = defaultdict(list)
     file_names  = {}
     with open(filepath, newline='', encoding='utf-8') as f:

@@ -84,6 +84,26 @@ def add_arrows(coords, color, group, tip=''):
     place_arrowhead(coords[n//2], stable_bearing(coords, 0.40, 0.80), color, group, tip)
     place_arrowhead(coords[-1],   stable_bearing(coords, 0.85, 1.0),  color, group, f"END {tip}")
 
+# ── GPS outlier filter ────────────────────────────────────────────────────────
+
+def largest_segment(coords, max_step_deg=0.05):
+    """
+    Split a coordinate list at GPS jumps larger than max_step_deg and
+    return the longest contiguous segment.  Removes pre/post-pass bad fixes
+    where the GPS hadn't settled (e.g. Sandman Reef Rock).
+    """
+    if len(coords) < 2:
+        return coords
+    segments, current = [], [coords[0]]
+    for prev, curr in zip(coords, coords[1:]):
+        if abs(curr[0]-prev[0]) > max_step_deg or abs(curr[1]-prev[1]) > max_step_deg:
+            segments.append(current)
+            current = [curr]
+        else:
+            current.append(curr)
+    segments.append(current)
+    return max(segments, key=len)
+
 # ── 2021 comment parsing (xlsx) ────────────────────────────────────────────────
 
 SKIP_PREFIXES = (
@@ -154,7 +174,7 @@ def get_site_label_2024(site_id_raw, site_name_raw):
 
 passes_by_site_2021 = defaultdict(list)   # label -> [{date, comment, coords}]
 
-xlsx_files = sorted(glob.glob('flightlogs/2021/*.xlsx'))
+xlsx_files = sorted([f for f in glob.glob('flightlogs/**/2021/*.xlsx', recursive=True) if 'LOGSummary' not in f and 'ASSLAP' not in f])
 for filepath in xlsx_files:
     date_str = Path(filepath).stem[:8]
     wb = openpyxl.load_workbook(filepath, data_only=True)
@@ -181,7 +201,7 @@ print(f"2021: {sum(len(v) for v in passes_by_site_2021.values())} passes across 
 
 passes_by_site_2024 = defaultdict(list)   # label -> [{date, comment, coords}]
 
-csv_files = sorted(glob.glob('flightlogs/2024/*.csv'))
+csv_files = sorted(glob.glob('flightlogs/**/2024/*.csv', recursive=True))
 for filepath in csv_files:
     m = re.search(r'(\d{4}-\d{2}-\d{2})', filepath)
     date_str = m.group(1).replace('-', '') if m else 'unknown'
@@ -215,6 +235,7 @@ for filepath in csv_files:
             file_names.setdefault(site_id, site_name)
 
     for (site_id, pass_num), coords in file_passes.items():
+        coords = largest_segment(coords)
         if not coords:
             continue
         site_name = file_names.get(site_id, site_id)
@@ -262,7 +283,8 @@ def load_log_notes(filepath):
         print("  (ASSLAP log summary not found — skipping)")
     return {k: sorted(v, key=lambda x: (x[0], str(x[1]))) for k, v in notes.items()}
 
-log_notes_2024 = load_log_notes('flightlogs/2024/2024_ASSLAP_LOGSummary.xlsx')
+_asslap = glob.glob('flightlogs/**/2024/*ASSLAP*.xlsx', recursive=True)
+log_notes_2024 = load_log_notes(_asslap[0]) if _asslap else {}
 print(f"Log notes loaded for {len(log_notes_2024)} 2024 sites.")
 
 # ── match site photos (relative paths for GitHub Pages) ───────────────────────

@@ -109,7 +109,7 @@ def get_site_label_2024(site_id_raw, site_name_raw):
 
 passes_by_site_2021 = defaultdict(list)
 
-for filepath in sorted(glob.glob('flightlogs/2021/*.xlsx')):
+for filepath in sorted([f for f in glob.glob('flightlogs/**/2021/*.xlsx', recursive=True) if 'LOGSummary' not in f and 'ASSLAP' not in f]):
     date_str = Path(filepath).stem[:8]
     wb = openpyxl.load_workbook(filepath, data_only=True)
     ws = wb.active
@@ -135,7 +135,7 @@ print(f"2021: {sum(len(v) for v in passes_by_site_2021.values())} passes across 
 
 passes_by_site_2024 = defaultdict(list)
 
-for filepath in sorted(glob.glob('flightlogs/2024/*.csv')):
+for filepath in sorted(glob.glob('flightlogs/**/2024/*.csv', recursive=True)):
     m = re.search(r'(\d{4}-\d{2}-\d{2})', filepath)
     date_str = m.group(1).replace('-', '') if m else 'unknown'
 
