@@ -377,7 +377,7 @@ def add_site_layers(passes_by_site, site_photos, year_prefix):
                           f'box-shadow:1px 1px 3px rgba(0,0,0,0.5);white-space:nowrap;">'
                           f'&#128247; {site_name_short}</div>'),
                     icon_size=(len(site_name_short) * 7 + 30, 20),
-                    icon_anchor=((len(site_name_short) * 7 + 30) // 2, 10),
+                    icon_anchor=(-8, 10),  # 8px gap: label floats right of centroid
                 )
             ).add_to(group)
 
