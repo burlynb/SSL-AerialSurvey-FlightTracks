@@ -522,7 +522,7 @@ def build_kml(passes_by_site, year, region, log_notes=None):
         folder = ET.SubElement(doc, 'Folder')
         ET.SubElement(folder, 'name').text = site
 
-        # Site label Point — tappable, shows full info
+        # Site label Point — always visible, carries all tappable info
         pm_lbl = ET.SubElement(folder, 'Placemark')
         ET.SubElement(pm_lbl, 'name').text = site_num
         ET.SubElement(pm_lbl, 'Snippet', maxLines='1').text = site
@@ -532,13 +532,29 @@ def build_kml(passes_by_site, year, region, log_notes=None):
         ET.SubElement(pt, 'altitudeMode').text = 'clampToGround'
         ET.SubElement(pt, 'coordinates').text = f'{cen_lon},{cen_lat},0'
 
+        # Track sub-folder — hidden at regional zoom, visible when zoomed into site
+        track_folder = ET.SubElement(folder, 'Folder')
+        ET.SubElement(track_folder, 'name').text = 'Tracks'
+        lats = [c[0] for c in all_coords]
+        lons = [c[1] for c in all_coords]
+        pad = 0.1
+        rgn = ET.SubElement(track_folder, 'Region')
+        box = ET.SubElement(rgn, 'LatLonAltBox')
+        ET.SubElement(box, 'north').text = f'{max(lats) + pad:.4f}'
+        ET.SubElement(box, 'south').text = f'{min(lats) - pad:.4f}'
+        ET.SubElement(box, 'east').text  = f'{max(lons) + pad:.4f}'
+        ET.SubElement(box, 'west').text  = f'{min(lons) - pad:.4f}'
+        lod = ET.SubElement(rgn, 'Lod')
+        ET.SubElement(lod, 'minLodPixels').text = '128'
+        ET.SubElement(lod, 'maxLodPixels').text = '-1'
+
         # Pass tracks
         for pi, p in enumerate(site_passes, 1):
             coords = p['coords']
 
-            # Track line
-            pm_line = ET.SubElement(folder, 'Placemark')
-            ET.SubElement(pm_line, 'name').text = f'P{pi}'
+            # Track line — visual only, no popup info needed
+            pm_line = ET.SubElement(track_folder, 'Placemark')
+            ET.SubElement(pm_line, 'name').text = ''
             ET.SubElement(pm_line, 'styleUrl').text = f'#line{ci}'
             ls_el = ET.SubElement(pm_line, 'LineString')
             ET.SubElement(ls_el, 'tessellate').text = '1'
@@ -550,18 +566,16 @@ def build_kml(passes_by_site, year, region, log_notes=None):
             if len(coords) < 2:
                 continue
 
-            # Start dot — green, label hidden on map; name = full site name so
-            # tapping it shows the site name as the popup title with full pass info
-            pm_s = ET.SubElement(folder, 'Placemark')
-            ET.SubElement(pm_s, 'name').text = site
-            ET.SubElement(pm_s, 'description').text = desc
+            # Start dot — green visual indicator only, no name/description
+            pm_s = ET.SubElement(track_folder, 'Placemark')
+            ET.SubElement(pm_s, 'name').text = ''
             ET.SubElement(pm_s, 'styleUrl').text = '#startDot'
             pt_s = ET.SubElement(pm_s, 'Point')
             ET.SubElement(pt_s, 'altitudeMode').text = 'clampToGround'
             ET.SubElement(pt_s, 'coordinates').text = f'{coords[0][1]},{coords[0][0]},0'
 
-            # End dot — plain colored dot, no arrow
-            pm_e = ET.SubElement(folder, 'Placemark')
+            # End dot — colored visual indicator only
+            pm_e = ET.SubElement(track_folder, 'Placemark')
             ET.SubElement(pm_e, 'name').text = ''
             end_style = ET.SubElement(pm_e, 'Style')
             end_ic = ET.SubElement(end_style, 'IconStyle')

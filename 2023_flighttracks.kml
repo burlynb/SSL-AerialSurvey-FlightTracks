@@ -1307,13 +1307,27 @@
           <coordinates>-169.17491155555555,52.90869555555555,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line0</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-169.1713,52.9174,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>53.0174</north>
+            <south>52.7975</south>
+            <east>-169.0612</east>
+            <west>-169.2969</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line0</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-169.1713,52.9174,0
 -169.1714,52.9171,0
 -169.1716,52.9169,0
 -169.1716,52.9167,0
@@ -1428,43 +1442,42 @@
 -169.1961,52.8991,0
 -169.1965,52.8993,0
 -169.1969,52.8995,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Adugak (357)</name>
-        <description><![CDATA[<b>Adugak (357)</b><br/>2023 — Aleutian Islands<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 9)<br/><b>Pass 2</b> (Jul 9): Left of Pass 1; disturbed 3<br/><b>Pass 3</b> (Jul 9): East to west, left of Pass 2; disturbed 30<br/><b>Pass 4</b> (Jul 9): Left of Pass 3]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-169.1713,52.9174,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff4b19e6</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-169.1969,52.8995,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P2</name>
-        <styleUrl>#line0</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-169.1694,52.917,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-169.1713,52.9174,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff4b19e6</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-169.1969,52.8995,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line0</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-169.1694,52.917,0
 -169.1695,52.9168,0
 -169.1696,52.9166,0
 -169.1697,52.9163,0
@@ -1499,43 +1512,42 @@
 -169.1728,52.9097,0
 -169.1729,52.9094,0
 -169.173,52.9092,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Adugak (357)</name>
-        <description><![CDATA[<b>Adugak (357)</b><br/>2023 — Aleutian Islands<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 9)<br/><b>Pass 2</b> (Jul 9): Left of Pass 1; disturbed 3<br/><b>Pass 3</b> (Jul 9): East to west, left of Pass 2; disturbed 30<br/><b>Pass 4</b> (Jul 9): Left of Pass 3]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-169.1694,52.917,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff4b19e6</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-169.173,52.9092,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P3</name>
-        <styleUrl>#line0</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-169.1612,52.9147,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-169.1694,52.917,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff4b19e6</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-169.173,52.9092,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line0</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-169.1612,52.9147,0
 -169.1617,52.9146,0
 -169.1621,52.9146,0
 -169.1626,52.9145,0
@@ -1574,43 +1586,42 @@
 -169.1758,52.9114,0
 -169.1762,52.9113,0
 -169.1766,52.9112,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Adugak (357)</name>
-        <description><![CDATA[<b>Adugak (357)</b><br/>2023 — Aleutian Islands<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 9)<br/><b>Pass 2</b> (Jul 9): Left of Pass 1; disturbed 3<br/><b>Pass 3</b> (Jul 9): East to west, left of Pass 2; disturbed 30<br/><b>Pass 4</b> (Jul 9): Left of Pass 3]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-169.1612,52.9147,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff4b19e6</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-169.1766,52.9112,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P4</name>
-        <styleUrl>#line0</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-169.1618,52.914,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-169.1612,52.9147,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff4b19e6</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-169.1766,52.9112,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line0</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-169.1618,52.914,0
 -169.1622,52.9139,0
 -169.1626,52.9138,0
 -169.163,52.9137,0
@@ -1646,36 +1657,36 @@
 -169.174,52.9106,0
 -169.1744,52.9105,0
 -169.1747,52.9104,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Adugak (357)</name>
-        <description><![CDATA[<b>Adugak (357)</b><br/>2023 — Aleutian Islands<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 9)<br/><b>Pass 2</b> (Jul 9): Left of Pass 1; disturbed 3<br/><b>Pass 3</b> (Jul 9): East to west, left of Pass 2; disturbed 30<br/><b>Pass 4</b> (Jul 9): Left of Pass 3]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-169.1618,52.914,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff4b19e6</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-169.1747,52.9104,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-169.1618,52.914,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff4b19e6</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-169.1747,52.9104,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Aiktak (308)</name>
@@ -1689,13 +1700,27 @@
           <coordinates>-164.85420399999998,54.182092000000004,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line1</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.8576,54.1852,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>54.2852</north>
+            <south>54.0791</south>
+            <east>-164.7507</east>
+            <west>-164.9576</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line1</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.8576,54.1852,0
 -164.8573,54.1849,0
 -164.857,54.1846,0
 -164.8567,54.1843,0
@@ -1720,36 +1745,36 @@
 -164.8514,54.1796,0
 -164.8511,54.1793,0
 -164.8507,54.1791,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Aiktak (308)</name>
-        <description><![CDATA[<b>Aiktak (308)</b><br/>2023 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 2)]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.8576,54.1852,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff6b6bff</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.8507,54.1791,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.8576,54.1852,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff6b6bff</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.8507,54.1791,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Akun Billingshead (321)</name>
@@ -1763,13 +1788,27 @@
           <coordinates>-165.52894476744186,54.2956238372093,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line2</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.5112,54.2989,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>54.4014</north>
+            <south>54.1884</south>
+            <east>-165.4112</east>
+            <west>-165.6416</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line2</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.5112,54.2989,0
 -165.5115,54.2989,0
 -165.512,54.2989,0
 -165.5125,54.2989,0
@@ -1841,43 +1880,42 @@
 -165.541,54.2967,0
 -165.5412,54.2967,0
 -165.5416,54.2968,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Akun Billingshead (321)</name>
-        <description><![CDATA[<b>Akun Billingshead (321)</b><br/>2023 — Aleutian Islands<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 2): A site (haulout); add 5 animals on left<br/><b>Pass 2</b> (Jul 2): Perpendicular to Pass 1; B site; 1000' elevation; lots of disturbance, count jumpers<br/><b>Pass 3</b> (Jul 2): Right of Pass 2; 1200' elevation<br/><b>Pass 4</b> (Jul 2): Between Pass 2 and 3; 1200' elevation]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.5112,54.2989,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff19e1ff</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.5416,54.2968,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P2</name>
-        <styleUrl>#line2</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.5282,54.2992,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.5112,54.2989,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff19e1ff</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.5416,54.2968,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line2</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.5282,54.2992,0
 -165.5282,54.2989,0
 -165.5282,54.2986,0
 -165.5282,54.2983,0
@@ -1908,43 +1946,42 @@
 -165.5273,54.2909,0
 -165.5272,54.2906,0
 -165.5272,54.2903,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Akun Billingshead (321)</name>
-        <description><![CDATA[<b>Akun Billingshead (321)</b><br/>2023 — Aleutian Islands<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 2): A site (haulout); add 5 animals on left<br/><b>Pass 2</b> (Jul 2): Perpendicular to Pass 1; B site; 1000' elevation; lots of disturbance, count jumpers<br/><b>Pass 3</b> (Jul 2): Right of Pass 2; 1200' elevation<br/><b>Pass 4</b> (Jul 2): Between Pass 2 and 3; 1200' elevation]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.5282,54.2992,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff19e1ff</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.5272,54.2903,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P3</name>
-        <styleUrl>#line2</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.5381,54.3014,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.5282,54.2992,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff19e1ff</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.5272,54.2903,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line2</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.5381,54.3014,0
 -165.5379,54.3011,0
 -165.5377,54.3007,0
 -165.5375,54.3003,0
@@ -1983,43 +2020,42 @@
 -165.53,54.2891,0
 -165.5297,54.2887,0
 -165.5294,54.2884,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Akun Billingshead (321)</name>
-        <description><![CDATA[<b>Akun Billingshead (321)</b><br/>2023 — Aleutian Islands<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 2): A site (haulout); add 5 animals on left<br/><b>Pass 2</b> (Jul 2): Perpendicular to Pass 1; B site; 1000' elevation; lots of disturbance, count jumpers<br/><b>Pass 3</b> (Jul 2): Right of Pass 2; 1200' elevation<br/><b>Pass 4</b> (Jul 2): Between Pass 2 and 3; 1200' elevation]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.5381,54.3014,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff19e1ff</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.5294,54.2884,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P4</name>
-        <styleUrl>#line2</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.5317,54.2986,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.5381,54.3014,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff19e1ff</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.5294,54.2884,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line2</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.5317,54.2986,0
 -165.5316,54.2982,0
 -165.5314,54.2979,0
 -165.5313,54.2975,0
@@ -2049,36 +2085,36 @@
 -165.5283,54.2898,0
 -165.5282,54.2895,0
 -165.528,54.2891,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Akun Billingshead (321)</name>
-        <description><![CDATA[<b>Akun Billingshead (321)</b><br/>2023 — Aleutian Islands<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 2): A site (haulout); add 5 animals on left<br/><b>Pass 2</b> (Jul 2): Perpendicular to Pass 1; B site; 1000' elevation; lots of disturbance, count jumpers<br/><b>Pass 3</b> (Jul 2): Right of Pass 2; 1200' elevation<br/><b>Pass 4</b> (Jul 2): Between Pass 2 and 3; 1200' elevation]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.5317,54.2986,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff19e1ff</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.528,54.2891,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.5317,54.2986,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff19e1ff</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.528,54.2891,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Akutan Cape Morgan (326)</name>
@@ -2092,13 +2128,27 @@
           <coordinates>-166.0220161172161,54.05008351648352,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line3</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.0525,54.0416,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>54.1599</north>
+            <south>53.9416</south>
+            <east>-165.8918</east>
+            <west>-166.1525</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line3</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.0525,54.0416,0
 -166.0521,54.0418,0
 -166.0518,54.0419,0
 -166.0513,54.0421,0
@@ -2241,43 +2291,42 @@
 -165.9928,54.0588,0
 -165.9923,54.0589,0
 -165.9918,54.0589,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Akutan Cape Morgan (326)</name>
-        <description><![CDATA[<b>Akutan Cape Morgan (326)</b><br/>2023 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 2): B to A site; add 4 on right<br/><b>Pass 2</b> (Jul 2): Same as Pass 1; flown at 850 feet; disturbed 30 animals]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.0525,54.0416,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffd86343</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.9918,54.0589,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P2</name>
-        <styleUrl>#line3</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.052,54.0417,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.0525,54.0416,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffd86343</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.9918,54.0589,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line3</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.052,54.0417,0
 -166.0515,54.0419,0
 -166.051,54.0421,0
 -166.0506,54.0422,0
@@ -2407,36 +2456,36 @@
 -165.9944,54.0595,0
 -165.9939,54.0597,0
 -165.9935,54.0599,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Akutan Cape Morgan (326)</name>
-        <description><![CDATA[<b>Akutan Cape Morgan (326)</b><br/>2023 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 2): B to A site; add 4 on right<br/><b>Pass 2</b> (Jul 2): Same as Pass 1; flown at 850 feet; disturbed 30 animals]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.052,54.0417,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffd86343</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.9935,54.0599,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.052,54.0417,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffd86343</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.9935,54.0599,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Akutan Reef (325)</name>
@@ -2450,13 +2499,27 @@
           <coordinates>-166.0999734939759,54.144124096385546,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line4</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.0905,54.155,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>54.2550</north>
+            <south>54.0326</south>
+            <east>-165.9905</east>
+            <west>-166.2040</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line4</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.0905,54.155,0
 -166.0908,54.1548,0
 -166.0911,54.1545,0
 -166.0914,54.1542,0
@@ -2539,36 +2602,36 @@
 -166.104,54.1331,0
 -166.104,54.1328,0
 -166.104,54.1326,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Akutan Reef (325)</name>
-        <description><![CDATA[<b>Akutan Reef (325)</b><br/>2023 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 2): B to A sites; disturbed 5]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.0905,54.155,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff3182f5</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.104,54.1326,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.0905,54.155,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff3182f5</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.104,54.1326,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Amak Rocks (302)</name>
@@ -2582,13 +2645,27 @@
           <coordinates>-163.16793014354067,55.42964066985646,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line5</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-163.1806,55.4162,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>55.5521</north>
+            <south>55.3155</south>
+            <east>-163.0516</east>
+            <west>-163.2806</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line5</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-163.1806,55.4162,0
 -163.1801,55.4165,0
 -163.1798,55.4166,0
 -163.1793,55.4169,0
@@ -2644,43 +2721,42 @@
 -163.1682,55.4328,0
 -163.1681,55.433,0
 -163.1679,55.4334,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Amak Rocks (302)</name>
-        <description><![CDATA[<b>Amak Rocks (302)</b><br/>2023 — Aleutian Islands<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jul 6): A site<br/><b>Pass 2</b> (Jul 6): A site; similar to Pass 1, started firing earlier to get first group; disturbed 40-50<br/><b>Pass 3</b> (Jul 6): A site; different angle than Pass 1 and 2 to get different group<br/><b>Pass 4</b> (Jul 6): A to B site; disturbed 25; check for 1 animal at end on right; add 1 on left<br/><b>Pass 5</b> (Jul 6): C site; disturbed 9]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-163.1806,55.4162,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffb41e91</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-163.1679,55.4334,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P2</name>
-        <styleUrl>#line5</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-163.1743,55.4155,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-163.1806,55.4162,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffb41e91</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-163.1679,55.4334,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line5</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-163.1743,55.4155,0
 -163.1743,55.4159,0
 -163.1742,55.4162,0
 -163.1742,55.4165,0
@@ -2737,43 +2813,42 @@
 -163.1699,55.4328,0
 -163.1697,55.4332,0
 -163.1696,55.4336,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Amak Rocks (302)</name>
-        <description><![CDATA[<b>Amak Rocks (302)</b><br/>2023 — Aleutian Islands<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jul 6): A site<br/><b>Pass 2</b> (Jul 6): A site; similar to Pass 1, started firing earlier to get first group; disturbed 40-50<br/><b>Pass 3</b> (Jul 6): A site; different angle than Pass 1 and 2 to get different group<br/><b>Pass 4</b> (Jul 6): A to B site; disturbed 25; check for 1 animal at end on right; add 1 on left<br/><b>Pass 5</b> (Jul 6): C site; disturbed 9]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-163.1743,55.4155,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffb41e91</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-163.1696,55.4336,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P3</name>
-        <styleUrl>#line5</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-163.1753,55.4285,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-163.1743,55.4155,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffb41e91</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-163.1696,55.4336,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line5</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-163.1753,55.4285,0
 -163.1748,55.4287,0
 -163.1742,55.4288,0
 -163.1737,55.429,0
@@ -2813,43 +2888,42 @@
 -163.1562,55.4343,0
 -163.1556,55.4344,0
 -163.1552,55.4346,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Amak Rocks (302)</name>
-        <description><![CDATA[<b>Amak Rocks (302)</b><br/>2023 — Aleutian Islands<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jul 6): A site<br/><b>Pass 2</b> (Jul 6): A site; similar to Pass 1, started firing earlier to get first group; disturbed 40-50<br/><b>Pass 3</b> (Jul 6): A site; different angle than Pass 1 and 2 to get different group<br/><b>Pass 4</b> (Jul 6): A to B site; disturbed 25; check for 1 animal at end on right; add 1 on left<br/><b>Pass 5</b> (Jul 6): C site; disturbed 9]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-163.1753,55.4285,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffb41e91</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-163.1552,55.4346,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P4</name>
-        <styleUrl>#line5</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-163.1699,55.4318,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-163.1753,55.4285,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffb41e91</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-163.1552,55.4346,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line5</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-163.1699,55.4318,0
 -163.1693,55.4318,0
 -163.1688,55.4318,0
 -163.1682,55.4318,0
@@ -2883,43 +2957,42 @@
 -163.1524,55.4322,0
 -163.1522,55.4322,0
 -163.1516,55.4322,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Amak Rocks (302)</name>
-        <description><![CDATA[<b>Amak Rocks (302)</b><br/>2023 — Aleutian Islands<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jul 6): A site<br/><b>Pass 2</b> (Jul 6): A site; similar to Pass 1, started firing earlier to get first group; disturbed 40-50<br/><b>Pass 3</b> (Jul 6): A site; different angle than Pass 1 and 2 to get different group<br/><b>Pass 4</b> (Jul 6): A to B site; disturbed 25; check for 1 animal at end on right; add 1 on left<br/><b>Pass 5</b> (Jul 6): C site; disturbed 9]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-163.1699,55.4318,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffb41e91</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-163.1516,55.4322,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P5</name>
-        <styleUrl>#line5</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-163.1567,55.4521,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-163.1699,55.4318,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffb41e91</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-163.1516,55.4322,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line5</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-163.1567,55.4521,0
 -163.157,55.4519,0
 -163.1572,55.4516,0
 -163.1574,55.4515,0
@@ -2941,36 +3014,36 @@
 -163.1607,55.4476,0
 -163.1609,55.4473,0
 -163.1611,55.4471,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Amak Rocks (302)</name>
-        <description><![CDATA[<b>Amak Rocks (302)</b><br/>2023 — Aleutian Islands<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jul 6): A site<br/><b>Pass 2</b> (Jul 6): A site; similar to Pass 1, started firing earlier to get first group; disturbed 40-50<br/><b>Pass 3</b> (Jul 6): A site; different angle than Pass 1 and 2 to get different group<br/><b>Pass 4</b> (Jul 6): A to B site; disturbed 25; check for 1 animal at end on right; add 1 on left<br/><b>Pass 5</b> (Jul 6): C site; disturbed 9]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-163.1567,55.4521,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffb41e91</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-163.1611,55.4471,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-163.1567,55.4521,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffb41e91</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-163.1611,55.4471,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Avatanak Se (592)</name>
@@ -2984,13 +3057,27 @@
           <coordinates>-165.2295064516129,54.06454838709677,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line6</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.2326,54.061,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>54.1680</north>
+            <south>53.9610</south>
+            <east>-165.1265</east>
+            <west>-165.3326</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line6</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.2326,54.061,0
 -165.2324,54.0613,0
 -165.2323,54.0614,0
 -165.232,54.0617,0
@@ -3021,36 +3108,36 @@
 -165.2268,54.0676,0
 -165.2265,54.0679,0
 -165.2265,54.068,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Avatanak Se (592)</name>
-        <description><![CDATA[<b>Avatanak Se (592)</b><br/>2023 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 2)]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.2326,54.061,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>fff4d442</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.2265,54.068,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.2326,54.061,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>fff4d442</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.2265,54.068,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Bogoslof/Fire Island (344)</name>
@@ -3064,13 +3151,27 @@
           <coordinates>-168.0343772563177,53.930515884476534,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line7</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.0219,53.9272,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>54.0385</north>
+            <south>53.8236</south>
+            <east>-167.9210</east>
+            <west>-168.1466</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line7</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.0219,53.9272,0
 -168.0223,53.9275,0
 -168.0227,53.9277,0
 -168.023,53.9278,0
@@ -3127,43 +3228,42 @@
 -168.0421,53.9381,0
 -168.0425,53.9383,0
 -168.0429,53.9385,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Bogoslof/Fire Island (344)</name>
-        <description><![CDATA[<b>Bogoslof/Fire Island (344)</b><br/>2023 — Aleutian Islands<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jul 9): Right side of island; all passes 1000' elevation<br/><b>Pass 2</b> (Jul 9): Left of Pass 1<br/><b>Pass 3</b> (Jul 9): Left of Pass 2<br/><b>Pass 4</b> (Jul 9): Left of Pass 3; surveying whole island, may be no new SSL in this pass<br/><b>Pass 5</b> (Jul 9): Left of Pass 4; surveying whole island, may be no new SSL in this pass]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.0219,53.9272,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffe632f0</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.0429,53.9385,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P2</name>
-        <styleUrl>#line7</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.021,53.9249,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.0219,53.9272,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffe632f0</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.0429,53.9385,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line7</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.021,53.9249,0
 -168.0214,53.9251,0
 -168.0218,53.9253,0
 -168.0222,53.9255,0
@@ -3224,43 +3324,42 @@
 -168.044,53.9369,0
 -168.0444,53.9371,0
 -168.0448,53.9373,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Bogoslof/Fire Island (344)</name>
-        <description><![CDATA[<b>Bogoslof/Fire Island (344)</b><br/>2023 — Aleutian Islands<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jul 9): Right side of island; all passes 1000' elevation<br/><b>Pass 2</b> (Jul 9): Left of Pass 1<br/><b>Pass 3</b> (Jul 9): Left of Pass 2<br/><b>Pass 4</b> (Jul 9): Left of Pass 3; surveying whole island, may be no new SSL in this pass<br/><b>Pass 5</b> (Jul 9): Left of Pass 4; surveying whole island, may be no new SSL in this pass]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.021,53.9249,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffe632f0</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.0448,53.9373,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P3</name>
-        <styleUrl>#line7</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.0211,53.9236,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.021,53.9249,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffe632f0</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.0448,53.9373,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line7</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.0211,53.9236,0
 -168.0215,53.9238,0
 -168.0219,53.924,0
 -168.0223,53.9242,0
@@ -3325,43 +3424,42 @@
 -168.0458,53.9363,0
 -168.0462,53.9365,0
 -168.0466,53.9367,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Bogoslof/Fire Island (344)</name>
-        <description><![CDATA[<b>Bogoslof/Fire Island (344)</b><br/>2023 — Aleutian Islands<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jul 9): Right side of island; all passes 1000' elevation<br/><b>Pass 2</b> (Jul 9): Left of Pass 1<br/><b>Pass 3</b> (Jul 9): Left of Pass 2<br/><b>Pass 4</b> (Jul 9): Left of Pass 3; surveying whole island, may be no new SSL in this pass<br/><b>Pass 5</b> (Jul 9): Left of Pass 4; surveying whole island, may be no new SSL in this pass]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.0211,53.9236,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffe632f0</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.0466,53.9367,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P4</name>
-        <styleUrl>#line7</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.0249,53.9236,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.0211,53.9236,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffe632f0</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.0466,53.9367,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line7</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.0249,53.9236,0
 -168.0253,53.9238,0
 -168.0257,53.924,0
 -168.0261,53.9242,0
@@ -3416,43 +3514,42 @@
 -168.0455,53.9339,0
 -168.046,53.9342,0
 -168.0463,53.9343,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Bogoslof/Fire Island (344)</name>
-        <description><![CDATA[<b>Bogoslof/Fire Island (344)</b><br/>2023 — Aleutian Islands<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jul 9): Right side of island; all passes 1000' elevation<br/><b>Pass 2</b> (Jul 9): Left of Pass 1<br/><b>Pass 3</b> (Jul 9): Left of Pass 2<br/><b>Pass 4</b> (Jul 9): Left of Pass 3; surveying whole island, may be no new SSL in this pass<br/><b>Pass 5</b> (Jul 9): Left of Pass 4; surveying whole island, may be no new SSL in this pass]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.0249,53.9236,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffe632f0</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.0463,53.9343,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P5</name>
-        <styleUrl>#line7</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.0307,53.9253,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.0249,53.9236,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffe632f0</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.0463,53.9343,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line7</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.0307,53.9253,0
 -168.0309,53.9254,0
 -168.0314,53.9256,0
 -168.0318,53.9258,0
@@ -3491,36 +3588,36 @@
 -168.0454,53.9323,0
 -168.0458,53.9325,0
 -168.0462,53.9327,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Bogoslof/Fire Island (344)</name>
-        <description><![CDATA[<b>Bogoslof/Fire Island (344)</b><br/>2023 — Aleutian Islands<br/><b>5 passes</b><br/><br/><b>Pass 1</b> (Jul 9): Right side of island; all passes 1000' elevation<br/><b>Pass 2</b> (Jul 9): Left of Pass 1<br/><b>Pass 3</b> (Jul 9): Left of Pass 2<br/><b>Pass 4</b> (Jul 9): Left of Pass 3; surveying whole island, may be no new SSL in this pass<br/><b>Pass 5</b> (Jul 9): Left of Pass 4; surveying whole island, may be no new SSL in this pass]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.0307,53.9253,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffe632f0</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.0462,53.9327,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.0307,53.9253,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffe632f0</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.0462,53.9327,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Egg (330)</name>
@@ -3534,13 +3631,27 @@
           <coordinates>-166.04382692307692,53.86547307692308,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line8</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.0448,53.8697,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>53.9697</north>
+            <south>53.7612</south>
+            <east>-165.9419</east>
+            <west>-166.1448</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line8</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.0448,53.8697,0
 -166.0448,53.8694,0
 -166.0448,53.869,0
 -166.0448,53.8687,0
@@ -3566,36 +3677,36 @@
 -166.0423,53.8619,0
 -166.0421,53.8616,0
 -166.0419,53.8612,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Egg (330)</name>
-        <description><![CDATA[<b>Egg (330)</b><br/>2023 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 2)]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.0448,53.8697,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff45efbf</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.0419,53.8612,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.0448,53.8697,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff45efbf</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.0419,53.8612,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Inner Signal (332)</name>
@@ -3609,13 +3720,27 @@
           <coordinates>-166.09281262135923,53.78879514563107,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line9</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.0944,53.784,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>53.8936</north>
+            <south>53.6840</south>
+            <east>-165.9889</east>
+            <west>-166.1971</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line9</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.0944,53.784,0
 -166.0943,53.7842,0
 -166.0942,53.7845,0
 -166.0942,53.7848,0
@@ -3650,43 +3775,42 @@
 -166.0922,53.793,0
 -166.0922,53.7932,0
 -166.0921,53.7935,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Inner Signal (332)</name>
-        <description><![CDATA[<b>Inner Signal (332)</b><br/>2023 — Aleutian Islands<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 2)<br/><b>Pass 2</b> (Jul 2): Left of Pass 1<br/><b>Pass 3</b> (Jul 2): Right of Pass 1; disturbed 20 animals]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.0944,53.784,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffd4befa</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.0921,53.7935,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P2</name>
-        <styleUrl>#line9</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.0971,53.7844,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.0944,53.784,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffd4befa</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.0921,53.7935,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line9</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.0971,53.7844,0
 -166.097,53.7846,0
 -166.0968,53.7849,0
 -166.0967,53.7852,0
@@ -3719,43 +3843,42 @@
 -166.0936,53.7931,0
 -166.0936,53.7933,0
 -166.0935,53.7936,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Inner Signal (332)</name>
-        <description><![CDATA[<b>Inner Signal (332)</b><br/>2023 — Aleutian Islands<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 2)<br/><b>Pass 2</b> (Jul 2): Left of Pass 1<br/><b>Pass 3</b> (Jul 2): Right of Pass 1; disturbed 20 animals]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.0971,53.7844,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffd4befa</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.0935,53.7936,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P3</name>
-        <styleUrl>#line9</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.0915,53.784,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.0971,53.7844,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffd4befa</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.0935,53.7936,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line9</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.0915,53.784,0
 -166.0914,53.7843,0
 -166.0914,53.7845,0
 -166.0913,53.7848,0
@@ -3790,36 +3913,36 @@
 -166.0891,53.7928,0
 -166.089,53.7931,0
 -166.0889,53.7934,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Inner Signal (332)</name>
-        <description><![CDATA[<b>Inner Signal (332)</b><br/>2023 — Aleutian Islands<br/><b>3 passes</b><br/><br/><b>Pass 1</b> (Jul 2)<br/><b>Pass 2</b> (Jul 2): Left of Pass 1<br/><b>Pass 3</b> (Jul 2): Right of Pass 1; disturbed 20 animals]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.0915,53.784,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffd4befa</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.0889,53.7934,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.0915,53.784,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffd4befa</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.0889,53.7934,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Ogchul (354)</name>
@@ -3833,13 +3956,27 @@
           <coordinates>-168.4024380952381,52.994883333333334,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line10</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.4131,52.9939,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>53.0957</north>
+            <south>52.8939</south>
+            <east>-168.2919</east>
+            <west>-168.5131</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line10</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.4131,52.9939,0
 -168.4125,52.9939,0
 -168.412,52.994,0
 -168.4114,52.9941,0
@@ -3881,36 +4018,36 @@
 -168.3928,52.9957,0
 -168.3922,52.9957,0
 -168.3919,52.9957,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Ogchul (354)</name>
-        <description><![CDATA[<b>Ogchul (354)</b><br/>2023 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 9): Check for 1 male on left at end of pass]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.4131,52.9939,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff909946</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.3919,52.9957,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.4131,52.9939,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff909946</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.3919,52.9957,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Polivnoi Rock (352)</name>
@@ -3924,13 +4061,27 @@
           <coordinates>-167.96503333333334,53.26617666666667,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line11</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.9585,53.2659,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>53.3664</north>
+            <south>53.1659</south>
+            <east>-167.8585</east>
+            <west>-168.0716</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line11</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.9585,53.2659,0
 -167.959,53.266,0
 -167.9595,53.266,0
 -167.96,53.266,0
@@ -3960,36 +4111,36 @@
 -167.9707,53.2664,0
 -167.9711,53.2664,0
 -167.9716,53.2664,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Polivnoi Rock (352)</name>
-        <description><![CDATA[<b>Polivnoi Rock (352)</b><br/>2023 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 5)]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.9585,53.2659,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffffbedc</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.9716,53.2664,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.9585,53.2659,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffffbedc</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.9716,53.2664,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Rootok North (316)</name>
@@ -4003,13 +4154,27 @@
           <coordinates>-165.52549583333334,54.065962500000005,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line12</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.5323,54.0622,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>54.1695</north>
+            <south>53.9622</south>
+            <east>-165.4185</east>
+            <west>-165.6323</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line12</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.5323,54.0622,0
 -165.5319,54.0625,0
 -165.5316,54.0628,0
 -165.5312,54.063,0
@@ -4039,43 +4204,42 @@
 -165.5232,54.0691,0
 -165.5228,54.0693,0
 -165.5224,54.0695,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Rootok North (316)</name>
-        <description><![CDATA[<b>Rootok North (316)</b><br/>2023 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 2): Count jumpers; disturbed ~15 animals<br/><b>Pass 2</b> (Jul 2): Opposite direction for a different group of animals; disturbed ~15 more animals]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.5323,54.0622,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff24639a</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.5224,54.0695,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P2</name>
-        <styleUrl>#line12</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.5185,54.0674,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.5323,54.0622,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff24639a</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.5224,54.0695,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line12</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.5185,54.0674,0
 -165.519,54.0672,0
 -165.5194,54.0671,0
 -165.5199,54.0669,0
@@ -4093,36 +4257,36 @@
 -165.525,54.0649,0
 -165.5253,54.0648,0
 -165.5258,54.0646,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Rootok North (316)</name>
-        <description><![CDATA[<b>Rootok North (316)</b><br/>2023 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 2): Count jumpers; disturbed ~15 animals<br/><b>Pass 2</b> (Jul 2): Opposite direction for a different group of animals; disturbed ~15 more animals]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.5185,54.0674,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff24639a</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.5258,54.0646,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.5185,54.0674,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff24639a</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.5258,54.0646,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Sea Lion Rock Amak (303)</name>
@@ -4136,13 +4300,27 @@
           <coordinates>-163.20281363636363,55.46425,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line13</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-163.2064,55.4615,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>55.5669</north>
+            <south>55.3615</south>
+            <east>-163.0992</east>
+            <west>-163.3064</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line13</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-163.2064,55.4615,0
 -163.206,55.4618,0
 -163.2057,55.4621,0
 -163.2053,55.4624,0
@@ -4164,36 +4342,36 @@
 -163.1999,55.4664,0
 -163.1996,55.4666,0
 -163.1992,55.4669,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Sea Lion Rock Amak (303)</name>
-        <description><![CDATA[<b>Sea Lion Rock Amak (303)</b><br/>2023 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 6)]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-163.2064,55.4615,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff000080</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-163.1992,55.4669,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-163.2064,55.4615,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff000080</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-163.1992,55.4669,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Tanginak (317)</name>
@@ -4207,13 +4385,27 @@
           <coordinates>-165.32440285714287,54.20016571428571,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line14</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.3222,54.2049,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>54.3049</north>
+            <south>54.0955</south>
+            <east>-165.2222</east>
+            <west>-165.4268</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line14</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.3222,54.2049,0
 -165.3223,54.2046,0
 -165.3224,54.2043,0
 -165.3224,54.2041,0
@@ -4248,36 +4440,36 @@
 -165.3265,54.196,0
 -165.3266,54.1958,0
 -165.3268,54.1955,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Tanginak (317)</name>
-        <description><![CDATA[<b>Tanginak (317)</b><br/>2023 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 2): Two jumpers]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.3222,54.2049,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffffc9c9</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.3268,54.1955,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.3222,54.2049,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffffc9c9</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.3268,54.1955,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>The Pillars (353)</name>
@@ -4291,13 +4483,27 @@
           <coordinates>-168.236352,53.191131999999996,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line15</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.2315,53.1932,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>53.2932</north>
+            <south>53.0891</south>
+            <east>-168.1315</east>
+            <west>-168.3410</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line15</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.2315,53.1932,0
 -168.2319,53.193,0
 -168.2325,53.1928,0
 -168.2329,53.1926,0
@@ -4322,36 +4528,36 @@
 -168.2402,53.1894,0
 -168.2406,53.1893,0
 -168.241,53.1891,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>The Pillars (353)</name>
-        <description><![CDATA[<b>The Pillars (353)</b><br/>2023 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 5)]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.2315,53.1932,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff008080</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.241,53.1891,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.2315,53.1932,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff008080</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.241,53.1891,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Tigalda Rocks Ne (311)</name>
@@ -4365,13 +4571,27 @@
           <coordinates>-164.97524918032786,54.16024590163934,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line16</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.9599,54.1543,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>54.2648</north>
+            <south>54.0543</south>
+            <east>-164.8599</east>
+            <west>-165.0915</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line16</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.9599,54.1543,0
 -164.9603,54.1546,0
 -164.9606,54.1548,0
 -164.9609,54.1549,0
@@ -4432,36 +4652,36 @@
 -164.9905,54.1646,0
 -164.991,54.1647,0
 -164.9915,54.1648,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Tigalda Rocks Ne (311)</name>
-        <description><![CDATA[<b>Tigalda Rocks Ne (311)</b><br/>2023 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 2): Add 3 on left; B to A sites, small pause between sites]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.9599,54.1543,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffb1d8ff</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.9915,54.1648,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.9599,54.1543,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffb1d8ff</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.9915,54.1648,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Tigalda South Side (312)</name>
@@ -4475,13 +4695,27 @@
           <coordinates>-165.08814814814815,54.063544444444446,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line17</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.0899,54.0671,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>54.1671</north>
+            <south>53.9601</south>
+            <east>-164.9865</east>
+            <west>-165.1899</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line17</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.0899,54.0671,0
 -165.0897,54.0668,0
 -165.0895,54.0665,0
 -165.0894,54.0662,0
@@ -4508,36 +4742,36 @@
 -165.0867,54.0606,0
 -165.0866,54.0603,0
 -165.0865,54.0601,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Tigalda South Side (312)</name>
-        <description><![CDATA[<b>Tigalda South Side (312)</b><br/>2023 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 2)]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.0899,54.0671,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff750000</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-165.0865,54.0601,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.0899,54.0671,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff750000</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-165.0865,54.0601,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Ugamak North (305)</name>
@@ -4551,13 +4785,27 @@
           <coordinates>-164.78283974358973,54.22564358974359,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line18</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.7655,54.2278,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>54.3278</north>
+            <south>54.1244</south>
+            <east>-164.6652</east>
+            <west>-164.9019</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line18</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.7655,54.2278,0
 -164.7659,54.2276,0
 -164.7663,54.2275,0
 -164.7666,54.2275,0
@@ -4638,43 +4886,42 @@
 -164.8008,54.225,0
 -164.8014,54.2249,0
 -164.8019,54.2249,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Ugamak North (305)</name>
-        <description><![CDATA[<b>Ugamak North (305)</b><br/>2023 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 2): A to B site; disturbed 25 animals<br/><b>Pass 2</b> (Jul 2): Right of Pass 1; disturbed additional 20 animals]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.7655,54.2278,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffa9a9a9</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.8019,54.2249,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P2</name>
-        <styleUrl>#line18</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.7652,54.2276,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.7655,54.2278,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffa9a9a9</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.8019,54.2249,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line18</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.7652,54.2276,0
 -164.7657,54.2275,0
 -164.7663,54.2274,0
 -164.7668,54.2273,0
@@ -4749,36 +4996,36 @@
 -164.799,54.2275,0
 -164.7996,54.2275,0
 -164.8004,54.2277,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Ugamak North (305)</name>
-        <description><![CDATA[<b>Ugamak North (305)</b><br/>2023 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 2): A to B site; disturbed 25 animals<br/><b>Pass 2</b> (Jul 2): Right of Pass 1; disturbed additional 20 animals]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.7652,54.2276,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffa9a9a9</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.8004,54.2277,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.7652,54.2276,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffa9a9a9</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.8004,54.2277,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Ugamak Round (307)</name>
@@ -4792,13 +5039,27 @@
           <coordinates>-164.77739333333332,54.200891666666664,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line19</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.7842,54.1999,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>54.3017</north>
+            <south>54.0999</south>
+            <east>-164.6704</east>
+            <west>-164.8846</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line19</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.7842,54.1999,0
 -164.7837,54.2,0
 -164.7832,54.2001,0
 -164.7827,54.2001,0
@@ -4827,43 +5088,42 @@
 -164.7715,54.2016,0
 -164.7712,54.2016,0
 -164.7707,54.2017,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Ugamak Round (307)</name>
-        <description><![CDATA[<b>Ugamak Round (307)</b><br/>2023 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 2): Add 1 on left; low cloud, might not be countable<br/><b>Pass 2</b> (Jul 2): Same as Pass 1, no clouds; add 1 on left; check for 3 on left rock at start of pass]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.7842,54.1999,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffffbee6</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.7707,54.2017,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P2</name>
-        <styleUrl>#line19</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.7846,54.2002,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.7842,54.1999,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffffbee6</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.7707,54.2017,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line19</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.7846,54.2002,0
 -164.7841,54.2003,0
 -164.7836,54.2003,0
 -164.7833,54.2003,0
@@ -4894,36 +5154,36 @@
 -164.7714,54.2016,0
 -164.7707,54.2017,0
 -164.7704,54.2017,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Ugamak Round (307)</name>
-        <description><![CDATA[<b>Ugamak Round (307)</b><br/>2023 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 2): Add 1 on left; low cloud, might not be countable<br/><b>Pass 2</b> (Jul 2): Same as Pass 1, no clouds; add 1 on left; check for 3 on left rock at start of pass]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.7846,54.2002,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffffbee6</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.7704,54.2017,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.7846,54.2002,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffffbee6</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.7704,54.2017,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Ugamak Sw (603)</name>
@@ -4937,13 +5197,27 @@
           <coordinates>-164.86160370370368,54.18968888888889,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line0</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.8657,54.1871,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>54.2921</north>
+            <south>54.0871</south>
+            <east>-164.7573</east>
+            <west>-164.9657</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line0</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.8657,54.1871,0
 -164.8654,54.1872,0
 -164.8651,54.1875,0
 -164.8648,54.1877,0
@@ -4970,36 +5244,36 @@
 -164.858,54.1918,0
 -164.8576,54.1919,0
 -164.8573,54.1921,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Ugamak Sw (603)</name>
-        <description><![CDATA[<b>Ugamak Sw (603)</b><br/>2023 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 2)]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.8657,54.1871,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff4b19e6</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.8573,54.1921,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.8657,54.1871,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff4b19e6</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.8573,54.1921,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Ugamak Ugamak Bay (306)</name>
@@ -5013,13 +5287,27 @@
           <coordinates>-164.78204431818182,54.21119431818182,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line1</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.7946,54.2117,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>54.3151</north>
+            <south>54.1036</south>
+            <east>-164.6739</east>
+            <west>-164.8946</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line1</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.7946,54.2117,0
 -164.7941,54.2118,0
 -164.7936,54.2119,0
 -164.7931,54.212,0
@@ -5060,43 +5348,42 @@
 -164.7765,54.214,0
 -164.776,54.2141,0
 -164.7755,54.2142,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Ugamak Ugamak Bay (306)</name>
-        <description><![CDATA[<b>Ugamak Ugamak Bay (306)</b><br/>2023 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 2)<br/><b>Pass 2</b> (Jul 2): Perpendicular to Pass 1 (N to S); add 2 on left]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.7946,54.2117,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff6b6bff</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.7755,54.2142,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P2</name>
-        <styleUrl>#line1</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.7862,54.2151,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.7946,54.2117,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff6b6bff</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.7755,54.2142,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line1</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.7862,54.2151,0
 -164.7858,54.2149,0
 -164.7854,54.2146,0
 -164.785,54.2144,0
@@ -5143,36 +5430,36 @@
 -164.7743,54.2042,0
 -164.7741,54.2039,0
 -164.7739,54.2036,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Ugamak Ugamak Bay (306)</name>
-        <description><![CDATA[<b>Ugamak Ugamak Bay (306)</b><br/>2023 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 2)<br/><b>Pass 2</b> (Jul 2): Perpendicular to Pass 1 (N to S); add 2 on left]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.7862,54.2151,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff6b6bff</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.7739,54.2036,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.7862,54.2151,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff6b6bff</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.7739,54.2036,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Unalaska Cape Izigan (343)</name>
@@ -5186,13 +5473,27 @@
           <coordinates>-167.65651452991455,53.23115213675214,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line2</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.663,53.2183,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>53.3422</north>
+            <south>53.1183</south>
+            <east>-167.5500</east>
+            <west>-167.7630</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line2</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.663,53.2183,0
 -167.6628,53.2186,0
 -167.6627,53.2188,0
 -167.6625,53.2191,0
@@ -5276,43 +5577,42 @@
 -167.6614,53.2417,0
 -167.6615,53.2419,0
 -167.6616,53.2422,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Unalaska Cape Izigan (343)</name>
-        <description><![CDATA[<b>Unalaska Cape Izigan (343)</b><br/>2023 — Aleutian Islands<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 5): May not be many animals in this pass<br/><b>Pass 2</b> (Jul 5): Right of Pass 1; disturbed 5<br/><b>Pass 3</b> (Jul 5): Between Pass 1 and Pass 2; disturbed 5 more<br/><b>Pass 4</b> (Jul 5): Slightly different angle to get last group of animals (after rocks)]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.663,53.2183,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff19e1ff</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.6616,53.2422,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P2</name>
-        <styleUrl>#line2</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.6571,53.2226,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.663,53.2183,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff19e1ff</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.6616,53.2422,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line2</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.6571,53.2226,0
 -167.657,53.2229,0
 -167.6568,53.2232,0
 -167.6566,53.2235,0
@@ -5362,43 +5662,42 @@
 -167.6503,53.2357,0
 -167.6502,53.2359,0
 -167.65,53.2363,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Unalaska Cape Izigan (343)</name>
-        <description><![CDATA[<b>Unalaska Cape Izigan (343)</b><br/>2023 — Aleutian Islands<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 5): May not be many animals in this pass<br/><b>Pass 2</b> (Jul 5): Right of Pass 1; disturbed 5<br/><b>Pass 3</b> (Jul 5): Between Pass 1 and Pass 2; disturbed 5 more<br/><b>Pass 4</b> (Jul 5): Slightly different angle to get last group of animals (after rocks)]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.6571,53.2226,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff19e1ff</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.65,53.2363,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P3</name>
-        <styleUrl>#line2</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.657,53.2232,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.6571,53.2226,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff19e1ff</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.65,53.2363,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line2</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.657,53.2232,0
 -167.6569,53.2234,0
 -167.6568,53.2237,0
 -167.6566,53.224,0
@@ -5462,43 +5761,42 @@
 -167.6534,53.2395,0
 -167.6534,53.2398,0
 -167.6533,53.2401,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Unalaska Cape Izigan (343)</name>
-        <description><![CDATA[<b>Unalaska Cape Izigan (343)</b><br/>2023 — Aleutian Islands<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 5): May not be many animals in this pass<br/><b>Pass 2</b> (Jul 5): Right of Pass 1; disturbed 5<br/><b>Pass 3</b> (Jul 5): Between Pass 1 and Pass 2; disturbed 5 more<br/><b>Pass 4</b> (Jul 5): Slightly different angle to get last group of animals (after rocks)]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.657,53.2232,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff19e1ff</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.6533,53.2401,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P4</name>
-        <styleUrl>#line2</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.6588,53.2305,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.657,53.2232,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff19e1ff</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.6533,53.2401,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line2</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.6588,53.2305,0
 -167.6586,53.2308,0
 -167.6584,53.2311,0
 -167.6583,53.2313,0
@@ -5534,36 +5832,36 @@
 -167.6523,53.2394,0
 -167.6523,53.2394,0
 -167.652,53.2397,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Unalaska Cape Izigan (343)</name>
-        <description><![CDATA[<b>Unalaska Cape Izigan (343)</b><br/>2023 — Aleutian Islands<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 5): May not be many animals in this pass<br/><b>Pass 2</b> (Jul 5): Right of Pass 1; disturbed 5<br/><b>Pass 3</b> (Jul 5): Between Pass 1 and Pass 2; disturbed 5 more<br/><b>Pass 4</b> (Jul 5): Slightly different angle to get last group of animals (after rocks)]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.6588,53.2305,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff19e1ff</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.652,53.2397,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.6588,53.2305,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff19e1ff</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.652,53.2397,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Unalaska Priest Rock (335)</name>
@@ -5577,13 +5875,27 @@
           <coordinates>-166.373659375,54.008565624999996,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line3</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.3817,54.0089,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>54.1089</north>
+            <south>53.9085</south>
+            <east>-166.2655</east>
+            <west>-166.4817</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line3</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.3817,54.0089,0
 -166.3811,54.0088,0
 -166.3806,54.0088,0
 -166.38,54.0087,0
@@ -5615,36 +5927,36 @@
 -166.3667,54.0086,0
 -166.3661,54.0086,0
 -166.3655,54.0086,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Unalaska Priest Rock (335)</name>
-        <description><![CDATA[<b>Unalaska Priest Rock (335)</b><br/>2023 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 2): Check for 3 on right at beginning of pass]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.3817,54.0089,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffd86343</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.3655,54.0086,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.3817,54.0089,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffd86343</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.3655,54.0086,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Unalaska Whalebone Cape (342)</name>
@@ -5658,13 +5970,27 @@
           <coordinates>-166.65843448275862,53.48759827586206,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line4</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.6654,53.4808,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>53.5942</north>
+            <south>53.3808</south>
+            <east>-166.5518</east>
+            <west>-166.7654</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line4</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.6654,53.4808,0
 -166.6652,53.481,0
 -166.665,53.4813,0
 -166.6647,53.4815,0
@@ -5722,36 +6048,36 @@
 -166.6523,53.4937,0
 -166.6521,53.494,0
 -166.6518,53.4942,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Unalaska Whalebone Cape (342)</name>
-        <description><![CDATA[<b>Unalaska Whalebone Cape (342)</b><br/>2023 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 2): Two jumpers]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.6654,53.4808,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff3182f5</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.6518,53.4942,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.6654,53.4808,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff3182f5</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.6518,53.4942,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Unalaska/Bishop Point (337)</name>
@@ -5765,13 +6091,27 @@
           <coordinates>-166.9505075949367,53.972576582278485,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line5</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.9505,53.9754,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>54.0756</north>
+            <south>53.8694</south>
+            <east>-166.8308</east>
+            <west>-167.0617</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line5</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.9505,53.9754,0
 -166.9509,53.9752,0
 -166.9512,53.975,0
 -166.9516,53.9748,0
@@ -5800,43 +6140,42 @@
 -166.9599,53.9712,0
 -166.9603,53.971,0
 -166.9607,53.9708,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Unalaska/Bishop Point (337)</name>
-        <description><![CDATA[<b>Unalaska/Bishop Point (337)</b><br/>2023 — Aleutian Islands<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 5): 30 jumpers<br/><b>Pass 2</b> (Jul 5): Left of Pass 1; may be no new animals, lined up too far left<br/><b>Pass 3</b> (Jul 5): Between Pass 1 and Pass 2 to get animals at start of pass<br/><b>Pass 4</b> (Jul 5): Similar to Pass 3 but slightly different angle; check for 2 on left at end]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.9505,53.9754,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffb41e91</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.9607,53.9708,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P2</name>
-        <styleUrl>#line5</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.9511,53.972,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.9505,53.9754,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffb41e91</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.9607,53.9708,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line5</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.9511,53.972,0
 -166.9515,53.9718,0
 -166.9519,53.9717,0
 -166.9523,53.9716,0
@@ -5857,43 +6196,42 @@
 -166.9583,53.9697,0
 -166.9588,53.9695,0
 -166.9592,53.9694,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Unalaska/Bishop Point (337)</name>
-        <description><![CDATA[<b>Unalaska/Bishop Point (337)</b><br/>2023 — Aleutian Islands<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 5): 30 jumpers<br/><b>Pass 2</b> (Jul 5): Left of Pass 1; may be no new animals, lined up too far left<br/><b>Pass 3</b> (Jul 5): Between Pass 1 and Pass 2 to get animals at start of pass<br/><b>Pass 4</b> (Jul 5): Similar to Pass 3 but slightly different angle; check for 2 on left at end]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.9511,53.972,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffb41e91</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.9592,53.9694,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P3</name>
-        <styleUrl>#line5</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.9437,53.9756,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.9511,53.972,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffb41e91</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.9592,53.9694,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line5</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.9437,53.9756,0
 -166.9441,53.9755,0
 -166.9446,53.9753,0
 -166.945,53.9751,0
@@ -5933,43 +6271,42 @@
 -166.9587,53.9701,0
 -166.959,53.97,0
 -166.9595,53.9699,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Unalaska/Bishop Point (337)</name>
-        <description><![CDATA[<b>Unalaska/Bishop Point (337)</b><br/>2023 — Aleutian Islands<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 5): 30 jumpers<br/><b>Pass 2</b> (Jul 5): Left of Pass 1; may be no new animals, lined up too far left<br/><b>Pass 3</b> (Jul 5): Between Pass 1 and Pass 2 to get animals at start of pass<br/><b>Pass 4</b> (Jul 5): Similar to Pass 3 but slightly different angle; check for 2 on left at end]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.9437,53.9756,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffb41e91</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.9595,53.9699,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P4</name>
-        <styleUrl>#line5</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.9308,53.9724,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.9437,53.9756,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffb41e91</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.9595,53.9699,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line5</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.9308,53.9724,0
 -166.9313,53.9723,0
 -166.9318,53.9722,0
 -166.9323,53.9721,0
@@ -6037,36 +6374,36 @@
 -166.9608,53.9727,0
 -166.9613,53.9727,0
 -166.9617,53.9726,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Unalaska/Bishop Point (337)</name>
-        <description><![CDATA[<b>Unalaska/Bishop Point (337)</b><br/>2023 — Aleutian Islands<br/><b>4 passes</b><br/><br/><b>Pass 1</b> (Jul 5): 30 jumpers<br/><b>Pass 2</b> (Jul 5): Left of Pass 1; may be no new animals, lined up too far left<br/><b>Pass 3</b> (Jul 5): Between Pass 1 and Pass 2 to get animals at start of pass<br/><b>Pass 4</b> (Jul 5): Similar to Pass 3 but slightly different angle; check for 2 on left at end]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.9308,53.9724,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffb41e91</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-166.9617,53.9726,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.9308,53.9724,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffb41e91</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-166.9617,53.9726,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Unalaska/Makushin Bay (339)</name>
@@ -6080,13 +6417,27 @@
           <coordinates>-167.01521999999997,53.71445666666667,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line6</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.0094,53.7162,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>53.8162</north>
+            <south>53.6128</south>
+            <east>-166.9094</east>
+            <west>-167.1211</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line6</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.0094,53.7162,0
 -167.0099,53.716,0
 -167.0101,53.7159,0
 -167.0106,53.7158,0
@@ -6116,36 +6467,36 @@
 -167.0203,53.713,0
 -167.0208,53.7129,0
 -167.0211,53.7128,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Unalaska/Makushin Bay (339)</name>
-        <description><![CDATA[<b>Unalaska/Makushin Bay (339)</b><br/>2023 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 5)]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.0094,53.7162,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>fff4d442</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.0211,53.7128,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.0094,53.7162,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>fff4d442</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.0211,53.7128,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Unalaska/Point Kadin (623)</name>
@@ -6159,13 +6510,27 @@
           <coordinates>-167.0779925925926,53.92638888888889,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line7</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.075,53.9296,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>54.0296</north>
+            <south>53.8231</south>
+            <east>-166.9750</east>
+            <west>-167.1812</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line7</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.075,53.9296,0
 -167.075,53.9295,0
 -167.0753,53.9293,0
 -167.0755,53.929,0
@@ -6192,36 +6557,36 @@
 -167.0807,53.9236,0
 -167.081,53.9233,0
 -167.0812,53.9231,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Unalaska/Point Kadin (623)</name>
-        <description><![CDATA[<b>Unalaska/Point Kadin (623)</b><br/>2023 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 5)]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.075,53.9296,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffe632f0</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.0812,53.9231,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.075,53.9296,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffe632f0</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.0812,53.9231,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Unalaska/Spray Cape (341)</name>
@@ -6235,13 +6600,27 @@
           <coordinates>-167.1645606060606,53.60400909090909,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line8</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.1656,53.6085,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>53.7085</north>
+            <south>53.4994</south>
+            <east>-167.0636</east>
+            <west>-167.2656</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line8</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.1656,53.6085,0
 -167.1656,53.6083,0
 -167.1655,53.608,0
 -167.1654,53.6077,0
@@ -6274,36 +6653,36 @@
 -167.1637,53.6,0
 -167.1637,53.5997,0
 -167.1636,53.5994,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Unalaska/Spray Cape (341)</name>
-        <description><![CDATA[<b>Unalaska/Spray Cape (341)</b><br/>2023 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 5): Disturbed 5]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.1656,53.6085,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff45efbf</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.1636,53.5994,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.1656,53.6085,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff45efbf</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.1636,53.5994,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Unalaska/W Of Makushin Bay (607)</name>
@@ -6317,13 +6696,27 @@
           <coordinates>-167.05112808219178,53.772510958904114,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line9</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.0794,53.7837,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>53.8837</north>
+            <south>53.6554</south>
+            <east>-166.9359</east>
+            <west>-167.1794</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line9</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.0794,53.7837,0
 -167.0788,53.7836,0
 -167.0783,53.7835,0
 -167.0778,53.7834,0
@@ -6469,36 +6862,36 @@
 -167.0367,53.7561,0
 -167.0368,53.7557,0
 -167.0368,53.7554,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Unalaska/W Of Makushin Bay (607)</name>
-        <description><![CDATA[<b>Unalaska/W Of Makushin Bay (607)</b><br/>2023 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 5): Disturbed 1; extra photos at end of pass]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.0794,53.7837,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffd4befa</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-167.0368,53.7554,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.0794,53.7837,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffd4befa</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-167.0368,53.7554,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Unimak Cape Sarichef (605)</name>
@@ -6512,13 +6905,27 @@
           <coordinates>-164.931384,54.594344,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line10</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.935,54.5911,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>54.6977</north>
+            <south>54.4911</south>
+            <east>-164.8277</east>
+            <west>-165.0350</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line10</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.935,54.5911,0
 -164.9347,54.5914,0
 -164.9343,54.5917,0
 -164.9341,54.5919,0
@@ -6543,36 +6950,36 @@
 -164.9283,54.5971,0
 -164.928,54.5974,0
 -164.9277,54.5977,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Unimak Cape Sarichef (605)</name>
-        <description><![CDATA[<b>Unimak Cape Sarichef (605)</b><br/>2023 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 6): Add 4 (on right) on beach before pass; disturbed 15-20 animals]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.935,54.5911,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff909946</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.9277,54.5977,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.935,54.5911,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff909946</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.9277,54.5977,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Unimak Of Oksenof Point (606)</name>
@@ -6586,13 +6993,27 @@
           <coordinates>-164.5620032786885,54.86594590163935,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line11</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.5627,54.8614,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>54.9708</north>
+            <south>54.7612</south>
+            <east>-164.4608</east>
+            <west>-164.6635</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line11</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.5627,54.8614,0
 -164.5626,54.8617,0
 -164.5626,54.8621,0
 -164.5625,54.8625,0
@@ -6621,43 +7042,42 @@
 -164.562,54.8702,0
 -164.562,54.8704,0
 -164.562,54.8708,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Unimak Of Oksenof Point (606)</name>
-        <description><![CDATA[<b>Unimak Of Oksenof Point (606)</b><br/>2023 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 6): Disturbed 20-30; count jumpers<br/><b>Pass 2</b> (Jul 6): All animals in water were on land during Pass 1; disturbed 20 more animals]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.5627,54.8614,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffffbedc</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.562,54.8708,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>P2</name>
-        <styleUrl>#line11</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.5608,54.8612,0
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.5627,54.8614,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffffbedc</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.562,54.8708,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#line11</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.5608,54.8612,0
 -164.5609,54.8615,0
 -164.5609,54.8617,0
 -164.5609,54.8621,0
@@ -6689,36 +7109,36 @@
 -164.5632,54.8698,0
 -164.5634,54.8701,0
 -164.5635,54.8704,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Unimak Of Oksenof Point (606)</name>
-        <description><![CDATA[<b>Unimak Of Oksenof Point (606)</b><br/>2023 — Aleutian Islands<br/><b>2 passes</b><br/><br/><b>Pass 1</b> (Jul 6): Disturbed 20-30; count jumpers<br/><b>Pass 2</b> (Jul 6): All animals in water were on land during Pass 1; disturbed 20 more animals]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.5608,54.8612,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffffbedc</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.5635,54.8704,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.5608,54.8612,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffffbedc</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.5635,54.8704,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Unimak Oksenof Point (301)</name>
@@ -6732,13 +7152,27 @@
           <coordinates>-164.55395833333333,54.8864,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line12</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.5552,54.8828,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>54.9900</north>
+            <south>54.7828</south>
+            <east>-164.4527</east>
+            <west>-164.6552</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line12</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.5552,54.8828,0
 -164.5551,54.8831,0
 -164.555,54.8835,0
 -164.5549,54.8838,0
@@ -6762,36 +7196,36 @@
 -164.5529,54.8894,0
 -164.5528,54.8897,0
 -164.5527,54.89,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Unimak Oksenof Point (301)</name>
-        <description><![CDATA[<b>Unimak Oksenof Point (301)</b><br/>2023 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 6): Disturbed 4 here and 3 at 606 UNIMAK/S OF OKSENOF POINT]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.5552,54.8828,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff24639a</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.5527,54.89,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.5552,54.8828,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff24639a</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.5527,54.89,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Unimak/Cave Point (300)</name>
@@ -6805,13 +7239,27 @@
           <coordinates>-164.62163529411762,54.78576470588235,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line13</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.6213,54.7833,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>54.8883</north>
+            <south>54.6833</south>
+            <east>-164.5213</east>
+            <west>-164.7220</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line13</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.6213,54.7833,0
 -164.6213,54.7836,0
 -164.6214,54.784,0
 -164.6214,54.7843,0
@@ -6828,36 +7276,36 @@
 -164.6219,54.7877,0
 -164.622,54.7879,0
 -164.622,54.7883,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Unimak/Cave Point (300)</name>
-        <description><![CDATA[<b>Unimak/Cave Point (300)</b><br/>2023 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 6)]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.6213,54.7833,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ff000080</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-164.622,54.7883,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.6213,54.7833,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ff000080</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-164.622,54.7883,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder>
       <name>Vsevidof (355)</name>
@@ -6871,13 +7319,27 @@
           <coordinates>-168.44509615384615,52.97890769230769,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>P1</name>
-        <styleUrl>#line14</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.4507,52.9758,0
+      <Folder>
+        <name>Tracks</name>
+        <Region>
+          <LatLonAltBox>
+            <north>53.0819</north>
+            <south>52.8758</south>
+            <east>-168.3396</east>
+            <west>-168.5507</west>
+          </LatLonAltBox>
+          <Lod>
+            <minLodPixels>128</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <Placemark>
+          <name/>
+          <styleUrl>#line14</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.4507,52.9758,0
 -168.4502,52.9761,0
 -168.4498,52.9763,0
 -168.4493,52.9766,0
@@ -6903,36 +7365,36 @@
 -168.4405,52.9815,0
 -168.44,52.9817,0
 -168.4396,52.9819,0</coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Vsevidof (355)</name>
-        <description><![CDATA[<b>Vsevidof (355)</b><br/>2023 — Aleutian Islands<br/><b>1 pass</b><br/><br/><b>Pass 1</b> (Jul 9): Add 2 on right]]></description>
-        <styleUrl>#startDot</styleUrl>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.4507,52.9758,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name/>
-        <Style>
-          <IconStyle>
-            <color>ffffc9c9</color>
-            <scale>0.65</scale>
-            <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-            </Icon>
-          </IconStyle>
-          <LabelStyle>
-            <scale>0</scale>
-          </LabelStyle>
-        </Style>
-        <Point>
-          <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-168.4396,52.9819,0</coordinates>
-        </Point>
-      </Placemark>
+          </LineString>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <styleUrl>#startDot</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.4507,52.9758,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name/>
+          <Style>
+            <IconStyle>
+              <color>ffffc9c9</color>
+              <scale>0.65</scale>
+              <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <scale>0</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>-168.4396,52.9819,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
   </Document>
 </kml>
