@@ -399,6 +399,14 @@ toggle_html = """
   }
   #year-toggle button.active { background: #4363d8; color: #fff; }
 
+  /* Zoom-based marker visibility via CSS — no JS iteration needed */
+  /* Default (low zoom): hide detail markers, show overview dots */
+  .leaflet-marker-icon:has([data-mtype="detail"])  { display: none; }
+  .leaflet-marker-icon:has([data-mtype="overview"]) { display: block; }
+  /* Detail zoom: flip them */
+  .zoom-detail .leaflet-marker-icon:has([data-mtype="detail"])  { display: block; }
+  .zoom-detail .leaflet-marker-icon:has([data-mtype="overview"]) { display: none; }
+
   /* Search box injected into the layer control panel */
   #layer-search {
     display: block; width: calc(100% - 16px); margin: 6px 8px 4px;
@@ -441,23 +449,12 @@ function setYear(yr) {
   });
 }
 
-// ── zoom-based marker visibility ─────────────────────────────────────────────
+// -- zoom-based marker visibility --
+// CSS handles show/hide via .zoom-detail class on the map container.
+// JS just toggles that one class - no per-marker iteration needed.
 var DETAIL_ZOOM = 9;
 
-function updateZoomVis(map) {
-  var showDetail = map.getZoom() >= DETAIL_ZOOM;
-  document.querySelectorAll('[data-mtype="detail"]').forEach(function(el) {
-    var icon = el.closest('.leaflet-marker-icon');
-    if (icon) icon.style.display = showDetail ? '' : 'none';
-  });
-  document.querySelectorAll('[data-mtype="overview"]').forEach(function(el) {
-    var icon = el.closest('.leaflet-marker-icon');
-    if (icon) icon.style.display = showDetail ? 'none' : '';
-  });
-}
-
 window.addEventListener('load', function() {
-  // Find the Leaflet map instance
   var _map = null;
   for (var k in window) {
     try {
@@ -469,12 +466,13 @@ window.addEventListener('load', function() {
   }
   if (!_map) return;
 
-  // Apply continuously during zoom animation and when layers are toggled on/off
-  _map.on('zoom', function() { updateZoomVis(_map); });
-  _map.on('layeradd', function() { setTimeout(function(){ updateZoomVis(_map); }, 30); });
+  function updateZoomVis() {
+    _map.getContainer().classList.toggle('zoom-detail', _map.getZoom() >= DETAIL_ZOOM);
+  }
 
-  // Apply on initial load
-  updateZoomVis(_map);
+  _map.on('zoom', updateZoomVis);
+  _map.on('layeradd', updateZoomVis);
+  updateZoomVis();
 });
 
 // ── search box ────────────────────────────────────────────────────────────────
