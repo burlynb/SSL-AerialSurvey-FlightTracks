@@ -382,6 +382,13 @@ def load_ali_year(year_str):
                     'date': date_str, 'comment': comment,
                     'coords': largest_segment(coords),
                 })
+    # Normalize antimeridian GPS sign flips — all ALI sites are in western hemisphere
+    for pass_list in passes.values():
+        all_lons = [c[1] for p in pass_list for c in p['coords']]
+        if all_lons and max(all_lons) - min(all_lons) > 180:
+            for p in pass_list:
+                p['coords'] = [(lat, -lon if lon > 0 else lon) for lat, lon in p['coords']]
+
     n_xlsx = len(xlsx_files)
     n_csv  = len(csv_files)
     print(f"ALI {year_str}: {sum(len(v) for v in passes.values())} passes across "
