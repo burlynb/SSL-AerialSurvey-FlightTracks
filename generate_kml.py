@@ -17,7 +17,6 @@ KML design for ForeFlight:
 """
 
 import csv
-import math
 import openpyxl
 import glob
 import re
@@ -339,13 +338,6 @@ print(f"ALI 2023 log notes: {len(log_notes_ali_2023)} sites.")
 
 # ── Utilities ─────────────────────────────────────────────────────────────────
 
-def compass_bearing(lat1, lon1, lat2, lon2):
-    lat1, lat2 = math.radians(lat1), math.radians(lat2)
-    dlon = math.radians(lon2 - lon1)
-    x = math.sin(dlon) * math.cos(lat2)
-    y = math.cos(lat1) * math.sin(lat2) - math.sin(lat1) * math.cos(lat2) * math.cos(dlon)
-    return (math.degrees(math.atan2(x, y)) + 360) % 360
-
 def fmt_date(d):
     months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
     s = str(d)
@@ -483,27 +475,25 @@ def build_kml(passes_by_site, year, region, log_notes=None):
             if len(coords) < 2:
                 continue
 
-            # Start dot
+            # Start dot — green, label hidden on map; name = full site name so
+            # tapping it shows the site name as the popup title with full pass info
             pm_s = ET.SubElement(folder, 'Placemark')
-            ET.SubElement(pm_s, 'name').text = ''
+            ET.SubElement(pm_s, 'name').text = site
+            ET.SubElement(pm_s, 'description').text = desc
             ET.SubElement(pm_s, 'styleUrl').text = '#startDot'
             pt_s = ET.SubElement(pm_s, 'Point')
             ET.SubElement(pt_s, 'altitudeMode').text = 'clampToGround'
             ET.SubElement(pt_s, 'coordinates').text = f'{coords[0][1]},{coords[0][0]},0'
 
-            # End arrow (bearing from ~last 10% of track)
-            n_c = len(coords)
-            i_from = max(0, n_c - max(2, n_c // 10))
-            bearing = compass_bearing(*coords[i_from], *coords[-1])
+            # End dot — plain colored dot, no arrow
             pm_e = ET.SubElement(folder, 'Placemark')
             ET.SubElement(pm_e, 'name').text = ''
             end_style = ET.SubElement(pm_e, 'Style')
             end_ic = ET.SubElement(end_style, 'IconStyle')
             ET.SubElement(end_ic, 'color').text = kc
-            ET.SubElement(end_ic, 'scale').text = '1.1'
-            ET.SubElement(end_ic, 'heading').text = f'{bearing:.1f}'
+            ET.SubElement(end_ic, 'scale').text = '0.65'
             end_ico = ET.SubElement(end_ic, 'Icon')
-            ET.SubElement(end_ico, 'href').text = 'http://maps.google.com/mapfiles/kml/shapes/arrow.png'
+            ET.SubElement(end_ico, 'href').text = 'http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png'
             ET.SubElement(ET.SubElement(end_style, 'LabelStyle'), 'scale').text = '0'
             pt_e = ET.SubElement(pm_e, 'Point')
             ET.SubElement(pt_e, 'altitudeMode').text = 'clampToGround'

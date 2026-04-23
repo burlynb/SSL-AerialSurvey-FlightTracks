@@ -1430,7 +1430,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Adugak (357)</name>
+        <description>&lt;b&gt;Adugak (357)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 9): Left of Pass 1; disturbed 3&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 9): East to west, left of Pass 2; disturbed 30&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 9): Left of Pass 3</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1442,10 +1443,9 @@
         <Style>
           <IconStyle>
             <color>ff4b19e6</color>
-            <scale>1.1</scale>
-            <heading>303.6</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -1501,7 +1501,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Adugak (357)</name>
+        <description>&lt;b&gt;Adugak (357)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 9): Left of Pass 1; disturbed 3&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 9): East to west, left of Pass 2; disturbed 30&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 9): Left of Pass 3</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1513,10 +1514,9 @@
         <Style>
           <IconStyle>
             <color>ff4b19e6</color>
-            <scale>1.1</scale>
-            <heading>193.6</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -1576,7 +1576,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Adugak (357)</name>
+        <description>&lt;b&gt;Adugak (357)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 9): Left of Pass 1; disturbed 3&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 9): East to west, left of Pass 2; disturbed 30&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 9): Left of Pass 3</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1588,10 +1589,9 @@
         <Style>
           <IconStyle>
             <color>ff4b19e6</color>
-            <scale>1.1</scale>
-            <heading>247.5</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -1648,7 +1648,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Adugak (357)</name>
+        <description>&lt;b&gt;Adugak (357)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 9): Left of Pass 1; disturbed 3&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 9): East to west, left of Pass 2; disturbed 30&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 9): Left of Pass 3</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1660,10 +1661,9 @@
         <Style>
           <IconStyle>
             <color>ff4b19e6</color>
-            <scale>1.1</scale>
-            <heading>244.6</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -1721,7 +1721,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Aiktak (308)</name>
+        <description>&lt;b&gt;Aiktak (308)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1733,10 +1734,9 @@
         <Style>
           <IconStyle>
             <color>ff4bb43c</color>
-            <scale>1.1</scale>
-            <heading>130.5</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -1841,7 +1841,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Akun Billingshead (321)</name>
+        <description>&lt;b&gt;Akun Billingshead (321)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2): A site (haulout); add 5 animals on left&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 2): Perpendicular to Pass 1; B site; 1000' elevation; lots of disturbance, count jumpers&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 2): Right of Pass 2; 1200' elevation&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 2): Between Pass 2 and 3; 1200' elevation</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1853,10 +1854,9 @@
         <Style>
           <IconStyle>
             <color>ff19e1ff</color>
-            <scale>1.1</scale>
-            <heading>289.6</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -1908,7 +1908,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Akun Billingshead (321)</name>
+        <description>&lt;b&gt;Akun Billingshead (321)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2): A site (haulout); add 5 animals on left&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 2): Perpendicular to Pass 1; B site; 1000' elevation; lots of disturbance, count jumpers&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 2): Right of Pass 2; 1200' elevation&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 2): Between Pass 2 and 3; 1200' elevation</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1920,10 +1921,9 @@
         <Style>
           <IconStyle>
             <color>ff19e1ff</color>
-            <scale>1.1</scale>
-            <heading>174.4</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -1983,7 +1983,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Akun Billingshead (321)</name>
+        <description>&lt;b&gt;Akun Billingshead (321)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2): A site (haulout); add 5 animals on left&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 2): Perpendicular to Pass 1; B site; 1000' elevation; lots of disturbance, count jumpers&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 2): Right of Pass 2; 1200' elevation&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 2): Between Pass 2 and 3; 1200' elevation</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1995,10 +1996,9 @@
         <Style>
           <IconStyle>
             <color>ff19e1ff</color>
-            <scale>1.1</scale>
-            <heading>153.4</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -2049,7 +2049,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Akun Billingshead (321)</name>
+        <description>&lt;b&gt;Akun Billingshead (321)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2): A site (haulout); add 5 animals on left&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 2): Perpendicular to Pass 1; B site; 1000' elevation; lots of disturbance, count jumpers&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 2): Right of Pass 2; 1200' elevation&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 2): Between Pass 2 and 3; 1200' elevation</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2061,10 +2062,9 @@
         <Style>
           <IconStyle>
             <color>ff19e1ff</color>
-            <scale>1.1</scale>
-            <heading>166.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -2240,7 +2240,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Akutan Cape Morgan (326)</name>
+        <description>&lt;b&gt;Akutan Cape Morgan (326)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2): B to A site; add 4 on right&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 2): Same as Pass 1; flown at 850 feet; disturbed 30 animals</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2252,10 +2253,9 @@
         <Style>
           <IconStyle>
             <color>ffd86343</color>
-            <scale>1.1</scale>
-            <heading>72.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -2406,7 +2406,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Akutan Cape Morgan (326)</name>
+        <description>&lt;b&gt;Akutan Cape Morgan (326)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2): B to A site; add 4 on right&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 2): Same as Pass 1; flown at 850 feet; disturbed 30 animals</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2418,10 +2419,9 @@
         <Style>
           <IconStyle>
             <color>ffd86343</color>
-            <scale>1.1</scale>
-            <heading>54.4</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -2537,7 +2537,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Akutan Reef (325)</name>
+        <description>&lt;b&gt;Akutan Reef (325)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2): B to A sites; disturbed 5</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2549,10 +2550,9 @@
         <Style>
           <IconStyle>
             <color>ff3182f5</color>
-            <scale>1.1</scale>
-            <heading>183.5</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -2641,7 +2641,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Amak Rocks (302)</name>
+        <description>&lt;b&gt;Amak Rocks (302)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6): A site&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6): A site; similar to Pass 1, started firing earlier to get first group; disturbed 40-50&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 6): A site; different angle than Pass 1 and 2 to get different group&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 6): A to B site; disturbed 25; check for 1 animal at end on right; add 1 on left&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 6): C site; disturbed 9</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2653,10 +2654,9 @@
         <Style>
           <IconStyle>
             <color>ffb41e91</color>
-            <scale>1.1</scale>
-            <heading>14.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -2734,7 +2734,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Amak Rocks (302)</name>
+        <description>&lt;b&gt;Amak Rocks (302)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6): A site&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6): A site; similar to Pass 1, started firing earlier to get first group; disturbed 40-50&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 6): A site; different angle than Pass 1 and 2 to get different group&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 6): A to B site; disturbed 25; check for 1 animal at end on right; add 1 on left&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 6): C site; disturbed 9</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2746,10 +2747,9 @@
         <Style>
           <IconStyle>
             <color>ffb41e91</color>
-            <scale>1.1</scale>
-            <heading>11.5</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -2810,7 +2810,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Amak Rocks (302)</name>
+        <description>&lt;b&gt;Amak Rocks (302)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6): A site&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6): A site; similar to Pass 1, started firing earlier to get first group; disturbed 40-50&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 6): A site; different angle than Pass 1 and 2 to get different group&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 6): A to B site; disturbed 25; check for 1 animal at end on right; add 1 on left&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 6): C site; disturbed 9</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2822,10 +2823,9 @@
         <Style>
           <IconStyle>
             <color>ffb41e91</color>
-            <scale>1.1</scale>
-            <heading>59.6</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -2880,7 +2880,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Amak Rocks (302)</name>
+        <description>&lt;b&gt;Amak Rocks (302)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6): A site&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6): A site; similar to Pass 1, started firing earlier to get first group; disturbed 40-50&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 6): A site; different angle than Pass 1 and 2 to get different group&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 6): A to B site; disturbed 25; check for 1 animal at end on right; add 1 on left&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 6): C site; disturbed 9</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2892,10 +2893,9 @@
         <Style>
           <IconStyle>
             <color>ffb41e91</color>
-            <scale>1.1</scale>
-            <heading>90.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -2938,7 +2938,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Amak Rocks (302)</name>
+        <description>&lt;b&gt;Amak Rocks (302)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6): A site&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6): A site; similar to Pass 1, started firing earlier to get first group; disturbed 40-50&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 6): A site; different angle than Pass 1 and 2 to get different group&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 6): A to B site; disturbed 25; check for 1 animal at end on right; add 1 on left&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 6): C site; disturbed 9</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2950,10 +2951,9 @@
         <Style>
           <IconStyle>
             <color>ffb41e91</color>
-            <scale>1.1</scale>
-            <heading>209.6</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3017,7 +3017,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Avatanak Se (592)</name>
+        <description>&lt;b&gt;Avatanak Se (592)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3029,10 +3030,9 @@
         <Style>
           <IconStyle>
             <color>fff4d442</color>
-            <scale>1.1</scale>
-            <heading>23.8</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3122,7 +3122,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Bogoslof/Fire Island (344)</name>
+        <description>&lt;b&gt;Bogoslof/Fire Island (344)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Right side of island; all passes 1000' elevation&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 9): Left of Pass 1&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 9): Left of Pass 2&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 9): Left of Pass 3; surveying whole island, may be no new SSL in this pass&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 9): Left of Pass 4; surveying whole island, may be no new SSL in this pass</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3134,10 +3135,9 @@
         <Style>
           <IconStyle>
             <color>ffe632f0</color>
-            <scale>1.1</scale>
-            <heading>312.5</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3219,7 +3219,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Bogoslof/Fire Island (344)</name>
+        <description>&lt;b&gt;Bogoslof/Fire Island (344)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Right side of island; all passes 1000' elevation&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 9): Left of Pass 1&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 9): Left of Pass 2&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 9): Left of Pass 3; surveying whole island, may be no new SSL in this pass&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 9): Left of Pass 4; surveying whole island, may be no new SSL in this pass</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3231,10 +3232,9 @@
         <Style>
           <IconStyle>
             <color>ffe632f0</color>
-            <scale>1.1</scale>
-            <heading>310.3</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3320,7 +3320,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Bogoslof/Fire Island (344)</name>
+        <description>&lt;b&gt;Bogoslof/Fire Island (344)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Right side of island; all passes 1000' elevation&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 9): Left of Pass 1&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 9): Left of Pass 2&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 9): Left of Pass 3; surveying whole island, may be no new SSL in this pass&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 9): Left of Pass 4; surveying whole island, may be no new SSL in this pass</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3332,10 +3333,9 @@
         <Style>
           <IconStyle>
             <color>ffe632f0</color>
-            <scale>1.1</scale>
-            <heading>310.3</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3411,7 +3411,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Bogoslof/Fire Island (344)</name>
+        <description>&lt;b&gt;Bogoslof/Fire Island (344)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Right side of island; all passes 1000' elevation&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 9): Left of Pass 1&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 9): Left of Pass 2&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 9): Left of Pass 3; surveying whole island, may be no new SSL in this pass&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 9): Left of Pass 4; surveying whole island, may be no new SSL in this pass</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3423,10 +3424,9 @@
         <Style>
           <IconStyle>
             <color>ffe632f0</color>
-            <scale>1.1</scale>
-            <heading>310.3</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3486,7 +3486,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Bogoslof/Fire Island (344)</name>
+        <description>&lt;b&gt;Bogoslof/Fire Island (344)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Right side of island; all passes 1000' elevation&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 9): Left of Pass 1&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 9): Left of Pass 2&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 9): Left of Pass 3; surveying whole island, may be no new SSL in this pass&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 9): Left of Pass 4; surveying whole island, may be no new SSL in this pass</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3498,10 +3499,9 @@
         <Style>
           <IconStyle>
             <color>ffe632f0</color>
-            <scale>1.1</scale>
-            <heading>310.3</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3560,7 +3560,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Egg (330)</name>
+        <description>&lt;b&gt;Egg (330)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3572,10 +3573,9 @@
         <Style>
           <IconStyle>
             <color>ff45efbf</color>
-            <scale>1.1</scale>
-            <heading>163.6</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3643,7 +3643,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Inner Signal (332)</name>
+        <description>&lt;b&gt;Inner Signal (332)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 2): Left of Pass 1&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 2): Right of Pass 1; disturbed 20 animals</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3655,10 +3656,9 @@
         <Style>
           <IconStyle>
             <color>ffd4befa</color>
-            <scale>1.1</scale>
-            <heading>6.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3712,7 +3712,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Inner Signal (332)</name>
+        <description>&lt;b&gt;Inner Signal (332)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 2): Left of Pass 1&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 2): Right of Pass 1; disturbed 20 animals</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3724,10 +3725,9 @@
         <Style>
           <IconStyle>
             <color>ffd4befa</color>
-            <scale>1.1</scale>
-            <heading>6.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3783,7 +3783,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Inner Signal (332)</name>
+        <description>&lt;b&gt;Inner Signal (332)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 2): Left of Pass 1&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 2): Right of Pass 1; disturbed 20 animals</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3795,10 +3796,9 @@
         <Style>
           <IconStyle>
             <color>ffd4befa</color>
-            <scale>1.1</scale>
-            <heading>11.1</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3873,7 +3873,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Ogchul (354)</name>
+        <description>&lt;b&gt;Ogchul (354)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Check for 1 male on left at end of pass</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3885,10 +3886,9 @@
         <Style>
           <IconStyle>
             <color>ff909946</color>
-            <scale>1.1</scale>
-            <heading>83.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3951,7 +3951,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Polivnoi Rock (352)</name>
+        <description>&lt;b&gt;Polivnoi Rock (352)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 5)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3963,10 +3964,9 @@
         <Style>
           <IconStyle>
             <color>ffffbedc</color>
-            <scale>1.1</scale>
-            <heading>270.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -4029,7 +4029,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Rootok North (316)</name>
+        <description>&lt;b&gt;Rootok North (316)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2): Count jumpers; disturbed ~15 animals&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 2): Opposite direction for a different group of animals; disturbed ~15 more animals</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4041,10 +4042,9 @@
         <Style>
           <IconStyle>
             <color>ff24639a</color>
-            <scale>1.1</scale>
-            <heading>49.6</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -4083,7 +4083,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Rootok North (316)</name>
+        <description>&lt;b&gt;Rootok North (316)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2): Count jumpers; disturbed ~15 animals&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 2): Opposite direction for a different group of animals; disturbed ~15 more animals</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4095,10 +4096,9 @@
         <Style>
           <IconStyle>
             <color>ff24639a</color>
-            <scale>1.1</scale>
-            <heading>235.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -4153,7 +4153,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Sea Lion Rock Amak (303)</name>
+        <description>&lt;b&gt;Sea Lion Rock Amak (303)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4165,10 +4166,9 @@
         <Style>
           <IconStyle>
             <color>ff000080</color>
-            <scale>1.1</scale>
-            <heading>37.1</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -4236,7 +4236,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Tanginak (317)</name>
+        <description>&lt;b&gt;Tanginak (317)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2): Two jumpers</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4248,10 +4249,9 @@
         <Style>
           <IconStyle>
             <color>ffc3ffaa</color>
-            <scale>1.1</scale>
-            <heading>199.3</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -4309,7 +4309,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>The Pillars (353)</name>
+        <description>&lt;b&gt;The Pillars (353)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 5)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4321,10 +4322,9 @@
         <Style>
           <IconStyle>
             <color>ff008080</color>
-            <scale>1.1</scale>
-            <heading>230.2</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -4418,7 +4418,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Tigalda Rocks Ne (311)</name>
+        <description>&lt;b&gt;Tigalda Rocks Ne (311)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2): Add 3 on left; B to A sites, small pause between sites</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4430,10 +4431,9 @@
         <Style>
           <IconStyle>
             <color>ffb1d8ff</color>
-            <scale>1.1</scale>
-            <heading>290.4</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -4493,7 +4493,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Tigalda South Side (312)</name>
+        <description>&lt;b&gt;Tigalda South Side (312)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4505,10 +4506,9 @@
         <Style>
           <IconStyle>
             <color>ff750000</color>
-            <scale>1.1</scale>
-            <heading>163.6</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -4622,7 +4622,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Ugamak North (305)</name>
+        <description>&lt;b&gt;Ugamak North (305)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2): A to B site; disturbed 25 animals&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 2): Right of Pass 1; disturbed additional 20 animals</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4634,10 +4635,9 @@
         <Style>
           <IconStyle>
             <color>ffa9a9a9</color>
-            <scale>1.1</scale>
-            <heading>264.1</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -4733,7 +4733,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Ugamak North (305)</name>
+        <description>&lt;b&gt;Ugamak North (305)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2): A to B site; disturbed 25 animals&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 2): Right of Pass 1; disturbed additional 20 animals</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4745,10 +4746,9 @@
         <Style>
           <IconStyle>
             <color>ffa9a9a9</color>
-            <scale>1.1</scale>
-            <heading>286.4</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -4810,7 +4810,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Ugamak Round (307)</name>
+        <description>&lt;b&gt;Ugamak Round (307)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2): Add 1 on left; low cloud, might not be countable&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 2): Same as Pass 1, no clouds; add 1 on left; check for 3 on left rock at start of pass</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4822,10 +4823,9 @@
         <Style>
           <IconStyle>
             <color>ffffbee6</color>
-            <scale>1.1</scale>
-            <heading>71.1</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -4877,7 +4877,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Ugamak Round (307)</name>
+        <description>&lt;b&gt;Ugamak Round (307)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2): Add 1 on left; low cloud, might not be countable&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 2): Same as Pass 1, no clouds; add 1 on left; check for 3 on left rock at start of pass</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4889,10 +4890,9 @@
         <Style>
           <IconStyle>
             <color>ffffbee6</color>
-            <scale>1.1</scale>
-            <heading>80.3</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -4952,7 +4952,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Ugamak Sw (603)</name>
+        <description>&lt;b&gt;Ugamak Sw (603)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4964,10 +4965,9 @@
         <Style>
           <IconStyle>
             <color>ff4b19e6</color>
-            <scale>1.1</scale>
-            <heading>41.3</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -5041,7 +5041,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Ugamak Ugamak Bay (306)</name>
+        <description>&lt;b&gt;Ugamak Ugamak Bay (306)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 2): Perpendicular to Pass 1 (N to S); add 2 on left</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5053,10 +5054,9 @@
         <Style>
           <IconStyle>
             <color>ff4bb43c</color>
-            <scale>1.1</scale>
-            <heading>77.2</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -5124,7 +5124,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Ugamak Ugamak Bay (306)</name>
+        <description>&lt;b&gt;Ugamak Ugamak Bay (306)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 2): Perpendicular to Pass 1 (N to S); add 2 on left</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5136,10 +5137,9 @@
         <Style>
           <IconStyle>
             <color>ff4bb43c</color>
-            <scale>1.1</scale>
-            <heading>158.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -5256,7 +5256,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Unalaska Cape Izigan (343)</name>
+        <description>&lt;b&gt;Unalaska Cape Izigan (343)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 5): May not be many animals in this pass&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 5): Right of Pass 1; disturbed 5&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 5): Between Pass 1 and Pass 2; disturbed 5 more&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 5): Slightly different angle to get last group of animals (after rocks)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5268,10 +5269,9 @@
         <Style>
           <IconStyle>
             <color>ff19e1ff</color>
-            <scale>1.1</scale>
-            <heading>348.2</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -5342,7 +5342,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Unalaska Cape Izigan (343)</name>
+        <description>&lt;b&gt;Unalaska Cape Izigan (343)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 5): May not be many animals in this pass&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 5): Right of Pass 1; disturbed 5&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 5): Between Pass 1 and Pass 2; disturbed 5 more&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 5): Slightly different angle to get last group of animals (after rocks)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5354,10 +5355,9 @@
         <Style>
           <IconStyle>
             <color>ff19e1ff</color>
-            <scale>1.1</scale>
-            <heading>18.1</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -5442,7 +5442,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Unalaska Cape Izigan (343)</name>
+        <description>&lt;b&gt;Unalaska Cape Izigan (343)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 5): May not be many animals in this pass&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 5): Right of Pass 1; disturbed 5&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 5): Between Pass 1 and Pass 2; disturbed 5 more&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 5): Slightly different angle to get last group of animals (after rocks)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5454,10 +5455,9 @@
         <Style>
           <IconStyle>
             <color>ff19e1ff</color>
-            <scale>1.1</scale>
-            <heading>6.8</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -5514,7 +5514,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Unalaska Cape Izigan (343)</name>
+        <description>&lt;b&gt;Unalaska Cape Izigan (343)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 5): May not be many animals in this pass&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 5): Right of Pass 1; disturbed 5&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 5): Between Pass 1 and Pass 2; disturbed 5 more&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 5): Slightly different angle to get last group of animals (after rocks)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5526,10 +5527,9 @@
         <Style>
           <IconStyle>
             <color>ff19e1ff</color>
-            <scale>1.1</scale>
-            <heading>30.9</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -5594,7 +5594,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Unalaska Priest Rock (335)</name>
+        <description>&lt;b&gt;Unalaska Priest Rock (335)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2): Check for 3 on right at beginning of pass</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5606,10 +5607,9 @@
         <Style>
           <IconStyle>
             <color>ffd86343</color>
-            <scale>1.1</scale>
-            <heading>90.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -5700,7 +5700,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Unalaska Whalebone Cape (342)</name>
+        <description>&lt;b&gt;Unalaska Whalebone Cape (342)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 2): Two jumpers</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5712,10 +5713,9 @@
         <Style>
           <IconStyle>
             <color>ff3182f5</color>
-            <scale>1.1</scale>
-            <heading>30.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -5777,7 +5777,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Unalaska/Bishop Point (337)</name>
+        <description>&lt;b&gt;Unalaska/Bishop Point (337)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 5): 30 jumpers&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 5): Left of Pass 1; may be no new animals, lined up too far left&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 5): Between Pass 1 and Pass 2 to get animals at start of pass&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 5): Similar to Pass 3 but slightly different angle; check for 2 on left at end</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5789,10 +5790,9 @@
         <Style>
           <IconStyle>
             <color>ffb41e91</color>
-            <scale>1.1</scale>
-            <heading>229.6</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -5834,7 +5834,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Unalaska/Bishop Point (337)</name>
+        <description>&lt;b&gt;Unalaska/Bishop Point (337)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 5): 30 jumpers&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 5): Left of Pass 1; may be no new animals, lined up too far left&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 5): Between Pass 1 and Pass 2 to get animals at start of pass&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 5): Similar to Pass 3 but slightly different angle; check for 2 on left at end</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5846,10 +5847,9 @@
         <Style>
           <IconStyle>
             <color>ffb41e91</color>
-            <scale>1.1</scale>
-            <heading>247.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -5910,7 +5910,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Unalaska/Bishop Point (337)</name>
+        <description>&lt;b&gt;Unalaska/Bishop Point (337)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 5): 30 jumpers&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 5): Left of Pass 1; may be no new animals, lined up too far left&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 5): Between Pass 1 and Pass 2 to get animals at start of pass&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 5): Similar to Pass 3 but slightly different angle; check for 2 on left at end</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5922,10 +5923,9 @@
         <Style>
           <IconStyle>
             <color>ffb41e91</color>
-            <scale>1.1</scale>
-            <heading>240.5</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -6014,7 +6014,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Unalaska/Bishop Point (337)</name>
+        <description>&lt;b&gt;Unalaska/Bishop Point (337)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 5): 30 jumpers&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 5): Left of Pass 1; may be no new animals, lined up too far left&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 5): Between Pass 1 and Pass 2 to get animals at start of pass&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 5): Similar to Pass 3 but slightly different angle; check for 2 on left at end</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6026,10 +6027,9 @@
         <Style>
           <IconStyle>
             <color>ffb41e91</color>
-            <scale>1.1</scale>
-            <heading>261.2</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -6092,7 +6092,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Unalaska/Makushin Bay (339)</name>
+        <description>&lt;b&gt;Unalaska/Makushin Bay (339)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 5)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6104,10 +6105,9 @@
         <Style>
           <IconStyle>
             <color>fff4d442</color>
-            <scale>1.1</scale>
-            <heading>247.1</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -6167,7 +6167,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Unalaska/Point Kadin (623)</name>
+        <description>&lt;b&gt;Unalaska/Point Kadin (623)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 5)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6179,10 +6180,9 @@
         <Style>
           <IconStyle>
             <color>ffe632f0</color>
-            <scale>1.1</scale>
-            <heading>210.5</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -6248,7 +6248,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Unalaska/Spray Cape (341)</name>
+        <description>&lt;b&gt;Unalaska/Spray Cape (341)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 5): Disturbed 5</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6260,10 +6261,9 @@
         <Style>
           <IconStyle>
             <color>ff45efbf</color>
-            <scale>1.1</scale>
-            <heading>174.4</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -6442,7 +6442,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Unalaska/W Of Makushin Bay (607)</name>
+        <description>&lt;b&gt;Unalaska/W Of Makushin Bay (607)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 5): Disturbed 1; extra photos at end of pass</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6454,10 +6455,9 @@
         <Style>
           <IconStyle>
             <color>ffd4befa</color>
-            <scale>1.1</scale>
-            <heading>185.2</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -6515,7 +6515,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Unimak Cape Sarichef (605)</name>
+        <description>&lt;b&gt;Unimak Cape Sarichef (605)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6): Add 4 (on right) on beach before pass; disturbed 15-20 animals</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6527,10 +6528,9 @@
         <Style>
           <IconStyle>
             <color>ff909946</color>
-            <scale>1.1</scale>
-            <heading>30.1</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -6592,7 +6592,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Unimak Of Oksenof Point (606)</name>
+        <description>&lt;b&gt;Unimak Of Oksenof Point (606)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6): Disturbed 20-30; count jumpers&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6): All animals in water were on land during Pass 1; disturbed 20 more animals</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6604,10 +6605,9 @@
         <Style>
           <IconStyle>
             <color>ffffbedc</color>
-            <scale>1.1</scale>
-            <heading>0.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -6660,7 +6660,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Unimak Of Oksenof Point (606)</name>
+        <description>&lt;b&gt;Unimak Of Oksenof Point (606)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6): Disturbed 20-30; count jumpers&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6): All animals in water were on land during Pass 1; disturbed 20 more animals</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6672,10 +6673,9 @@
         <Style>
           <IconStyle>
             <color>ffffbedc</color>
-            <scale>1.1</scale>
-            <heading>343.9</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -6732,7 +6732,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Unimak Oksenof Point (301)</name>
+        <description>&lt;b&gt;Unimak Oksenof Point (301)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6): Disturbed 4 here and 3 at 606 UNIMAK/S OF OKSENOF POINT</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6744,10 +6745,9 @@
         <Style>
           <IconStyle>
             <color>ff24639a</color>
-            <scale>1.1</scale>
-            <heading>10.9</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -6797,7 +6797,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Unimak/Cave Point (300)</name>
+        <description>&lt;b&gt;Unimak/Cave Point (300)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6809,10 +6810,9 @@
         <Style>
           <IconStyle>
             <color>ff000080</color>
-            <scale>1.1</scale>
-            <heading>0.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -6871,7 +6871,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Vsevidof (355)</name>
+        <description>&lt;b&gt;Vsevidof (355)&lt;/b&gt;&lt;br/&gt;2023 — Aleutian Islands&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 9): Add 2 on right</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6883,10 +6884,9 @@
         <Style>
           <IconStyle>
             <color>ffc3ffaa</color>
-            <scale>1.1</scale>
-            <heading>50.3</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>

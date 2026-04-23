@@ -1365,7 +1365,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Aghiyuk (246)</name>
+        <description>&lt;b&gt;Aghiyuk (246)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1377,10 +1378,9 @@
         <Style>
           <IconStyle>
             <color>ff4b19e6</color>
-            <scale>1.1</scale>
-            <heading>351.4</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -1426,7 +1426,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Aghiyuk (246)</name>
+        <description>&lt;b&gt;Aghiyuk (246)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1438,10 +1439,9 @@
         <Style>
           <IconStyle>
             <color>ff4b19e6</color>
-            <scale>1.1</scale>
-            <heading>352.1</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -1536,7 +1536,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Benjamin (156)</name>
+        <description>&lt;b&gt;Benjamin (156)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1548,10 +1549,9 @@
         <Style>
           <IconStyle>
             <color>ff4bb43c</color>
-            <scale>1.1</scale>
-            <heading>336.9</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -1609,7 +1609,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Benjamin (156)</name>
+        <description>&lt;b&gt;Benjamin (156)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1621,10 +1622,9 @@
         <Style>
           <IconStyle>
             <color>ff4bb43c</color>
-            <scale>1.1</scale>
-            <heading>332.5</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -1684,7 +1684,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Biali Rock (120)</name>
+        <description>&lt;b&gt;Biali Rock (120)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1696,10 +1697,9 @@
         <Style>
           <IconStyle>
             <color>ff19e1ff</color>
-            <scale>1.1</scale>
-            <heading>121.3</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -1748,7 +1748,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Biali Rock (120)</name>
+        <description>&lt;b&gt;Biali Rock (120)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1760,10 +1761,9 @@
         <Style>
           <IconStyle>
             <color>ff19e1ff</color>
-            <scale>1.1</scale>
-            <heading>219.5</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -1878,7 +1878,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Biali Rock (120)</name>
+        <description>&lt;b&gt;Biali Rock (120)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1890,10 +1891,9 @@
         <Style>
           <IconStyle>
             <color>ff19e1ff</color>
-            <scale>1.1</scale>
-            <heading>57.9</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -1979,7 +1979,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Biali Rock (120)</name>
+        <description>&lt;b&gt;Biali Rock (120)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -1991,10 +1992,9 @@
         <Style>
           <IconStyle>
             <color>ff19e1ff</color>
-            <scale>1.1</scale>
-            <heading>70.9</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -2068,7 +2068,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Cape Addington (110)</name>
+        <description>&lt;b&gt;Cape Addington (110)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2080,10 +2081,9 @@
         <Style>
           <IconStyle>
             <color>ffd86343</color>
-            <scale>1.1</scale>
-            <heading>128.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -2135,7 +2135,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Cape Bingham (144)</name>
+        <description>&lt;b&gt;Cape Bingham (144)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 28)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2147,10 +2148,9 @@
         <Style>
           <IconStyle>
             <color>ff3182f5</color>
-            <scale>1.1</scale>
-            <heading>244.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -2257,7 +2257,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Cape Bingham (144)</name>
+        <description>&lt;b&gt;Cape Bingham (144)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 28)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2269,10 +2270,9 @@
         <Style>
           <IconStyle>
             <color>ff3182f5</color>
-            <scale>1.1</scale>
-            <heading>57.8</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -2364,7 +2364,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Cape Hinchinbrook (165)</name>
+        <description>&lt;b&gt;Cape Hinchinbrook (165)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2376,10 +2377,9 @@
         <Style>
           <IconStyle>
             <color>ffb41e91</color>
-            <scale>1.1</scale>
-            <heading>90.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -2440,7 +2440,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Cape Kuliak (239)</name>
+        <description>&lt;b&gt;Cape Kuliak (239)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2452,10 +2453,9 @@
         <Style>
           <IconStyle>
             <color>fff4d442</color>
-            <scale>1.1</scale>
-            <heading>215.1</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -2516,7 +2516,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Cape Ommaney (117)</name>
+        <description>&lt;b&gt;Cape Ommaney (117)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 26)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2528,10 +2529,9 @@
         <Style>
           <IconStyle>
             <color>ffe632f0</color>
-            <scale>1.1</scale>
-            <heading>120.9</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -2629,7 +2629,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Cape Resurrection (182)</name>
+        <description>&lt;b&gt;Cape Resurrection (182)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2641,10 +2642,9 @@
         <Style>
           <IconStyle>
             <color>ff45efbf</color>
-            <scale>1.1</scale>
-            <heading>223.6</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -2730,7 +2730,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Cape Resurrection (182)</name>
+        <description>&lt;b&gt;Cape Resurrection (182)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2742,10 +2743,9 @@
         <Style>
           <IconStyle>
             <color>ff45efbf</color>
-            <scale>1.1</scale>
-            <heading>210.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -2803,7 +2803,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Cape St. Elias/B (163)</name>
+        <description>&lt;b&gt;Cape St. Elias/B (163)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2815,10 +2816,9 @@
         <Style>
           <IconStyle>
             <color>ffd4befa</color>
-            <scale>1.1</scale>
-            <heading>142.9</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -2875,7 +2875,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Cape St. Elias/B (163)</name>
+        <description>&lt;b&gt;Cape St. Elias/B (163)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2887,10 +2888,9 @@
         <Style>
           <IconStyle>
             <color>ffd4befa</color>
-            <scale>1.1</scale>
-            <heading>187.2</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -2940,7 +2940,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Cape St. Elias/B (163)</name>
+        <description>&lt;b&gt;Cape St. Elias/B (163)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2952,10 +2953,9 @@
         <Style>
           <IconStyle>
             <color>ffd4befa</color>
-            <scale>1.1</scale>
-            <heading>180.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3065,7 +3065,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Chirikof (248)</name>
+        <description>&lt;b&gt;Chirikof (248)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3077,10 +3078,9 @@
         <Style>
           <IconStyle>
             <color>ff909946</color>
-            <scale>1.1</scale>
-            <heading>100.8</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3148,7 +3148,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Chirikof (248)</name>
+        <description>&lt;b&gt;Chirikof (248)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3160,10 +3161,9 @@
         <Style>
           <IconStyle>
             <color>ff909946</color>
-            <scale>1.1</scale>
-            <heading>4.6</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3282,7 +3282,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Chowiet (247)</name>
+        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;8 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jul 8)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3294,10 +3295,9 @@
         <Style>
           <IconStyle>
             <color>ffffbedc</color>
-            <scale>1.1</scale>
-            <heading>162.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3359,7 +3359,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Chowiet (247)</name>
+        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;8 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jul 8)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3371,10 +3372,9 @@
         <Style>
           <IconStyle>
             <color>ffffbedc</color>
-            <scale>1.1</scale>
-            <heading>298.8</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3419,7 +3419,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Chowiet (247)</name>
+        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;8 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jul 8)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3431,10 +3432,9 @@
         <Style>
           <IconStyle>
             <color>ffffbedc</color>
-            <scale>1.1</scale>
-            <heading>320.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3480,7 +3480,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Chowiet (247)</name>
+        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;8 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jul 8)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3492,10 +3493,9 @@
         <Style>
           <IconStyle>
             <color>ffffbedc</color>
-            <scale>1.1</scale>
-            <heading>330.8</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3589,7 +3589,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Chowiet (247)</name>
+        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;8 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jul 8)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3601,10 +3602,9 @@
         <Style>
           <IconStyle>
             <color>ffffbedc</color>
-            <scale>1.1</scale>
-            <heading>306.2</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3661,7 +3661,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Chowiet (247)</name>
+        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;8 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jul 8)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3673,10 +3674,9 @@
         <Style>
           <IconStyle>
             <color>ffffbedc</color>
-            <scale>1.1</scale>
-            <heading>311.8</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3725,7 +3725,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Chowiet (247)</name>
+        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;8 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jul 8)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3737,10 +3738,9 @@
         <Style>
           <IconStyle>
             <color>ffffbedc</color>
-            <scale>1.1</scale>
-            <heading>209.2</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3801,7 +3801,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Chowiet (247)</name>
+        <description>&lt;b&gt;Chowiet (247)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;8 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jul 8)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3813,10 +3814,9 @@
         <Style>
           <IconStyle>
             <color>ffffbedc</color>
-            <scale>1.1</scale>
-            <heading>344.4</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3882,7 +3882,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Chowiet (267)</name>
+        <description>&lt;b&gt;Chowiet (267)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3894,10 +3895,9 @@
         <Style>
           <IconStyle>
             <color>ff24639a</color>
-            <scale>1.1</scale>
-            <heading>164.4</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -3967,7 +3967,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Coronation (112)</name>
+        <description>&lt;b&gt;Coronation (112)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -3979,10 +3980,9 @@
         <Style>
           <IconStyle>
             <color>ff000080</color>
-            <scale>1.1</scale>
-            <heading>223.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -4021,7 +4021,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Coronation (112)</name>
+        <description>&lt;b&gt;Coronation (112)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4033,10 +4034,9 @@
         <Style>
           <IconStyle>
             <color>ff000080</color>
-            <scale>1.1</scale>
-            <heading>220.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -4098,7 +4098,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Danger (176)</name>
+        <description>&lt;b&gt;Danger (176)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4110,10 +4111,9 @@
         <Style>
           <IconStyle>
             <color>ffc3ffaa</color>
-            <scale>1.1</scale>
-            <heading>71.6</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -4179,7 +4179,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Dutch Group (587)</name>
+        <description>&lt;b&gt;Dutch Group (587)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4191,10 +4192,9 @@
         <Style>
           <IconStyle>
             <color>ff008080</color>
-            <scale>1.1</scale>
-            <heading>65.5</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -4281,7 +4281,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Emmons Test (141)</name>
+        <description>&lt;b&gt;Emmons Test (141)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4293,10 +4294,9 @@
         <Style>
           <IconStyle>
             <color>ffb1d8ff</color>
-            <scale>1.1</scale>
-            <heading>130.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -4360,7 +4360,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Forrester</name>
+        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4372,10 +4373,9 @@
         <Style>
           <IconStyle>
             <color>ff750000</color>
-            <scale>1.1</scale>
-            <heading>257.8</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -4464,7 +4464,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Forrester</name>
+        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4476,10 +4477,9 @@
         <Style>
           <IconStyle>
             <color>ff750000</color>
-            <scale>1.1</scale>
-            <heading>110.1</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -4560,7 +4560,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Forrester</name>
+        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4572,10 +4573,9 @@
         <Style>
           <IconStyle>
             <color>ff750000</color>
-            <scale>1.1</scale>
-            <heading>121.3</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -4671,7 +4671,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Forrester</name>
+        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4683,10 +4684,9 @@
         <Style>
           <IconStyle>
             <color>ff750000</color>
-            <scale>1.1</scale>
-            <heading>86.8</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -4796,7 +4796,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Forrester</name>
+        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4808,10 +4809,9 @@
         <Style>
           <IconStyle>
             <color>ff750000</color>
-            <scale>1.1</scale>
-            <heading>250.2</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -4859,7 +4859,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Forrester</name>
+        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4871,10 +4872,9 @@
         <Style>
           <IconStyle>
             <color>ff750000</color>
-            <scale>1.1</scale>
-            <heading>59.9</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -4979,7 +4979,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Forrester</name>
+        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -4991,10 +4992,9 @@
         <Style>
           <IconStyle>
             <color>ff750000</color>
-            <scale>1.1</scale>
-            <heading>273.2</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -5074,7 +5074,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Forrester</name>
+        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5086,10 +5087,9 @@
         <Style>
           <IconStyle>
             <color>ff750000</color>
-            <scale>1.1</scale>
-            <heading>248.9</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -5242,7 +5242,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Forrester</name>
+        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5254,10 +5255,9 @@
         <Style>
           <IconStyle>
             <color>ff750000</color>
-            <scale>1.1</scale>
-            <heading>349.5</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -5319,7 +5319,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Forrester</name>
+        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5331,10 +5332,9 @@
         <Style>
           <IconStyle>
             <color>ff750000</color>
-            <scale>1.1</scale>
-            <heading>355.9</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -5414,7 +5414,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Forrester</name>
+        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5426,10 +5427,9 @@
         <Style>
           <IconStyle>
             <color>ff750000</color>
-            <scale>1.1</scale>
-            <heading>354.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -5494,7 +5494,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Forrester</name>
+        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5506,10 +5507,9 @@
         <Style>
           <IconStyle>
             <color>ff750000</color>
-            <scale>1.1</scale>
-            <heading>163.9</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -5554,7 +5554,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Forrester</name>
+        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5566,10 +5567,9 @@
         <Style>
           <IconStyle>
             <color>ff750000</color>
-            <scale>1.1</scale>
-            <heading>209.9</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -5650,7 +5650,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Forrester</name>
+        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5662,10 +5663,9 @@
         <Style>
           <IconStyle>
             <color>ff750000</color>
-            <scale>1.1</scale>
-            <heading>0.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -5714,7 +5714,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Forrester</name>
+        <description>&lt;b&gt;Forrester&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;15 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 7&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 8&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 9&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 10&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 11&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 12&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 13&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 14&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 15&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5726,10 +5727,9 @@
         <Style>
           <IconStyle>
             <color>ff750000</color>
-            <scale>1.1</scale>
-            <heading>270.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -5779,7 +5779,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Glacier (169)</name>
+        <description>&lt;b&gt;Glacier (169)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;6 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5791,10 +5792,9 @@
         <Style>
           <IconStyle>
             <color>ffa9a9a9</color>
-            <scale>1.1</scale>
-            <heading>154.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -5869,7 +5869,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Glacier (169)</name>
+        <description>&lt;b&gt;Glacier (169)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;6 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5881,10 +5882,9 @@
         <Style>
           <IconStyle>
             <color>ffa9a9a9</color>
-            <scale>1.1</scale>
-            <heading>72.9</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -5939,7 +5939,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Glacier (169)</name>
+        <description>&lt;b&gt;Glacier (169)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;6 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -5951,10 +5952,9 @@
         <Style>
           <IconStyle>
             <color>ffa9a9a9</color>
-            <scale>1.1</scale>
-            <heading>79.4</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -6020,7 +6020,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Glacier (169)</name>
+        <description>&lt;b&gt;Glacier (169)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;6 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6032,10 +6033,9 @@
         <Style>
           <IconStyle>
             <color>ffa9a9a9</color>
-            <scale>1.1</scale>
-            <heading>90.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -6120,7 +6120,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Glacier (169)</name>
+        <description>&lt;b&gt;Glacier (169)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;6 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6132,10 +6133,9 @@
         <Style>
           <IconStyle>
             <color>ffa9a9a9</color>
-            <scale>1.1</scale>
-            <heading>73.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -6196,7 +6196,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Glacier (169)</name>
+        <description>&lt;b&gt;Glacier (169)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;6 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 6&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6208,10 +6209,9 @@
         <Style>
           <IconStyle>
             <color>ffa9a9a9</color>
-            <scale>1.1</scale>
-            <heading>48.1</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -6270,7 +6270,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Gran (Ledge) Point (159)</name>
+        <description>&lt;b&gt;Gran (Ledge) Point (159)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6282,10 +6283,9 @@
         <Style>
           <IconStyle>
             <color>ffffbee6</color>
-            <scale>1.1</scale>
-            <heading>332.8</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -6344,7 +6344,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Gran (Ledge) Point (159)</name>
+        <description>&lt;b&gt;Gran (Ledge) Point (159)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6356,10 +6357,9 @@
         <Style>
           <IconStyle>
             <color>ffffbee6</color>
-            <scale>1.1</scale>
-            <heading>332.8</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -6435,7 +6435,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Graves Rock (145)</name>
+        <description>&lt;b&gt;Graves Rock (145)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6447,10 +6448,9 @@
         <Style>
           <IconStyle>
             <color>ff4b19e6</color>
-            <scale>1.1</scale>
-            <heading>35.1</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -6543,7 +6543,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Graves Rock (145)</name>
+        <description>&lt;b&gt;Graves Rock (145)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6555,10 +6556,9 @@
         <Style>
           <IconStyle>
             <color>ff4b19e6</color>
-            <scale>1.1</scale>
-            <heading>27.8</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -6669,7 +6669,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Harbor Point (160)</name>
+        <description>&lt;b&gt;Harbor Point (160)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 28)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6681,10 +6682,9 @@
         <Style>
           <IconStyle>
             <color>ff4bb43c</color>
-            <scale>1.1</scale>
-            <heading>303.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -6720,7 +6720,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Hazy (113)</name>
+        <description>&lt;b&gt;Hazy (113)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6732,10 +6733,9 @@
         <Style>
           <IconStyle>
             <color>ff19e1ff</color>
-            <scale>1.1</scale>
-            <heading>246.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -6787,7 +6787,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Hazy (113)</name>
+        <description>&lt;b&gt;Hazy (113)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6799,10 +6800,9 @@
         <Style>
           <IconStyle>
             <color>ff19e1ff</color>
-            <scale>1.1</scale>
-            <heading>12.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -6886,7 +6886,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Hazy (113)</name>
+        <description>&lt;b&gt;Hazy (113)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6898,10 +6899,9 @@
         <Style>
           <IconStyle>
             <color>ff19e1ff</color>
-            <scale>1.1</scale>
-            <heading>37.4</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -6978,7 +6978,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Hazy (113)</name>
+        <description>&lt;b&gt;Hazy (113)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -6990,10 +6991,9 @@
         <Style>
           <IconStyle>
             <color>ff19e1ff</color>
-            <scale>1.1</scale>
-            <heading>46.2</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -7062,7 +7062,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Hook Point (164)</name>
+        <description>&lt;b&gt;Hook Point (164)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7074,10 +7075,9 @@
         <Style>
           <IconStyle>
             <color>ffd86343</color>
-            <scale>1.1</scale>
-            <heading>38.4</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -7137,7 +7137,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Jacob Rock (121)</name>
+        <description>&lt;b&gt;Jacob Rock (121)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7149,10 +7150,9 @@
         <Style>
           <IconStyle>
             <color>ff3182f5</color>
-            <scale>1.1</scale>
-            <heading>10.3</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -7204,7 +7204,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Jacob Rock (121)</name>
+        <description>&lt;b&gt;Jacob Rock (121)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7216,10 +7217,9 @@
         <Style>
           <IconStyle>
             <color>ff3182f5</color>
-            <scale>1.1</scale>
-            <heading>124.4</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -7270,7 +7270,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Jacob Rock (121)</name>
+        <description>&lt;b&gt;Jacob Rock (121)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7282,10 +7283,9 @@
         <Style>
           <IconStyle>
             <color>ff3182f5</color>
-            <scale>1.1</scale>
-            <heading>185.2</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -7340,7 +7340,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Kaiuchali (Biorka) (122)</name>
+        <description>&lt;b&gt;Kaiuchali (Biorka) (122)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7352,10 +7353,9 @@
         <Style>
           <IconStyle>
             <color>ffb41e91</color>
-            <scale>1.1</scale>
-            <heading>140.6</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -7422,7 +7422,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Kodiak/Cape Ikolik (223)</name>
+        <description>&lt;b&gt;Kodiak/Cape Ikolik (223)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7434,10 +7435,9 @@
         <Style>
           <IconStyle>
             <color>fff4d442</color>
-            <scale>1.1</scale>
-            <heading>132.8</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -7490,7 +7490,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Kodiak/Cape Ikolik (223)</name>
+        <description>&lt;b&gt;Kodiak/Cape Ikolik (223)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7502,10 +7503,9 @@
         <Style>
           <IconStyle>
             <color>fff4d442</color>
-            <scale>1.1</scale>
-            <heading>160.2</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -7572,7 +7572,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Kodiak/Cape Ugat (228)</name>
+        <description>&lt;b&gt;Kodiak/Cape Ugat (228)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7584,10 +7585,9 @@
         <Style>
           <IconStyle>
             <color>ffe632f0</color>
-            <scale>1.1</scale>
-            <heading>237.9</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -7659,7 +7659,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Kodiak/Gull Point (217)</name>
+        <description>&lt;b&gt;Kodiak/Gull Point (217)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7671,10 +7672,9 @@
         <Style>
           <IconStyle>
             <color>ff45efbf</color>
-            <scale>1.1</scale>
-            <heading>202.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -7743,7 +7743,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Kodiak/Steep Cape (231)</name>
+        <description>&lt;b&gt;Kodiak/Steep Cape (231)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7755,10 +7756,9 @@
         <Style>
           <IconStyle>
             <color>ffd4befa</color>
-            <scale>1.1</scale>
-            <heading>234.6</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -7870,7 +7870,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Latax Rocks (206)</name>
+        <description>&lt;b&gt;Latax Rocks (206)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -7882,10 +7883,9 @@
         <Style>
           <IconStyle>
             <color>ff909946</color>
-            <scale>1.1</scale>
-            <heading>71.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -7998,7 +7998,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Latax Rocks (206)</name>
+        <description>&lt;b&gt;Latax Rocks (206)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8010,10 +8011,9 @@
         <Style>
           <IconStyle>
             <color>ff909946</color>
-            <scale>1.1</scale>
-            <heading>67.8</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -8083,7 +8083,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Libby Island (622)</name>
+        <description>&lt;b&gt;Libby Island (622)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 28)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 28)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8095,10 +8096,9 @@
         <Style>
           <IconStyle>
             <color>ffffbedc</color>
-            <scale>1.1</scale>
-            <heading>115.4</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -8158,7 +8158,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Libby Island (622)</name>
+        <description>&lt;b&gt;Libby Island (622)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 28)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 28)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8170,10 +8171,9 @@
         <Style>
           <IconStyle>
             <color>ffffbedc</color>
-            <scale>1.1</scale>
-            <heading>191.3</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -8225,7 +8225,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Libby Island (622)</name>
+        <description>&lt;b&gt;Libby Island (622)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 28)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 28)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8237,10 +8238,9 @@
         <Style>
           <IconStyle>
             <color>ffffbedc</color>
-            <scale>1.1</scale>
-            <heading>187.1</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -8276,7 +8276,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Libby Island (622)</name>
+        <description>&lt;b&gt;Libby Island (622)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 28)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 28)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8288,10 +8289,9 @@
         <Style>
           <IconStyle>
             <color>ffffbedc</color>
-            <scale>1.1</scale>
-            <heading>111.9</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -8342,7 +8342,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Libby Island (622)</name>
+        <description>&lt;b&gt;Libby Island (622)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;5 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 28)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 28)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 5&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8354,10 +8355,9 @@
         <Style>
           <IconStyle>
             <color>ffffbedc</color>
-            <scale>1.1</scale>
-            <heading>191.3</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -8416,7 +8416,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Middle (558)</name>
+        <description>&lt;b&gt;Middle (558)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8428,10 +8429,9 @@
         <Style>
           <IconStyle>
             <color>ff24639a</color>
-            <scale>1.1</scale>
-            <heading>115.4</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -8530,7 +8530,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Middleton (168)</name>
+        <description>&lt;b&gt;Middleton (168)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8542,10 +8543,9 @@
         <Style>
           <IconStyle>
             <color>ff000080</color>
-            <scale>1.1</scale>
-            <heading>27.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -8603,7 +8603,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Middleton (168)</name>
+        <description>&lt;b&gt;Middleton (168)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8615,10 +8616,9 @@
         <Style>
           <IconStyle>
             <color>ff000080</color>
-            <scale>1.1</scale>
-            <heading>22.1</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -8672,7 +8672,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Middleton (168)</name>
+        <description>&lt;b&gt;Middleton (168)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8684,10 +8685,9 @@
         <Style>
           <IconStyle>
             <color>ff000080</color>
-            <scale>1.1</scale>
-            <heading>22.1</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -8751,7 +8751,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Nagahut Rocks (196)</name>
+        <description>&lt;b&gt;Nagahut Rocks (196)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8763,10 +8764,9 @@
         <Style>
           <IconStyle>
             <color>ffc3ffaa</color>
-            <scale>1.1</scale>
-            <heading>113.4</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -8857,7 +8857,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Nagai Rocks/B (249)</name>
+        <description>&lt;b&gt;Nagai Rocks/B (249)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8869,10 +8870,9 @@
         <Style>
           <IconStyle>
             <color>ff008080</color>
-            <scale>1.1</scale>
-            <heading>199.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -8939,7 +8939,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Nagai Rocks/B (249)</name>
+        <description>&lt;b&gt;Nagai Rocks/B (249)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -8951,10 +8952,9 @@
         <Style>
           <IconStyle>
             <color>ff008080</color>
-            <scale>1.1</scale>
-            <heading>205.1</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -9002,7 +9002,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Nagai Rocks/B (249)</name>
+        <description>&lt;b&gt;Nagai Rocks/B (249)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 8)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 8)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9014,10 +9015,9 @@
         <Style>
           <IconStyle>
             <color>ff008080</color>
-            <scale>1.1</scale>
-            <heading>209.3</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -9085,7 +9085,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Perl (194)</name>
+        <description>&lt;b&gt;Perl (194)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9097,10 +9098,9 @@
         <Style>
           <IconStyle>
             <color>ffb1d8ff</color>
-            <scale>1.1</scale>
-            <heading>64.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -9159,7 +9159,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Perry (172)</name>
+        <description>&lt;b&gt;Perry (172)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9171,10 +9172,9 @@
         <Style>
           <IconStyle>
             <color>ff750000</color>
-            <scale>1.1</scale>
-            <heading>304.3</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -9242,7 +9242,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Point Carolus (148)</name>
+        <description>&lt;b&gt;Point Carolus (148)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9254,10 +9255,9 @@
         <Style>
           <IconStyle>
             <color>ffa9a9a9</color>
-            <scale>1.1</scale>
-            <heading>230.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -9329,7 +9329,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Point Elrington (177)</name>
+        <description>&lt;b&gt;Point Elrington (177)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9341,10 +9342,9 @@
         <Style>
           <IconStyle>
             <color>ffffbee6</color>
-            <scale>1.1</scale>
-            <heading>90.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -9407,7 +9407,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Point Lull (138)</name>
+        <description>&lt;b&gt;Point Lull (138)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9419,10 +9420,9 @@
         <Style>
           <IconStyle>
             <color>ff4b19e6</color>
-            <scale>1.1</scale>
-            <heading>180.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -9496,7 +9496,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Procession Rocks (178)</name>
+        <description>&lt;b&gt;Procession Rocks (178)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9508,10 +9509,9 @@
         <Style>
           <IconStyle>
             <color>ff4bb43c</color>
-            <scale>1.1</scale>
-            <heading>66.8</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -9602,7 +9602,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Puale Bay (241)</name>
+        <description>&lt;b&gt;Puale Bay (241)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9614,10 +9615,9 @@
         <Style>
           <IconStyle>
             <color>ff19e1ff</color>
-            <scale>1.1</scale>
-            <heading>270.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -9688,7 +9688,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Puale Bay (241)</name>
+        <description>&lt;b&gt;Puale Bay (241)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9700,10 +9701,9 @@
         <Style>
           <IconStyle>
             <color>ff19e1ff</color>
-            <scale>1.1</scale>
-            <heading>265.4</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -9769,7 +9769,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Rocky Island (608)</name>
+        <description>&lt;b&gt;Rocky Island (608)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9781,10 +9782,9 @@
         <Style>
           <IconStyle>
             <color>ffd86343</color>
-            <scale>1.1</scale>
-            <heading>260.2</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -9898,7 +9898,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Rugged (183)</name>
+        <description>&lt;b&gt;Rugged (183)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -9910,10 +9911,9 @@
         <Style>
           <IconStyle>
             <color>ff3182f5</color>
-            <scale>1.1</scale>
-            <heading>318.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -10007,7 +10007,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Sail (134)</name>
+        <description>&lt;b&gt;Sail (134)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10019,10 +10020,9 @@
         <Style>
           <IconStyle>
             <color>ffb41e91</color>
-            <scale>1.1</scale>
-            <heading>166.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -10111,7 +10111,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Sea Lion Islands (140)</name>
+        <description>&lt;b&gt;Sea Lion Islands (140)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10123,10 +10124,9 @@
         <Style>
           <IconStyle>
             <color>fff4d442</color>
-            <scale>1.1</scale>
-            <heading>258.4</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -10199,7 +10199,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Sea Lion Islands (140)</name>
+        <description>&lt;b&gt;Sea Lion Islands (140)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10211,10 +10212,9 @@
         <Style>
           <IconStyle>
             <color>fff4d442</color>
-            <scale>1.1</scale>
-            <heading>253.9</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -10287,7 +10287,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Sea Lion Islands (140)</name>
+        <description>&lt;b&gt;Sea Lion Islands (140)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10299,10 +10300,9 @@
         <Style>
           <IconStyle>
             <color>fff4d442</color>
-            <scale>1.1</scale>
-            <heading>257.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -10365,7 +10365,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Sea Lion Rock (Puffin Bay) (119)</name>
+        <description>&lt;b&gt;Sea Lion Rock (Puffin Bay) (119)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10377,10 +10378,9 @@
         <Style>
           <IconStyle>
             <color>ffe632f0</color>
-            <scale>1.1</scale>
-            <heading>157.4</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -10452,7 +10452,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Seal Rocks (166)</name>
+        <description>&lt;b&gt;Seal Rocks (166)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10464,10 +10465,9 @@
         <Style>
           <IconStyle>
             <color>ff45efbf</color>
-            <scale>1.1</scale>
-            <heading>90.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -10530,7 +10530,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Shakun Rocks (235)</name>
+        <description>&lt;b&gt;Shakun Rocks (235)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10542,10 +10543,9 @@
         <Style>
           <IconStyle>
             <color>ffd4befa</color>
-            <scale>1.1</scale>
-            <heading>249.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -10604,7 +10604,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Sitkinak/Cape Sitkinak (220)</name>
+        <description>&lt;b&gt;Sitkinak/Cape Sitkinak (220)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 6)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10616,10 +10617,9 @@
         <Style>
           <IconStyle>
             <color>ff909946</color>
-            <scale>1.1</scale>
-            <heading>58.8</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -10702,7 +10702,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Sitkinak/Cape Sitkinak (220)</name>
+        <description>&lt;b&gt;Sitkinak/Cape Sitkinak (220)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 6)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10714,10 +10715,9 @@
         <Style>
           <IconStyle>
             <color>ff909946</color>
-            <scale>1.1</scale>
-            <heading>75.5</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -10800,7 +10800,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Sitkinak/Cape Sitkinak (220)</name>
+        <description>&lt;b&gt;Sitkinak/Cape Sitkinak (220)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 6)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10812,10 +10813,9 @@
         <Style>
           <IconStyle>
             <color>ff909946</color>
-            <scale>1.1</scale>
-            <heading>245.6</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -10895,7 +10895,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>South Marble (149)</name>
+        <description>&lt;b&gt;South Marble (149)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10907,10 +10908,9 @@
         <Style>
           <IconStyle>
             <color>ffffbedc</color>
-            <scale>1.1</scale>
-            <heading>316.3</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -10981,7 +10981,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>South Marble (149)</name>
+        <description>&lt;b&gt;South Marble (149)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -10993,10 +10994,9 @@
         <Style>
           <IconStyle>
             <color>ffffbedc</color>
-            <scale>1.1</scale>
-            <heading>311.6</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -11065,7 +11065,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>South Marble (149)</name>
+        <description>&lt;b&gt;South Marble (149)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11077,10 +11078,9 @@
         <Style>
           <IconStyle>
             <color>ffffbedc</color>
-            <scale>1.1</scale>
-            <heading>311.1</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -11150,7 +11150,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Sugarloaf (200)</name>
+        <description>&lt;b&gt;Sugarloaf (200)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11162,10 +11163,9 @@
         <Style>
           <IconStyle>
             <color>ff24639a</color>
-            <scale>1.1</scale>
-            <heading>225.9</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -11222,7 +11222,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Sugarloaf (200)</name>
+        <description>&lt;b&gt;Sugarloaf (200)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11234,10 +11235,9 @@
         <Style>
           <IconStyle>
             <color>ff24639a</color>
-            <scale>1.1</scale>
-            <heading>201.2</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -11305,7 +11305,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Sugarloaf (200)</name>
+        <description>&lt;b&gt;Sugarloaf (200)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11317,10 +11318,9 @@
         <Style>
           <IconStyle>
             <color>ff24639a</color>
-            <scale>1.1</scale>
-            <heading>262.6</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -11373,7 +11373,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Sugarloaf (200)</name>
+        <description>&lt;b&gt;Sugarloaf (200)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11385,10 +11386,9 @@
         <Style>
           <IconStyle>
             <color>ff24639a</color>
-            <scale>1.1</scale>
-            <heading>180.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -11471,7 +11471,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Sunset (136)</name>
+        <description>&lt;b&gt;Sunset (136)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11483,10 +11484,9 @@
         <Style>
           <IconStyle>
             <color>ff000080</color>
-            <scale>1.1</scale>
-            <heading>334.8</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -11554,7 +11554,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Sunset (136)</name>
+        <description>&lt;b&gt;Sunset (136)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11566,10 +11567,9 @@
         <Style>
           <IconStyle>
             <color>ff000080</color>
-            <scale>1.1</scale>
-            <heading>342.9</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -11633,7 +11633,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>The Brothers Sw (133)</name>
+        <description>&lt;b&gt;The Brothers Sw (133)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11645,10 +11646,9 @@
         <Style>
           <IconStyle>
             <color>ffc3ffaa</color>
-            <scale>1.1</scale>
-            <heading>100.5</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -11722,7 +11722,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>The Needle (171)</name>
+        <description>&lt;b&gt;The Needle (171)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11734,10 +11735,9 @@
         <Style>
           <IconStyle>
             <color>ff008080</color>
-            <scale>1.1</scale>
-            <heading>34.9</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -11802,7 +11802,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Timbered (111)</name>
+        <description>&lt;b&gt;Timbered (111)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11814,10 +11815,9 @@
         <Style>
           <IconStyle>
             <color>ffb1d8ff</color>
-            <scale>1.1</scale>
-            <heading>180.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -11879,7 +11879,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Timbered (111)</name>
+        <description>&lt;b&gt;Timbered (111)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11891,10 +11892,9 @@
         <Style>
           <IconStyle>
             <color>ffb1d8ff</color>
-            <scale>1.1</scale>
-            <heading>180.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -11957,7 +11957,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Timbered (111)</name>
+        <description>&lt;b&gt;Timbered (111)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 23)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -11969,10 +11970,9 @@
         <Style>
           <IconStyle>
             <color>ffb1d8ff</color>
-            <scale>1.1</scale>
-            <heading>183.6</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -12036,7 +12036,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Twoheaded (219)</name>
+        <description>&lt;b&gt;Twoheaded (219)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 6)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12048,10 +12049,9 @@
         <Style>
           <IconStyle>
             <color>ff750000</color>
-            <scale>1.1</scale>
-            <heading>47.5</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -12144,7 +12144,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Twoheaded (219)</name>
+        <description>&lt;b&gt;Twoheaded (219)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 6)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12156,10 +12157,9 @@
         <Style>
           <IconStyle>
             <color>ff750000</color>
-            <scale>1.1</scale>
-            <heading>197.3</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -12209,7 +12209,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Twoheaded (219)</name>
+        <description>&lt;b&gt;Twoheaded (219)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 6)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 6)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12221,10 +12222,9 @@
         <Style>
           <IconStyle>
             <color>ff750000</color>
-            <scale>1.1</scale>
-            <heading>320.9</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -12289,7 +12289,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Ushagat/Rocks South (204)</name>
+        <description>&lt;b&gt;Ushagat/Rocks South (204)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12301,10 +12302,9 @@
         <Style>
           <IconStyle>
             <color>ffa9a9a9</color>
-            <scale>1.1</scale>
-            <heading>309.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -12441,7 +12441,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Ushagat/SW (203)</name>
+        <description>&lt;b&gt;Ushagat/SW (203)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12453,10 +12454,9 @@
         <Style>
           <IconStyle>
             <color>ffffbee6</color>
-            <scale>1.1</scale>
-            <heading>289.2</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -12547,7 +12547,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Ushagat/SW (203)</name>
+        <description>&lt;b&gt;Ushagat/SW (203)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12559,10 +12560,9 @@
         <Style>
           <IconStyle>
             <color>ffffbee6</color>
-            <scale>1.1</scale>
-            <heading>278.8</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -12598,7 +12598,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Ushagat/SW (203)</name>
+        <description>&lt;b&gt;Ushagat/SW (203)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;3 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12610,10 +12611,9 @@
         <Style>
           <IconStyle>
             <color>ffffbee6</color>
-            <scale>1.1</scale>
-            <heading>270.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -12677,7 +12677,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>White Sisters (142)</name>
+        <description>&lt;b&gt;White Sisters (142)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12689,10 +12690,9 @@
         <Style>
           <IconStyle>
             <color>ff4b19e6</color>
-            <scale>1.1</scale>
-            <heading>136.9</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -12754,7 +12754,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>White Sisters (142)</name>
+        <description>&lt;b&gt;White Sisters (142)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12766,10 +12767,9 @@
         <Style>
           <IconStyle>
             <color>ff4b19e6</color>
-            <scale>1.1</scale>
-            <heading>0.0</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -12838,7 +12838,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>White Sisters (142)</name>
+        <description>&lt;b&gt;White Sisters (142)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12850,10 +12851,9 @@
         <Style>
           <IconStyle>
             <color>ff4b19e6</color>
-            <scale>1.1</scale>
-            <heading>8.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -12921,7 +12921,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>White Sisters (142)</name>
+        <description>&lt;b&gt;White Sisters (142)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;4 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 3&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 4&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -12933,10 +12934,9 @@
         <Style>
           <IconStyle>
             <color>ff4b19e6</color>
-            <scale>1.1</scale>
-            <heading>8.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -13001,7 +13001,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Wolf Point (107)</name>
+        <description>&lt;b&gt;Wolf Point (107)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;1 pass&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 23)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -13013,10 +13014,9 @@
         <Style>
           <IconStyle>
             <color>ff4bb43c</color>
-            <scale>1.1</scale>
-            <heading>156.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -13096,7 +13096,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Wooded (Fish) (167)</name>
+        <description>&lt;b&gt;Wooded (Fish) (167)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -13108,10 +13109,9 @@
         <Style>
           <IconStyle>
             <color>ff19e1ff</color>
-            <scale>1.1</scale>
-            <heading>14.1</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -13172,7 +13172,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Wooded (Fish) (167)</name>
+        <description>&lt;b&gt;Wooded (Fish) (167)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jul 3)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jul 3)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -13184,10 +13185,9 @@
         <Style>
           <IconStyle>
             <color>ff19e1ff</color>
-            <scale>1.1</scale>
-            <heading>76.8</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -13267,7 +13267,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Yasha (125)</name>
+        <description>&lt;b&gt;Yasha (125)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -13279,10 +13280,9 @@
         <Style>
           <IconStyle>
             <color>ffd86343</color>
-            <scale>1.1</scale>
-            <heading>338.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
@@ -13350,7 +13350,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name/>
+        <name>Yasha (125)</name>
+        <description>&lt;b&gt;Yasha (125)&lt;/b&gt;&lt;br/&gt;2021 — Gulf of Alaska&lt;br/&gt;&lt;b&gt;2 passes&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Pass 1&lt;/b&gt; (Jun 27)&lt;br/&gt;&lt;b&gt;Pass 2&lt;/b&gt; (Jun 27)</description>
         <styleUrl>#startDot</styleUrl>
         <Point>
           <altitudeMode>clampToGround</altitudeMode>
@@ -13362,10 +13363,9 @@
         <Style>
           <IconStyle>
             <color>ffd86343</color>
-            <scale>1.1</scale>
-            <heading>349.7</heading>
+            <scale>0.65</scale>
             <Icon>
-              <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+              <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
             </Icon>
           </IconStyle>
           <LabelStyle>
