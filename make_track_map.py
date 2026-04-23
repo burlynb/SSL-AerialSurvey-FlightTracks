@@ -400,16 +400,17 @@ passes_by_site_ali_2023 = load_ali_year('2023')
 
 # ── Load ASSLAP log notes ──────────────────────────────────────────────────────
 
-def load_log_notes(filepath, col_date=0, col_mml=1, col_pass=6, col_desc=9):
+def load_log_notes(filepath, col_date=0, col_mml=1, col_pass=6, col_desc=9, sheet_name=None):
     """
     Read an ASSLAP LOGSummary xlsx and return:
       {parent_id_str: [(date_str, pass_num, description), ...]}
     Rows with no pass number or no description are skipped.
+    sheet_name: if provided, read that sheet instead of the active sheet.
     """
     notes = defaultdict(list)
     try:
         wb = openpyxl.load_workbook(filepath, data_only=True)
-        ws = wb.active
+        ws = wb[sheet_name] if sheet_name else wb.active
         for row in ws.iter_rows(min_row=2, values_only=True):
             if len(row) <= max(col_date, col_mml, col_pass, col_desc):
                 continue
@@ -438,13 +439,22 @@ _asslap_goa_2024 = glob.glob('flightlogs/**/2024/*ASSLAP*.xlsx', recursive=True)
 log_notes_goa_2024 = load_log_notes(_asslap_goa_2024[0]) if _asslap_goa_2024 else {}
 print(f"GOA 2024 log notes: {len(log_notes_goa_2024)} sites.")
 
-# ALI 2022 ASSLAP (col_date=2, col_mml=3, col_pass=7, col_desc=10)
+# ALI 2022 ASSLAP (col_date=2, col_mml=3, col_pass=7, col_desc=10; single sheet)
 _asslap_ali_2022 = glob.glob('flightlogs/**/2022/*ASSLAP*.xlsx', recursive=True)
 log_notes_ali_2022 = (
     load_log_notes(_asslap_ali_2022[0], col_date=2, col_mml=3, col_pass=7, col_desc=10)
     if _asslap_ali_2022 else {}
 )
 print(f"ALI 2022 log notes: {len(log_notes_ali_2022)} sites.")
+
+# ALI 2023 ASSLAP (survey data is in 'ASSLAP23_SurveySites' sheet, not the active sheet)
+_asslap_ali_2023 = glob.glob('flightlogs/**/2023/*ASSLAP*.xlsx', recursive=True)
+log_notes_ali_2023 = (
+    load_log_notes(_asslap_ali_2023[0], col_date=2, col_mml=3, col_pass=7, col_desc=10,
+                   sheet_name='ASSLAP23_SurveySites')
+    if _asslap_ali_2023 else {}
+)
+print(f"ALI 2023 log notes: {len(log_notes_ali_2023)} sites.")
 
 # ── Match site photos ──────────────────────────────────────────────────────────
 
@@ -625,7 +635,8 @@ add_site_layers(passes_by_site_goa_2024, site_photos_goa_2024, 'GOA 2024', color
                 log_notes=log_notes_goa_2024, show=True)
 add_site_layers(passes_by_site_ali_2022, site_photos_ali_2022, 'ALEU 2022', color_map_ali,
                 log_notes=log_notes_ali_2022, show=False)
-add_site_layers(passes_by_site_ali_2023, site_photos_ali_2023, 'ALEU 2023', color_map_ali, show=False)
+add_site_layers(passes_by_site_ali_2023, site_photos_ali_2023, 'ALEU 2023', color_map_ali,
+                log_notes=log_notes_ali_2023, show=False)
 
 folium.LayerControl(collapsed=True).add_to(m)
 
